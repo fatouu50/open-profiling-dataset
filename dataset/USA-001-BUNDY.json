@@ -1,0 +1,574 @@
+{
+  "id": "USA-001-BUNDY",
+  "schema_version": "0.1.0",
+  "record_status": "in_progress",
+
+  "provenance": {
+    "created": "2026-09-05",
+    "last_reviewed": "2026-09-05",
+    "contributors": ["maintainer"],
+    "ai_assisted": true
+  },
+
+  "identity": {
+    "legal_name": {
+      "value": "Theodore Robert Bundy",
+      "confidence": "established",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Bundy v. State, 471 So. 2d 9 (Fla. 1985) — direct appeal, Chi Omega convictions"
+        },
+        {
+          "tier": 3,
+          "citation": "Sullivan, Kevin M. The Bundy Murders: A Comprehensive History. Jefferson NC: McFarland, 2009."
+        }
+      ]
+    },
+    "aliases": {
+      "value": ["Theodore Robert Cowell", "Chris Hagen", "Kenneth Misner"],
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 3,
+          "citation": "Michaud, Stephen G. and Hugh Aynesworth. The Only Living Witness. New York: Simon & Schuster, 1983."
+        }
+      ],
+      "notes": "Born Cowell; surname changed following his mother's marriage to Johnny Culpepper Bundy. Hagen and Misner were false identities used in Florida in 1978."
+    },
+    "media_epithet": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "No single stable press epithet. Field left null rather than importing a retrospective label."
+    },
+    "birth_date": {
+      "value": "1946-11-24",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 3,
+          "citation": "Rule, Ann. The Stranger Beside Me. New York: W. W. Norton, 1980."
+        },
+        {
+          "tier": 3,
+          "citation": "Sullivan, Kevin M. The Bundy Murders: A Comprehensive History. McFarland, 2009, ch. 1."
+        }
+      ]
+    },
+    "birth_place": {
+      "value": "Burlington, Vermont, USA",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 3,
+          "citation": "Rule, Ann. The Stranger Beside Me. W. W. Norton, 1980."
+        },
+        {
+          "tier": 3,
+          "citation": "Sullivan, Kevin M. The Bundy Murders. McFarland, 2009, ch. 1."
+        }
+      ],
+      "notes": "Born at the Elizabeth Lund Home for Unwed Mothers."
+    },
+    "death_date": {
+      "value": "1989-01-24",
+      "confidence": "established",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Florida Department of Corrections, execution record, Florida State Prison, Starke, 24 January 1989"
+        },
+        {
+          "tier": 4,
+          "citation": "Contemporaneous wire reporting, 24 January 1989"
+        }
+      ]
+    },
+    "judicial_status": {
+      "value": "Executed 1989. Convicted of three murders and multiple attempted murders and kidnappings.",
+      "confidence": "established",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Bundy v. State, 471 So. 2d 9 (Fla. 1985)"
+        },
+        {
+          "tier": 1,
+          "citation": "Bundy v. State, 455 So. 2d 330 (Fla. 1984) — Kimberly Leach conviction"
+        }
+      ]
+    }
+  },
+
+  "conviction_record": {
+    "convictions": {
+      "value": [
+        {
+          "charge": "Aggravated kidnapping (Carol DaRonch)",
+          "jurisdiction": "Utah",
+          "date": "1976-03-01",
+          "disposition": "Convicted; 1-15 years"
+        },
+        {
+          "charge": "Two counts first-degree murder (Lisa Levy, Margaret Bowman), three counts attempted first-degree murder, two counts burglary",
+          "jurisdiction": "Florida (Chi Omega)",
+          "date": "1979-07-24",
+          "disposition": "Convicted; death sentence"
+        },
+        {
+          "charge": "First-degree murder and kidnapping (Kimberly Leach)",
+          "jurisdiction": "Florida",
+          "date": "1980-02-07",
+          "disposition": "Convicted; death sentence"
+        }
+      ],
+      "confidence": "established",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Bundy v. State, 471 So. 2d 9 (Fla. 1985)"
+        },
+        {
+          "tier": 1,
+          "citation": "Bundy v. State, 455 So. 2d 330 (Fla. 1984)"
+        }
+      ]
+    },
+    "confirmed_victim_count": {
+      "value": 3,
+      "confidence": "established",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Bundy v. State, 471 So. 2d 9 (Fla. 1985); Bundy v. State, 455 So. 2d 330 (Fla. 1984)"
+        },
+        {
+          "tier": 1,
+          "citation": "Florida Department of Corrections record of conviction"
+        }
+      ],
+      "notes": "Homicide convictions only. This is deliberately NOT the figure carried in popular accounts. Higher figures belong in attributed_victim_count and claimed_victim_count and must never be conflated with this one."
+    },
+    "attributed_victim_count": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "No single agency-published attribution figure has been located with a documented methodology. Investigations ran across Washington, Utah, Colorado, Idaho, Oregon and Florida with no consolidated official total. Contributors: cite a specific agency document or leave null."
+    },
+    "claimed_victim_count": {
+      "value": 30,
+      "confidence": "contested",
+      "sources": [
+        {
+          "tier": 3,
+          "citation": "Keppel, Robert D. and William J. Birnes. The Riverman: Ted Bundy and I Hunt for the Green River Killer. New York: Pocket Books, 1995."
+        }
+      ],
+      "notes": "Figure given by Bundy himself in the days before execution, during interviews conducted while he was seeking a stay. Offender self-report obtained under an explicit incentive to prolong proceedings is among the least reliable classes of evidence in this literature. Recorded as a datum ABOUT Bundy's statements, not as a victim count. The widely circulated ranges of '36 to 100' have no traceable methodology and are excluded from this dataset."
+    },
+    "estimate_provenance": {
+      "value": "Popular figures above 30 originate in press synthesis and in Bundy's own shifting statements, not in an agency accounting.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 3,
+          "citation": "Michaud & Aynesworth, The Only Living Witness. Simon & Schuster, 1983 — on the unreliability of Bundy's self-reporting."
+        }
+      ]
+    }
+  },
+
+  "offence_period": {
+    "first_known_offence": {
+      "value": "1974-01-04",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 3,
+          "citation": "Sullivan, Kevin M. The Bundy Murders. McFarland, 2009."
+        }
+      ],
+      "notes": "Attack on a University of Washington student in Seattle; the survivor was identified in contemporaneous press under the pseudonym 'Joni Lenz'. This dataset does not record surviving victims' names. Earlier offences have been speculated about but are not established."
+    },
+    "last_known_offence": {
+      "value": "1978-02-09",
+      "confidence": "established",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Bundy v. State, 455 So. 2d 330 (Fla. 1984) — Kimberly Leach"
+        },
+        {
+          "tier": 3,
+          "citation": "Sullivan, Kevin M. The Bundy Murders. McFarland, 2009."
+        }
+      ]
+    },
+    "jurisdictions": {
+      "value": ["Washington", "Utah", "Colorado", "Idaho", "Oregon", "Florida"],
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 3,
+          "citation": "Keppel & Birnes, The Riverman. Pocket Books, 1995."
+        }
+      ]
+    }
+  },
+
+  "background": {
+    "family_structure": {
+      "value": "Born to an unmarried mother, Eleanor Louise Cowell; raised in his maternal grandparents' household in Philadelphia before moving to Tacoma, Washington in 1951, where his mother married Johnny Culpepper Bundy.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 3,
+          "citation": "Rule, Ann. The Stranger Beside Me. W. W. Norton, 1980."
+        }
+      ],
+      "notes": "The widely repeated account that Bundy was raised believing his mother was his sister, and that he discovered this in adolescence, rests on his own later statements and on second-hand family accounts. It is plausible but not documented; it is recorded here as reported, not established. Contributors should not upgrade it without a contemporaneous record."
+    },
+    "education": {
+      "value": "B.Sc. in psychology, University of Washington, 1972. Subsequent law study at the University of Puget Sound and the University of Utah; did not complete a law degree.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 3,
+          "citation": "Rule, Ann. The Stranger Beside Me. W. W. Norton, 1980."
+        }
+      ]
+    },
+    "employment_history": {
+      "value": "Volunteer at the Seattle Crisis Clinic (1971); assistant to Ross Davis, chairman of the Washington State Republican Party (1973); various short-term employment.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 3,
+          "citation": "Rule, Ann. The Stranger Beside Me. W. W. Norton, 1980. Rule worked alongside Bundy at the Crisis Clinic and reports this first-hand."
+        }
+      ]
+    },
+    "military_service": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "No service record located."
+    },
+    "documented_head_injury": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "No medical documentation of head injury located. The inherited draft asserted an absence of frontal-cortex injury as though it were a finding; absence of a record is not a finding."
+    },
+    "macdonald_triad": {
+      "enuresis": {
+        "value": null,
+        "confidence": "unverified",
+        "sources": [],
+        "notes": "No documentation located. NOTE: this construct is not a predictor of violence — see the field description in schema/profile.schema.json and Parfitt & Alleyne (2020)."
+      },
+      "firesetting": {
+        "value": null,
+        "confidence": "unverified",
+        "sources": [],
+        "notes": "No documentation located."
+      },
+      "animal_cruelty": {
+        "value": null,
+        "confidence": "unverified",
+        "sources": [],
+        "notes": "No documentation located. Anecdotes circulating in secondary literature (including the frequently repeated story of knives placed around a sleeping relative) derive from a single family recollection given decades after the fact and are not corroborated."
+      }
+    }
+  },
+
+  "clinical": {
+    "formal_diagnoses": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "No court-ordered comprehensive psychiatric evaluation producing a settled diagnosis has been located in the trial record. Dorothy Otnow Lewis examined Bundy shortly before execution and reported bipolar features; that assessment is contested and was not a trial finding. The diagnostic labels routinely attached to Bundy in popular accounts — 'antisocial personality disorder', 'fetishistic sexual sadism', 'malignant narcissism' — are commentary, not findings, and are recorded below accordingly."
+    },
+    "competency_findings": {
+      "value": "Found competent to stand trial and to waive counsel in the Florida proceedings; competency was raised and litigated on appeal.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Bundy v. Dugger, 850 F.2d 1402 (11th Cir. 1988) — federal habeas review addressing competency"
+        }
+      ]
+    },
+    "psychometric_results": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "The IQ figure of 124 asserted in the inherited draft could not be traced to an instrument, an administering clinician or a date. Figures between 124 and 136 circulate in secondary literature without attribution. Under this schema a bare IQ number is inadmissible: cite the instrument, the administrator and the date, or leave null."
+    },
+    "commentary_attributions": {
+      "value": [
+        "Antisocial personality disorder — applied widely in secondary literature; not a documented trial finding",
+        "Sexual sadism — applied in secondary literature",
+        "Bipolar disorder — Dorothy Otnow Lewis, pre-execution assessment; contested"
+      ],
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 3,
+          "citation": "Michaud & Aynesworth, The Only Living Witness. Simon & Schuster, 1983."
+        }
+      ],
+      "notes": "Recorded as claims about the discourse surrounding the subject, not as claims about the subject. Downstream users must not treat this field as diagnostic data."
+    }
+  },
+
+  "offence_behaviour": {
+    "victim_selection": {
+      "value": "Offences occurred in and around university campuses and public recreation areas. The relevant structural feature is the access conditions exploited — routine solitary movement through semi-public space with low ambient suspicion — rather than any characteristic of those targeted.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 3,
+          "citation": "Keppel & Birnes, The Riverman. Pocket Books, 1995."
+        }
+      ],
+      "notes": "The inherited draft asserted a physical 'type' derived from a former girlfriend's appearance. This is a durable popular claim with no evidentiary basis; it is excluded. See data_quality.excluded_material."
+    },
+    "approach_method": {
+      "value": "Feigned injury (arm or leg in a sling or cast) and requests for assistance; in at least one documented instance, impersonation of a police officer.",
+      "confidence": "established",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Utah trial record, State v. Bundy (1976) — testimony of the surviving victim on the police impersonation"
+        },
+        {
+          "tier": 3,
+          "citation": "Sullivan, Kevin M. The Bundy Murders. McFarland, 2009."
+        }
+      ]
+    },
+    "spatial_pattern": {
+      "value": "Commuter",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 2,
+          "citation": "Canter, David and Paul Larkin. 'The Environmental Range of Serial Rapists.' Journal of Environmental Psychology 13(1), 1993, 63-69."
+        }
+      ],
+      "notes": "Coded as commuter on the basis of offending across six states with relocation between offence clusters. Coding is the maintainer's, applying the Canter & Larkin framework; it is an interpretation, not a source-attested fact."
+    },
+    "weapon_or_method": {
+      "value": "Blunt force and ligature strangulation.",
+      "confidence": "established",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Bundy v. State, 471 So. 2d 9 (Fla. 1985) — medical examiner testimony summarised in the opinion"
+        },
+        {
+          "tier": 3,
+          "citation": "Sullivan, Kevin M. The Bundy Murders. McFarland, 2009."
+        }
+      ]
+    },
+    "post_offence_behaviour": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "Accounts of return visits to deposition sites derive from Bundy's own pre-execution statements, given while seeking a stay. Not independently corroborated. Left null rather than recorded from self-report; graphic detail is in any case excluded under ETHICS.md."
+    },
+    "forensic_countermeasures": {
+      "value": "Transport of victims away from the point of encounter; deposition in remote terrain.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 3,
+          "citation": "Keppel & Birnes, The Riverman. Pocket Books, 1995."
+        }
+      ]
+    }
+  },
+
+  "investigation": {
+    "detection_delay_factors": {
+      "value": "Offences spanned six states with no shared records system. Contemporaneous investigative practice had no mechanism for linking homicides across jurisdictions; the case is one of the principal cited motivations for the creation of ViCAP in 1985.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 3,
+          "citation": "Keppel & Birnes, The Riverman. Pocket Books, 1995."
+        },
+        {
+          "tier": 1,
+          "citation": "FBI, Violent Criminal Apprehension Program (ViCAP) programme documentation, established 1985"
+        }
+      ]
+    },
+    "identifying_evidence": {
+      "value": "Survivor identification in Utah; a traffic stop in Salt Lake County in August 1975 producing items later introduced at trial; a further traffic stop in Pensacola, Florida on 15 February 1978 in a stolen vehicle.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 3,
+          "citation": "Sullivan, Kevin M. The Bundy Murders. McFarland, 2009."
+        }
+      ]
+    },
+    "forensic_methods_used": {
+      "value": "Bite-mark comparison (forensic odontology) was introduced at the Chi Omega trial and was central to the prosecution case.",
+      "confidence": "established",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Bundy v. State, 471 So. 2d 9 (Fla. 1985) — the opinion addresses the admission of bite-mark identification testimony"
+        },
+        {
+          "tier": 3,
+          "citation": "Sullivan, Kevin M. The Bundy Murders. McFarland, 2009."
+        }
+      ]
+    },
+    "method_now_disputed": {
+      "value": "Bite-mark comparison has since been found scientifically unreliable. The 2009 National Research Council report found no scientific basis for identifying an individual from bite marks; the 2016 PCAST report reached the same conclusion; the Texas Forensic Science Commission recommended a moratorium on its use in 2016. Multiple convictions resting on bite-mark testimony have been vacated.",
+      "confidence": "established",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "National Research Council. Strengthening Forensic Science in the United States: A Path Forward. Washington DC: National Academies Press, 2009.",
+          "url": "https://www.ojp.gov/pdffiles1/nij/grants/228091.pdf"
+        },
+        {
+          "tier": 1,
+          "citation": "President's Council of Advisors on Science and Technology. Forensic Science in Criminal Courts: Ensuring Scientific Validity of Feature-Comparison Methods. Washington DC, 2016."
+        },
+        {
+          "tier": 4,
+          "citation": "Innocence Project, 'In a Landmark Decision, Texas Forensic Science Commission Issues Moratorium on the Use of Bite Mark Evidence', 2016",
+          "url": "https://innocenceproject.org/news/in-a-landmark-decision-texas-forensic-science-commission-issues-moratorium-on-the-use-of-bite-mark-evidence/"
+        }
+      ],
+      "notes": "This field exists because the inherited draft described this technique as having 'proven mathematically, to the millimetre'. It had not. Any dataset that reproduces historical forensic claims without their current standing is propagating discredited science. The claim sometimes made that this was the first US case in which bite-mark evidence secured a conviction is also not established — such evidence was admitted earlier, e.g. People v. Marx (Cal. Ct. App. 1975)."
+    },
+    "arrest": {
+      "value": "Arrested in Pensacola, Florida on 15 February 1978 during a traffic stop involving a stolen vehicle.",
+      "confidence": "established",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Bundy v. State, 455 So. 2d 330 (Fla. 1984)"
+        },
+        {
+          "tier": 3,
+          "citation": "Sullivan, Kevin M. The Bundy Murders. McFarland, 2009."
+        }
+      ],
+      "notes": "Preceded by two escapes from custody in Colorado in 1977."
+    }
+  },
+
+  "adjudication": {
+    "interrogation_method": {
+      "value": "Bundy conducted substantial parts of his own defence in Florida. Extensive interviews were conducted in the final period before execution, including with Robert Keppel and with Michaud and Aynesworth.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 3,
+          "citation": "Keppel & Birnes, The Riverman. Pocket Books, 1995."
+        }
+      ]
+    },
+    "confession_reliability": {
+      "value": "Low. Statements were made in the days before a scheduled execution, in the explicit context of seeking a stay, and were given in fragments used as bargaining material. Bundy also gave a widely broadcast interview attributing his offending to pornography, an account that served an external agenda and is treated by researchers as unreliable.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 3,
+          "citation": "Michaud & Aynesworth, The Only Living Witness. Simon & Schuster, 1983 — on Bundy's use of third-person 'hypothetical' framing to avoid direct admission."
+        }
+      ],
+      "notes": "This field is mandatory for any subject whose victim attribution rests partly on self-report. Compare USA-037-LUCAS, where uncorroborated confession closed cases across multiple states and was later discredited."
+    },
+    "trial_outcome": {
+      "value": "Convicted at three separate trials (Utah 1976; Florida 1979; Florida 1980).",
+      "confidence": "established",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Bundy v. State, 471 So. 2d 9 (Fla. 1985)"
+        },
+        {
+          "tier": 1,
+          "citation": "Bundy v. State, 455 So. 2d 330 (Fla. 1984)"
+        }
+      ]
+    },
+    "sentence": {
+      "value": "Three death sentences (two in the Chi Omega case, one in the Leach case).",
+      "confidence": "established",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Bundy v. State, 471 So. 2d 9 (Fla. 1985)"
+        },
+        {
+          "tier": 1,
+          "citation": "Bundy v. State, 455 So. 2d 330 (Fla. 1984)"
+        }
+      ]
+    },
+    "appellate_history": {
+      "value": "Direct appeals affirmed by the Florida Supreme Court; federal habeas relief denied by the Eleventh Circuit.",
+      "confidence": "established",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Bundy v. Dugger, 850 F.2d 1402 (11th Cir. 1988)"
+        },
+        {
+          "tier": 1,
+          "citation": "Bundy v. State, 471 So. 2d 9 (Fla. 1985)"
+        }
+      ]
+    },
+    "disposition": {
+      "value": "Executed by electrocution at Florida State Prison, Starke, on 24 January 1989.",
+      "confidence": "established",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Florida Department of Corrections execution record, 24 January 1989"
+        },
+        {
+          "tier": 4,
+          "citation": "Contemporaneous wire reporting, 24 January 1989"
+        }
+      ]
+    }
+  },
+
+  "data_quality": {
+    "known_gaps": [
+      "No agency-attributed victim count located; only the conviction count is established.",
+      "No documented psychometric assessment located; the circulating IQ figures are untraceable.",
+      "No trial-record psychiatric diagnosis located.",
+      "Childhood account rests on retrospective family recollection and offender self-report, not contemporaneous records.",
+      "Blood type, height and weight are asserted in secondary sources without a documented origin and are omitted entirely rather than recorded."
+    ],
+    "contested_points": [
+      "The claim that Bundy was raised believing his mother to be his sister — plausible, widely repeated, not documented.",
+      "The claimed total of 30 victims — offender self-report under an incentive to delay execution.",
+      "Dorothy Otnow Lewis's pre-execution bipolar assessment — disputed by other clinicians.",
+      "Whether bite-mark evidence was decisive to the Chi Omega verdict, given the other evidence before the jury."
+    ],
+    "excluded_material": [
+      "The 'physical type derived from a former girlfriend' theory of victim selection — durable in popular accounts, no evidentiary basis.",
+      "Victim counts in the 36-100 range — no traceable methodology.",
+      "Graphic description of offences against named victims — excluded under ETHICS.md as serving no analytic purpose.",
+      "Details drawn from film and television dramatisations — inadmissible at any tier under docs/sourcing-policy.md.",
+      "The narrative of ashes scattered in the Cascades — reported, but a private family matter with no analytic value; omitted."
+    ]
+  }
+}

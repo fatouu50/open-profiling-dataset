@@ -1,0 +1,281 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/OWNER/open-profiling-dataset/schema/profile.schema.json",
+  "title": "Open Profiling Dataset — Offender Profile",
+  "description": "Schema for a single offender profile. Every substantive claim is a Claim object carrying its own sources and confidence level. Unsourced assertions are structurally impossible.",
+  "type": "object",
+  "required": ["id", "schema_version", "record_status", "identity", "provenance"],
+  "additionalProperties": false,
+
+  "$defs": {
+    "source": {
+      "type": "object",
+      "required": ["tier", "citation"],
+      "additionalProperties": false,
+      "properties": {
+        "tier": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 4,
+          "description": "1 = primary record (court filings, trial transcripts, official investigative reports, government statistics). 2 = peer-reviewed academic literature. 3 = book-length journalism with a sourcing apparatus. 4 = contemporaneous news reporting. See docs/sourcing-policy.md. Dramatisations, unsourced podcasts, wikis and AI-generated text are NOT admissible at any tier."
+        },
+        "citation": {
+          "type": "string",
+          "minLength": 10,
+          "description": "Full citation. For court records use the reporter citation, e.g. 'Bundy v. State, 471 So. 2d 9 (Fla. 1985)'. For books include author, title, publisher, year and page."
+        },
+        "url": { "type": "string", "format": "uri" },
+        "accessed": { "type": "string", "format": "date" },
+        "page": { "type": "string" },
+        "note": { "type": "string" }
+      }
+    },
+
+    "claim": {
+      "type": "object",
+      "required": ["value", "confidence", "sources"],
+      "additionalProperties": false,
+      "properties": {
+        "value": {
+          "description": "The asserted value. MUST be null when confidence is 'unverified'.",
+          "type": ["string", "number", "boolean", "array", "object", "null"]
+        },
+        "confidence": {
+          "enum": ["established", "reported", "contested", "unverified"],
+          "description": "established = corroborated by two or more independent sources, at least one tier 1 or 2. reported = a single credible source. contested = credible sources disagree; record the disagreement in 'notes'. unverified = no admissible source found; value must be null."
+        },
+        "sources": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/source" },
+          "description": "MUST be non-empty unless confidence is 'unverified'. Enforced by scripts/validate.py."
+        },
+        "notes": {
+          "type": "string",
+          "description": "Required when confidence is 'contested' or 'unverified': state what the disagreement is, or what was searched and not found."
+        }
+      }
+    },
+
+    "claim_or_absent": {
+      "oneOf": [
+        { "$ref": "#/$defs/claim" },
+        { "type": "null" }
+      ]
+    }
+  },
+
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Z]{3}-[0-9]{3}-[A-Z0-9]+$",
+      "description": "ISO 3166-1 alpha-3 country of principal offences, sequence number, surname. e.g. USA-001-BUNDY"
+    },
+    "schema_version": { "const": "0.1.0" },
+
+    "record_status": {
+      "enum": ["stub", "in_progress", "complete", "under_review", "retracted"],
+      "description": "'complete' requires that every field in the completeness checklist is either populated or explicitly marked unverified with a note."
+    },
+
+    "provenance": {
+      "type": "object",
+      "required": ["created", "last_reviewed", "contributors"],
+      "additionalProperties": false,
+      "properties": {
+        "created": { "type": "string", "format": "date" },
+        "last_reviewed": { "type": "string", "format": "date" },
+        "contributors": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string" }
+        },
+        "reviewer": { "type": "string" },
+        "ai_assisted": {
+          "type": "boolean",
+          "description": "Set true if any part of this record was drafted with a language model. Required disclosure. AI-drafted text is never itself a source; every claim must still carry an admissible human-verifiable citation."
+        }
+      }
+    },
+
+    "identity": {
+      "type": "object",
+      "required": ["legal_name", "birth_date", "birth_place", "judicial_status"],
+      "additionalProperties": false,
+      "properties": {
+        "legal_name": { "$ref": "#/$defs/claim" },
+        "aliases": { "$ref": "#/$defs/claim_or_absent" },
+        "media_epithet": {
+          "$ref": "#/$defs/claim_or_absent",
+          "description": "Press nickname. Recorded as a media artefact, not as a descriptor endorsed by this dataset."
+        },
+        "birth_date": { "$ref": "#/$defs/claim" },
+        "birth_place": { "$ref": "#/$defs/claim" },
+        "death_date": { "$ref": "#/$defs/claim_or_absent" },
+        "judicial_status": {
+          "$ref": "#/$defs/claim",
+          "description": "Current legal status. Convictions only. A person not convicted of an offence must not be characterised as having committed it."
+        }
+      }
+    },
+
+    "conviction_record": {
+      "type": "object",
+      "description": "The evidentiary spine of the record. Populate this before any behavioural analysis.",
+      "additionalProperties": false,
+      "properties": {
+        "convictions": {
+          "$ref": "#/$defs/claim_or_absent",
+          "description": "Array of {charge, jurisdiction, date, disposition}. Tier 1 sources strongly preferred."
+        },
+        "confirmed_victim_count": {
+          "$ref": "#/$defs/claim_or_absent",
+          "description": "Count established by conviction or by official investigative confirmation. Not the press figure."
+        },
+        "attributed_victim_count": {
+          "$ref": "#/$defs/claim_or_absent",
+          "description": "Count formally attributed by an investigating agency, including uncharged cases. Must cite the agency."
+        },
+        "claimed_victim_count": {
+          "$ref": "#/$defs/claim_or_absent",
+          "description": "Figure claimed by the offender. Offender self-report is unreliable by default; record it as a datum about the offender, never as a victim count."
+        },
+        "estimate_provenance": {
+          "$ref": "#/$defs/claim_or_absent",
+          "description": "Who produced any higher estimate and on what basis. Estimates with no traceable methodology are excluded from this dataset."
+        }
+      }
+    },
+
+    "offence_period": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "first_known_offence": { "$ref": "#/$defs/claim_or_absent" },
+        "last_known_offence": { "$ref": "#/$defs/claim_or_absent" },
+        "jurisdictions": { "$ref": "#/$defs/claim_or_absent" }
+      }
+    },
+
+    "background": {
+      "type": "object",
+      "description": "Biographical antecedents. Childhood accounts in this literature rest heavily on retrospective offender self-report given after arrest; treat accordingly and prefer contemporaneous records.",
+      "additionalProperties": false,
+      "properties": {
+        "family_structure": { "$ref": "#/$defs/claim_or_absent" },
+        "education": { "$ref": "#/$defs/claim_or_absent" },
+        "employment_history": { "$ref": "#/$defs/claim_or_absent" },
+        "military_service": { "$ref": "#/$defs/claim_or_absent" },
+        "documented_head_injury": {
+          "$ref": "#/$defs/claim_or_absent",
+          "description": "Medical documentation only. Self-report is not documentation."
+        },
+        "macdonald_triad": {
+          "type": "object",
+          "description": "HISTORICAL CONSTRUCT, NOT A PREDICTOR. Recorded because the older literature uses it and researchers need it for replication studies. Parfitt & Alleyne (2020) found no support for the triad as a predictor of later violence. Do not present these fields as risk indicators.",
+          "additionalProperties": false,
+          "properties": {
+            "enuresis": { "$ref": "#/$defs/claim_or_absent" },
+            "firesetting": { "$ref": "#/$defs/claim_or_absent" },
+            "animal_cruelty": { "$ref": "#/$defs/claim_or_absent" }
+          }
+        }
+      }
+    },
+
+    "clinical": {
+      "type": "object",
+      "description": "Formal assessments only. A diagnosis must be attributable to a named clinician who examined the subject, in a citable document. Diagnoses asserted by journalists, documentarians or commentators are excluded — record those under 'commentary_attributions' instead.",
+      "additionalProperties": false,
+      "properties": {
+        "formal_diagnoses": { "$ref": "#/$defs/claim_or_absent" },
+        "competency_findings": { "$ref": "#/$defs/claim_or_absent" },
+        "psychometric_results": {
+          "$ref": "#/$defs/claim_or_absent",
+          "description": "Include the instrument used, the administering clinician and the date. A bare IQ number with no instrument is not admissible."
+        },
+        "commentary_attributions": {
+          "$ref": "#/$defs/claim_or_absent",
+          "description": "Diagnostic labels applied in the secondary literature by people who never examined the subject. Recorded as claims about the discourse, not about the person."
+        }
+      }
+    },
+
+    "offence_behaviour": {
+      "type": "object",
+      "description": "Behavioural coding. Keep to what the evidentiary record supports. Do not reconstruct interior experience the record cannot establish.",
+      "additionalProperties": false,
+      "properties": {
+        "victim_selection": {
+          "$ref": "#/$defs/claim_or_absent",
+          "description": "Structural description of targeting patterns. Describe the access conditions the offender exploited, not the victims' characteristics as if explanatory."
+        },
+        "approach_method": { "$ref": "#/$defs/claim_or_absent" },
+        "spatial_pattern": {
+          "$ref": "#/$defs/claim_or_absent",
+          "description": "Marauder / commuter classification per Canter & Larkin (1993). Cite the coding basis."
+        },
+        "weapon_or_method": { "$ref": "#/$defs/claim_or_absent" },
+        "post_offence_behaviour": { "$ref": "#/$defs/claim_or_absent" },
+        "forensic_countermeasures": { "$ref": "#/$defs/claim_or_absent" }
+      }
+    },
+
+    "investigation": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "detection_delay_factors": {
+          "$ref": "#/$defs/claim_or_absent",
+          "description": "Structural reasons for delayed identification: jurisdictional fragmentation, records systems, victim-class neglect, absent forensic capability."
+        },
+        "identifying_evidence": { "$ref": "#/$defs/claim_or_absent" },
+        "forensic_methods_used": {
+          "$ref": "#/$defs/claim_or_absent",
+          "description": "Record the method AND its current scientific standing. Several techniques used in historical convictions (bite-mark comparison, microscopic hair comparison, arson 'indicators') have since been discredited. Flag these with 'method_now_disputed'."
+        },
+        "method_now_disputed": {
+          "$ref": "#/$defs/claim_or_absent",
+          "description": "Set where a conviction rested wholly or partly on a technique later found unreliable. Cite the body that made the finding (NAS 2009, PCAST 2016, Texas Forensic Science Commission, etc.)."
+        },
+        "arrest": { "$ref": "#/$defs/claim_or_absent" }
+      }
+    },
+
+    "adjudication": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "interrogation_method": { "$ref": "#/$defs/claim_or_absent" },
+        "confession_reliability": {
+          "$ref": "#/$defs/claim_or_absent",
+          "description": "Confessions in this literature are frequently inflated, coerced, or traded for procedural advantage. State the circumstances under which any confession was obtained."
+        },
+        "trial_outcome": { "$ref": "#/$defs/claim_or_absent" },
+        "sentence": { "$ref": "#/$defs/claim_or_absent" },
+        "appellate_history": { "$ref": "#/$defs/claim_or_absent" },
+        "disposition": { "$ref": "#/$defs/claim_or_absent" }
+      }
+    },
+
+    "data_quality": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "known_gaps": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Explicit list of what this record does not establish. A complete record states its own limits."
+        },
+        "contested_points": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "excluded_material": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Widely circulated claims deliberately NOT included, and why. This is how the record resists contamination from dramatisation."
+        }
+      }
+    }
+  }
+}

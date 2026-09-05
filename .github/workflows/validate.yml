@@ -1,0 +1,30 @@
+name: validate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install jsonschema
+
+      - name: Validate profiles against schema and sourcing rules
+        run: python3 scripts/validate.py
+
+      - name: Check index files are in sync with build_index.py
+        run: |
+          python3 scripts/build_index.py
+          if ! git diff --exit-code index/; then
+            echo "::error::index/ is out of sync. Run scripts/build_index.py and commit the result."
+            exit 1
+          fi

@@ -1,0 +1,33 @@
+name_as_inherited,country_as_inherited,category,reason
+Émile de Maupas,Venezuela,fabricated,No such offender. Conflates Émile Maupas (French zoologist) and Charlemagne Émile de Maupas (French prefect of police). Appeared twice in the source list.
+Félicien Tremblay,Canada,fabricated,"No such offender. Quebec's documented cases are Léopold Dion and William Fyfe, both already on the roster."
+Michel Stocker,Switzerland,fabricated,"No such offender. Appears to be a corruption of Michel Peiry, now on the roster as CHE-001-PEIRY."
+Jochum Sjöblom,Finland,fabricated,"No such offender. Finland's documented cases include Michael Penttilä, Ismo Junni, Reijo Hammar."
+Elias Pical,Philippines,fabricated,"No such offender. Elias Pical is an Indonesian boxer, the country's first world champion."
+Anwar Ali,Bangladesh,fabricated,Not corroborated. No documented offender matching this name and description.
+Ivan Podkopaev / 'Grand Gland Gang',Russia,fabricated,No such offender or group. The epithet matches no documented case.
+Asisipho Mbekela,South Africa,defamation-risk,PERMANENTLY EXCLUDED. Real living person convicted of falsifying academic qualifications. No connection to homicide. Must never be republished under any circumstances.
+Sture Bergwall / 'Thomas Quick',Sweden,exonerated,All convictions overturned; fully exonerated. Moved to docs/investigative-failures.md as a false-confession case study. Must never appear in an offender roster.
+Rex Heuermann,USA,sub-judice,"Proceedings ongoing, no conviction. Presumption of innocence applies. May be added as a stub with judicial_status='charged' only; no behavioural profile permitted."
+Ted Kaczynski,USA,category-mismatch,"Ideological bombing campaign, not serial homicide."
+Charles Manson,USA,category-mismatch,Convicted under joint responsibility; did not personally commit the killings.
+Bradley John Murdoch,Australia,category-mismatch,Single murder.
+Raymond John Denning,Australia,category-mismatch,Prison escapee and armed robber. Not a killer.
+Arthur Lucas,Canada,category-mismatch,Single incident.
+Luka Rocco Magnotta,Canada,category-mismatch,Single murder.
+Yuka Takaoka,Japan,category-mismatch,"Attempted murder, single victim. Living person; excluded."
+Satoshi Uematsu,Japan,category-mismatch,"Mass murder, single event."
+Woo Bum-kon,South Korea,category-mismatch,"Spree shooting, single event."
+Mona Fandey,Malaysia,category-mismatch,Single ritual murder.
+Roch Thériault,Canada,category-mismatch,Cult leader; one murder conviction.
+Majid Kavousifard,Iran,category-mismatch,Single political assassination.
+Thug Behram,India,unreliable-record,Semi-legendary 19th-century figure; attributed counts have no evidentiary basis.
+Macario Alcalá Canchola,Mexico,needs-verification,Not corroborated during audit.
+Jeong Du-yeong,South Korea,needs-verification,Possibly a corruption of Jeong Nam-gyu.
+Jimmy Maketta,South Africa,needs-verification,Not corroborated during audit.
+Tsang Tsan-lam,Hong Kong,needs-verification,Not corroborated during audit.
+Giorgio William Vizzardelli,Italy,needs-verification,Not corroborated during audit.
+Marcelo Antelo,Argentina,needs-verification,Not corroborated during audit.
+Charles Sobhraj,France,needs-recoding,Country of offences is wrong; offended across South and Southeast Asia. Requires a multi-jurisdiction record.
+Pierre Chanal,France,needs-recoding,Died before trial; never convicted. Requires the sub-judice/unadjudicated treatment.
+Christopher Wilder,Australia/USA,duplicate-listing,Retained once as USA-057-WILDER.
