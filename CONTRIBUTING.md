@@ -25,6 +25,24 @@ A `null` with an honest note is a **contribution**, not a gap. It tells the next
 
 Do not fill a field because it looks empty.
 
+## Never hand-write a `.md`
+
+Each subject has a `.json` and a `.md`. The Markdown is **generated** from the JSON by `scripts/render_md.py`. Editing it directly is not a style violation — it defeats the entire design.
+
+A hand-written companion report is where fabrication re-enters. The narrative form invites filling gaps: a field the JSON marks `unverified` becomes a confident sentence, a vague memory becomes `[Source: County Sheriff's Office Case Files]`, an invented record number gets a plausible format. It reads well and cannot be checked without opening the JSON beside it.
+
+This project has already seen this happen. A proposed hand-written report for the Bundy record carried an invented Vermont birth-record number, a fabricated identifier in a real external database, a psychiatric report that does not exist, and a Keppel citation with the wrong year and the wrong institution. Every one of them looked like a citation.
+
+So: **change the JSON, then re-render.**
+
+```bash
+python3 scripts/normalise_sources.py
+python3 scripts/validate.py
+python3 scripts/render_md.py
+```
+
+Commit both files. CI fails if they diverge.
+
 ## Source admissibility
 
 | Tier | What counts |

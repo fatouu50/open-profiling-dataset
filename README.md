@@ -96,7 +96,8 @@ Every claim is an object:
 ├── schema/
 │   └── profile.schema.json      JSON Schema 2020-12
 ├── dataset/
-│   └── USA-001-BUNDY.json       Reference profile
+│   ├── USA-001-BUNDY.json       Reference profile — the source of truth
+│   └── USA-001-BUNDY.md         Human-readable report — GENERATED, never edited
 ├── index/
 │   ├── roster.csv               157 cleared subjects
 │   ├── quarantine.csv           32 excluded, each with a reason
@@ -108,18 +109,31 @@ Every claim is an object:
 │   └── investigative-failures.md
 └── scripts/
     ├── validate.py              Schema + sourcing rules
+    ├── render_md.py             Generates dataset/*.md from the JSON
+    ├── normalise_sources.py     Canonicalises citation strings
     └── build_index.py           Regenerates index/
 ```
+
+## Two files per subject
+
+Each subject has a `.json` and a `.md`. They are not two documents — the Markdown is **compiled from** the JSON by `scripts/render_md.py`.
+
+This is deliberate. A hand-written companion report drifts: it accumulates claims the structured data does not support, sources that were never checked, and confident prose in fields the JSON marks as unestablished. Generating it makes that impossible. The report can only say what the validated data says, and every claim in it carries the same confidence level and the same citations.
+
+**Never edit a `.md` in `dataset/`.** Change the JSON, re-render, commit both. CI fails if they diverge.
 
 ## Usage
 
 ```bash
 pip install jsonschema
-python3 scripts/validate.py          # validate all profiles
-python3 scripts/build_index.py       # regenerate index files
+
+python3 scripts/validate.py           # schema + sourcing rules
+python3 scripts/normalise_sources.py  # canonicalise citations
+python3 scripts/render_md.py          # regenerate the Markdown reports
+python3 scripts/build_index.py        # regenerate index files
 ```
 
-CI runs the validator on every pull request. A profile that fails does not merge.
+CI runs all four on every pull request. It fails if a profile breaks the sourcing rules, if citations are not normalised, if a Markdown report is out of date, or if the index is stale.
 
 ## The reference profile
 
