@@ -21,7 +21,18 @@ jobs:
       - name: Validate profiles against schema and sourcing rules
         run: python3 scripts/validate.py
 
-      - name: Check index files are in sync with build_index.py
+      - name: Check citation strings are normalised
+        run: |
+          python3 scripts/normalise_sources.py
+          if ! git diff --exit-code dataset/; then
+            echo "::error::Citations are not normalised. Run scripts/normalise_sources.py and commit."
+            exit 1
+          fi
+
+      - name: Check Markdown reports match their JSON
+        run: python3 scripts/render_md.py --check
+
+      - name: Check index files are in sync
         run: |
           python3 scripts/build_index.py
           if ! git diff --exit-code index/; then

@@ -2,14 +2,14 @@
   "id": "USA-001-BUNDY",
   "schema_version": "0.1.0",
   "record_status": "in_progress",
-
   "provenance": {
     "created": "2026-09-05",
     "last_reviewed": "2026-09-05",
-    "contributors": ["maintainer"],
+    "contributors": [
+      "maintainer"
+    ],
     "ai_assisted": true
   },
-
   "identity": {
     "legal_name": {
       "value": "Theodore Robert Bundy",
@@ -17,7 +17,8 @@
       "sources": [
         {
           "tier": 1,
-          "citation": "Bundy v. State, 471 So. 2d 9 (Fla. 1985) — direct appeal, Chi Omega convictions"
+          "citation": "Bundy v. State, 471 So. 2d 9 (Fla. 1985)",
+          "note": "direct appeal, Chi Omega convictions"
         },
         {
           "tier": 3,
@@ -26,7 +27,11 @@
       ]
     },
     "aliases": {
-      "value": ["Theodore Robert Cowell", "Chris Hagen", "Kenneth Misner"],
+      "value": [
+        "Theodore Robert Cowell",
+        "Chris Hagen",
+        "Kenneth Misner"
+      ],
       "confidence": "reported",
       "sources": [
         {
@@ -52,7 +57,8 @@
         },
         {
           "tier": 3,
-          "citation": "Sullivan, Kevin M. The Bundy Murders: A Comprehensive History. McFarland, 2009, ch. 1."
+          "citation": "Sullivan, Kevin M. The Bundy Murders: A Comprehensive History. Jefferson NC: McFarland, 2009.",
+          "page": "ch. 1"
         }
       ]
     },
@@ -62,11 +68,12 @@
       "sources": [
         {
           "tier": 3,
-          "citation": "Rule, Ann. The Stranger Beside Me. W. W. Norton, 1980."
+          "citation": "Rule, Ann. The Stranger Beside Me. New York: W. W. Norton, 1980."
         },
         {
           "tier": 3,
-          "citation": "Sullivan, Kevin M. The Bundy Murders. McFarland, 2009, ch. 1."
+          "citation": "Sullivan, Kevin M. The Bundy Murders: A Comprehensive History. Jefferson NC: McFarland, 2009.",
+          "page": "ch. 1"
         }
       ],
       "notes": "Born at the Elizabeth Lund Home for Unwed Mothers."
@@ -95,12 +102,12 @@
         },
         {
           "tier": 1,
-          "citation": "Bundy v. State, 455 So. 2d 330 (Fla. 1984) — Kimberly Leach conviction"
+          "citation": "Bundy v. State, 455 So. 2d 330 (Fla. 1984)",
+          "note": "Kimberly Leach conviction"
         }
       ]
     }
   },
-
   "conviction_record": {
     "convictions": {
       "value": [
@@ -141,7 +148,11 @@
       "sources": [
         {
           "tier": 1,
-          "citation": "Bundy v. State, 471 So. 2d 9 (Fla. 1985); Bundy v. State, 455 So. 2d 330 (Fla. 1984)"
+          "citation": "Bundy v. State, 471 So. 2d 9 (Fla. 1985)"
+        },
+        {
+          "tier": 1,
+          "citation": "Bundy v. State, 455 So. 2d 330 (Fla. 1984)"
         },
         {
           "tier": 1,
@@ -173,12 +184,12 @@
       "sources": [
         {
           "tier": 3,
-          "citation": "Michaud & Aynesworth, The Only Living Witness. Simon & Schuster, 1983 — on the unreliability of Bundy's self-reporting."
+          "citation": "Michaud, Stephen G. and Hugh Aynesworth. The Only Living Witness. New York: Simon & Schuster, 1983.",
+          "note": "on the unreliability of Bundy's self-reporting."
         }
       ]
     }
   },
-
   "offence_period": {
     "first_known_offence": {
       "value": "1974-01-04",
@@ -186,7 +197,7 @@
       "sources": [
         {
           "tier": 3,
-          "citation": "Sullivan, Kevin M. The Bundy Murders. McFarland, 2009."
+          "citation": "Sullivan, Kevin M. The Bundy Murders: A Comprehensive History. Jefferson NC: McFarland, 2009."
         }
       ],
       "notes": "Attack on a University of Washington student in Seattle; the survivor was identified in contemporaneous press under the pseudonym 'Joni Lenz'. This dataset does not record surviving victims' names. Earlier offences have been speculated about but are not established."
@@ -197,26 +208,33 @@
       "sources": [
         {
           "tier": 1,
-          "citation": "Bundy v. State, 455 So. 2d 330 (Fla. 1984) — Kimberly Leach"
+          "citation": "Bundy v. State, 455 So. 2d 330 (Fla. 1984)",
+          "note": "Kimberly Leach"
         },
         {
           "tier": 3,
-          "citation": "Sullivan, Kevin M. The Bundy Murders. McFarland, 2009."
+          "citation": "Sullivan, Kevin M. The Bundy Murders: A Comprehensive History. Jefferson NC: McFarland, 2009."
         }
       ]
     },
     "jurisdictions": {
-      "value": ["Washington", "Utah", "Colorado", "Idaho", "Oregon", "Florida"],
+      "value": [
+        "Washington",
+        "Utah",
+        "Colorado",
+        "Idaho",
+        "Oregon",
+        "Florida"
+      ],
       "confidence": "reported",
       "sources": [
         {
           "tier": 3,
-          "citation": "Keppel & Birnes, The Riverman. Pocket Books, 1995."
+          "citation": "Keppel, Robert D. and William J. Birnes. The Riverman: Ted Bundy and I Hunt for the Green River Killer. New York: Pocket Books, 1995."
         }
       ]
     }
   },
-
   "background": {
     "family_structure": {
       "value": "Born to an unmarried mother, Eleanor Louise Cowell; raised in his maternal grandparents' household in Philadelphia before moving to Tacoma, Washington in 1951, where his mother married Johnny Culpepper Bundy.",
@@ -224,7 +242,7 @@
       "sources": [
         {
           "tier": 3,
-          "citation": "Rule, Ann. The Stranger Beside Me. W. W. Norton, 1980."
+          "citation": "Rule, Ann. The Stranger Beside Me. New York: W. W. Norton, 1980."
         }
       ],
       "notes": "The widely repeated account that Bundy was raised believing his mother was his sister, and that he discovered this in adolescence, rests on his own later statements and on second-hand family accounts. It is plausible but not documented; it is recorded here as reported, not established. Contributors should not upgrade it without a contemporaneous record."
@@ -235,7 +253,7 @@
       "sources": [
         {
           "tier": 3,
-          "citation": "Rule, Ann. The Stranger Beside Me. W. W. Norton, 1980."
+          "citation": "Rule, Ann. The Stranger Beside Me. New York: W. W. Norton, 1980."
         }
       ]
     },
@@ -245,7 +263,7 @@
       "sources": [
         {
           "tier": 3,
-          "citation": "Rule, Ann. The Stranger Beside Me. W. W. Norton, 1980. Rule worked alongside Bundy at the Crisis Clinic and reports this first-hand."
+          "citation": "Rule, Ann. The Stranger Beside Me. New York: W. W. Norton, 1980."
         }
       ]
     },
@@ -282,7 +300,6 @@
       }
     }
   },
-
   "clinical": {
     "formal_diagnoses": {
       "value": null,
@@ -296,7 +313,8 @@
       "sources": [
         {
           "tier": 1,
-          "citation": "Bundy v. Dugger, 850 F.2d 1402 (11th Cir. 1988) — federal habeas review addressing competency"
+          "citation": "Bundy v. Dugger, 850 F.2d 1402 (11th Cir. 1988)",
+          "note": "federal habeas review addressing competency"
         }
       ]
     },
@@ -316,13 +334,12 @@
       "sources": [
         {
           "tier": 3,
-          "citation": "Michaud & Aynesworth, The Only Living Witness. Simon & Schuster, 1983."
+          "citation": "Michaud, Stephen G. and Hugh Aynesworth. The Only Living Witness. New York: Simon & Schuster, 1983."
         }
       ],
       "notes": "Recorded as claims about the discourse surrounding the subject, not as claims about the subject. Downstream users must not treat this field as diagnostic data."
     }
   },
-
   "offence_behaviour": {
     "victim_selection": {
       "value": "Offences occurred in and around university campuses and public recreation areas. The relevant structural feature is the access conditions exploited — routine solitary movement through semi-public space with low ambient suspicion — rather than any characteristic of those targeted.",
@@ -330,7 +347,7 @@
       "sources": [
         {
           "tier": 3,
-          "citation": "Keppel & Birnes, The Riverman. Pocket Books, 1995."
+          "citation": "Keppel, Robert D. and William J. Birnes. The Riverman: Ted Bundy and I Hunt for the Green River Killer. New York: Pocket Books, 1995."
         }
       ],
       "notes": "The inherited draft asserted a physical 'type' derived from a former girlfriend's appearance. This is a durable popular claim with no evidentiary basis; it is excluded. See data_quality.excluded_material."
@@ -345,7 +362,7 @@
         },
         {
           "tier": 3,
-          "citation": "Sullivan, Kevin M. The Bundy Murders. McFarland, 2009."
+          "citation": "Sullivan, Kevin M. The Bundy Murders: A Comprehensive History. Jefferson NC: McFarland, 2009."
         }
       ]
     },
@@ -366,11 +383,12 @@
       "sources": [
         {
           "tier": 1,
-          "citation": "Bundy v. State, 471 So. 2d 9 (Fla. 1985) — medical examiner testimony summarised in the opinion"
+          "citation": "Bundy v. State, 471 So. 2d 9 (Fla. 1985)",
+          "note": "medical examiner testimony summarised in the opinion"
         },
         {
           "tier": 3,
-          "citation": "Sullivan, Kevin M. The Bundy Murders. McFarland, 2009."
+          "citation": "Sullivan, Kevin M. The Bundy Murders: A Comprehensive History. Jefferson NC: McFarland, 2009."
         }
       ]
     },
@@ -386,26 +404,30 @@
       "sources": [
         {
           "tier": 3,
-          "citation": "Keppel & Birnes, The Riverman. Pocket Books, 1995."
+          "citation": "Keppel, Robert D. and William J. Birnes. The Riverman: Ted Bundy and I Hunt for the Green River Killer. New York: Pocket Books, 1995."
         }
       ]
     }
   },
-
   "investigation": {
     "detection_delay_factors": {
       "value": "Offences spanned six states with no shared records system. Contemporaneous investigative practice had no mechanism for linking homicides across jurisdictions; the case is one of the principal cited motivations for the creation of ViCAP in 1985.",
-      "confidence": "reported",
+      "confidence": "established",
       "sources": [
         {
+          "tier": 2,
+          "citation": "Egger, Steven A. 'A Working Definition of Serial Murder and the Reduction of Linkage Blindness.' Journal of Police Science and Administration 12(3), 1984, 348-357."
+        },
+        {
           "tier": 3,
-          "citation": "Keppel & Birnes, The Riverman. Pocket Books, 1995."
+          "citation": "Keppel, Robert D. and William J. Birnes. The Riverman: Ted Bundy and I Hunt for the Green River Killer. New York: Pocket Books, 1995."
         },
         {
           "tier": 1,
           "citation": "FBI, Violent Criminal Apprehension Program (ViCAP) programme documentation, established 1985"
         }
-      ]
+      ],
+      "notes": "Egger (1984) is the paper that named linkage blindness and remains the standard citation for the concept."
     },
     "identifying_evidence": {
       "value": "Survivor identification in Utah; a traffic stop in Salt Lake County in August 1975 producing items later introduced at trial; a further traffic stop in Pensacola, Florida on 15 February 1978 in a stolen vehicle.",
@@ -413,7 +435,7 @@
       "sources": [
         {
           "tier": 3,
-          "citation": "Sullivan, Kevin M. The Bundy Murders. McFarland, 2009."
+          "citation": "Sullivan, Kevin M. The Bundy Murders: A Comprehensive History. Jefferson NC: McFarland, 2009."
         }
       ]
     },
@@ -423,11 +445,12 @@
       "sources": [
         {
           "tier": 1,
-          "citation": "Bundy v. State, 471 So. 2d 9 (Fla. 1985) — the opinion addresses the admission of bite-mark identification testimony"
+          "citation": "Bundy v. State, 471 So. 2d 9 (Fla. 1985)",
+          "note": "the opinion addresses the admission of bite-mark identification testimony"
         },
         {
           "tier": 3,
-          "citation": "Sullivan, Kevin M. The Bundy Murders. McFarland, 2009."
+          "citation": "Sullivan, Kevin M. The Bundy Murders: A Comprehensive History. Jefferson NC: McFarland, 2009."
         }
       ]
     },
@@ -446,7 +469,7 @@
         },
         {
           "tier": 4,
-          "citation": "Innocence Project, 'In a Landmark Decision, Texas Forensic Science Commission Issues Moratorium on the Use of Bite Mark Evidence', 2016",
+          "citation": "Innocence Project. 'In a Landmark Decision, Texas Forensic Science Commission Issues Moratorium on the Use of Bite Mark Evidence.' 2016.",
           "url": "https://innocenceproject.org/news/in-a-landmark-decision-texas-forensic-science-commission-issues-moratorium-on-the-use-of-bite-mark-evidence/"
         }
       ],
@@ -462,13 +485,12 @@
         },
         {
           "tier": 3,
-          "citation": "Sullivan, Kevin M. The Bundy Murders. McFarland, 2009."
+          "citation": "Sullivan, Kevin M. The Bundy Murders: A Comprehensive History. Jefferson NC: McFarland, 2009."
         }
       ],
       "notes": "Preceded by two escapes from custody in Colorado in 1977."
     }
   },
-
   "adjudication": {
     "interrogation_method": {
       "value": "Bundy conducted substantial parts of his own defence in Florida. Extensive interviews were conducted in the final period before execution, including with Robert Keppel and with Michaud and Aynesworth.",
@@ -476,7 +498,7 @@
       "sources": [
         {
           "tier": 3,
-          "citation": "Keppel & Birnes, The Riverman. Pocket Books, 1995."
+          "citation": "Keppel, Robert D. and William J. Birnes. The Riverman: Ted Bundy and I Hunt for the Green River Killer. New York: Pocket Books, 1995."
         }
       ]
     },
@@ -486,7 +508,8 @@
       "sources": [
         {
           "tier": 3,
-          "citation": "Michaud & Aynesworth, The Only Living Witness. Simon & Schuster, 1983 — on Bundy's use of third-person 'hypothetical' framing to avoid direct admission."
+          "citation": "Michaud, Stephen G. and Hugh Aynesworth. The Only Living Witness. New York: Simon & Schuster, 1983.",
+          "note": "on Bundy's use of third-person 'hypothetical' framing to avoid direct admission."
         }
       ],
       "notes": "This field is mandatory for any subject whose victim attribution rests partly on self-report. Compare USA-037-LUCAS, where uncorroborated confession closed cases across multiple states and was later discredited."
@@ -548,7 +571,6 @@
       ]
     }
   },
-
   "data_quality": {
     "known_gaps": [
       "No agency-attributed victim count located; only the conviction count is established.",
