@@ -1,0 +1,484 @@
+{
+  "id": "USA-007-DAHMER",
+  "schema_version": "0.1.0",
+  "record_status": "in_progress",
+  "provenance": {
+    "created": "2026-09-05",
+    "last_reviewed": "2026-09-05",
+    "contributors": [
+      "maintainer"
+    ],
+    "ai_assisted": true
+  },
+  "identity": {
+    "legal_name": {
+      "value": "Jeffrey Lionel Dahmer",
+      "confidence": "established",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Estate of Sinthasomphone v. City of Milwaukee, 838 F. Supp. 1320 (E.D. Wis. 1993)"
+        },
+        {
+          "tier": 4,
+          "citation": "Deseret News / Associated Press. 'Dahmer sentenced to 15 consecutive life terms in prison.' 17 February 1992.",
+          "url": "https://www.deseret.com/1992/2/17/18968194/dahmer-sentenced-to-15-consecutive-life-terms-in-prison/"
+        }
+      ]
+    },
+    "aliases": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "No documented aliases. He did give a false name for a victim to police in May 1991 — see investigation.detection_delay_factors."
+    },
+    "media_epithet": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "Press labels attached to this case foreground cannibalism. They are not recorded: they describe post-mortem conduct in a form that serves appetite rather than analysis, and this dataset has no field they would legitimately populate."
+    },
+    "birth_date": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "Commonly given as 21 May 1960, Milwaukee. No record retrieved."
+    },
+    "birth_place": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "No record retrieved."
+    },
+    "death_date": {
+      "value": "1994-11",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 4,
+          "citation": "Deseret News / Associated Press. 'Dahmer sentenced to 15 consecutive life terms in prison.' 17 February 1992.",
+          "url": "https://www.deseret.com/1992/2/17/18968194/dahmer-sentenced-to-15-consecutive-life-terms-in-prison/"
+        }
+      ],
+      "notes": "Killed by another prisoner at a Wisconsin correctional institution in November 1994. The date is commonly given as 28 November 1994; no corrections record has been retrieved and only the month is asserted. The cited source predates the death and is used here for identity continuity only — a contributor should replace it with a contemporaneous 1994 report or a corrections record."
+    },
+    "judicial_status": {
+      "value": "Deceased. Convicted of 15 counts of murder in Wisconsin and, separately, of one further murder in Ohio.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 4,
+          "citation": "Deseret News / Associated Press. 'Dahmer sentenced to 15 consecutive life terms in prison.' 17 February 1992.",
+          "url": "https://www.deseret.com/1992/2/17/18968194/dahmer-sentenced-to-15-consecutive-life-terms-in-prison/"
+        }
+      ]
+    }
+  },
+  "conviction_record": {
+    "convictions": {
+      "value": [
+        {
+          "charge": "15 counts of murder",
+          "jurisdiction": "Milwaukee County Circuit Court, Wisconsin",
+          "date": "1992-02-15",
+          "disposition": "Guilty; jury rejected the insanity plea and found him legally sane. 15 consecutive life sentences imposed 17 February 1992."
+        },
+        {
+          "charge": "One count of murder (Steven Hicks, 1978)",
+          "jurisdiction": "Ohio",
+          "date": "1992-05",
+          "disposition": "Guilty plea; life sentence"
+        }
+      ],
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 4,
+          "citation": "Deseret News / Associated Press. 'Dahmer sentenced to 15 consecutive life terms in prison.' 17 February 1992.",
+          "url": "https://www.deseret.com/1992/2/17/18968194/dahmer-sentenced-to-15-consecutive-life-terms-in-prison/"
+        },
+        {
+          "tier": 4,
+          "citation": "UPI Archives. 'Dahmer sentenced to life for Hicks murder.' 1 May 1992.",
+          "url": "https://www.upi.com/Archives/1992/05/01/Dahmer-sentenced-to-life-for-Hicks-murder/7300704692800/",
+          "note": "headline and date only; the article body could not be retrieved"
+        }
+      ],
+      "notes": "SOURCING LIMITATION: no court filing has been retrieved for either conviction. The Ohio conviction rests on a wire-service headline whose body was inaccessible — the fact is recorded because the headline and date are themselves specific and locatable, and the limitation is stated. A contributor should replace both with the court records. The total across both jurisdictions is 16 homicide convictions."
+    },
+    "confirmed_victim_count": {
+      "value": 16,
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 4,
+          "citation": "Deseret News / Associated Press. 'Dahmer sentenced to 15 consecutive life terms in prison.' 17 February 1992.",
+          "url": "https://www.deseret.com/1992/2/17/18968194/dahmer-sentenced-to-15-consecutive-life-terms-in-prison/"
+        },
+        {
+          "tier": 4,
+          "citation": "UPI Archives. 'Dahmer sentenced to life for Hicks murder.' 1 May 1992.",
+          "url": "https://www.upi.com/Archives/1992/05/01/Dahmer-sentenced-to-life-for-Hicks-murder/7300704692800/",
+          "note": "headline and date only"
+        }
+      ],
+      "notes": "15 Wisconsin convictions plus 1 Ohio conviction. Marked 'reported' rather than 'established' because no primary record has been retrieved for either."
+    },
+    "attributed_victim_count": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "No agency-published attribution beyond the convictions has been retrieved."
+    },
+    "claimed_victim_count": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "No self-reported total distinct from the charged offences has been retrieved."
+    },
+    "estimate_provenance": {
+      "value": "The count derives entirely from the two conviction records. No higher figure with traceable provenance exists for this subject.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 4,
+          "citation": "Deseret News / Associated Press. 'Dahmer sentenced to 15 consecutive life terms in prison.' 17 February 1992.",
+          "url": "https://www.deseret.com/1992/2/17/18968194/dahmer-sentenced-to-15-consecutive-life-terms-in-prison/"
+        }
+      ],
+      "notes": "Unusual in this dataset: the popular figure and the conviction figure coincide. There is no inflated number circulating for Dahmer, which makes his record cleaner on this axis than Bundy, Hall or Ridgway."
+    }
+  },
+  "offence_period": {
+    "first_known_offence": {
+      "value": "1978",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 4,
+          "citation": "UPI Archives. 'Dahmer sentenced to life for Hicks murder.' 1 May 1992.",
+          "url": "https://www.upi.com/Archives/1992/05/01/Dahmer-sentenced-to-life-for-Hicks-murder/7300704692800/",
+          "note": "headline and date only"
+        }
+      ],
+      "notes": "The Ohio offence, followed by a gap of roughly nine years before the Wisconsin series. Compare the desistance periods in USA-004-DEANGELO and USA-006-RADER: here the gap falls at the start rather than the end."
+    },
+    "last_known_offence": {
+      "value": "1991-07",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Estate of Sinthasomphone v. City of Milwaukee, 838 F. Supp. 1320 (E.D. Wis. 1993)"
+        }
+      ],
+      "notes": "Arrest followed in July 1991 when a victim escaped and brought police to the apartment."
+    },
+    "jurisdictions": {
+      "value": [
+        "Milwaukee County, Wisconsin",
+        "Ohio"
+      ],
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 4,
+          "citation": "Deseret News / Associated Press. 'Dahmer sentenced to 15 consecutive life terms in prison.' 17 February 1992.",
+          "url": "https://www.deseret.com/1992/2/17/18968194/dahmer-sentenced-to-15-consecutive-life-terms-in-prison/"
+        }
+      ]
+    }
+  },
+  "background": {
+    "family_structure": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "No contemporaneous record retrieved. Childhood aetiologies circulate extensively; none is entered."
+    },
+    "education": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "No record retrieved."
+    },
+    "employment_history": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "Employment at a Milwaukee chocolate factory is commonly reported; no record retrieved. Note the contrast with DeAngelo, Ridgway and Rader, where the occupational fact was load-bearing. Here it appears not to have been: the access condition was residential, not occupational."
+    },
+    "military_service": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "Army service is commonly reported; no service record retrieved."
+    },
+    "documented_head_injury": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "No medical documentation located."
+    },
+    "macdonald_triad": {
+      "enuresis": {
+        "value": null,
+        "confidence": "unverified",
+        "sources": [],
+        "notes": "No documentation located. NOTE: the triad is not a predictor of violence — see the schema field description."
+      },
+      "firesetting": {
+        "value": null,
+        "confidence": "unverified",
+        "sources": [],
+        "notes": "No documentation located."
+      },
+      "animal_cruelty": {
+        "value": null,
+        "confidence": "unverified",
+        "sources": [],
+        "notes": "Accounts of childhood interest in animal remains are ubiquitous in secondary literature and were advanced at the insanity trial. No contemporaneous documentation has been retrieved and none is entered."
+      }
+    }
+  },
+  "clinical": {
+    "formal_diagnoses": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "Psychiatric evidence was presented and tested at the insanity phase, but the retrieved sources do not itemise the competing diagnoses. This field is therefore null despite being populatable in principle — the second such case after USA-005-GACY, where the equivalent evidence WAS itemised in the appellate opinion. A contributor retrieving the Milwaukee County trial record should populate this; it is one of only two subjects in the dataset where adversarially tested clinical evidence exists."
+    },
+    "competency_findings": {
+      "value": "The insanity plea was rejected. The jury found him legally sane at the time of the offences.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 4,
+          "citation": "Deseret News / Associated Press. 'Dahmer sentenced to 15 consecutive life terms in prison.' 17 February 1992.",
+          "url": "https://www.deseret.com/1992/2/17/18968194/dahmer-sentenced-to-15-consecutive-life-terms-in-prison/"
+        }
+      ],
+      "notes": "A finding of legal responsibility is a legal conclusion, not a clinical one, and does not establish the absence of mental disorder. The same caution applies here as in USA-005-GACY."
+    },
+    "psychometric_results": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "No instrument, administrator or date retrieved."
+    },
+    "commentary_attributions": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "Not catalogued. This subject carries an unusually heavy load of retrospective diagnostic commentary, much of it generated by dramatisations rather than clinicians."
+    }
+  },
+  "offence_behaviour": {
+    "victim_selection": {
+      "value": "Victims were young men and boys, predominantly Black, Asian and Latino, and predominantly gay or bisexual, encountered in and around Milwaukee and brought to his apartment. The operative condition was institutional: this was a population whose disappearances and whose reports to police were not acted on, as the May 1991 events establish directly.",
+      "confidence": "established",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Estate of Sinthasomphone v. City of Milwaukee, 838 F. Supp. 1320 (E.D. Wis. 1993)"
+        },
+        {
+          "tier": 4,
+          "citation": "Snopes. Fact check: 'Did Police Return Jeffrey Dahmer's Victim to Him, Whom He Then Murdered?'",
+          "url": "https://www.snopes.com/fact-check/police-return-victim-to-jeffrey-dahmer/"
+        }
+      ],
+      "notes": "Recorded as an access condition, not as a characteristic that explains the deaths. Omitting the demographic pattern here would erase a documented institutional failure rather than protect anyone: the reason a bleeding, drugged, naked 14-year-old Laotian child was returned to the man who killed him is inseparable from who he was taken to be. That is a finding about policing. Compare USA-002-RIDGWAY, the dataset's other victim-class neglect case."
+    },
+    "approach_method": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "Not established from retrieved sources. Detailed accounts derive from his own post-arrest statements."
+    },
+    "spatial_pattern": {
+      "value": "Marauder",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 2,
+          "citation": "Canter, David and Paul Larkin. 'The Environmental Range of Serial Rapists.' Journal of Environmental Psychology 13(1), 1993, 63-69."
+        }
+      ],
+      "notes": "Coded marauder, and at the same extreme as USA-005-GACY: the offence location and the residence were the same. Maintainer coding applying the Canter & Larkin framework, not a source-attested fact."
+    },
+    "weapon_or_method": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "Not established from retrieved sources. The retrieved reporting characterises the offences in terms this dataset does not reproduce; a contributor should populate this from post-mortem findings in the trial record, not from press description."
+    },
+    "signature_behaviour": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "No scene documentation retrieved. Note that this is the subject for whom popular accounts assert the most elaborate post-mortem conduct in the entire dataset, and the field is null. Detail of that kind is also constrained by ETHICS.md independently of sourcing: it serves appetite rather than analysis."
+    },
+    "post_offence_behaviour": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "Not entered. See the note on signature_behaviour: this is a case where the ethical constraint and the sourcing constraint point the same way."
+    },
+    "forensic_countermeasures": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "Not established. He retained remains in his residence, which is not on its face evasive conduct — the same observation as USA-005-GACY."
+    },
+    "motive_classification": {
+      "value": "Power/control, per Holmes & Holmes",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 3,
+          "citation": "Holmes, Ronald M. and Stephen T. Holmes. Profiling Violent Crimes: An Investigative Tool. Thousand Oaks CA: Sage Publications."
+        },
+        {
+          "tier": 2,
+          "citation": "Canter, David V., Laurence J. Alison, Emily Alison and Natalia Wentink. 'The Organized/Disorganized Typology of Serial Murder: Myth or Model?' Psychology, Public Policy, and Law 10(3), 2004, 293-320."
+        }
+      ],
+      "notes": "Maintainer coding, not a source-attested fact, and weakly supported here: the behavioural fields it would ordinarily be coded from are all null in this record. A contributor may reasonably decline to code this field until the trial record is retrieved. Canter et al. (2004) cited as the standing caution on typologies of this family."
+    }
+  },
+  "investigation": {
+    "detection_delay_factors": {
+      "value": "On 27 May 1991 Milwaukee police responded to a report of a naked, bleeding, disoriented 14-year-old boy in the street. The boy, Konerak Sinthasomphone, had escaped Dahmer's apartment after being drugged. Dahmer told the officers the boy was his adult partner and merely intoxicated. The officers escorted both back to the apartment and left the child there. He was killed approximately thirty minutes later. Dahmer offended for a further two months.",
+      "confidence": "established",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Estate of Sinthasomphone v. City of Milwaukee, 838 F. Supp. 1320 (E.D. Wis. 1993)"
+        },
+        {
+          "tier": 4,
+          "citation": "Snopes. Fact check: 'Did Police Return Jeffrey Dahmer's Victim to Him, Whom He Then Murdered?'",
+          "url": "https://www.snopes.com/fact-check/police-return-victim-to-jeffrey-dahmer/"
+        }
+      ],
+      "notes": "A SIXTH DELAY MECHANISM, and the most severe in the dataset. Bundy: jurisdictional fragmentation. Ridgway: institutional neglect plus forensic limits. DeAngelo: absent technology. Gacy: an unconnected conviction record. Rader: no mechanism — he surfaced. Dahmer: information that was complete, contemporaneous, and physically present was actively dismissed. Officers stood inside the apartment. The victim was in front of them. This is not a failure of capability or of records; it is a failure of belief, and the demographic pattern recorded under victim_selection is inseparable from it. Two officers were dismissed in September 1991 and subsequently reinstated with back pay. The family's federal civil rights claim was dismissed; a settlement of $850,000 was reached with the city."
+    },
+    "identifying_evidence": {
+      "value": "In July 1991 a victim escaped the apartment and brought police to it. Human remains were recovered from the premises.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Estate of Sinthasomphone v. City of Milwaukee, 838 F. Supp. 1320 (E.D. Wis. 1993)"
+        }
+      ],
+      "notes": "As with USA-006-RADER, the case was not closed by investigative work. It was closed by a victim who got out and was, this time, believed."
+    },
+    "forensic_methods_used": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "Not established from retrieved sources. The evidentiary basis was the physical recovery of remains from his residence."
+    },
+    "method_now_disputed": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "No technique relied on in these convictions has been found scientifically unreliable."
+    },
+    "arrest": {
+      "value": "Arrested July 1991 in Milwaukee, Wisconsin.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Estate of Sinthasomphone v. City of Milwaukee, 838 F. Supp. 1320 (E.D. Wis. 1993)"
+        }
+      ]
+    }
+  },
+  "adjudication": {
+    "interrogation_method": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "No interrogation record retrieved."
+    },
+    "confession_reliability": {
+      "value": "Not load-bearing for the convictions, which rested on remains recovered from his residence. He admitted the offences and contested only his mental state.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 4,
+          "citation": "Deseret News / Associated Press. 'Dahmer sentenced to 15 consecutive life terms in prison.' 17 February 1992.",
+          "url": "https://www.deseret.com/1992/2/17/18968194/dahmer-sentenced-to-15-consecutive-life-terms-in-prison/"
+        }
+      ],
+      "notes": "Structurally unusual: the plea conceded the acts and litigated only responsibility. Nothing in the victim count depends on his account, but a great deal of the circulating narrative detail does."
+    },
+    "trial_outcome": {
+      "value": "Tried in Milwaukee County on the question of legal responsibility. The jury found him sane and guilty on 15 February 1992.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 4,
+          "citation": "Deseret News / Associated Press. 'Dahmer sentenced to 15 consecutive life terms in prison.' 17 February 1992.",
+          "url": "https://www.deseret.com/1992/2/17/18968194/dahmer-sentenced-to-15-consecutive-life-terms-in-prison/"
+        }
+      ],
+      "notes": "The second insanity defence tried and rejected in this dataset, after USA-005-GACY. Both juries rejected it. That is a datum about the reception of psychiatric evidence, not about its merit."
+    },
+    "sentence": {
+      "value": "15 consecutive life sentences imposed 17 February 1992 in Wisconsin, and a further life sentence in Ohio in May 1992.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 4,
+          "citation": "Deseret News / Associated Press. 'Dahmer sentenced to 15 consecutive life terms in prison.' 17 February 1992.",
+          "url": "https://www.deseret.com/1992/2/17/18968194/dahmer-sentenced-to-15-consecutive-life-terms-in-prison/"
+        },
+        {
+          "tier": 4,
+          "citation": "UPI Archives. 'Dahmer sentenced to life for Hicks murder.' 1 May 1992.",
+          "url": "https://www.upi.com/Archives/1992/05/01/Dahmer-sentenced-to-life-for-Hicks-murder/7300704692800/",
+          "note": "headline and date only"
+        }
+      ],
+      "notes": "No death penalty was available in either jurisdiction: Wisconsin has none, and Ohio's statute was not in force in 1978. As with USA-006-RADER, and unlike USA-002-RIDGWAY and USA-004-DEANGELO, the disposition was not purchased by a plea."
+    },
+    "appellate_history": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "No appellate history retrieved. He died in custody in 1994."
+    },
+    "disposition": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "He is very widely reported to have been killed by another prisoner at a Wisconsin correctional institution on 28 November 1994. Every source located in this pass was either inadmissible (wikis, dramatisation-derived coverage) or returned an access error. The fact is almost certainly true and is nonetheless recorded as unestablished, because 'everyone knows it' is the exact condition under which unsourced claims enter a dataset. A contributor should cite a Wisconsin Department of Corrections record or contemporaneous 1994 reporting. See also identity.death_date, which records the month on a weaker basis and should be upgraded at the same time."
+    }
+  },
+  "data_quality": {
+    "known_gaps": [
+      "No court filing retrieved for either conviction. The Wisconsin conviction rests on wire reporting; the Ohio conviction on a wire headline whose body was inaccessible.",
+      "The 1988 conviction for sexual assault of a minor, and the probation he was serving during much of the Wisconsin offending, could not be sourced to any admissible document in this pass. This is the most consequential gap in the record: it bears directly on whether the offences were preventable, and it is precisely the fact a contributor should chase first.",
+      "The competing psychiatric evidence at the insanity trial was not itemised in retrieved sources, so formal_diagnoses is null despite the evidence existing.",
+      "Death in custody could not be sourced admissibly and is recorded as a gap.",
+      "Birth date and place not asserted.",
+      "Nearly all behavioural fields are null: the retrieved sources establish the institutional failure in detail and the offence conduct barely at all."
+    ],
+    "contested_points": [
+      "Whether the dismissal and subsequent reinstatement with back pay of the officers involved in the May 1991 events was an appropriate outcome — the federal civil rights claim was dismissed and the city settled.",
+      "Whether legal sanity findings in this case and in USA-005-GACY reflect the evidence or the difficulty juries have accepting an insanity defence in cases of this severity."
+    ],
+    "excluded_material": [
+      "Press epithets for this subject, which foreground post-mortem conduct in a form that serves appetite rather than analysis.",
+      "Detail of post-mortem conduct generally, excluded under ETHICS.md — this is the record where that constraint bites hardest, and where popular accounts consist of little else.",
+      "The name of the surviving victim of the 1988 offence, a living third party.",
+      "Childhood aetiologies advanced at the insanity trial and repeated as established causation.",
+      "Material originating in television dramatisations, of which this case has generated several."
+    ]
+  }
+}

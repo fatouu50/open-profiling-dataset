@@ -2,7 +2,7 @@
 
 A structured, source-traceable dataset of adjudicated serial homicide cases, built for criminological and computational research.
 
-**Status:** `v0.1.0-alpha` — schema stable, 5 of 156 offender profiles populated, 1 case record. Not yet suitable for analysis.
+**Status:** `v0.1.0-alpha` — schema stable, 6 of 156 offender profiles populated, 1 case record. Not yet suitable for analysis.
 
 ---
 
