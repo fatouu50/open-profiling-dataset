@@ -340,6 +340,12 @@
         }
       ]
     },
+    "signature_behaviour": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "Accounts of recurring non-functional conduct derive from the interviews conducted under the 2003 plea agreement. Those interviews were given under an agreement that spared his life, and the corroboration requirement applied to charged offences, not to descriptive detail. No independently documented recurring element has been retrieved. Left null."
+    },
     "post_offence_behaviour": {
       "value": null,
       "confidence": "unverified",
@@ -356,6 +362,21 @@
         }
       ],
       "notes": "Recorded at the level the source supports. Popular accounts attribute an elaborate deliberate counter-forensic strategy to him; that framing is not adopted here."
+    },
+    "motive_classification": {
+      "value": "Power/control, per Holmes & Holmes",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 3,
+          "citation": "Holmes, Ronald M. and Stephen T. Holmes. Profiling Violent Crimes: An Investigative Tool. Thousand Oaks CA: Sage Publications."
+        },
+        {
+          "tier": 2,
+          "citation": "Canter, David V., Laurence J. Alison, Emily Alison and Natalia Wentink. 'The Organized/Disorganized Typology of Serial Murder: Myth or Model?' Psychology, Public Policy, and Law 10(3), 2004, 293-320."
+        }
+      ],
+      "notes": "Maintainer coding, not a source-attested fact. The framework is cited as the instrument applied, not as authority for this subject's motive. Canter et al. (2004) is cited as the standing methodological caution on typologies of this family. Contributors coding this case differently should record the disagreement rather than overwrite: divergent coding of the same record is a finding. This coding is weaker than the Bundy one and should be treated sceptically: it rests substantially on Ridgway's own account of his motives, which is the class of evidence this dataset treats as least reliable. A contributor may reasonably code this 'hedonistic (lust)' instead."
     }
   },
   "investigation": {

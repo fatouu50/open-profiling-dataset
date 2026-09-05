@@ -209,6 +209,14 @@
           "$ref": "#/$defs/claim_or_absent",
           "description": "Structural description of targeting patterns. Describe the access conditions the offender exploited, not the victims' characteristics as if explanatory."
         },
+        "signature_behaviour": {
+          "$ref": "#/$defs/claim_or_absent",
+          "description": "Conduct at the scene that was not logistically necessary to accomplish the offence but recurred across offences. Record ONLY what the evidentiary record establishes — scene documentation, post-mortem findings, charging material. Do NOT record the offender's stated reasons, inferred psychological need, or interior experience: those are unfalsifiable and belong nowhere in this dataset. Where the only source is offender self-report given after arrest, this field is 'unverified'. A null here is a finding, not a gap."
+        },
+        "motive_classification": {
+          "$ref": "#/$defs/claim_or_absent",
+          "description": "Coding against a published motive typology (e.g. Holmes & Holmes: hedonistic — lust/thrill/comfort; power/control; mission-oriented; visionary). This is ALWAYS maintainer interpretation applied to the record, never a source-attested fact — say so in 'notes' and name the framework in 'sources'. These typologies have a weak empirical record: Canter et al. (2004) tested the related organized/disorganized dichotomy against 100 cases and did not recover it from the data, and the same methodological concerns apply here. Record the coding as a research variable, not as an explanation."
+        },
         "approach_method": { "$ref": "#/$defs/claim_or_absent" },
         "spatial_pattern": {
           "$ref": "#/$defs/claim_or_absent",

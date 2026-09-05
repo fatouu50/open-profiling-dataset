@@ -270,6 +270,14 @@ Blunt force and ligature strangulation.
 
 Sources: [1] *(medical examiner testimony summarised in the opinion)* [2]
 
+> Conduct not logistically necessary to the offence that recurred across offences. Restricted to what the evidentiary record establishes. The offender's stated reasons and any inferred psychological need are **excluded** — they are unfalsifiable. A null here means the only sources were post-arrest self-report.
+
+**Signature behaviour** — ○ *not established*
+
+—
+
+> Recurrent post-offence conduct is described extensively in the secondary literature, but every account traces to statements Bundy gave in the days before execution while seeking a stay. No scene documentation or post-mortem finding establishing a recurring non-functional element across offences has been retrieved. Under this field's rule that is 'unverified', not 'reported'. Compare offence_behaviour.post_offence_behaviour, which is null for the same reason.
+
 **Post offence behaviour** — ○ *not established*
 
 —
@@ -282,6 +290,16 @@ Transport of victims away from the point of encounter; deposition in remote terr
 
 Sources: [9]
 
+> Coding against a published typology. **Always maintainer interpretation**, never a source-attested fact. These typologies have a weak empirical record — Canter et al. (2004) could not recover the related organized/disorganized dichotomy from case data. Treat as a research variable, not an explanation.
+
+**Motive classification** — *reported*
+
+Hedonistic (lust), per Holmes & Holmes
+
+Sources: [13] [14]
+
+> Maintainer coding, not a source-attested fact. The framework is cited as the instrument applied, not as authority for this subject's motive. Canter et al. (2004) is cited as the standing methodological caution on typologies of this family. Contributors coding this case differently should record the disagreement rather than overwrite: divergent coding of the same record is a finding. Coded from the sexual element established in the conviction record. Note that this coding adds no explanatory power the conviction record does not already carry — its value is comparability across the dataset.
+
 ---
 
 ## Investigation
@@ -290,7 +308,7 @@ Sources: [9]
 
 Offences spanned six states with no shared records system. Contemporaneous investigative practice had no mechanism for linking homicides across jurisdictions; the case is one of the principal cited motivations for the creation of ViCAP in 1985.
 
-Sources: [13] [9] [14]
+Sources: [15] [9] [16]
 
 > Egger (1984) is the paper that named linkage blindness and remains the standard citation for the concept.
 
@@ -312,7 +330,7 @@ Sources: [1] *(the opinion addresses the admission of bite-mark identification t
 
 Bite-mark comparison has since been found scientifically unreliable. The 2009 National Research Council report found no scientific basis for identifying an individual from bite marks; the 2016 PCAST report reached the same conclusion; the Texas Forensic Science Commission recommended a moratorium on its use in 2016. Multiple convictions resting on bite-mark testimony have been vacated.
 
-Sources: [15] [16] [17]
+Sources: [17] [18] [19]
 
 > This field exists because the inherited draft described this technique as having 'proven mathematically, to the millimetre'. It had not. Any dataset that reproduces historical forensic claims without their current standing is propagating discredited science. The claim sometimes made that this was the first US case in which bite-mark evidence secured a conviction is also not established — such evidence was admitted earlier, e.g. People v. Marx (Cal. Ct. App. 1975).
 
@@ -364,7 +382,7 @@ Sources: [10] [1]
 
 Executed by electrocution at Florida State Prison, Starke, on 24 January 1989.
 
-Sources: [18] [6]
+Sources: [20] [6]
 
 ---
 
@@ -411,12 +429,14 @@ Tier 1 = primary record · 2 = peer-reviewed · 3 = book-length journalism with 
 10. *(tier 1)* Bundy v. Dugger, 850 F.2d 1402 (11th Cir. 1988)
 11. *(tier 1)* Utah trial record, State v. Bundy (1976) — testimony of the surviving victim on the police impersonation
 12. *(tier 2)* Canter, David and Paul Larkin. 'The Environmental Range of Serial Rapists.' Journal of Environmental Psychology 13(1), 1993, 63-69.
-13. *(tier 2)* Egger, Steven A. 'A Working Definition of Serial Murder and the Reduction of Linkage Blindness.' Journal of Police Science and Administration 12(3), 1984, 348-357.
-14. *(tier 1)* FBI, Violent Criminal Apprehension Program (ViCAP) programme documentation, established 1985
-15. *(tier 1)* National Research Council. Strengthening Forensic Science in the United States: A Path Forward. Washington DC: National Academies Press, 2009. — <https://www.ojp.gov/pdffiles1/nij/grants/228091.pdf>
-16. *(tier 1)* President's Council of Advisors on Science and Technology. Forensic Science in Criminal Courts: Ensuring Scientific Validity of Feature-Comparison Methods. Washington DC, 2016.
-17. *(tier 4)* Innocence Project. 'In a Landmark Decision, Texas Forensic Science Commission Issues Moratorium on the Use of Bite Mark Evidence.' 2016. — <https://innocenceproject.org/news/in-a-landmark-decision-texas-forensic-science-commission-issues-moratorium-on-the-use-of-bite-mark-evidence/>
-18. *(tier 1)* Florida Department of Corrections execution record, 24 January 1989
+13. *(tier 3)* Holmes, Ronald M. and Stephen T. Holmes. Profiling Violent Crimes: An Investigative Tool. Thousand Oaks CA: Sage Publications.
+14. *(tier 2)* Canter, David V., Laurence J. Alison, Emily Alison and Natalia Wentink. 'The Organized/Disorganized Typology of Serial Murder: Myth or Model?' Psychology, Public Policy, and Law 10(3), 2004, 293-320.
+15. *(tier 2)* Egger, Steven A. 'A Working Definition of Serial Murder and the Reduction of Linkage Blindness.' Journal of Police Science and Administration 12(3), 1984, 348-357.
+16. *(tier 1)* FBI, Violent Criminal Apprehension Program (ViCAP) programme documentation, established 1985
+17. *(tier 1)* National Research Council. Strengthening Forensic Science in the United States: A Path Forward. Washington DC: National Academies Press, 2009. — <https://www.ojp.gov/pdffiles1/nij/grants/228091.pdf>
+18. *(tier 1)* President's Council of Advisors on Science and Technology. Forensic Science in Criminal Courts: Ensuring Scientific Validity of Feature-Comparison Methods. Washington DC, 2016.
+19. *(tier 4)* Innocence Project. 'In a Landmark Decision, Texas Forensic Science Commission Issues Moratorium on the Use of Bite Mark Evidence.' 2016. — <https://innocenceproject.org/news/in-a-landmark-decision-texas-forensic-science-commission-issues-moratorium-on-the-use-of-bite-mark-evidence/>
+20. *(tier 1)* Florida Department of Corrections execution record, 24 January 1989
 
 ---
 

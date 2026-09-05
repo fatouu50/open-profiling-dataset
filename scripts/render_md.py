@@ -61,6 +61,18 @@ FIELD_NOTES = {
         "Diagnostic labels applied in secondary literature by people who never examined "
         "the subject. Not diagnostic data."
     ),
+    "signature_behaviour": (
+        "Conduct not logistically necessary to the offence that recurred across offences. "
+        "Restricted to what the evidentiary record establishes. The offender's stated "
+        "reasons and any inferred psychological need are **excluded** — they are "
+        "unfalsifiable. A null here means the only sources were post-arrest self-report."
+    ),
+    "motive_classification": (
+        "Coding against a published typology. **Always maintainer interpretation**, never "
+        "a source-attested fact. These typologies have a weak empirical record — Canter et "
+        "al. (2004) could not recover the related organized/disorganized dichotomy from "
+        "case data. Treat as a research variable, not an explanation."
+    ),
 }
 
 

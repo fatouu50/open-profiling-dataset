@@ -262,6 +262,14 @@ Ligature and manual strangulation.
 
 Sources: [10]
 
+> Conduct not logistically necessary to the offence that recurred across offences. Restricted to what the evidentiary record establishes. The offender's stated reasons and any inferred psychological need are **excluded** — they are unfalsifiable. A null here means the only sources were post-arrest self-report.
+
+**Signature behaviour** — ○ *not established*
+
+—
+
+> Accounts of recurring non-functional conduct derive from the interviews conducted under the 2003 plea agreement. Those interviews were given under an agreement that spared his life, and the corroboration requirement applied to charged offences, not to descriptive detail. No independently documented recurring element has been retrieved. Left null.
+
 **Post offence behaviour** — ○ *not established*
 
 —
@@ -276,6 +284,16 @@ Sources: [10]
 
 > Recorded at the level the source supports. Popular accounts attribute an elaborate deliberate counter-forensic strategy to him; that framing is not adopted here.
 
+> Coding against a published typology. **Always maintainer interpretation**, never a source-attested fact. These typologies have a weak empirical record — Canter et al. (2004) could not recover the related organized/disorganized dichotomy from case data. Treat as a research variable, not an explanation.
+
+**Motive classification** — *reported*
+
+Power/control, per Holmes & Holmes
+
+Sources: [11] [12]
+
+> Maintainer coding, not a source-attested fact. The framework is cited as the instrument applied, not as authority for this subject's motive. Canter et al. (2004) is cited as the standing methodological caution on typologies of this family. Contributors coding this case differently should record the disagreement rather than overwrite: divergent coding of the same record is a finding. This coding is weaker than the Bundy one and should be treated sceptically: it rests substantially on Ridgway's own account of his motives, which is the class of evidence this dataset treats as least reliable. A contributor may reasonably code this 'hedonistic (lust)' instead.
+
 ---
 
 ## Investigation
@@ -284,7 +302,7 @@ Sources: [10]
 
 Ridgway was identified as a suspect, interviewed, and sampled early in the investigation, and was nonetheless released for over a decade. The delay was not caused by geographic mobility — his range was compact — but by the limits of contemporaneous forensic technology, by a task force overwhelmed with unindexed paper records, and by an investigative response shaped by the low institutional priority given to the victims.
 
-Sources: [11] [7]
+Sources: [13] [7]
 
 > This case is the counter-example to linkage blindness as the standard explanation. The linkage was made — the killings were recognised as one series almost immediately, and the correct suspect was in the file. What failed was the ability to convert suspicion into proof, and the willingness to prioritise the cases.
 
@@ -308,7 +326,7 @@ Sources: [10]
 
 Polygraphy has no established validity as a lie-detection instrument. The 2003 National Research Council review found the scientific evidence insufficient to support its use for security screening or as a determinant of truthfulness. A passed polygraph contributed to Ridgway's elimination as a priority suspect during the 1980s.
 
-Sources: [12] [10]
+Sources: [14] [10]
 
 > Popular accounts treat the passed polygraph as evidence of Ridgway's composure or 'low cognitive stress'. That reading assumes the instrument works. It does not. The correct inference is about the instrument, not the subject — and this case is among the strongest available demonstrations of it.
 
@@ -326,7 +344,7 @@ Sources: [2]
 
 Following the DNA identification, a plea agreement negotiated by King County Prosecutor Norm Maleng and signed on 13 June 2003 required Ridgway to disclose additional offences, with admissions to be corroborated by physical evidence, in exchange for the State not seeking the death penalty. Extended interviews were conducted under that agreement.
 
-Sources: [13] [2] [6]
+Sources: [15] [2] [6]
 
 > The corroboration requirement is the analytically important term: unlike the Lucas confessions (see docs/investigative-failures.md), admissions here could not close a case on Ridgway's word alone. The 2011 conviction shows the mechanism working — he had admitted the Marrero killing in 2003, and the conviction followed only when her remains were located in December 2010.
 
@@ -410,9 +428,11 @@ Tier 1 = primary record · 2 = peer-reviewed · 3 = book-length journalism with 
 8. *(tier 3)* Reichert, David. Chasing the Devil: My Twenty-Year Quest to Capture the Green River Killer. New York: Little, Brown, 2004.
 9. *(tier 2)* Canter, David and Paul Larkin. 'The Environmental Range of Serial Rapists.' Journal of Environmental Psychology 13(1), 1993, 63-69.
 10. *(tier 3)* Reichert, David. Chasing the Devil: My Twenty-Year Quest to Capture the Green River Killer. Little, Brown, 2004.
-11. *(tier 2)* Egger, Steven A. 'A Working Definition of Serial Murder and the Reduction of Linkage Blindness.' Journal of Police Science and Administration 12(3), 1984, 348-357.
-12. *(tier 1)* National Research Council. The Polygraph and Lie Detection. Washington DC: National Academies Press, 2003.
-13. *(tier 1)* King County Superior Court, Washington. State of Washington v. Gary Leon Ridgway — plea agreement, signed 13 June 2003.
+11. *(tier 3)* Holmes, Ronald M. and Stephen T. Holmes. Profiling Violent Crimes: An Investigative Tool. Thousand Oaks CA: Sage Publications.
+12. *(tier 2)* Canter, David V., Laurence J. Alison, Emily Alison and Natalia Wentink. 'The Organized/Disorganized Typology of Serial Murder: Myth or Model?' Psychology, Public Policy, and Law 10(3), 2004, 293-320.
+13. *(tier 2)* Egger, Steven A. 'A Working Definition of Serial Murder and the Reduction of Linkage Blindness.' Journal of Police Science and Administration 12(3), 1984, 348-357.
+14. *(tier 1)* National Research Council. The Polygraph and Lie Detection. Washington DC: National Academies Press, 2003.
+15. *(tier 1)* King County Superior Court, Washington. State of Washington v. Gary Leon Ridgway — plea agreement, signed 13 June 2003.
 
 ---
 

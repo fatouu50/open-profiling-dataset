@@ -392,6 +392,12 @@
         }
       ]
     },
+    "signature_behaviour": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "Recurrent post-offence conduct is described extensively in the secondary literature, but every account traces to statements Bundy gave in the days before execution while seeking a stay. No scene documentation or post-mortem finding establishing a recurring non-functional element across offences has been retrieved. Under this field's rule that is 'unverified', not 'reported'. Compare offence_behaviour.post_offence_behaviour, which is null for the same reason."
+    },
     "post_offence_behaviour": {
       "value": null,
       "confidence": "unverified",
@@ -407,6 +413,21 @@
           "citation": "Keppel, Robert D. and William J. Birnes. The Riverman: Ted Bundy and I Hunt for the Green River Killer. New York: Pocket Books, 1995."
         }
       ]
+    },
+    "motive_classification": {
+      "value": "Hedonistic (lust), per Holmes & Holmes",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 3,
+          "citation": "Holmes, Ronald M. and Stephen T. Holmes. Profiling Violent Crimes: An Investigative Tool. Thousand Oaks CA: Sage Publications."
+        },
+        {
+          "tier": 2,
+          "citation": "Canter, David V., Laurence J. Alison, Emily Alison and Natalia Wentink. 'The Organized/Disorganized Typology of Serial Murder: Myth or Model?' Psychology, Public Policy, and Law 10(3), 2004, 293-320."
+        }
+      ],
+      "notes": "Maintainer coding, not a source-attested fact. The framework is cited as the instrument applied, not as authority for this subject's motive. Canter et al. (2004) is cited as the standing methodological caution on typologies of this family. Contributors coding this case differently should record the disagreement rather than overwrite: divergent coding of the same record is a finding. Coded from the sexual element established in the conviction record. Note that this coding adds no explanatory power the conviction record does not already carry — its value is comparability across the dataset."
     }
   },
   "investigation": {
