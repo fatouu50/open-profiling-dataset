@@ -28,6 +28,27 @@ Subsequent review established that the overwhelming majority were false — he h
 
 Lucas is on the roster as `USA-037-LUCAS` because he was convicted of homicide. But his `claimed_victim_count` and `confirmed_victim_count` diverge by orders of magnitude, and the case is the standing argument for why those fields exist separately.
 
+### Larry DeWayne Hall — United States
+
+**This is not an exoneration case.** Hall's conviction stands. It appears here because of what the appellate record establishes about the evidence, and because of how badly the popular account diverges from it.
+
+What the record establishes ([*United States v. Hall*, 93 F.3d 1337 (7th Cir. 1996)](https://law.justia.com/cases/federal/appellate-courts/F3/93/1337/641657/); [165 F.3d 1095 (7th Cir. 1999)](https://caselaw.findlaw.com/court/us-7th-circuit/1436146.html)):
+
+- He was convicted of **kidnapping** under 18 U.S.C. § 1201(a)(1) — transporting Jessica Roach across a state line for sexual gratification — and sentenced to life. **There is no homicide conviction.**
+- **Cause of death was never determined.** The body was recovered six weeks later and had been severely damaged by farm machinery.
+- There was **no physical evidence** connecting anyone to the offence.
+- The case rested on a confession obtained over roughly **17 hours of interrogation across two sessions**, handwritten by an FBI agent and signed by Hall. There were **no notes, no audio and no video** of the interrogation.
+- The Seventh Circuit itemised specific reliability problems: Hall "knew" the victim was strangled, though no cause of death could be established; his apparent knowledge of the body's location tracked the fact that the questioning officer was from that area; the statement contained nothing genuinely incriminating that investigators did not already have.
+- The 1996 panel **vacated the conviction and ordered a new trial**, holding that expert testimony on false confessions — Ofshe on coercive interrogation, Traugott on Hall's suggestibility — had been wrongly excluded.
+- Hall was retried, convicted again, and the 1999 panel affirmed. On remand the false-confession expert evidence was admitted after a proper *Daubert* analysis, and the jury convicted anyway.
+- The defence theory throughout was that Hall's personality made him "pathologically eager to please" interrogators. He also sought to introduce statements by two other named men implicating them; that evidence was excluded.
+
+Why this matters for the dataset: Hall is routinely described as one of the most prolific offenders in American history, with forty to fifty victims. **No agency has published such an attribution, and the record contains one conviction, for kidnapping, with no established cause of death.** A dataset that recorded him as a serial killer with forty-plus victims would be asserting, as fact, exactly what a federal appellate court held required expert scrutiny before a jury could even evaluate it.
+
+He is therefore in `index/quarantine.csv` as a category mismatch, not on the offender roster. That is a statement about what the evidentiary record supports, not a claim that he is innocent.
+
+**A note on sources.** The widely circulated details — carved wooden falcons marking grave sites on a map, the emotional arc of the informant operation — come from a television dramatisation, not from the record. They are inadmissible here at any tier. This case is the reason `scripts/validate.py` rejects dramatisations by pattern.
+
 ---
 
 ## Wrongful conviction through investigative tunnel

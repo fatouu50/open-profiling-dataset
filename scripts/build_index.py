@@ -28,7 +28,6 @@ ROSTER = [
     # --- United States -----------------------------------------------------
     ("USA-001-BUNDY",      "Theodore Robert Bundy",        "USA", "", "serial", "in_progress"),
     ("USA-002-RIDGWAY",    "Gary Leon Ridgway",            "USA", "Green River Killer", "serial", "in_progress"),
-    ("USA-003-HALL",       "Larry DeWayne Hall",           "USA", "", "serial", "stub"),
     ("USA-004-DEANGELO",   "Joseph James DeAngelo",        "USA", "Golden State Killer", "serial", "stub"),
     ("USA-005-GACY",       "John Wayne Gacy",              "USA", "", "serial", "stub"),
     ("USA-006-RADER",      "Dennis Lynn Rader",            "USA", "BTK", "serial", "stub"),
@@ -252,6 +251,14 @@ QUARANTINE = [
     ("Roch Thériault", "Canada", "category-mismatch", "Cult leader; one murder conviction."),
     ("Majid Kavousifard", "Iran", "category-mismatch", "Single political assassination."),
     ("Thug Behram", "India", "unreliable-record", "Semi-legendary 19th-century figure; attributed counts have no evidentiary basis."),
+
+    ("Larry DeWayne Hall", "USA", "category-mismatch",
+     "No homicide conviction. Convicted of kidnapping under 18 U.S.C. 1201(a)(1) (United States v. Hall, "
+     "93 F.3d 1337 (7th Cir. 1996); 165 F.3d 1095 (7th Cir. 1999)); life sentence, affirmed 1999. Cause of "
+     "death was never established. Fails inclusion criteria 2 (homicide conviction) and 3 (two or more "
+     "victims). The homicide attributions rest on interrogation statements whose reliability the Seventh "
+     "Circuit found required expert examination. See docs/investigative-failures.md. NOT an exoneration: "
+     "the kidnapping conviction stands."),
 
     ("Macario Alcalá Canchola", "Mexico", "needs-verification", "Not corroborated during audit."),
     ("Jeong Du-yeong", "South Korea", "needs-verification", "Possibly a corruption of Jeong Nam-gyu."),

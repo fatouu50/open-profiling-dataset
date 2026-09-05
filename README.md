@@ -2,7 +2,7 @@
 
 A structured, source-traceable dataset of adjudicated serial homicide cases, built for criminological and computational research.
 
-**Status:** `v0.1.0-alpha` — schema stable, 1 of 157 profiles populated. Not yet suitable for analysis.
+**Status:** `v0.1.0-alpha` — schema stable, 2 of 156 profiles populated. Not yet suitable for analysis.
 
 ---
 
@@ -99,8 +99,8 @@ Every claim is an object:
 │   ├── USA-001-BUNDY.json       Reference profile — the source of truth
 │   └── USA-001-BUNDY.md         Human-readable report — GENERATED, never edited
 ├── index/
-│   ├── roster.csv               157 cleared subjects
-│   ├── quarantine.csv           32 excluded, each with a reason
+│   ├── roster.csv               156 cleared subjects
+│   ├── quarantine.csv           33 excluded, each with a reason
 │   └── unsolved-cases.csv       5 cases with no identified offender
 ├── docs/
 │   ├── roster-audit.md          The provenance review. Read this first.
