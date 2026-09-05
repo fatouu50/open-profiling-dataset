@@ -14,7 +14,13 @@ Documents produced by the legal or investigative process itself.
 - Government statistical publications
 - Prison and corrections records
 
+- Official statements by a prosecuting or investigating agency (District Attorney and Attorney General news releases, police and sheriff statements)
+
 Cite these in a form a reader can retrieve. A reporter citation, a docket number, or an archive reference — not "court records".
+
+**On prosecutorial news releases.** These are tier 1 for the facts of a proceeding — the counts pleaded to, the dates, the sentence imposed, the agencies involved — because the prosecuting office is a party to the proceeding and is stating its own record. They are **not** neutral for characterisation, motive, or the significance of the case: a press release is also an advocacy document, written to explain a decision the office made. Cite it for what happened; do not adopt its framing of why.
+
+The `USA-004-DEANGELO` record is built almost entirely from six District Attorneys' releases, which is why its conviction data is unusually firm and its behavioural fields are unusually sparse. That asymmetry is honest: the releases state precisely what was charged and nothing about scene detail.
 
 ### Tier 2 — Peer-reviewed literature
 

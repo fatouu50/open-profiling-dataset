@@ -1,0 +1,563 @@
+{
+  "id": "USA-004-DEANGELO",
+  "schema_version": "0.1.0",
+  "record_status": "in_progress",
+
+  "provenance": {
+    "created": "2026-09-05",
+    "last_reviewed": "2026-09-05",
+    "contributors": ["maintainer"],
+    "ai_assisted": true
+  },
+
+  "identity": {
+    "legal_name": {
+      "value": "Joseph James DeAngelo Jr.",
+      "confidence": "established",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Orange County District Attorney. News release: Joseph James DeAngelo Jr. Pleads Guilty to 13 Murders, 13 Kidnappings and Dozens of Additional Uncharged Crimes. 29 June 2020.",
+          "url": "https://ocdistrictattorney.gov/press/joseph-james-deangelo-jr-pleads-guilty-to-13-murders-13-kidnappings-and-dozens-of-additional-uncharged-crimes/"
+        },
+        {
+          "tier": 1,
+          "citation": "Orange County District Attorney. News release: Joseph James DeAngelo Jr. Sentenced to 11 Consecutive Life Terms Without the Possibility of Parole. 21 August 2020.",
+          "url": "https://ocdistrictattorney.gov/press/joseph-james-deangelo-jr-sentenced-to-11-consecutive-life-terms-without-the-possibility-of-parole-for-13-murders-and-an-additional-consecutive-life-term-for-13-kidnappings/"
+        }
+      ]
+    },
+    "aliases": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "No documented aliases located. He offended under his own identity while holding public employment under it."
+    },
+    "media_epithet": {
+      "value": ["Golden State Killer", "East Area Rapist", "Original Night Stalker", "Visalia Ransacker"],
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Orange County District Attorney. News release: Joseph James DeAngelo Jr. Sentenced to 11 Consecutive Life Terms Without the Possibility of Parole. 21 August 2020.",
+          "url": "https://ocdistrictattorney.gov/press/joseph-james-deangelo-jr-sentenced-to-11-consecutive-life-terms-without-the-possibility-of-parole-for-13-murders-and-an-additional-consecutive-life-term-for-13-kidnappings/"
+        }
+      ],
+      "notes": "Analytically significant rather than merely decorative: the multiple epithets record that investigators treated these as separate offenders for decades. The series were linked to one another before they were linked to a name."
+    },
+    "birth_date": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "Commonly given as 8 November 1945. No record retrieved and the prosecutorial releases do not state it. Not asserted."
+    },
+    "birth_place": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "Commonly given as Bath, New York. No record retrieved."
+    },
+    "death_date": null,
+    "judicial_status": {
+      "value": "Incarcerated. Convicted on guilty plea of 13 counts of first-degree murder with special circumstances and 13 counts of kidnapping to commit robbery. Sentenced 21 August 2020.",
+      "confidence": "established",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Orange County District Attorney. News release: Joseph James DeAngelo Jr. Sentenced to 11 Consecutive Life Terms Without the Possibility of Parole. 21 August 2020.",
+          "url": "https://ocdistrictattorney.gov/press/joseph-james-deangelo-jr-sentenced-to-11-consecutive-life-terms-without-the-possibility-of-parole-for-13-murders-and-an-additional-consecutive-life-term-for-13-kidnappings/"
+        },
+        {
+          "tier": 1,
+          "citation": "Contra Costa County District Attorney. News release: Joseph DeAngelo Jr. Pleads Guilty to 13 Murders, 13 Kidnappings & Uncharged Crimes. 29 June 2020.",
+          "url": "https://www.contracosta.ca.gov/CivicAlerts.aspx?AID=2331&ARC=8982"
+        }
+      ]
+    }
+  },
+
+  "conviction_record": {
+    "convictions": {
+      "value": [
+        {
+          "charge": "13 counts of first-degree murder with special circumstance allegations",
+          "jurisdiction": "California — jointly prosecuted by Contra Costa, Orange, Sacramento, Santa Barbara, Tulare and Ventura counties",
+          "date": "2020-06-29",
+          "disposition": "Guilty plea; 11 consecutive life terms without possibility of parole, imposed 21 August 2020"
+        },
+        {
+          "charge": "13 felony counts of kidnapping to commit robbery",
+          "jurisdiction": "California, same joint prosecution",
+          "date": "2020-06-29",
+          "disposition": "Guilty plea; one further consecutive life term, plus eight years for weapon enhancements"
+        }
+      ],
+      "confidence": "established",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Orange County District Attorney. News release: Joseph James DeAngelo Jr. Pleads Guilty to 13 Murders, 13 Kidnappings and Dozens of Additional Uncharged Crimes. 29 June 2020.",
+          "url": "https://ocdistrictattorney.gov/press/joseph-james-deangelo-jr-pleads-guilty-to-13-murders-13-kidnappings-and-dozens-of-additional-uncharged-crimes/"
+        },
+        {
+          "tier": 1,
+          "citation": "Orange County District Attorney. News release: Joseph James DeAngelo Jr. Sentenced to 11 Consecutive Life Terms Without the Possibility of Parole. 21 August 2020.",
+          "url": "https://ocdistrictattorney.gov/press/joseph-james-deangelo-jr-sentenced-to-11-consecutive-life-terms-without-the-possibility-of-parole-for-13-murders-and-an-additional-consecutive-life-term-for-13-kidnappings/"
+        }
+      ],
+      "notes": "Homicide victims named in the charging documents: Claude Snelling (Tulare, 1975); Katie and Brian Maggiore (Sacramento, 1978); Debra Alexandria Manning and Robert Offerman (Santa Barbara, 1979); Charlene and Lyman Smith (Ventura, 1980); Keith and Patrice Harrington (Orange, 1980); Manuela Witthuhn (Orange, 1981); Cheri Domingo and Greg Sanchez (Santa Barbara, 1981); Janelle Cruz (Orange, 1986)."
+    },
+    "confirmed_victim_count": {
+      "value": 13,
+      "confidence": "established",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Orange County District Attorney. News release: Joseph James DeAngelo Jr. Sentenced to 11 Consecutive Life Terms Without the Possibility of Parole. 21 August 2020.",
+          "url": "https://ocdistrictattorney.gov/press/joseph-james-deangelo-jr-sentenced-to-11-consecutive-life-terms-without-the-possibility-of-parole-for-13-murders-and-an-additional-consecutive-life-term-for-13-kidnappings/"
+        },
+        {
+          "tier": 1,
+          "citation": "Contra Costa County District Attorney. News release: Joseph DeAngelo Jr. Pleads Guilty to 13 Murders, 13 Kidnappings & Uncharged Crimes. 29 June 2020.",
+          "url": "https://www.contracosta.ca.gov/CivicAlerts.aspx?AID=2331&ARC=8982"
+        }
+      ],
+      "notes": "Homicide convictions only. The much larger body of sexual offending is recorded under attributed_victim_count, because it was admitted and accepted by the prosecuting agencies but could not be charged."
+    },
+    "attributed_victim_count": {
+      "value": 61,
+      "confidence": "established",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Orange County District Attorney. News release: Joseph James DeAngelo Jr. Pleads Guilty to 13 Murders, 13 Kidnappings and Dozens of Additional Uncharged Crimes. 29 June 2020.",
+          "url": "https://ocdistrictattorney.gov/press/joseph-james-deangelo-jr-pleads-guilty-to-13-murders-13-kidnappings-and-dozens-of-additional-uncharged-crimes/"
+        },
+        {
+          "tier": 1,
+          "citation": "Orange County District Attorney. News release: Joseph James DeAngelo Jr. Sentenced to 11 Consecutive Life Terms Without the Possibility of Parole. 21 August 2020.",
+          "url": "https://ocdistrictattorney.gov/press/joseph-james-deangelo-jr-sentenced-to-11-consecutive-life-terms-without-the-possibility-of-parole-for-13-murders-and-an-additional-consecutive-life-term-for-13-kidnappings/"
+        }
+      ],
+      "notes": "61 additional victims of 161 uncharged offences — attempted murder, kidnapping to commit robbery, rape, robbery, first-degree burglary, false imprisonment and criminal threats — admitted in open court and set out by six prosecuting agencies. This is the rare case where an attribution figure carries genuine agency provenance: it was stated by named District Attorneys in official releases, as part of a negotiated disposition, not derived from press synthesis. It is NOT a homicide count and must never be added to confirmed_victim_count."
+    },
+    "claimed_victim_count": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "No separate offender-claimed total distinct from the admissions recorded in the plea. Unlike USA-002-RIDGWAY, where self-report and agency attribution diverge, here the admissions were made in court and adopted by the prosecuting agencies, so they belong in attributed_victim_count."
+    },
+    "estimate_provenance": {
+      "value": "The counts in this record derive entirely from the joint prosecution's own published accounting. No higher figure from press synthesis is recorded.",
+      "confidence": "established",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Orange County District Attorney. News release: Joseph James DeAngelo Jr. Pleads Guilty to 13 Murders, 13 Kidnappings and Dozens of Additional Uncharged Crimes. 29 June 2020.",
+          "url": "https://ocdistrictattorney.gov/press/joseph-james-deangelo-jr-pleads-guilty-to-13-murders-13-kidnappings-and-dozens-of-additional-uncharged-crimes/"
+        },
+        {
+          "tier": 1,
+          "citation": "Contra Costa County District Attorney. News release: Joseph DeAngelo Jr. Pleads Guilty to 13 Murders, 13 Kidnappings & Uncharged Crimes. 29 June 2020.",
+          "url": "https://www.contracosta.ca.gov/CivicAlerts.aspx?AID=2331&ARC=8982"
+        }
+      ]
+    }
+  },
+
+  "offence_period": {
+    "first_known_offence": {
+      "value": "1975-09-11",
+      "confidence": "established",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Orange County District Attorney. News release: Joseph James DeAngelo Jr. Pleads Guilty to 13 Murders, 13 Kidnappings and Dozens of Additional Uncharged Crimes. 29 June 2020.",
+          "url": "https://ocdistrictattorney.gov/press/joseph-james-deangelo-jr-pleads-guilty-to-13-murders-13-kidnappings-and-dozens-of-additional-uncharged-crimes/"
+        },
+        {
+          "tier": 1,
+          "citation": "Contra Costa County District Attorney. News release: Joseph DeAngelo Jr. Pleads Guilty to 13 Murders, 13 Kidnappings & Uncharged Crimes. 29 June 2020.",
+          "url": "https://www.contracosta.ca.gov/CivicAlerts.aspx?AID=2331&ARC=8982"
+        }
+      ],
+      "notes": "Earliest charged homicide: Claude Snelling, Tulare County. A burglary series in the same area preceded it. This is the earliest charged offence, not necessarily the earliest offence."
+    },
+    "last_known_offence": {
+      "value": "1986-05-05",
+      "confidence": "established",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Orange County District Attorney. News release: Joseph James DeAngelo Jr. Pleads Guilty to 13 Murders, 13 Kidnappings and Dozens of Additional Uncharged Crimes. 29 June 2020.",
+          "url": "https://ocdistrictattorney.gov/press/joseph-james-deangelo-jr-pleads-guilty-to-13-murders-13-kidnappings-and-dozens-of-additional-uncharged-crimes/"
+        },
+        {
+          "tier": 1,
+          "citation": "Orange County District Attorney. News release: Joseph James DeAngelo Jr. Sentenced to 11 Consecutive Life Terms Without the Possibility of Parole. 21 August 2020.",
+          "url": "https://ocdistrictattorney.gov/press/joseph-james-deangelo-jr-sentenced-to-11-consecutive-life-terms-without-the-possibility-of-parole-for-13-murders-and-an-additional-consecutive-life-term-for-13-kidnappings/"
+        }
+      ],
+      "notes": "Final charged homicide: Janelle Cruz, Orange County. He then stopped, and lived without further known offending for over three decades before identification. Desistance of this kind is under-theorised and this case is one of the few where it is documented against a firm terminal date."
+    },
+    "jurisdictions": {
+      "value": [
+        "Contra Costa", "Orange", "Sacramento", "Santa Barbara", "Tulare", "Ventura",
+        "Alameda", "San Joaquin", "Santa Clara", "Stanislaus", "Yolo"
+      ],
+      "confidence": "established",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Orange County District Attorney. News release: Joseph James DeAngelo Jr. Sentenced to 11 Consecutive Life Terms Without the Possibility of Parole. 21 August 2020.",
+          "url": "https://ocdistrictattorney.gov/press/joseph-james-deangelo-jr-sentenced-to-11-consecutive-life-terms-without-the-possibility-of-parole-for-13-murders-and-an-additional-consecutive-life-term-for-13-kidnappings/"
+        },
+        {
+          "tier": 1,
+          "citation": "Contra Costa County District Attorney. News release: Joseph DeAngelo Jr. Pleads Guilty to 13 Murders, 13 Kidnappings & Uncharged Crimes. 29 June 2020.",
+          "url": "https://www.contracosta.ca.gov/CivicAlerts.aspx?AID=2331&ARC=8982"
+        }
+      ],
+      "notes": "Eleven California counties. Six jointly prosecuted; offences also occurred in the other five."
+    }
+  },
+
+  "background": {
+    "family_structure": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "No contemporaneous record retrieved. Childhood accounts circulating in secondary literature are not entered."
+    },
+    "education": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "A criminal justice qualification is commonly reported; no record retrieved."
+    },
+    "employment_history": {
+      "value": "Police officer. Joined the Exeter Police Department in 1975. Dismissed from the Auburn Police Department in 1979. Later employed as a mechanic.",
+      "confidence": "established",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Orange County District Attorney. News release: Joseph James DeAngelo Jr. Pleads Guilty to 13 Murders, 13 Kidnappings and Dozens of Additional Uncharged Crimes. 29 June 2020.",
+          "url": "https://ocdistrictattorney.gov/press/joseph-james-deangelo-jr-pleads-guilty-to-13-murders-13-kidnappings-and-dozens-of-additional-uncharged-crimes/"
+        },
+        {
+          "tier": 1,
+          "citation": "Contra Costa County District Attorney. News release: Joseph DeAngelo Jr. Pleads Guilty to 13 Murders, 13 Kidnappings & Uncharged Crimes. 29 June 2020.",
+          "url": "https://www.contracosta.ca.gov/CivicAlerts.aspx?AID=2331&ARC=8982"
+        }
+      ],
+      "notes": "The single most consequential fact in this record. He joined Exeter PD in 1975 — the same year and the same county as the Snelling homicide — and was a serving officer through the early years of the offending. Compare USA-002-RIDGWAY, where the occupational fact that mattered was three decades of stable shift work. Here it is warrant card access to the institution investigating him."
+    },
+    "military_service": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "Naval service is commonly reported; no service record retrieved."
+    },
+    "documented_head_injury": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "No medical documentation located."
+    },
+    "macdonald_triad": {
+      "enuresis": {
+        "value": null,
+        "confidence": "unverified",
+        "sources": [],
+        "notes": "No documentation located. NOTE: the triad is not a predictor of violence — see the schema field description."
+      },
+      "firesetting": {
+        "value": null,
+        "confidence": "unverified",
+        "sources": [],
+        "notes": "No documentation located."
+      },
+      "animal_cruelty": {
+        "value": null,
+        "confidence": "unverified",
+        "sources": [],
+        "notes": "No documentation located."
+      }
+    }
+  },
+
+  "clinical": {
+    "formal_diagnoses": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "He pleaded guilty; no psychiatric evidence was adjudicated and no court-adopted diagnosis exists."
+    },
+    "competency_findings": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "Competency was raised in reporting around his courtroom presentation but no finding has been retrieved."
+    },
+    "psychometric_results": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "No assessment located. Unlike Bundy and Ridgway, no IQ figure circulates widely for this subject — which is itself worth noting: the absence of a number means no narrative has been built on one."
+    },
+    "commentary_attributions": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "Diagnostic labels applied in secondary commentary have not been catalogued for this record."
+    }
+  },
+
+  "offence_behaviour": {
+    "victim_selection": {
+      "value": "Offences occurred in private residences in suburban residential areas. The access condition exploited was domestic: entry to occupied homes at night, in neighbourhoods where residents did not expect it.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Contra Costa County District Attorney. News release: Joseph DeAngelo Jr. Pleads Guilty to 13 Murders, 13 Kidnappings & Uncharged Crimes. 29 June 2020.",
+          "url": "https://www.contracosta.ca.gov/CivicAlerts.aspx?AID=2331&ARC=8982"
+        }
+      ],
+      "notes": "Recorded as an access condition, not as a characteristic of those targeted. Note the contrast with USA-002-RIDGWAY: there the victim class was one the institutions disregarded, and detection was delayed by that neglect. Here the victims were the class institutions most readily mobilise for, and detection still took 32 years — because the technology did not exist."
+    },
+    "approach_method": {
+      "value": "Night-time entry to occupied homes, with binding of occupants.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Orange County District Attorney. News release: Joseph James DeAngelo Jr. Pleads Guilty to 13 Murders, 13 Kidnappings and Dozens of Additional Uncharged Crimes. 29 June 2020.",
+          "url": "https://ocdistrictattorney.gov/press/joseph-james-deangelo-jr-pleads-guilty-to-13-murders-13-kidnappings-and-dozens-of-additional-uncharged-crimes/"
+        }
+      ],
+      "notes": "Recorded at the level the prosecutorial record supports. Detailed reconstructions in secondary literature are not entered."
+    },
+    "spatial_pattern": {
+      "value": "Commuter",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 2,
+          "citation": "Canter, David and Paul Larkin. 'The Environmental Range of Serial Rapists.' Journal of Environmental Psychology 13(1), 1993, 63-69."
+        }
+      ],
+      "notes": "Coded commuter on the basis of offending across eleven counties spanning the length of California, with successive relocations. Maintainer coding applying the Canter & Larkin framework, not a source-attested fact. Compare USA-001-BUNDY (commuter) and USA-002-RIDGWAY (marauder)."
+    },
+    "weapon_or_method": {
+      "value": "Firearm and blunt force; ligature binding of victims.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Orange County District Attorney. News release: Joseph James DeAngelo Jr. Sentenced to 11 Consecutive Life Terms Without the Possibility of Parole. 21 August 2020.",
+          "url": "https://ocdistrictattorney.gov/press/joseph-james-deangelo-jr-sentenced-to-11-consecutive-life-terms-without-the-possibility-of-parole-for-13-murders-and-an-additional-consecutive-life-term-for-13-kidnappings/"
+        }
+      ],
+      "notes": "Weapon enhancements of eight years were imposed, establishing firearm use judicially."
+    },
+    "signature_behaviour": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "Recurring non-functional conduct is described extensively in secondary literature and in survivor accounts. It has not been entered here because the prosecutorial releases do not itemise it and no scene documentation has been retrieved. A contributor with access to the charging documents or case files should populate this from them — it is one of the few subjects in the dataset where a properly sourced signature entry is likely achievable."
+    },
+    "post_offence_behaviour": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "Not established from retrieved sources."
+    },
+    "forensic_countermeasures": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "Not established from retrieved sources. Note that biological evidence was recovered and retained — it is what ultimately identified him — so whatever countermeasures were used did not extend to that."
+    },
+    "motive_classification": {
+      "value": "Power/control, per Holmes & Holmes",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 3,
+          "citation": "Holmes, Ronald M. and Stephen T. Holmes. Profiling Violent Crimes: An Investigative Tool. Thousand Oaks CA: Sage Publications."
+        },
+        {
+          "tier": 2,
+          "citation": "Canter, David V., Laurence J. Alison, Emily Alison and Natalia Wentink. 'The Organized/Disorganized Typology of Serial Murder: Myth or Model?' Psychology, Public Policy, and Law 10(3), 2004, 293-320."
+        }
+      ],
+      "notes": "Maintainer coding, not a source-attested fact. The framework is cited as the instrument applied, Canter et al. (2004) as the standing methodological caution on typologies of this family. Coded from the sustained restraint and control of multiple occupants recorded in the kidnapping convictions. Contributors coding this case differently should record the disagreement rather than overwrite."
+    }
+  },
+
+  "investigation": {
+    "detection_delay_factors": {
+      "value": "Thirty-two years elapsed between the final charged homicide and identification. The delay is not explained by linkage blindness: the offence series were linked to one another well before they were linked to a person, and the multiple press epithets record the successive stages of that linkage. The binding constraint was that no method existed to convert retained biological evidence into an identification when the offender was not himself in a criminal DNA database.",
+      "confidence": "established",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Orange County District Attorney. News release: Joseph James DeAngelo Jr. Sentenced to 11 Consecutive Life Terms Without the Possibility of Parole. 21 August 2020.",
+          "url": "https://ocdistrictattorney.gov/press/joseph-james-deangelo-jr-sentenced-to-11-consecutive-life-terms-without-the-possibility-of-parole-for-13-murders-and-an-additional-consecutive-life-term-for-13-kidnappings/"
+        },
+        {
+          "tier": 2,
+          "citation": "Kennett, Debbie. 'Using genetic genealogy databases in missing persons cases and to develop suspect leads in violent crimes.' Forensic Science International 301, 2019, 107-117."
+        }
+      ],
+      "notes": "This case, Ridgway and Bundy give the dataset three distinct delay mechanisms: absent technology here, institutional neglect and forensic limits in Ridgway, jurisdictional fragmentation in Bundy. They should not be collapsed into a single 'linkage blindness' explanation."
+    },
+    "identifying_evidence": {
+      "value": "Identified in April 2018 by investigative genetic genealogy: crime-scene DNA was compared against a public consumer genealogy database to locate distant relatives, from whom a family tree was constructed to a candidate, who was then confirmed by direct comparison.",
+      "confidence": "established",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Orange County District Attorney. News release: Joseph James DeAngelo Jr. Sentenced to 11 Consecutive Life Terms Without the Possibility of Parole. 21 August 2020.",
+          "url": "https://ocdistrictattorney.gov/press/joseph-james-deangelo-jr-sentenced-to-11-consecutive-life-terms-without-the-possibility-of-parole-for-13-murders-and-an-additional-consecutive-life-term-for-13-kidnappings/"
+        },
+        {
+          "tier": 2,
+          "citation": "Greytak, Ellen M., CeCe Moore and Steven L. Armentrout. 'Genetic genealogy for cold case and active investigations.' Forensic Science International 299, 2019, 103-113."
+        }
+      ],
+      "notes": "This was the case that made the technique widely known and drove its adoption across US cold-case work."
+    },
+    "forensic_methods_used": {
+      "value": "Investigative genetic genealogy (IGG), followed by direct DNA comparison for confirmation.",
+      "confidence": "established",
+      "sources": [
+        {
+          "tier": 2,
+          "citation": "Greytak, Ellen M., CeCe Moore and Steven L. Armentrout. 'Genetic genealogy for cold case and active investigations.' Forensic Science International 299, 2019, 103-113."
+        },
+        {
+          "tier": 2,
+          "citation": "Kennett, Debbie. 'Using genetic genealogy databases in missing persons cases and to develop suspect leads in violent crimes.' Forensic Science International 301, 2019, 107-117."
+        }
+      ],
+      "notes": "IMPORTANT DISTINCTION. IGG is contested on privacy and governance grounds, not on grounds of reliability. Erlich et al. (2018) showed that long-range familial search could identify a majority of individuals of European descent in the United States from third-cousin matches, and Guerrini et al. (2018) set out the consent and governance problems: the people whose data enable an identification did not upload it for that purpose and are not suspects. That is an ethical and regulatory objection. It is NOT the objection that applies to bite-mark comparison or polygraphy, which is that they do not work. Conflating the two is a category error, and this record deliberately does not place IGG in method_now_disputed."
+    },
+    "method_now_disputed": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "No technique relied on in this conviction has been found scientifically unreliable. The field is null by design and the reasoning is recorded in forensic_methods_used — a contested method is not the same thing as a discredited one."
+    },
+    "arrest": {
+      "value": "Arrested April 2018 in Sacramento County, California.",
+      "confidence": "established",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Orange County District Attorney. News release: Joseph James DeAngelo Jr. Sentenced to 11 Consecutive Life Terms Without the Possibility of Parole. 21 August 2020.",
+          "url": "https://ocdistrictattorney.gov/press/joseph-james-deangelo-jr-sentenced-to-11-consecutive-life-terms-without-the-possibility-of-parole-for-13-murders-and-an-additional-consecutive-life-term-for-13-kidnappings/"
+        },
+        {
+          "tier": 2,
+          "citation": "Kennett, Debbie. 'Using genetic genealogy databases in missing persons cases and to develop suspect leads in violent crimes.' Forensic Science International 301, 2019, 107-117."
+        }
+      ]
+    }
+  },
+
+  "adjudication": {
+    "interrogation_method": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "No interrogation record retrieved. The disposition rested on physical evidence and a negotiated plea, not on admissions obtained under questioning."
+    },
+    "confession_reliability": {
+      "value": "High relative to the rest of this dataset. Admissions were made in open court under a negotiated plea, itemised by six prosecuting agencies, and rest on a case built from retained biological evidence rather than on the admissions themselves.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Orange County District Attorney. News release: Joseph James DeAngelo Jr. Pleads Guilty to 13 Murders, 13 Kidnappings and Dozens of Additional Uncharged Crimes. 29 June 2020.",
+          "url": "https://ocdistrictattorney.gov/press/joseph-james-deangelo-jr-pleads-guilty-to-13-murders-13-kidnappings-and-dozens-of-additional-uncharged-crimes/"
+        }
+      ],
+      "notes": "Deliberate contrast with USA-003-HALL, where admissions were the case, were unrecorded, and were recanted. Here the identification preceded the admissions and did not depend on them. That ordering is what makes the attribution figure usable."
+    },
+    "trial_outcome": {
+      "value": "No trial. Guilty plea entered 29 June 2020 under an agreement removing the death penalty from consideration.",
+      "confidence": "established",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Orange County District Attorney. News release: Joseph James DeAngelo Jr. Pleads Guilty to 13 Murders, 13 Kidnappings and Dozens of Additional Uncharged Crimes. 29 June 2020.",
+          "url": "https://ocdistrictattorney.gov/press/joseph-james-deangelo-jr-pleads-guilty-to-13-murders-13-kidnappings-and-dozens-of-additional-uncharged-crimes/"
+        },
+        {
+          "tier": 1,
+          "citation": "Contra Costa County District Attorney. News release: Joseph DeAngelo Jr. Pleads Guilty to 13 Murders, 13 Kidnappings & Uncharged Crimes. 29 June 2020.",
+          "url": "https://www.contracosta.ca.gov/CivicAlerts.aspx?AID=2331&ARC=8982"
+        }
+      ],
+      "notes": "The prosecution stated that the case involved more than 1.3 million pages of discovery and that a trial would have taken roughly ten years. The plea was justified publicly as sparing victims that process while securing admissions to offences that could no longer be charged."
+    },
+    "sentence": {
+      "value": "Eleven consecutive life terms without possibility of parole for the 13 murder counts, one further consecutive life term for the 13 kidnapping counts, and eight years for weapon enhancements. Imposed 21 August 2020.",
+      "confidence": "established",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Orange County District Attorney. News release: Joseph James DeAngelo Jr. Sentenced to 11 Consecutive Life Terms Without the Possibility of Parole. 21 August 2020.",
+          "url": "https://ocdistrictattorney.gov/press/joseph-james-deangelo-jr-sentenced-to-11-consecutive-life-terms-without-the-possibility-of-parole-for-13-murders-and-an-additional-consecutive-life-term-for-13-kidnappings/"
+        },
+        {
+          "tier": 1,
+          "citation": "Contra Costa County District Attorney. News release: Joseph DeAngelo Jr. Pleads Guilty to 13 Murders, 13 Kidnappings & Uncharged Crimes. 29 June 2020.",
+          "url": "https://www.contracosta.ca.gov/CivicAlerts.aspx?AID=2331&ARC=8982"
+        }
+      ]
+    },
+    "appellate_history": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "Guilty plea under a negotiated agreement; no appellate history retrieved."
+    },
+    "disposition": {
+      "value": "Incarcerated in the California correctional system.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Orange County District Attorney. News release: Joseph James DeAngelo Jr. Sentenced to 11 Consecutive Life Terms Without the Possibility of Parole. 21 August 2020.",
+          "url": "https://ocdistrictattorney.gov/press/joseph-james-deangelo-jr-sentenced-to-11-consecutive-life-terms-without-the-possibility-of-parole-for-13-murders-and-an-additional-consecutive-life-term-for-13-kidnappings/"
+        }
+      ],
+      "notes": "Facility should be cited from a current Department of Corrections record if it matters analytically."
+    }
+  },
+
+  "data_quality": {
+    "known_gaps": [
+      "No court docket numbers recorded; the plea and judgment are cited through official prosecutorial releases rather than the filings themselves.",
+      "Birth date and place not asserted — no record retrieved.",
+      "No psychometric assessment or adjudicated diagnosis exists.",
+      "Signature behaviour is null despite being extensively described in secondary literature; the charging documents have not been retrieved.",
+      "The period of desistance between 1986 and 2018 is not documented here beyond the terminal offence date.",
+      "The 161 uncharged offences are recorded as a total; they are not itemised."
+    ],
+    "contested_points": [
+      "Whether investigative genetic genealogy should be permissible at all — a live governance dispute, not a reliability dispute.",
+      "Whether the plea agreement served victims or foreclosed a public accounting; both positions were argued at the time."
+    ],
+    "excluded_material": [
+      "Names of the 61 uncharged-offence victims. Most are living survivors of sexual offences and are never named in this dataset.",
+      "Graphic description of offences, excluded under ETHICS.md.",
+      "Detailed scene reconstructions from secondary literature not supported by the prosecutorial record.",
+      "Childhood aetiologies circulating in commentary with no contemporaneous source.",
+      "Language framing him as having 'outwitted' investigators: the record shows the series was linked early and the constraint was technological."
+    ]
+  }
+}

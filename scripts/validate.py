@@ -146,7 +146,13 @@ def check_source(src, where, problems, path):
             r"|\bopinion\b|\baffidavit\b|\bdeposition\b|\bwarrant\b"
             r"|\brecord\b|\breport\b|\bcommission\b|\bbureau\b|\bministry\b"
             r"|\bdepartment\b|\bcoroner\b|\binquest\b|\bnational (?:research|academies)\b"
-            r"|\bcouncil\b|\bprogramme? documentation\b|\bcensus\b|\bstatistics\b)",
+            r"|\bcouncil\b|\bprogramme? documentation\b|\bcensus\b|\bstatistics\b"
+            # Official statements by a prosecuting or investigating agency.
+            # Authoritative for counts, dates and dispositions; see
+            # docs/sourcing-policy.md on their limits as advocacy documents.
+            r"|\bdistrict attorney\b|\battorney general\b|\bprosecutor\b"
+            r"|\bnews release\b|\bpress release\b|\bsheriff\b|\bconstabulary\b"
+            r"|\bprocureur\b|\bparquet\b|\bstaatsanwaltschaft\b)",
             citation, re.I))
         if not looks_like_record:
             problems.append(Problem(
