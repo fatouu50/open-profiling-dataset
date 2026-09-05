@@ -153,6 +153,6 @@ Code: MIT. Data: CC BY 4.0. See [`LICENSE`](LICENSE).
   title  = {Open Profiling Dataset},
   year   = {2026},
   note   = {Version 0.1.0-alpha},
-  url    = {https://github.com/OWNER/open-profiling-dataset}
+  url    = {https://github.com/fatouu50/open-profiling-dataset}
 }
 ```

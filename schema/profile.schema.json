@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/OWNER/open-profiling-dataset/schema/profile.schema.json",
+  "$id": "https://github.com/fatouu50/open-profiling-dataset/schema/profile.schema.json",
   "title": "Open Profiling Dataset — Offender Profile",
   "description": "Schema for a single offender profile. Every substantive claim is a Claim object carrying its own sources and confidence level. Unsourced assertions are structurally impossible.",
   "type": "object",
