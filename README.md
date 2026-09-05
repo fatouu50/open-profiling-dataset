@@ -2,7 +2,7 @@
 
 A structured, source-traceable dataset of adjudicated serial homicide cases, built for criminological and computational research.
 
-**Status:** `v0.1.0-alpha` — schema stable, 2 of 156 profiles populated. Not yet suitable for analysis.
+**Status:** `v0.1.0-alpha` — schema stable, 2 of 156 offender profiles populated, 1 case record. Not yet suitable for analysis.
 
 ---
 
@@ -94,13 +94,18 @@ Every claim is an object:
 ├── CONTRIBUTING.md              Contribution protocol
 ├── ETHICS.md                    Victim dignity, living persons, scope limits
 ├── schema/
-│   └── profile.schema.json      JSON Schema 2020-12
-├── dataset/
-│   ├── USA-001-BUNDY.json       Reference profile — the source of truth
+│   ├── profile.schema.json      Offender profiles
+│   └── case.schema.json         Case records
+├── dataset/                     OFFENDER PROFILES — counted in aggregates
+│   ├── USA-001-BUNDY.json       The source of truth
 │   └── USA-001-BUNDY.md         Human-readable report — GENERATED, never edited
+├── cases/                       CASE RECORDS — never counted in aggregates
+│   ├── USA-003-HALL.json
+│   └── USA-003-HALL.md
 ├── index/
-│   ├── roster.csv               156 cleared subjects
-│   ├── quarantine.csv           33 excluded, each with a reason
+│   ├── roster.csv               156 offender subjects
+│   ├── cases.csv                1 case record
+│   ├── quarantine.csv           32 excluded outright, each with a reason
 │   └── unsolved-cases.csv       5 cases with no identified offender
 ├── docs/
 │   ├── roster-audit.md          The provenance review. Read this first.
@@ -113,6 +118,18 @@ Every claim is an object:
     ├── normalise_sources.py     Canonicalises citation strings
     └── build_index.py           Regenerates index/
 ```
+
+## Two kinds of record
+
+`dataset/` holds **offender profiles**: subjects with a homicide conviction meeting the criteria in [`docs/inclusion-criteria.md`](docs/inclusion-criteria.md). These are what aggregate statistics are computed from.
+
+`cases/` holds **case records**: subjects excluded from the roster who remain analytically valuable — no homicide conviction, contested confession, exoneration, unidentified offender, or a conviction resting on discredited forensics. A case record documents the **gap between what is publicly claimed and what is judicially established**. That gap is the object of study.
+
+Case records are **never counted in offender aggregates**, and the validator refuses any id that appears in both indexes.
+
+The distinction matters because the alternative corrupts the data. Larry Hall is routinely described as having forty to fifty victims; the record contains one conviction, for kidnapping, with no determinable cause of death. On the roster he would distort every statistic the dataset supports. As a case record he is fully documented — including why the figure has no provenance — and counted in nothing.
+
+A dataset containing only successful prosecutions is also selected on the outcome. `cases/` and [`docs/investigative-failures.md`](docs/investigative-failures.md) are the correction.
 
 ## Two files per subject
 
@@ -127,7 +144,7 @@ This is deliberate. A hand-written companion report drifts: it accumulates claim
 ```bash
 pip install jsonschema
 
-python3 scripts/validate.py           # schema + sourcing rules
+python3 scripts/validate.py           # both schemas + sourcing rules
 python3 scripts/normalise_sources.py  # canonicalise citations
 python3 scripts/render_md.py          # regenerate the Markdown reports
 python3 scripts/build_index.py        # regenerate index files

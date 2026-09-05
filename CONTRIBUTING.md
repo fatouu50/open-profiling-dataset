@@ -25,6 +25,18 @@ A `null` with an honest note is a **contribution**, not a gap. It tells the next
 
 Do not fill a field because it looks empty.
 
+## Profile or case record?
+
+Before writing anything, decide which you are producing.
+
+**`dataset/` — offender profile.** The subject has a homicide conviction and meets every criterion in [`docs/inclusion-criteria.md`](docs/inclusion-criteria.md). Counted in aggregates.
+
+**`cases/` — case record.** Everything else worth documenting: no homicide conviction, contested confession, exoneration, unidentified offender, conviction resting on discredited forensics, proceedings ongoing. Never counted in aggregates.
+
+If you find yourself arguing that a subject *really was* a killer despite the absence of a conviction, you are describing a case record. Write one. It is not a demotion — the case records carry the material the roster cannot hold, and `not_established` is where a contributor does the most useful work in this project.
+
+An id may appear in `index/roster.csv` or `index/cases.csv`, never both. The validator enforces it.
+
 ## Never hand-write a `.md`
 
 Each subject has a `.json` and a `.md`. The Markdown is **generated** from the JSON by `scripts/render_md.py`. Editing it directly is not a style violation — it defeats the entire design.

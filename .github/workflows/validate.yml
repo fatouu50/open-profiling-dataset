@@ -18,18 +18,18 @@ jobs:
       - name: Install dependencies
         run: pip install jsonschema
 
-      - name: Validate profiles against schema and sourcing rules
+      - name: Validate profiles and case records
         run: python3 scripts/validate.py
 
       - name: Check citation strings are normalised
         run: |
           python3 scripts/normalise_sources.py
-          if ! git diff --exit-code dataset/; then
+          if ! git diff --exit-code dataset/ cases/; then
             echo "::error::Citations are not normalised. Run scripts/normalise_sources.py and commit."
             exit 1
           fi
 
-      - name: Check Markdown reports match their JSON
+      - name: Check Markdown reports match their JSON (profiles and cases)
         run: python3 scripts/render_md.py --check
 
       - name: Check index files are in sync

@@ -22,6 +22,7 @@ import sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATASET = ROOT / "dataset"
+CASES = ROOT / "cases"
 
 BADGE = {
     "established": "**established**",
@@ -40,6 +41,18 @@ SECTIONS = [
     ("clinical", "Clinical",
      "Formal assessments only. Labels applied by commentators who never examined the subject appear under *commentary attributions* and are claims about the discourse, not about the person."),
     ("offence_behaviour", "Offence behaviour", None),
+    ("investigation", "Investigation", None),
+    ("adjudication", "Adjudication", None),
+]
+
+CASE_SECTIONS = [
+    ("identity", "Identity", None),
+    ("established", "What the record establishes",
+     "Convictions, judicial findings, physical evidence. Everything below this section is measured against it."),
+    ("not_established", "What is NOT established",
+     "Widely asserted claims that the record does not support, with the origin of each assertion named. This section is the reason the case record exists."),
+    ("confession_record", "Confession record",
+     "The circumstances of an admission determine its evidentiary weight. An unrecorded interrogation cannot be reviewed."),
     ("investigation", "Investigation", None),
     ("adjudication", "Adjudication", None),
 ]
@@ -66,6 +79,21 @@ FIELD_NOTES = {
         "Restricted to what the evidentiary record establishes. The offender's stated "
         "reasons and any inferred psychological need are **excluded** — they are "
         "unfalsifiable. A null here means the only sources were post-arrest self-report."
+    ),
+    "cause_of_death_determination": (
+        "Whether a cause of death was established **at all**. Where it was not, any "
+        "asserted method of killing is an assertion, not a finding."
+    ),
+    "victim_count_claims": (
+        "The provenance of circulating totals. **Never a count.**"
+    ),
+    "circulating_claims": (
+        "Widely repeated specifics with no evidentiary basis, named explicitly. A record "
+        "that merely omits them leaves them intact in the reader's mind."
+    ),
+    "other_suspects": (
+        "Alternative suspects raised in the proceedings. Named only where the public court "
+        "record names them — and this dataset generally declines to repeat those names."
     ),
     "motive_classification": (
         "Coding against a published typology. **Always maintainer interpretation**, never "
@@ -156,11 +184,11 @@ def render_group(key: str, node: dict, sources_index: list) -> list[str]:
     return lines
 
 
-def render(doc: dict) -> str:
+def render(doc: dict, is_case: bool = False) -> str:
     sources_index: list = []
     body: list[str] = []
 
-    for key, title, preamble in SECTIONS:
+    for key, title, preamble in (CASE_SECTIONS if is_case else SECTIONS):
         node = doc.get(key)
         if not isinstance(node, dict) or not node:
             continue
@@ -186,13 +214,39 @@ def render(doc: dict) -> str:
         f"# {name}",
         "",
         f"`{doc['id']}` · record status: **{doc.get('record_status', 'unknown')}** · "
-        f"schema {doc.get('schema_version', '?')}",
+        f"schema {doc.get('schema_version', '?')}"
+        + (f" · case type: **{doc.get('case_type', '?')}**" if is_case else ""),
         "",
         "> **This file is generated.** It is rendered from "
         f"[`{doc['id']}.json`](./{doc['id']}.json) by `scripts/render_md.py`. "
         "Do not edit it by hand — edits are overwritten, and a hand-written report can "
         "assert what the data does not support. Change the JSON, then re-render.",
-        "",
+        "",]
+
+    if is_case:
+        rat = doc.get("exclusion_rationale") or {}
+        head += [
+            "## This is a case record, not an offender profile",
+            "",
+            "This subject is **not** on the offender roster and is **never counted in "
+            "offender aggregates**.",
+            "",
+            rat.get("summary", ""),
+            "",
+            "**Inclusion criteria failed:** "
+            + ", ".join(rat.get("criteria_failed", [])) + ".",
+            "",
+        ]
+        if rat.get("not_an_exoneration"):
+            head += [
+                "> ⚠︎ **This is not an exoneration.** The subject stands convicted. "
+                "Exclusion from the offender roster is a statement about what the "
+                "evidentiary record supports, not a claim of innocence.",
+                "",
+            ]
+        head += ["---", ""]
+
+    head += [
         "### How to read this",
         "",
         "Every claim carries a confidence level:",
@@ -212,6 +266,16 @@ def render(doc: dict) -> str:
     ]
 
     tail: list[str] = []
+
+    rv = doc.get("research_value") or {}
+    if rv.get("why_recorded"):
+        tail += ["## Why this case is recorded", "", rv["why_recorded"], ""]
+        if rv.get("related_records"):
+            tail += ["Related records:", ""]
+            tail += [f"- {r}" for r in rv["related_records"]]
+            tail += [""]
+        tail += ["---", ""]
+
     dq = doc.get("data_quality") or {}
     if dq:
         tail += ["## Data quality", ""]
@@ -262,16 +326,16 @@ def render(doc: dict) -> str:
 
 def main(argv) -> int:
     check = "--check" in argv
-    files = sorted(DATASET.glob("*.json"))
+    files = sorted(DATASET.glob("*.json")) + sorted(CASES.glob("*.json"))
     if not files:
-        print("No profiles found in dataset/.")
+        print("No records found in dataset/ or cases/.")
         return 0
 
     stale = []
     for path in files:
         doc = json.loads(path.read_text(encoding="utf-8"))
         out = path.with_suffix(".md")
-        rendered = render(doc)
+        rendered = render(doc, is_case=path.parent.name == "cases")
 
         if check:
             if not out.exists() or out.read_text(encoding="utf-8") != rendered:
@@ -286,7 +350,7 @@ def main(argv) -> int:
     if check and stale:
         print(f"\n{len(stale)} file(s) out of sync. Run: python3 scripts/render_md.py")
         return 1
-    print(f"\n{len(files)} profile(s) processed.")
+    print(f"\n{len(files)} record(s) processed.")
     return 0
 
 

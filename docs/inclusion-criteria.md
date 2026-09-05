@@ -52,6 +52,14 @@ Enough documented material exists to populate identity, conviction record, and a
 
 A case where the entire published record consists of a paragraph in a list of serial killers is not ready. It goes to quarantine as `needs-verification` until someone locates the underlying documentation.
 
+## Failing a criterion is not the end of the record
+
+A subject who fails these criteria may still deserve full documentation. Since v0.1.0 the project holds those in `cases/` under [`schema/case.schema.json`](../schema/case.schema.json), with a mandatory `exclusion_rationale` naming the criteria failed.
+
+Use a case record — not quarantine — where the subject is real, the record is substantial, and the gap between public claim and judicial finding is itself worth studying. `USA-003-HALL` is the worked example: convicted of kidnapping, never charged with homicide, publicly credited with forty-plus victims that no agency has ever attributed.
+
+Quarantine remains for entries that should not be documented at all: fabrications, defamation risks, duplicates, and subjects nobody has corroborated exists.
+
 ## Quarantine
 
 Failing any condition sends an entry to [`index/quarantine.csv`](../index/quarantine.csv) with a category and a reason:

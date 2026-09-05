@@ -18,6 +18,7 @@ import re
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATASET = ROOT / "dataset"
+CASES = ROOT / "cases"
 
 # Canonical form for each work. Matching is by a distinctive substring.
 CANONICAL = [
@@ -95,7 +96,7 @@ def walk(node):
 
 
 def main() -> int:
-    for path in sorted(DATASET.glob("*.json")):
+    for path in sorted(DATASET.glob("*.json")) + sorted(CASES.glob("*.json")):
         doc = json.loads(path.read_text(encoding="utf-8"))
         before = json.dumps(doc, sort_keys=True)
         walk(doc)

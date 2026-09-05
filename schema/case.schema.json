@@ -1,0 +1,223 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/fatouu50/open-profiling-dataset/schema/case.schema.json",
+  "title": "Open Profiling Dataset — Case Record",
+  "description": "Schema for a case that does NOT meet the offender-roster inclusion criteria but is analytically valuable: no homicide conviction, contested confession, exoneration, unidentified offender, or a conviction resting on discredited forensics. Where a profile records what an offender did, a case record documents the GAP between what is publicly claimed and what is judicially established. That gap is the object of study. These records are never counted in offender aggregates.",
+  "type": "object",
+  "required": ["id", "schema_version", "record_status", "case_type", "exclusion_rationale", "identity", "provenance"],
+  "additionalProperties": false,
+
+  "$defs": {
+    "source": {
+      "type": "object",
+      "required": ["tier", "citation"],
+      "additionalProperties": false,
+      "properties": {
+        "tier": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 4,
+          "description": "1 = primary record. 2 = peer-reviewed. 3 = book-length journalism with a sourcing apparatus. 4 = contemporaneous reporting. Dramatisations, unsourced podcasts, wikis and AI-generated text are NOT admissible at any tier."
+        },
+        "citation": { "type": "string", "minLength": 10 },
+        "url": { "type": "string", "format": "uri" },
+        "accessed": { "type": "string", "format": "date" },
+        "page": { "type": "string" },
+        "note": { "type": "string" }
+      }
+    },
+
+    "claim": {
+      "type": "object",
+      "required": ["value", "confidence", "sources"],
+      "additionalProperties": false,
+      "properties": {
+        "value": { "type": ["string", "number", "boolean", "array", "object", "null"] },
+        "confidence": { "enum": ["established", "reported", "contested", "unverified"] },
+        "sources": { "type": "array", "items": { "$ref": "#/$defs/source" } },
+        "notes": { "type": "string" }
+      }
+    },
+
+    "claim_or_absent": {
+      "oneOf": [{ "$ref": "#/$defs/claim" }, { "type": "null" }]
+    }
+  },
+
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Z]{3}-[0-9]{3}-[A-Z0-9]+$",
+      "description": "Same identifier form as profiles. A subject may hold an id in index/cases.csv OR index/roster.csv, never both."
+    },
+    "schema_version": { "const": "0.1.0" },
+    "record_status": { "enum": ["stub", "in_progress", "complete", "under_review", "retracted"] },
+
+    "case_type": {
+      "enum": [
+        "no_homicide_conviction",
+        "contested_confession",
+        "exonerated",
+        "unidentified_offender",
+        "discredited_forensics",
+        "sub_judice"
+      ],
+      "description": "Why this is a case record rather than an offender profile. 'exonerated' subjects are never described as offenders in any field."
+    },
+
+    "exclusion_rationale": {
+      "type": "object",
+      "required": ["summary", "criteria_failed"],
+      "additionalProperties": false,
+      "description": "Why this subject is not on the offender roster. Mandatory and public: an exclusion nobody can audit is worthless.",
+      "properties": {
+        "summary": { "type": "string", "minLength": 40 },
+        "criteria_failed": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string" },
+          "description": "Which numbered criteria in docs/inclusion-criteria.md this case fails."
+        },
+        "not_an_exoneration": {
+          "type": "boolean",
+          "description": "Set true where the subject stands convicted of something and exclusion must not be read as a claim of innocence. Rendered as a prominent warning."
+        }
+      }
+    },
+
+    "provenance": {
+      "type": "object",
+      "required": ["created", "last_reviewed", "contributors"],
+      "additionalProperties": false,
+      "properties": {
+        "created": { "type": "string", "format": "date" },
+        "last_reviewed": { "type": "string", "format": "date" },
+        "contributors": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+        "reviewer": { "type": "string" },
+        "ai_assisted": { "type": "boolean" }
+      }
+    },
+
+    "identity": {
+      "type": "object",
+      "required": ["legal_name", "judicial_status"],
+      "additionalProperties": false,
+      "properties": {
+        "legal_name": { "$ref": "#/$defs/claim" },
+        "aliases": { "$ref": "#/$defs/claim_or_absent" },
+        "media_epithet": { "$ref": "#/$defs/claim_or_absent" },
+        "birth_date": { "$ref": "#/$defs/claim_or_absent" },
+        "birth_place": { "$ref": "#/$defs/claim_or_absent" },
+        "death_date": { "$ref": "#/$defs/claim_or_absent" },
+        "judicial_status": {
+          "$ref": "#/$defs/claim",
+          "description": "State precisely what the subject stands convicted of, if anything. This is the field the whole record exists to get right."
+        }
+      }
+    },
+
+    "established": {
+      "type": "object",
+      "description": "What the record DOES support. Convictions, judicial findings, physical evidence, forensic determinations.",
+      "additionalProperties": false,
+      "properties": {
+        "convictions": { "$ref": "#/$defs/claim_or_absent" },
+        "sentence": { "$ref": "#/$defs/claim_or_absent" },
+        "judicial_findings": {
+          "$ref": "#/$defs/claim_or_absent",
+          "description": "Findings a court actually made — including findings against the prosecution."
+        },
+        "physical_evidence": { "$ref": "#/$defs/claim_or_absent" },
+        "cause_of_death_determination": {
+          "$ref": "#/$defs/claim_or_absent",
+          "description": "Whether a cause of death was established at all. In several cases it was not, which is decisive and routinely omitted from popular accounts."
+        }
+      }
+    },
+
+    "not_established": {
+      "type": "object",
+      "description": "The core of this schema. What is widely asserted but NOT supported — stated plainly, with the source of the assertion identified. Do not soften: if a figure has no provenance, say it has no provenance.",
+      "additionalProperties": false,
+      "properties": {
+        "homicide_attribution": {
+          "$ref": "#/$defs/claim_or_absent",
+          "description": "Deaths attributed to the subject without charge or conviction. Name who attributed, on what basis."
+        },
+        "victim_count_claims": {
+          "$ref": "#/$defs/claim_or_absent",
+          "description": "Circulating totals and where each originates. Never recorded as a count."
+        },
+        "circulating_claims": {
+          "$ref": "#/$defs/claim_or_absent",
+          "description": "Widely repeated specifics with no evidentiary basis — including details originating in dramatisations. Naming them here is how the record inoculates readers against them."
+        }
+      }
+    },
+
+    "confession_record": {
+      "type": "object",
+      "description": "For cases turning on admissions. The circumstances of a confession determine its evidentiary weight; record them, not just its existence.",
+      "additionalProperties": false,
+      "properties": {
+        "circumstances": {
+          "$ref": "#/$defs/claim_or_absent",
+          "description": "Duration, number of sessions, whether recorded, who wrote the statement, what inducements existed."
+        },
+        "recantation": { "$ref": "#/$defs/claim_or_absent" },
+        "corroboration": {
+          "$ref": "#/$defs/claim_or_absent",
+          "description": "What independent evidence, if any, confirmed the admissions. 'None located' is a finding."
+        },
+        "reliability_findings": {
+          "$ref": "#/$defs/claim_or_absent",
+          "description": "What courts or examining experts concluded about reliability."
+        }
+      }
+    },
+
+    "investigation": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "identifying_evidence": { "$ref": "#/$defs/claim_or_absent" },
+        "interrogation_method": { "$ref": "#/$defs/claim_or_absent" },
+        "other_suspects": {
+          "$ref": "#/$defs/claim_or_absent",
+          "description": "Alternative suspects raised in the proceedings. Name them ONLY where already named in the public court record, never on the strength of speculation."
+        },
+        "method_now_disputed": { "$ref": "#/$defs/claim_or_absent" }
+      }
+    },
+
+    "adjudication": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "trial_history": { "$ref": "#/$defs/claim_or_absent" },
+        "appellate_history": { "$ref": "#/$defs/claim_or_absent" },
+        "disposition": { "$ref": "#/$defs/claim_or_absent" }
+      }
+    },
+
+    "research_value": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Why this case is in the dataset at all. A case record with no stated analytic use is just an accusation with citations.",
+      "properties": {
+        "why_recorded": { "type": "string", "minLength": 40 },
+        "related_records": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+
+    "data_quality": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "known_gaps": { "type": "array", "items": { "type": "string" } },
+        "contested_points": { "type": "array", "items": { "type": "string" } },
+        "excluded_material": { "type": "array", "items": { "type": "string" } }
+      }
+    }
+  }
+}

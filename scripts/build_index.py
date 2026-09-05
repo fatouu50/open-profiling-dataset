@@ -252,14 +252,6 @@ QUARANTINE = [
     ("Majid Kavousifard", "Iran", "category-mismatch", "Single political assassination."),
     ("Thug Behram", "India", "unreliable-record", "Semi-legendary 19th-century figure; attributed counts have no evidentiary basis."),
 
-    ("Larry DeWayne Hall", "USA", "category-mismatch",
-     "No homicide conviction. Convicted of kidnapping under 18 U.S.C. 1201(a)(1) (United States v. Hall, "
-     "93 F.3d 1337 (7th Cir. 1996); 165 F.3d 1095 (7th Cir. 1999)); life sentence, affirmed 1999. Cause of "
-     "death was never established. Fails inclusion criteria 2 (homicide conviction) and 3 (two or more "
-     "victims). The homicide attributions rest on interrogation statements whose reliability the Seventh "
-     "Circuit found required expert examination. See docs/investigative-failures.md. NOT an exoneration: "
-     "the kidnapping conviction stands."),
-
     ("Macario Alcalá Canchola", "Mexico", "needs-verification", "Not corroborated during audit."),
     ("Jeong Du-yeong", "South Korea", "needs-verification", "Possibly a corruption of Jeong Nam-gyu."),
     ("Jimmy Maketta", "South Africa", "needs-verification", "Not corroborated during audit."),
@@ -270,6 +262,16 @@ QUARANTINE = [
     ("Charles Sobhraj", "France", "needs-recoding", "Country of offences is wrong; offended across South and Southeast Asia. Requires a multi-jurisdiction record."),
     ("Pierre Chanal", "France", "needs-recoding", "Died before trial; never convicted. Requires the sub-judice/unadjudicated treatment."),
     ("Christopher Wilder", "Australia/USA", "duplicate-listing", "Retained once as USA-057-WILDER."),
+]
+
+# ---------------------------------------------------------------------------
+# CASES — subjects excluded from the offender roster but documented in full
+# under schema/case.schema.json. Never counted in offender aggregates.
+# (id, name, iso3, case_type, status)
+# ---------------------------------------------------------------------------
+
+CASES = [
+    ("USA-003-HALL", "Larry DeWayne Hall", "USA", "no_homicide_conviction", "in_progress"),
 ]
 
 # ---------------------------------------------------------------------------
@@ -299,6 +301,9 @@ def main():
     write(INDEX / "roster.csv",
           ["id", "name", "country_iso3", "epithet", "classification", "record_status"],
           ROSTER)
+    write(INDEX / "cases.csv",
+          ["id", "name", "country_iso3", "case_type", "record_status"],
+          CASES)
     write(INDEX / "quarantine.csv",
           ["name_as_inherited", "country_as_inherited", "category", "reason"],
           QUARANTINE)
@@ -310,8 +315,13 @@ def main():
     assert len(ids) == len(set(ids)), "duplicate ids in roster"
     names = [r[1] for r in ROSTER]
     assert len(names) == len(set(names)), "duplicate names in roster"
-    print(f"\nRoster: {len(ROSTER)} subjects. Quarantine: {len(QUARANTINE)}. Unsolved: {len(UNSOLVED)}.")
-    print("No duplicate ids or names.")
+    case_ids = [r[0] for r in CASES]
+    assert len(case_ids) == len(set(case_ids)), "duplicate ids in cases"
+    overlap = set(ids) & set(case_ids)
+    assert not overlap, f"id in both roster and cases: {overlap}"
+    print(f"\nRoster: {len(ROSTER)} subjects. Cases: {len(CASES)}. "
+          f"Quarantine: {len(QUARANTINE)}. Unsolved: {len(UNSOLVED)}.")
+    print("No duplicate ids, and no id in both roster and cases.")
 
 
 if __name__ == "__main__":

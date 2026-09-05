@@ -29,8 +29,10 @@ import re
 import sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-SCHEMA_PATH = ROOT / "schema" / "profile.schema.json"
+PROFILE_SCHEMA = ROOT / "schema" / "profile.schema.json"
+CASE_SCHEMA = ROOT / "schema" / "case.schema.json"
 DATASET = ROOT / "dataset"
+CASES = ROOT / "cases"
 INDEX = ROOT / "index"
 
 # Substrings that indicate a source is inadmissible under docs/sourcing-policy.md.
@@ -70,19 +72,22 @@ class Problem:
         return f"  [{tag}] {self.where}: {self.message}"
 
 
-def load_roster():
-    roster, quarantine = {}, {}
-    rp = INDEX / "roster.csv"
-    qp = INDEX / "quarantine.csv"
+def load_index():
+    roster, cases, quarantine = {}, {}, {}
+    rp, cp, qp = INDEX / "roster.csv", INDEX / "cases.csv", INDEX / "quarantine.csv"
     if rp.exists():
         with open(rp, encoding="utf-8") as fh:
             for row in csv.DictReader(fh):
                 roster[row["id"]] = row
+    if cp.exists():
+        with open(cp, encoding="utf-8") as fh:
+            for row in csv.DictReader(fh):
+                cases[row["id"]] = row
     if qp.exists():
         with open(qp, encoding="utf-8") as fh:
             for row in csv.DictReader(fh):
                 quarantine[row["name_as_inherited"].lower()] = row
-    return roster, quarantine
+    return roster, cases, quarantine
 
 
 def is_claim(node):
@@ -219,11 +224,35 @@ def walk(node, where, problems, path):
             walk(v, f"{where}[{i}]", problems, path)
 
 
-def check_document(doc, path, roster, quarantine, problems):
+def check_document(doc, path, roster, cases, quarantine, problems):
     pid = doc.get("id")
+    is_case = path.parent.name == "cases"
 
-    if roster and pid and pid not in roster:
-        problems.append(Problem(path, "id", f"{pid!r} is not in index/roster.csv"))
+    if is_case:
+        if cases and pid and pid not in cases:
+            problems.append(Problem(path, "id", f"{pid!r} is not in index/cases.csv"))
+        if pid and pid in roster:
+            problems.append(Problem(
+                path, "id",
+                f"{pid!r} appears in BOTH index/roster.csv and index/cases.csv. "
+                "A subject is either an offender profile or a case record, never both — "
+                "otherwise it is counted twice in any aggregate."))
+        # A case record must justify its own exclusion.
+        rationale = doc.get("exclusion_rationale") or {}
+        if doc.get("case_type") == "exonerated" and not rationale.get("not_an_exoneration") is False:
+            pass  # exonerated records need no innocence warning
+        if doc.get("record_status") == "complete" and not (doc.get("research_value") or {}).get("why_recorded"):
+            problems.append(Problem(
+                path, "research_value.why_recorded",
+                "a case record marked 'complete' must state why it is in the dataset. "
+                "A case record with no stated analytic use is an accusation with citations."))
+    else:
+        if roster and pid and pid not in roster:
+            problems.append(Problem(path, "id", f"{pid!r} is not in index/roster.csv"))
+        if pid and pid in cases:
+            problems.append(Problem(
+                path, "id",
+                f"{pid!r} is registered in index/cases.csv. It cannot also be an offender profile."))
 
     name = ""
     ident = doc.get("identity") or {}
@@ -251,7 +280,8 @@ def check_document(doc, path, roster, quarantine, problems):
                 path, "data_quality.known_gaps",
                 "a record marked 'complete' must list what it does not establish."))
 
-    # No behavioural profile without a conviction.
+    # No behavioural profile without a conviction. (Case records carry no
+    # behavioural section at all, so this applies to profiles.)
     status = ""
     js = ident.get("judicial_status")
     if isinstance(js, dict):
@@ -273,13 +303,16 @@ def main(argv):
         print("jsonschema is required:  pip install jsonschema --break-system-packages")
         return 2
 
-    schema = json.loads(SCHEMA_PATH.read_text(encoding="utf-8"))
-    validator = jsonschema.Draft202012Validator(schema)
-    roster, quarantine = load_roster()
+    profile_validator = jsonschema.Draft202012Validator(
+        json.loads(PROFILE_SCHEMA.read_text(encoding="utf-8")))
+    case_validator = jsonschema.Draft202012Validator(
+        json.loads(CASE_SCHEMA.read_text(encoding="utf-8")))
+    roster, cases, quarantine = load_index()
 
-    files = [pathlib.Path(a) for a in argv[1:]] or sorted(DATASET.glob("*.json"))
+    files = [pathlib.Path(a) for a in argv[1:]] or (
+        sorted(DATASET.glob("*.json")) + sorted(CASES.glob("*.json")))
     if not files:
-        print("No profiles found in dataset/.")
+        print("No records found in dataset/ or cases/.")
         return 0
 
     total = 0
@@ -292,22 +325,24 @@ def main(argv):
             total += 1
             continue
 
+        validator = case_validator if path.parent.name == "cases" else profile_validator
         for err in validator.iter_errors(doc):
             loc = ".".join(str(p) for p in err.absolute_path) or "<root>"
             problems.append(Problem(path, loc, f"schema: {err.message}"))
 
-        check_document(doc, path, roster, quarantine, problems)
+        check_document(doc, path, roster, cases, quarantine, problems)
 
         errors = [p for p in problems if p.severity == "error"]
         warns = [p for p in problems if p.severity == "warn"]
         total += len(errors)
 
+        kind = "case" if path.parent.name == "cases" else "profile"
         if problems:
-            print(f"\n{path.name}  —  {len(errors)} error(s), {len(warns)} warning(s)")
+            print(f"\n{path.name} ({kind})  —  {len(errors)} error(s), {len(warns)} warning(s)")
             for p in problems:
                 print(p)
         else:
-            print(f"\n{path.name}  —  clean")
+            print(f"\n{path.name} ({kind})  —  clean")
 
     print(f"\n{'=' * 60}")
     if total:
