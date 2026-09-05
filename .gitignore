@@ -1,4 +1,32 @@
+# --- Python -----------------------------------------------------------
 __pycache__/
-*.pyc
-.DS_Store
+*.py[cod]
+*.egg-info/
 .venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# --- Editors ----------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+*~
+
+# --- OS ---------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Project ----------------------------------------------------------
+# Working notes and half-verified material. Nothing enters dataset/ until
+# it passes scripts/validate.py — keep drafts here, out of the repo.
+drafts/
+scratch/
+notes-perso/
+*.draft.json
+
+# Downloaded source material (PDFs of opinions, scanned records).
+# Cite these in the profiles; do not redistribute them.
+sources-raw/
+*.pdf
