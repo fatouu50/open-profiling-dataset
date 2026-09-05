@@ -1,0 +1,555 @@
+{
+  "id": "USA-005-GACY",
+  "schema_version": "0.1.0",
+  "record_status": "in_progress",
+
+  "provenance": {
+    "created": "2026-09-05",
+    "last_reviewed": "2026-09-05",
+    "contributors": ["maintainer"],
+    "ai_assisted": true
+  },
+
+  "identity": {
+    "legal_name": {
+      "value": "John Wayne Gacy",
+      "confidence": "established",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "People v. Gacy, 103 Ill. 2d 1, 468 N.E.2d 1171 (Ill. 1984)",
+          "url": "https://law.justia.com/cases/illinois/supreme-court/1984/53212-6.html"
+        },
+        {
+          "tier": 1,
+          "citation": "Gacy v. Welborn, 994 F.2d 305 (7th Cir. 1993)",
+          "url": "https://law.justia.com/cases/federal/appellate-courts/F2/994/305/271650/"
+        }
+      ]
+    },
+    "aliases": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "No documented aliases located."
+    },
+    "media_epithet": {
+      "value": "The Killer Clown",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 4,
+          "citation": "A&E. 'What Was John Wayne Gacy's Murder Trial Like?'",
+          "url": "https://www.aetv.com/articles/gacys-trial"
+        }
+      ],
+      "notes": "Derives from his performing as a costumed entertainer at community events, an activity unconnected to the offences. Recorded as a media artefact. The epithet has arguably done more than any other in this dataset to convert a case into entertainment, and this project does not use it as a descriptor."
+    },
+    "birth_date": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "Commonly given as 17 March 1942, Chicago. No record retrieved and the appellate opinions do not state it. Not asserted."
+    },
+    "birth_place": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "Commonly given as Chicago, Illinois. No record retrieved."
+    },
+    "death_date": {
+      "value": "1994-05",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 4,
+          "citation": "A&E. 'What Was John Wayne Gacy's Murder Trial Like?'",
+          "url": "https://www.aetv.com/articles/gacys-trial"
+        }
+      ],
+      "notes": "Executed by lethal injection in Illinois. The retrieved source gives only the month; the date is commonly given as 10 May 1994 but has not been confirmed against a corrections record, so only the month is recorded here."
+    },
+    "judicial_status": {
+      "value": "Executed 1994. Convicted of 33 counts of murder, one count of deviate sexual assault, and one count of indecent liberties with a child.",
+      "confidence": "established",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "People v. Gacy, 103 Ill. 2d 1, 468 N.E.2d 1171 (Ill. 1984)",
+          "url": "https://law.justia.com/cases/illinois/supreme-court/1984/53212-6.html"
+        },
+        {
+          "tier": 1,
+          "citation": "Gacy v. Welborn, 994 F.2d 305 (7th Cir. 1993)",
+          "url": "https://law.justia.com/cases/federal/appellate-courts/F2/994/305/271650/"
+        }
+      ]
+    }
+  },
+
+  "conviction_record": {
+    "convictions": {
+      "value": [
+        {
+          "charge": "33 counts of murder",
+          "jurisdiction": "Circuit Court of Cook County, Illinois",
+          "date": "1980-03-12",
+          "disposition": "Guilty on all counts. Death sentence on the 12 counts falling after the 1977 reinstatement of capital punishment; natural life on the remaining 21."
+        },
+        {
+          "charge": "One count of deviate sexual assault; one count of indecent liberties with a child",
+          "jurisdiction": "Circuit Court of Cook County, Illinois",
+          "date": "1980-03-12",
+          "disposition": "Guilty"
+        }
+      ],
+      "confidence": "established",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "People v. Gacy, 103 Ill. 2d 1, 468 N.E.2d 1171 (Ill. 1984)",
+          "url": "https://law.justia.com/cases/illinois/supreme-court/1984/53212-6.html"
+        },
+        {
+          "tier": 4,
+          "citation": "A&E. 'What Was John Wayne Gacy's Murder Trial Like?'",
+          "url": "https://www.aetv.com/articles/gacys-trial"
+        }
+      ],
+      "notes": "DATE CAUTION: the trial ran from 6 February 1980, the jury returned guilty verdicts on 12 March 1980 and the death sentence followed on 13 March 1980. People v. Gacy, 103 Ill. 2d 1 is the 1984 direct appeal, not the trial. Summaries that give 1984 as the conviction date have conflated the appeal with the verdict."
+    },
+    "confirmed_victim_count": {
+      "value": 33,
+      "confidence": "established",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "People v. Gacy, 103 Ill. 2d 1, 468 N.E.2d 1171 (Ill. 1984)",
+          "url": "https://law.justia.com/cases/illinois/supreme-court/1984/53212-6.html"
+        },
+        {
+          "tier": 1,
+          "citation": "Cook County Sheriff's Office. Unidentified Victims — John Wayne Gacy.",
+          "url": "https://cookcountysheriffil.gov/departments/c-c-s-p-d/unidentified-victims-john-wayne-gacy/"
+        }
+      ],
+      "notes": "All 33 established by conviction. This is the firmest homicide count in the dataset: the remains were recovered from property he controlled and each count was tried and returned by a jury. Contrast USA-003-HALL, where no cause of death could be determined for a single victim."
+    },
+    "attributed_victim_count": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "No agency has published an attribution beyond the 33 convictions. Speculation about further victims circulates but has no published methodology and is not recorded."
+    },
+    "claimed_victim_count": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "Gacy's statements about the offences shifted over time, including claims of non-responsibility maintained to his execution. No stable self-reported total has been retrieved, and his account is in any case among the least reliable classes of evidence."
+    },
+    "estimate_provenance": {
+      "value": "The count in this record derives entirely from the conviction record. No higher figure with traceable provenance exists.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "People v. Gacy, 103 Ill. 2d 1, 468 N.E.2d 1171 (Ill. 1984)",
+          "url": "https://law.justia.com/cases/illinois/supreme-court/1984/53212-6.html"
+        }
+      ]
+    }
+  },
+
+  "offence_period": {
+    "first_known_offence": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "The charged offences are commonly dated from 1972, but the appellate opinion retrieved does not set out a first offence date. A contributor should work from the charging documents rather than secondary chronologies."
+    },
+    "last_known_offence": {
+      "value": "1978-12",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "People v. Gacy, 103 Ill. 2d 1, 468 N.E.2d 1171 (Ill. 1984)",
+          "url": "https://law.justia.com/cases/illinois/supreme-court/1984/53212-6.html"
+        }
+      ],
+      "notes": "The disappearance that triggered the investigation leading to the search of his property occurred in December 1978."
+    },
+    "jurisdictions": {
+      "value": ["Cook County, Illinois"],
+      "confidence": "established",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "People v. Gacy, 103 Ill. 2d 1, 468 N.E.2d 1171 (Ill. 1984)",
+          "url": "https://law.justia.com/cases/illinois/supreme-court/1984/53212-6.html"
+        },
+        {
+          "tier": 1,
+          "citation": "Cook County Sheriff's Office. Unidentified Victims — John Wayne Gacy.",
+          "url": "https://cookcountysheriffil.gov/departments/c-c-s-p-d/unidentified-victims-john-wayne-gacy/"
+        }
+      ],
+      "notes": "A single county. The narrowest geographic range in the dataset so far — and the deposition sites were inside and immediately around his own house."
+    }
+  },
+
+  "background": {
+    "family_structure": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "Accounts of a violent father are ubiquitous in secondary literature and were advanced in mitigation. No contemporaneous record retrieved. Not entered."
+    },
+    "education": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "No record retrieved."
+    },
+    "employment_history": {
+      "value": "Operated a construction contracting business. Active in local community and political organisations.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "People v. Gacy, 103 Ill. 2d 1, 468 N.E.2d 1171 (Ill. 1984)",
+          "url": "https://law.justia.com/cases/illinois/supreme-court/1984/53212-6.html"
+        }
+      ],
+      "notes": "The contracting business is analytically relevant rather than incidental: it supplied both the access to young men seeking work and the plausible reason for excavation beneath his own house."
+    },
+    "military_service": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "No service record retrieved."
+    },
+    "documented_head_injury": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "No medical documentation located."
+    },
+    "macdonald_triad": {
+      "enuresis": {
+        "value": null,
+        "confidence": "unverified",
+        "sources": [],
+        "notes": "No documentation located. NOTE: the triad is not a predictor of violence — see the schema field description."
+      },
+      "firesetting": {
+        "value": null,
+        "confidence": "unverified",
+        "sources": [],
+        "notes": "No documentation located."
+      },
+      "animal_cruelty": {
+        "value": null,
+        "confidence": "unverified",
+        "sources": [],
+        "notes": "No documentation located."
+      }
+    }
+  },
+
+  "clinical": {
+    "formal_diagnoses": {
+      "value": "Contested at trial. Defence experts diagnosed paranoid schizophrenia, borderline personality disorder and pseudo-neurotic paranoid schizophrenia, and testified he lacked capacity to conform his conduct to law. Prosecution experts diagnosed antisocial and narcissistic personality disorders and testified he was legally sane.",
+      "confidence": "contested",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "People v. Gacy, 103 Ill. 2d 1, 468 N.E.2d 1171 (Ill. 1984)",
+          "url": "https://law.justia.com/cases/illinois/supreme-court/1984/53212-6.html"
+        }
+      ],
+      "notes": "THE FIRST RECORD IN THIS DATASET WHERE THIS FIELD IS POPULATED AT ALL. Bundy, Ridgway and DeAngelo all have null here: two pleaded guilty, and none had competing psychiatric evidence tested at trial. Here clinicians who examined the subject testified on both sides and were cross-examined, which is the only circumstance under which this schema treats a diagnosis as more than commentary. The disagreement is the finding — it is recorded as 'contested' precisely because forensic psychiatric opinion diverged sharply under adversarial conditions. Neither set of labels is adopted by this dataset as the subject's diagnosis."
+    },
+    "competency_findings": {
+      "value": "The insanity defence was rejected. Gacy was held legally responsible.",
+      "confidence": "established",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "People v. Gacy, 103 Ill. 2d 1, 468 N.E.2d 1171 (Ill. 1984)",
+          "url": "https://law.justia.com/cases/illinois/supreme-court/1984/53212-6.html"
+        },
+        {
+          "tier": 1,
+          "citation": "Gacy v. Welborn, 994 F.2d 305 (7th Cir. 1993)",
+          "url": "https://law.justia.com/cases/federal/appellate-courts/F2/994/305/271650/"
+        }
+      ],
+      "notes": "A finding of legal responsibility is a legal conclusion, not a clinical one. It does not resolve the diagnostic dispute recorded above and must not be read as adopting the prosecution experts' diagnoses."
+    },
+    "psychometric_results": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "Extensive psychiatric examination occurred, but no instrument, administrator and date for any psychometric result has been retrieved from the opinions. A contributor with access to the trial transcript should populate this."
+    },
+    "commentary_attributions": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "Not catalogued for this record. Note that unlike other subjects, the widely circulated diagnostic labels here derive from actual examining clinicians and belong in formal_diagnoses, not in this field."
+    }
+  },
+
+  "offence_behaviour": {
+    "victim_selection": {
+      "value": "Offences were against adolescent boys and young men. The access conditions exploited were employment in his contracting business and the mobility of young men whose absence was slow to be reported or investigated.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "People v. Gacy, 103 Ill. 2d 1, 468 N.E.2d 1171 (Ill. 1984)",
+          "url": "https://law.justia.com/cases/illinois/supreme-court/1984/53212-6.html"
+        }
+      ],
+      "notes": "Recorded as an access condition, not as a characteristic that explains the deaths. That five victims remain unidentified nearly five decades later is direct evidence of how little institutional attention their disappearances received at the time."
+    },
+    "approach_method": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "Detailed approach accounts in secondary literature derive substantially from Gacy's own shifting statements. Not entered without corroboration from the trial record."
+    },
+    "spatial_pattern": {
+      "value": "Marauder",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 2,
+          "citation": "Canter, David and Paul Larkin. 'The Environmental Range of Serial Rapists.' Journal of Environmental Psychology 13(1), 1993, 63-69."
+        }
+      ],
+      "notes": "Coded marauder, and at the extreme of that classification: the offences and the deposition sites were the same location — his residence. Maintainer coding applying the Canter & Larkin framework, not a source-attested fact. The dataset now holds two commuters (Bundy, DeAngelo) and two marauders (Ridgway, Gacy), with detection delays that do not order by range."
+    },
+    "weapon_or_method": {
+      "value": "Asphyxiation; stab wounds present on some remains.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "People v. Gacy, 103 Ill. 2d 1, 468 N.E.2d 1171 (Ill. 1984)",
+          "url": "https://law.justia.com/cases/illinois/supreme-court/1984/53212-6.html"
+        }
+      ],
+      "notes": "As established by post-mortem examination of the recovered remains and recorded in the appellate opinion."
+    },
+    "signature_behaviour": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "Not established from the retrieved sources. The trial record may support an entry here; the appellate opinion does not itemise scene conduct beyond cause of death."
+    },
+    "post_offence_behaviour": {
+      "value": "Concealment of remains within the crawl space beneath his residence, beneath the driveway and garage, and by disposal in the Des Plaines River.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "People v. Gacy, 103 Ill. 2d 1, 468 N.E.2d 1171 (Ill. 1984)",
+          "url": "https://law.justia.com/cases/illinois/supreme-court/1984/53212-6.html"
+        }
+      ],
+      "notes": "29 sets of remains were recovered from the property and five from the river."
+    },
+    "forensic_countermeasures": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "Concealment on his own property is recorded above as post-offence behaviour. Whether it reflected a countermeasure strategy or simply available space is not established, and the distinction matters: retaining 29 sets of remains beneath one's own house is not, on its face, evasive conduct."
+    },
+    "motive_classification": {
+      "value": "Hedonistic (lust), per Holmes & Holmes",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 3,
+          "citation": "Holmes, Ronald M. and Stephen T. Holmes. Profiling Violent Crimes: An Investigative Tool. Thousand Oaks CA: Sage Publications."
+        },
+        {
+          "tier": 2,
+          "citation": "Canter, David V., Laurence J. Alison, Emily Alison and Natalia Wentink. 'The Organized/Disorganized Typology of Serial Murder: Myth or Model?' Psychology, Public Policy, and Law 10(3), 2004, 293-320."
+        }
+      ],
+      "notes": "Maintainer coding, not a source-attested fact. Coded from the sexual offences tried alongside the homicides. Canter et al. (2004) cited as the standing methodological caution on typologies of this family. Contributors coding differently should record the disagreement rather than overwrite."
+    }
+  },
+
+  "investigation": {
+    "detection_delay_factors": {
+      "value": "Gacy was a convicted sex offender throughout the offending period. He was convicted of sodomy in Iowa in 1968 and sentenced to ten years, and was arrested in Illinois in 1972 for aggravated battery and a sex-related offence. The remains were beneath a house he owned in a single county. The failure was neither technological nor jurisdictional: a paroled sex offender with a subsequent arrest remained unconnected to a series of local disappearances until a December 1978 investigation reached his property.",
+      "confidence": "established",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "People v. Gacy, 103 Ill. 2d 1, 468 N.E.2d 1171 (Ill. 1984)",
+          "url": "https://law.justia.com/cases/illinois/supreme-court/1984/53212-6.html"
+        },
+        {
+          "tier": 1,
+          "citation": "Cook County Sheriff's Office. Unidentified Victims — John Wayne Gacy.",
+          "url": "https://cookcountysheriffil.gov/departments/c-c-s-p-d/unidentified-victims-john-wayne-gacy/"
+        }
+      ],
+      "notes": "This is a fourth distinct delay mechanism for the dataset. Bundy: jurisdictional fragmentation. Ridgway: institutional neglect of the victim class plus forensic limits. DeAngelo: absent technology. Gacy: an existing conviction record that was not connected to reported disappearances. Only the last of these is a failure of ordinary record-keeping rather than of capability, which makes it the most straightforwardly preventable."
+    },
+    "identifying_evidence": {
+      "value": "Recovery of 29 sets of remains from the crawl space, driveway and garage of his residence, and five from the Des Plaines River.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "People v. Gacy, 103 Ill. 2d 1, 468 N.E.2d 1171 (Ill. 1984)",
+          "url": "https://law.justia.com/cases/illinois/supreme-court/1984/53212-6.html"
+        }
+      ]
+    },
+    "forensic_methods_used": {
+      "value": "Post-mortem examination of recovered remains established asphyxiation and stab injuries. Victim identification continues: the Cook County Sheriff's Office maintains an active DNA identification effort, comparing profiles from the remains against buccal samples donated by families of missing persons.",
+      "confidence": "established",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Cook County Sheriff's Office. Unidentified Victims — John Wayne Gacy.",
+          "url": "https://cookcountysheriffil.gov/departments/c-c-s-p-d/unidentified-victims-john-wayne-gacy/"
+        },
+        {
+          "tier": 1,
+          "citation": "People v. Gacy, 103 Ill. 2d 1, 468 N.E.2d 1171 (Ill. 1984)",
+          "url": "https://law.justia.com/cases/illinois/supreme-court/1984/53212-6.html"
+        }
+      ],
+      "notes": "Five victims remain unidentified as of the Sheriff's Office publication. The identification of victims has continued for decades after the offender's execution — a reminder that the case did not close when the prosecution did, and that this dataset's subject is a series of deaths, not a biography."
+    },
+    "method_now_disputed": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "No technique relied on in this conviction has been found scientifically unreliable. The evidentiary basis was the recovery of remains from property he controlled."
+    },
+    "arrest": {
+      "value": "Arrested in Cook County, Illinois, in December 1978 following an investigation into a disappearance that led to the search of his residence.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "People v. Gacy, 103 Ill. 2d 1, 468 N.E.2d 1171 (Ill. 1984)",
+          "url": "https://law.justia.com/cases/illinois/supreme-court/1984/53212-6.html"
+        }
+      ]
+    }
+  },
+
+  "adjudication": {
+    "interrogation_method": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "No interrogation record retrieved. The case rested on the physical recovery of remains, not on admissions."
+    },
+    "confession_reliability": {
+      "value": "Not load-bearing. The prosecution case rested on 34 sets of recovered remains, not on admissions. Gacy's own accounts shifted over time and included assertions of non-responsibility maintained to his execution.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "People v. Gacy, 103 Ill. 2d 1, 468 N.E.2d 1171 (Ill. 1984)",
+          "url": "https://law.justia.com/cases/illinois/supreme-court/1984/53212-6.html"
+        }
+      ],
+      "notes": "Recorded because the field is mandatory for reasoning about attribution. Here it is simple: nothing in the victim count depends on what he said."
+    },
+    "trial_outcome": {
+      "value": "Tried in the Circuit Court of Cook County from 6 February 1980. The jury returned guilty verdicts on all counts on 12 March 1980 after approximately one hour and fifty minutes of deliberation, and imposed the death sentence on 13 March 1980 after approximately two hours and fifteen minutes.",
+      "confidence": "established",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "People v. Gacy, 103 Ill. 2d 1, 468 N.E.2d 1171 (Ill. 1984)",
+          "url": "https://law.justia.com/cases/illinois/supreme-court/1984/53212-6.html"
+        },
+        {
+          "tier": 4,
+          "citation": "A&E. 'What Was John Wayne Gacy's Murder Trial Like?'",
+          "url": "https://www.aetv.com/articles/gacys-trial"
+        }
+      ],
+      "notes": "The deliberation times are recorded because an insanity defence supported by examining clinicians was rejected in under two hours. That is a datum about how juries receive psychiatric evidence, not about its merit."
+    },
+    "sentence": {
+      "value": "Death on the 12 murder counts falling after the 1977 reinstatement of capital punishment in Illinois; natural life on the remaining 21 counts.",
+      "confidence": "established",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "People v. Gacy, 103 Ill. 2d 1, 468 N.E.2d 1171 (Ill. 1984)",
+          "url": "https://law.justia.com/cases/illinois/supreme-court/1984/53212-6.html"
+        },
+        {
+          "tier": 4,
+          "citation": "A&E. 'What Was John Wayne Gacy's Murder Trial Like?'",
+          "url": "https://www.aetv.com/articles/gacys-trial"
+        }
+      ],
+      "notes": "The split sentence is a statutory artefact: 21 of the 33 homicides occurred before Illinois reinstated capital punishment and could not carry it."
+    },
+    "appellate_history": {
+      "value": "Direct appeal affirmed by the Supreme Court of Illinois in 1984. Post-conviction relief denied in 1988. Federal habeas relief denied by the Seventh Circuit in 1993.",
+      "confidence": "established",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "People v. Gacy, 103 Ill. 2d 1, 468 N.E.2d 1171 (Ill. 1984)",
+          "url": "https://law.justia.com/cases/illinois/supreme-court/1984/53212-6.html"
+        },
+        {
+          "tier": 1,
+          "citation": "Gacy v. Welborn, 994 F.2d 305 (7th Cir. 1993)",
+          "url": "https://law.justia.com/cases/federal/appellate-courts/F2/994/305/271650/"
+        }
+      ]
+    },
+    "disposition": {
+      "value": "Executed by lethal injection in Illinois in May 1994, after more than a dozen years under sentence of death.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 4,
+          "citation": "A&E. 'What Was John Wayne Gacy's Murder Trial Like?'",
+          "url": "https://www.aetv.com/articles/gacys-trial"
+        }
+      ],
+      "notes": "A corrections record should be cited to fix the exact date."
+    }
+  },
+
+  "data_quality": {
+    "known_gaps": [
+      "Birth date and place not asserted — no record retrieved.",
+      "Exact execution date not confirmed against a corrections record; only the month is recorded.",
+      "First charged offence date not established from the appellate opinion.",
+      "No psychometric result retrieved despite extensive psychiatric examination at trial.",
+      "Signature behaviour and approach method not established; the trial transcript has not been retrieved.",
+      "Five victims remain unidentified; the record is therefore incomplete in a sense no contributor can close."
+    ],
+    "contested_points": [
+      "The diagnostic dispute itself — defence and prosecution clinicians who examined the subject reached incompatible conclusions, and the verdict resolved legal responsibility without resolving the clinical question.",
+      "Whether concealment on his own property constituted a countermeasure strategy or simply use of available space."
+    ],
+    "excluded_material": [
+      "Graphic description of the offences and of the condition of the remains, excluded under ETHICS.md.",
+      "Names of the identified victims. Unlike the conviction-record naming in USA-001-BUNDY and USA-004-DEANGELO, the retrieved sources here do not enumerate them per count, and this record does not assemble a list from secondary compilations.",
+      "The 'killer clown' framing as anything other than a media artefact.",
+      "Childhood aetiologies advanced in mitigation and repeated as established causation in secondary literature."
+    ]
+  }
+}
