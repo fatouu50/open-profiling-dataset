@@ -1,0 +1,553 @@
+{
+  "id": "USA-006-RADER",
+  "schema_version": "0.1.0",
+  "record_status": "in_progress",
+  "provenance": {
+    "created": "2026-09-05",
+    "last_reviewed": "2026-09-05",
+    "contributors": [
+      "maintainer"
+    ],
+    "ai_assisted": true
+  },
+  "identity": {
+    "legal_name": {
+      "value": "Dennis Lynn Rader",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 3,
+          "citation": "American Bar Association Journal. 'How the Cops Caught BTK: Playing to a serial killer's ego helped crack the case.'",
+          "url": "https://www.abajournal.com/magazine/article/how_the_cops_caught_btk"
+        },
+        {
+          "tier": 4,
+          "citation": "NBC News / Associated Press. 'BTK killer waives trial, admits 10 slayings.' 27 June 2005.",
+          "url": "https://www.nbcnews.com/id/wbna8367581"
+        }
+      ],
+      "notes": "No court filing has been retrieved for this record. Every claim rests on reporting of the proceedings rather than on the proceedings themselves, which is a weaker evidentiary base than USA-004-DEANGELO or USA-005-GACY. A contributor should retrieve the Sedgwick County District Court file."
+    },
+    "aliases": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "He used the signature 'Rex' in at least one communication with investigators, but no documented alias in the ordinary sense has been located."
+    },
+    "media_epithet": {
+      "value": "BTK",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 3,
+          "citation": "American Bar Association Journal. 'How the Cops Caught BTK: Playing to a serial killer's ego helped crack the case.'",
+          "url": "https://www.abajournal.com/magazine/article/how_the_cops_caught_btk"
+        },
+        {
+          "tier": 4,
+          "citation": "NBC News / Associated Press. 'BTK killer waives trial, admits 10 slayings.' 27 June 2005.",
+          "url": "https://www.nbcnews.com/id/wbna8367581"
+        }
+      ],
+      "notes": "ANALYTICALLY DISTINCT FROM EVERY OTHER EPITHET IN THIS DATASET. 'Green River Killer' and 'Golden State Killer' were assigned by the press from geography; 'The Killer Clown' from an unrelated hobby. This one was coined by the offender himself, in communications sent to media and police, and then adopted by the press. Recording it is not endorsing it — but the fact that a self-assigned label became the standard designation is a finding about how these cases are narrated, and it is the same appetite for attention that ended the case."
+    },
+    "birth_date": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "Commonly given as 9 March 1945. No record retrieved. The ages stated in the ABA Journal account — 29 in 1974, 59 at arrest in 2005 — are consistent with a 1945 birth year, but that is inference from reported ages, not a record, and is not asserted here."
+    },
+    "birth_place": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "Commonly given as Pittsburg, Kansas. No record retrieved."
+    },
+    "death_date": null,
+    "judicial_status": {
+      "value": "Incarcerated. Convicted on guilty plea of 10 counts of first-degree murder. Serving 10 consecutive life sentences.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 4,
+          "citation": "NBC News / Associated Press. 'BTK killer waives trial, admits 10 slayings.' 27 June 2005.",
+          "url": "https://www.nbcnews.com/id/wbna8367581"
+        },
+        {
+          "tier": 3,
+          "citation": "American Bar Association Journal. 'How the Cops Caught BTK: Playing to a serial killer's ego helped crack the case.'",
+          "url": "https://www.abajournal.com/magazine/article/how_the_cops_caught_btk"
+        }
+      ]
+    }
+  },
+  "conviction_record": {
+    "convictions": {
+      "value": [
+        {
+          "charge": "10 counts of first-degree murder",
+          "jurisdiction": "Sedgwick County District Court, Kansas",
+          "date": "2005-06-27",
+          "disposition": "Guilty plea; 10 consecutive life sentences imposed August 2005, reported as a minimum of 175 years before parole eligibility"
+        }
+      ],
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 4,
+          "citation": "NBC News / Associated Press. 'BTK killer waives trial, admits 10 slayings.' 27 June 2005.",
+          "url": "https://www.nbcnews.com/id/wbna8367581"
+        },
+        {
+          "tier": 3,
+          "citation": "American Bar Association Journal. 'How the Cops Caught BTK: Playing to a serial killer's ego helped crack the case.'",
+          "url": "https://www.abajournal.com/magazine/article/how_the_cops_caught_btk"
+        }
+      ],
+      "notes": "IMPORTANT: the guilty plea was NOT a bargain to avoid execution. The offences fell between 1974 and 1991; Kansas adopted its current capital statute afterwards, so the death penalty was never available for these counts. This distinguishes the case sharply from USA-002-RIDGWAY and USA-004-DEANGELO, where the plea purchased life. Accounts describing Rader as having 'escaped' the death penalty by pleading are wrong: there was nothing to escape."
+    },
+    "confirmed_victim_count": {
+      "value": 10,
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 4,
+          "citation": "NBC News / Associated Press. 'BTK killer waives trial, admits 10 slayings.' 27 June 2005.",
+          "url": "https://www.nbcnews.com/id/wbna8367581"
+        },
+        {
+          "tier": 3,
+          "citation": "American Bar Association Journal. 'How the Cops Caught BTK: Playing to a serial killer's ego helped crack the case.'",
+          "url": "https://www.abajournal.com/magazine/article/how_the_cops_caught_btk"
+        }
+      ],
+      "notes": "All ten established by conviction on plea."
+    },
+    "attributed_victim_count": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "No agency-published attribution beyond the ten convictions has been retrieved. Speculation about further victims circulates, driven partly by the offender's own later statements from custody, and is not recorded."
+    },
+    "claimed_victim_count": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "Rader has continued to communicate from custody and to be interviewed. Any total attributed to those statements has the reliability problems set out in adjudication.confession_reliability and is not recorded as a count."
+    },
+    "estimate_provenance": {
+      "value": "The count in this record derives from the conviction. No higher figure with published agency methodology has been located.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 4,
+          "citation": "NBC News / Associated Press. 'BTK killer waives trial, admits 10 slayings.' 27 June 2005.",
+          "url": "https://www.nbcnews.com/id/wbna8367581"
+        }
+      ]
+    }
+  },
+  "offence_period": {
+    "first_known_offence": {
+      "value": "1974",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 4,
+          "citation": "NBC News / Associated Press. 'BTK killer waives trial, admits 10 slayings.' 27 June 2005.",
+          "url": "https://www.nbcnews.com/id/wbna8367581"
+        },
+        {
+          "tier": 3,
+          "citation": "American Bar Association Journal. 'How the Cops Caught BTK: Playing to a serial killer's ego helped crack the case.'",
+          "url": "https://www.abajournal.com/magazine/article/how_the_cops_caught_btk"
+        }
+      ]
+    },
+    "last_known_offence": {
+      "value": "1991",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 4,
+          "citation": "NBC News / Associated Press. 'BTK killer waives trial, admits 10 slayings.' 27 June 2005.",
+          "url": "https://www.nbcnews.com/id/wbna8367581"
+        },
+        {
+          "tier": 3,
+          "citation": "American Bar Association Journal. 'How the Cops Caught BTK: Playing to a serial killer's ego helped crack the case.'",
+          "url": "https://www.abajournal.com/magazine/article/how_the_cops_caught_btk"
+        }
+      ],
+      "notes": "Fourteen years then elapsed between the final charged offence and arrest, during which he was not offending and was not suspected. Compare USA-004-DEANGELO, whose desistance ran 32 years. Both cases show that cessation of offending is not evidence of incapacitation, death or relocation — the standard assumptions when a series stops."
+    },
+    "jurisdictions": {
+      "value": [
+        "Sedgwick County, Kansas"
+      ],
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 3,
+          "citation": "American Bar Association Journal. 'How the Cops Caught BTK: Playing to a serial killer's ego helped crack the case.'",
+          "url": "https://www.abajournal.com/magazine/article/how_the_cops_caught_btk"
+        }
+      ],
+      "notes": "Offences in and around Wichita. A single county, as with USA-005-GACY."
+    }
+  },
+  "background": {
+    "family_structure": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "He was married with adult children at the time of arrest. Beyond that bare fact, family circumstances are out of scope under ETHICS.md — his relatives are not subjects of this dataset and were not part of the adjudicated record."
+    },
+    "education": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "No record retrieved."
+    },
+    "employment_history": {
+      "value": "Code compliance officer for Park City, Kansas. Previously employed by a home security company. President of the congregation at Christ Lutheran Church.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 3,
+          "citation": "American Bar Association Journal. 'How the Cops Caught BTK: Playing to a serial killer's ego helped crack the case.'",
+          "url": "https://www.abajournal.com/magazine/article/how_the_cops_caught_btk"
+        },
+        {
+          "tier": 4,
+          "citation": "NBC News / Associated Press. 'BTK killer waives trial, admits 10 slayings.' 27 June 2005.",
+          "url": "https://www.nbcnews.com/id/wbna8367581"
+        }
+      ],
+      "notes": "Third record in this dataset where the occupational fact is load-bearing. DeAngelo held a police warrant card; Ridgway had three decades of unbroken shift work; Rader held a municipal enforcement role and an elected church office, both of which conferred standing and legitimate reason to be present in the neighbourhoods where he lived and offended."
+    },
+    "military_service": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "Air Force service is commonly reported; no service record retrieved."
+    },
+    "documented_head_injury": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "No medical documentation located."
+    },
+    "macdonald_triad": {
+      "enuresis": {
+        "value": null,
+        "confidence": "unverified",
+        "sources": [],
+        "notes": "No documentation located. NOTE: the triad is not a predictor of violence — see the schema field description."
+      },
+      "firesetting": {
+        "value": null,
+        "confidence": "unverified",
+        "sources": [],
+        "notes": "No documentation located."
+      },
+      "animal_cruelty": {
+        "value": null,
+        "confidence": "unverified",
+        "sources": [],
+        "notes": "No documentation located. Accounts of childhood animal cruelty derive from his own later statements in custody and are not corroborated."
+      }
+    }
+  },
+  "clinical": {
+    "formal_diagnoses": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "He pleaded guilty; no psychiatric evidence was adjudicated and no court-adopted diagnosis exists. Contrast USA-005-GACY, the only record in the dataset where competing clinical evidence was tested at trial."
+    },
+    "competency_findings": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "No finding retrieved. Competency was not a contested issue in the reported proceedings; he entered a detailed plea in open court."
+    },
+    "psychometric_results": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "No assessment located."
+    },
+    "commentary_attributions": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "Not catalogued. This subject has been the object of extensive post-conviction interviewing and commentary; a contributor cataloguing it should be careful to record it as discourse about him, not as findings about him."
+    }
+  },
+  "offence_behaviour": {
+    "victim_selection": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "The retrieved sources do not set out a targeting pattern, and this dataset does not assemble one from secondary compilations. A contributor should populate this from the charging documents."
+    },
+    "approach_method": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "Not established from retrieved sources. Detailed reconstructions in circulation derive substantially from his own custodial accounts."
+    },
+    "spatial_pattern": {
+      "value": "Marauder",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 2,
+          "citation": "Canter, David and Paul Larkin. 'The Environmental Range of Serial Rapists.' Journal of Environmental Psychology 13(1), 1993, 63-69."
+        }
+      ],
+      "notes": "Coded marauder: he lived, worked and offended within one metropolitan area. Maintainer coding applying the Canter & Larkin framework, not a source-attested fact. The dataset now holds two commuters and three marauders, and the detection delays still do not order by range."
+    },
+    "weapon_or_method": {
+      "value": "Ligature strangulation.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 3,
+          "citation": "American Bar Association Journal. 'How the Cops Caught BTK: Playing to a serial killer's ego helped crack the case.'",
+          "url": "https://www.abajournal.com/magazine/article/how_the_cops_caught_btk"
+        }
+      ],
+      "notes": "Recorded at the level the retrieved sources support. The self-coined epithet asserts a method sequence; this dataset does not treat an offender's self-description as a finding about the offences."
+    },
+    "signature_behaviour": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "No scene documentation or post-mortem finding establishing recurring non-functional conduct has been retrieved. The communications sent to police and media are recorded under post_offence_behaviour instead, since they occurred away from the scene and are not signature in the sense this field uses."
+    },
+    "post_offence_behaviour": {
+      "value": "Sustained written communication with police and news media about the offences, initiated during the offending period, resumed in 2004 after roughly a quarter of a century of silence.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 3,
+          "citation": "American Bar Association Journal. 'How the Cops Caught BTK: Playing to a serial killer's ego helped crack the case.'",
+          "url": "https://www.abajournal.com/magazine/article/how_the_cops_caught_btk"
+        },
+        {
+          "tier": 4,
+          "citation": "CBS News. 'Computer Trail Led To BTK Suspect.' 2005.",
+          "url": "https://www.cbsnews.com/news/computer-trail-led-to-btk-suspect/"
+        }
+      ],
+      "notes": "This is the best-evidenced post-offence conduct in the dataset, because the communications are themselves physical evidence in the case file rather than an account given afterwards. It is also what ended the case: he had not been identified, was not under suspicion, and had not offended for thirteen years when he resumed writing."
+    },
+    "forensic_countermeasures": {
+      "value": "He asked investigators, in a communication, whether a floppy disk could be traced back to him.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 3,
+          "citation": "American Bar Association Journal. 'How the Cops Caught BTK: Playing to a serial killer's ego helped crack the case.'",
+          "url": "https://www.abajournal.com/magazine/article/how_the_cops_caught_btk"
+        },
+        {
+          "tier": 4,
+          "citation": "CBS News. 'Computer Trail Led To BTK Suspect.' 2005.",
+          "url": "https://www.cbsnews.com/news/computer-trail-led-to-btk-suspect/"
+        }
+      ],
+      "notes": "A rare case where an offender's counter-forensic reasoning is documented in his own contemporaneous words rather than reconstructed. He attempted to delete identifying information from the file; he did not know that document metadata persisted independently of the visible content."
+    },
+    "motive_classification": {
+      "value": "Power/control, per Holmes & Holmes",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 3,
+          "citation": "Holmes, Ronald M. and Stephen T. Holmes. Profiling Violent Crimes: An Investigative Tool. Thousand Oaks CA: Sage Publications."
+        },
+        {
+          "tier": 2,
+          "citation": "Canter, David V., Laurence J. Alison, Emily Alison and Natalia Wentink. 'The Organized/Disorganized Typology of Serial Murder: Myth or Model?' Psychology, Public Policy, and Law 10(3), 2004, 293-320."
+        }
+      ],
+      "notes": "Maintainer coding, not a source-attested fact. This coding should be treated with more scepticism than most in the dataset: it rests heavily on the offender's own extensive self-presentation, which is precisely the material this project treats as least reliable. Canter et al. (2004) cited as the standing caution on typologies of this family. A contributor may reasonably decline to code this field at all."
+    }
+  },
+  "investigation": {
+    "detection_delay_factors": {
+      "value": "The offences spanned 1974 to 1991 and arrest followed in 2005. Rader was not identified by investigative work during the offending period and was not a suspect. The case was closed by his own decision to resume communication with police in 2004, thirteen years after the last charged offence, at a point when no investigative avenue was converging on him.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 3,
+          "citation": "American Bar Association Journal. 'How the Cops Caught BTK: Playing to a serial killer's ego helped crack the case.'",
+          "url": "https://www.abajournal.com/magazine/article/how_the_cops_caught_btk"
+        },
+        {
+          "tier": 4,
+          "citation": "CBS News. 'Computer Trail Led To BTK Suspect.' 2005.",
+          "url": "https://www.cbsnews.com/news/computer-trail-led-to-btk-suspect/"
+        }
+      ],
+      "notes": "A FIFTH DISTINCT DELAY MECHANISM, and the only one in the dataset that was not resolved by investigation at all. Bundy: jurisdictional fragmentation. Ridgway: institutional neglect plus forensic limits. DeAngelo: absent technology. Gacy: an unconnected conviction record. Rader: none of these — the investigation had not solved it and, on the retrieved record, was not going to. He surfaced. Any analysis of detection using this dataset must treat this case as a censored observation rather than a success, or it will overstate what investigative capability achieved."
+    },
+    "identifying_evidence": {
+      "value": "Metadata in a deleted word-processing document on a floppy disk sent to a television station in February 2005. The file properties recorded that it had last been saved by a user named Dennis, and associated the disk with Christ Lutheran Church and the Park City library.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 3,
+          "citation": "American Bar Association Journal. 'How the Cops Caught BTK: Playing to a serial killer's ego helped crack the case.'",
+          "url": "https://www.abajournal.com/magazine/article/how_the_cops_caught_btk"
+        },
+        {
+          "tier": 4,
+          "citation": "CBS News. 'Computer Trail Led To BTK Suspect.' 2005.",
+          "url": "https://www.cbsnews.com/news/computer-trail-led-to-btk-suspect/"
+        }
+      ],
+      "notes": "The first case in this dataset identified by digital forensics. A church office and a library card were enough to reduce the population to one."
+    },
+    "forensic_methods_used": {
+      "value": "Document metadata analysis, followed by confirmation through familial DNA comparison. The reference sample was a stored medical specimen taken years earlier from an adult relative at a university clinic, obtained by legal process.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 3,
+          "citation": "American Bar Association Journal. 'How the Cops Caught BTK: Playing to a serial killer's ego helped crack the case.'",
+          "url": "https://www.abajournal.com/magazine/article/how_the_cops_caught_btk"
+        },
+        {
+          "tier": 4,
+          "citation": "CBS News. 'Computer Trail Led To BTK Suspect.' 2005.",
+          "url": "https://www.cbsnews.com/news/computer-trail-led-to-btk-suspect/"
+        }
+      ],
+      "notes": "SAME DISTINCTION AS USA-004-DEANGELO, and it arises three years earlier here. Neither method is scientifically unreliable; both raise governance questions. The relative whose stored medical sample was used was not a suspect, was not asked, and had provided the specimen for clinical care. This dataset names neither the relative nor the specimen type: the analytic point is that a third party's medical record became an identification tool, and that point survives without exposing her. Compare the consumer-genealogy pathway in DeAngelo — different mechanism, same underlying question about whose biological information becomes available to an investigation, and on what authority."
+    },
+    "method_now_disputed": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "No technique relied on here has been found scientifically unreliable. Null by design; the governance concerns are recorded under forensic_methods_used, because a contested method is not a discredited one."
+    },
+    "arrest": {
+      "value": "Arrested February 2005 in Park City, Kansas.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 4,
+          "citation": "CBS News. 'Computer Trail Led To BTK Suspect.' 2005.",
+          "url": "https://www.cbsnews.com/news/computer-trail-led-to-btk-suspect/"
+        }
+      ]
+    }
+  },
+  "adjudication": {
+    "interrogation_method": {
+      "value": "Investigators used deception during the communications phase. Rader asked whether a floppy disk could be traced; police answered through a newspaper advertisement that implied it could not. He sent the disk, and it identified him. He referred to that exchange in interview as the thing that undid him.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 3,
+          "citation": "American Bar Association Journal. 'How the Cops Caught BTK: Playing to a serial killer's ego helped crack the case.'",
+          "url": "https://www.abajournal.com/magazine/article/how_the_cops_caught_btk"
+        },
+        {
+          "tier": 4,
+          "citation": "CBS News. 'Computer Trail Led To BTK Suspect.' 2005.",
+          "url": "https://www.cbsnews.com/news/computer-trail-led-to-btk-suspect/"
+        }
+      ],
+      "notes": "Documented investigative deception that worked. Recorded without endorsement: the same family of techniques, applied to a suggestible subject in a custodial setting, produced the confession problems documented in USA-003-HALL and the false confessions in docs/investigative-failures.md. What differs here is that the deception induced an act producing independent physical evidence, not a statement. That distinction — deception that generates evidence versus deception that generates admissions — is the one worth carrying into any analysis of interrogation tactics in this dataset."
+    },
+    "confession_reliability": {
+      "value": "Not load-bearing for the convictions, which rest on physical and documentary evidence including his own communications. His extensive post-conviction statements from custody are a separate matter and are treated as unreliable.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 3,
+          "citation": "American Bar Association Journal. 'How the Cops Caught BTK: Playing to a serial killer's ego helped crack the case.'",
+          "url": "https://www.abajournal.com/magazine/article/how_the_cops_caught_btk"
+        }
+      ],
+      "notes": "He has continued to give interviews and correspond from prison, and much circulating detail about the offences originates there. Custodial self-presentation by a subject whose documented behaviour centres on seeking attention is the least reliable class of evidence this dataset handles. Several fields in this record are null for that reason."
+    },
+    "trial_outcome": {
+      "value": "No trial. Guilty plea entered 27 June 2005, with a detailed account of the offences given in open court.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 4,
+          "citation": "NBC News / Associated Press. 'BTK killer waives trial, admits 10 slayings.' 27 June 2005.",
+          "url": "https://www.nbcnews.com/id/wbna8367581"
+        },
+        {
+          "tier": 3,
+          "citation": "American Bar Association Journal. 'How the Cops Caught BTK: Playing to a serial killer's ego helped crack the case.'",
+          "url": "https://www.abajournal.com/magazine/article/how_the_cops_caught_btk"
+        }
+      ]
+    },
+    "sentence": {
+      "value": "Ten consecutive life sentences, imposed August 2005 and reported as a minimum of 175 years before parole eligibility.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 3,
+          "citation": "American Bar Association Journal. 'How the Cops Caught BTK: Playing to a serial killer's ego helped crack the case.'",
+          "url": "https://www.abajournal.com/magazine/article/how_the_cops_caught_btk"
+        },
+        {
+          "tier": 4,
+          "citation": "NBC News / Associated Press. 'BTK killer waives trial, admits 10 slayings.' 27 June 2005.",
+          "url": "https://www.nbcnews.com/id/wbna8367581"
+        }
+      ],
+      "notes": "The death penalty was unavailable because the offences predated the current Kansas capital statute."
+    },
+    "appellate_history": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "No appellate history retrieved. He pleaded guilty."
+    },
+    "disposition": {
+      "value": "Incarcerated in the Kansas correctional system.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 4,
+          "citation": "NBC News / Associated Press. 'BTK killer waives trial, admits 10 slayings.' 27 June 2005.",
+          "url": "https://www.nbcnews.com/id/wbna8367581"
+        }
+      ],
+      "notes": "A current Department of Corrections record should be cited if the facility matters analytically."
+    }
+  },
+  "data_quality": {
+    "known_gaps": [
+      "No court filing retrieved. Every claim rests on reporting of the proceedings rather than the proceedings themselves — the weakest evidentiary base of any offender profile in the dataset so far.",
+      "Birth date and place not asserted.",
+      "Exact sentencing date not fixed; only the month is recorded.",
+      "Victim selection, approach method and signature behaviour all null: the retrieved sources do not establish them and this dataset does not build them from the offender's custodial accounts.",
+      "No psychiatric or psychometric material.",
+      "The 1974-1991 offence dates are recorded as years; individual offence dates have not been retrieved."
+    ],
+    "contested_points": [
+      "Whether familial DNA comparison using a third party's stored clinical specimen, obtained by legal process without her knowledge, is an acceptable investigative method — a governance question, not a reliability one.",
+      "Whether the coding of motive is supportable at all for a subject whose self-presentation is this extensive and this unreliable."
+    ],
+    "excluded_material": [
+      "The name of the relative whose stored medical specimen provided the reference sample, and the nature of that specimen. She is a living third party who was not a suspect; under ETHICS.md she is out of scope, and the analytic point survives without her.",
+      "Detail drawn from the offender's post-conviction interviews and correspondence, which is where most circulating narrative about this case originates.",
+      "Graphic description of the offences, excluded under ETHICS.md.",
+      "The expansion of the self-coined epithet, which asserts a method sequence as though it were a finding.",
+      "Childhood aetiologies sourced to his own custodial accounts."
+    ]
+  }
+}
