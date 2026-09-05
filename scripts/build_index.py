@@ -27,7 +27,7 @@ INDEX = ROOT / "index"
 ROSTER = [
     # --- United States -----------------------------------------------------
     ("USA-001-BUNDY",      "Theodore Robert Bundy",        "USA", "", "serial", "in_progress"),
-    ("USA-002-RIDGWAY",    "Gary Leon Ridgway",            "USA", "Green River Killer", "serial", "stub"),
+    ("USA-002-RIDGWAY",    "Gary Leon Ridgway",            "USA", "Green River Killer", "serial", "in_progress"),
     ("USA-003-HALL",       "Larry DeWayne Hall",           "USA", "", "serial", "stub"),
     ("USA-004-DEANGELO",   "Joseph James DeAngelo",        "USA", "Golden State Killer", "serial", "stub"),
     ("USA-005-GACY",       "John Wayne Gacy",              "USA", "", "serial", "stub"),
