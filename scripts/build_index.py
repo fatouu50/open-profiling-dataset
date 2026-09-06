@@ -20,12 +20,17 @@ INDEX = ROOT / "index"
 # ROSTER — subjects cleared for profiling.
 # (id, name, iso3, epithet, classification, status)
 #
-# classification: serial | team | healthcare | poisoner
+# classification: serial | healthcare | poisoner
+#
+# There is no 'team' classification. Offenders who acted together each get
+# their own record, linked by the profile schema's `co_offenders` field.
+# See docs/co-offenders.md.
 # status: stub (no profile yet) | in_progress | complete
 # ---------------------------------------------------------------------------
 
 ROSTER = [
     # --- United States -----------------------------------------------------
+    # USA-011-CORLL is a CASE record (died before trial), not a roster entry.
     ("USA-001-BUNDY",      "Theodore Robert Bundy",        "USA", "", "serial", "in_progress"),
     ("USA-002-RIDGWAY",    "Gary Leon Ridgway",            "USA", "Green River Killer", "serial", "in_progress"),
     ("USA-004-DEANGELO",   "Joseph James DeAngelo Jr.",    "USA", "Golden State Killer", "serial", "in_progress"),
@@ -35,68 +40,73 @@ ROSTER = [
     ("USA-008-RAMIREZ",    "Richard Ramirez",              "USA", "Night Stalker", "serial", "in_progress"),
     ("USA-009-KEMPER",     "Edmund Emil Kemper III",       "USA", "Co-Ed Killer", "serial", "in_progress"),
     ("USA-010-BERKOWITZ",  "David Richard Berkowitz",      "USA", "Son of Sam", "serial", "in_progress"),
-    ("USA-011-CORLL",      "Dean Arnold Corll",            "USA", "", "serial", "stub"),
-    ("USA-012-BITTAKER",   "Bittaker & Norris",            "USA", "", "team", "stub"),
-    ("USA-013-BIANCHI",    "Bianchi & Buono",              "USA", "Hillside Stranglers", "team", "stub"),
-    ("USA-014-NG",         "Charles Ng & Leonard Lake",    "USA", "", "team", "stub"),
-    ("USA-015-DESALVO",    "Albert Henry DeSalvo",         "USA", "Boston Strangler", "serial", "stub"),
-    ("USA-016-ALCALA",     "Rodney James Alcala",          "USA", "", "serial", "stub"),
-    ("USA-017-LITTLE",     "Samuel Little",                "USA", "", "serial", "stub"),
-    ("USA-018-HOLMES",     "Herman Webster Mudgett",       "USA", "H. H. Holmes", "serial", "stub"),
-    ("USA-019-SHAWCROSS",  "Arthur John Shawcross",        "USA", "", "serial", "stub"),
-    ("USA-020-CHASE",      "Richard Trenton Chase",        "USA", "", "serial", "stub"),
-    ("USA-021-KEARNEY",    "Patrick Wayne Kearney",        "USA", "", "serial", "stub"),
-    ("USA-022-WILLIAMS",   "Wayne Bertram Williams",       "USA", "", "serial", "stub"),
-    ("USA-023-GASKINS",    "Donald Henry Gaskins",         "USA", "", "serial", "stub"),
-    ("USA-024-STANO",      "Gerald Eugene Stano",          "USA", "", "serial", "stub"),
-    ("USA-025-DOMINIQUE",  "Ronald Joseph Dominique",      "USA", "", "serial", "stub"),
-    ("USA-026-LEE",        "Derrick Todd Lee",             "USA", "", "serial", "stub"),
-    ("USA-027-WATTS",      "Carl Eugene Watts",            "USA", "", "serial", "stub"),
-    ("USA-028-HANSEN",     "Robert Christian Hansen",      "USA", "", "serial", "stub"),
-    ("USA-029-KRAFT",      "Randy Steven Kraft",           "USA", "", "serial", "stub"),
-    ("USA-030-BONIN",      "William George Bonin",         "USA", "Freeway Killer", "serial", "stub"),
-    ("USA-031-HEIDNIK",    "Gary Michael Heidnik",         "USA", "", "serial", "stub"),
-    ("USA-032-HATCHER",    "Charles Ray Hatcher",          "USA", "", "serial", "stub"),
-    ("USA-033-KEYES",      "Israel Keyes",                 "USA", "", "serial", "stub"),
-    ("USA-034-FRANKLIN",   "Lonnie David Franklin Jr.",    "USA", "Grim Sleeper", "serial", "stub"),
-    ("USA-035-JESPERSON",  "Keith Hunter Jesperson",       "USA", "Happy Face Killer", "serial", "stub"),
-    ("USA-036-SELLS",      "Tommy Lynn Sells",             "USA", "", "serial", "stub"),
-    ("USA-037-LUCAS",      "Henry Lee Lucas",              "USA", "", "serial", "stub"),
-    ("USA-038-TOOLE",      "Ottis Elwood Toole",           "USA", "", "serial", "stub"),
-    ("USA-039-CORONA",     "Juan Vallejo Corona",          "USA", "", "serial", "stub"),
-    ("USA-040-RAY",        "David Parker Ray",             "USA", "Toy-Box Killer", "serial", "stub"),
-    ("USA-041-RUSSELL",    "George Waterfield Russell Jr.","USA", "", "serial", "stub"),
-    ("USA-042-ROSS",       "Michael Bruce Ross",           "USA", "", "serial", "stub"),
-    ("USA-043-ROLLING",    "Danny Harold Rolling",         "USA", "Gainesville Ripper", "serial", "stub"),
-    ("USA-044-ATKINS",     "Benjamin Tyrone Atkins",       "USA", "", "serial", "stub"),
-    ("USA-045-JFRANKLIN",  "Joseph Paul Franklin",         "USA", "", "serial", "stub"),
-    ("USA-046-ROGERS",     "Richard W. Rogers",            "USA", "Last Call Killer", "serial", "stub"),
-    ("USA-047-FRANCOIS",   "Kendall L. Francois",          "USA", "", "serial", "stub"),
-    ("USA-048-GILYARD",    "Lorenzo Jerome Gilyard",       "USA", "", "serial", "stub"),
-    ("USA-049-KNOWLES",    "Paul John Knowles",            "USA", "", "serial", "stub"),
-    ("USA-050-TRAVIS",     "Maury Troy Travis",            "USA", "", "serial", "stub"),
-    ("USA-051-TURNER",     "Chester Dewayne Turner",       "USA", "", "serial", "stub"),
-    ("USA-052-NASO",       "Joseph Naso",                  "USA", "", "serial", "stub"),
-    ("USA-053-BIRD",       "Jake Bird",                    "USA", "", "serial", "stub"),
-    ("USA-054-DOSS",       "Nannie Doss",                  "USA", "", "poisoner", "stub"),
-    ("USA-055-GUNNESS",    "Belle Gunness",                "USA", "", "serial", "stub"),
-    ("USA-056-ARCHER",     "Amy Archer-Gilligan",          "USA", "", "healthcare", "stub"),
-    ("USA-057-WILDER",     "Christopher Bernard Wilder",   "USA", "", "serial", "stub"),
-    ("USA-058-KUKLINSKI",  "Richard Leonard Kuklinski",    "USA", "", "serial", "stub"),
-    ("USA-059-SOTO",       "Erno Soto",                    "USA", "", "serial", "stub"),
+    ("USA-012-HENLEY",     "Elmer Wayne Henley Jr.",       "USA", "", "serial", "stub"),
+    ("USA-013-BROOKS",     "David Owen Brooks",            "USA", "", "serial", "stub"),
+    ("USA-014-BITTAKER",   "Lawrence Sigmond Bittaker",    "USA", "", "serial", "stub"),
+    ("USA-015-NORRIS",     "Roy Lewis Norris",             "USA", "", "serial", "stub"),
+    ("USA-016-BIANCHI",    "Kenneth Alessio Bianchi",      "USA", "Hillside Strangler", "serial", "stub"),
+    ("USA-017-BUONO",      "Angelo Buono Jr.",             "USA", "Hillside Strangler", "serial", "stub"),
+    ("USA-018-NG",         "Charles Chitat Ng",            "USA", "", "serial", "stub"),
+    # USA-019-LAKE is a CASE record (died before trial).
+    ("USA-020-DESALVO",    "Albert Henry DeSalvo",         "USA", "Boston Strangler", "serial", "stub"),
+    ("USA-021-ALCALA",     "Rodney James Alcala",          "USA", "", "serial", "stub"),
+    ("USA-022-LITTLE",     "Samuel Little",                "USA", "", "serial", "stub"),
+    ("USA-023-HOLMES",     "Herman Webster Mudgett",       "USA", "H. H. Holmes", "serial", "stub"),
+    ("USA-024-SHAWCROSS",  "Arthur John Shawcross",        "USA", "", "serial", "stub"),
+    ("USA-025-CHASE",      "Richard Trenton Chase",        "USA", "", "serial", "stub"),
+    ("USA-026-KEARNEY",    "Patrick Wayne Kearney",        "USA", "", "serial", "stub"),
+    ("USA-027-WILLIAMS",   "Wayne Bertram Williams",       "USA", "", "serial", "stub"),
+    ("USA-028-GASKINS",    "Donald Henry Gaskins",         "USA", "", "serial", "stub"),
+    ("USA-029-STANO",      "Gerald Eugene Stano",          "USA", "", "serial", "stub"),
+    ("USA-030-DOMINIQUE",  "Ronald Joseph Dominique",      "USA", "", "serial", "stub"),
+    ("USA-031-LEE",        "Derrick Todd Lee",             "USA", "", "serial", "stub"),
+    ("USA-032-WATTS",      "Carl Eugene Watts",            "USA", "", "serial", "stub"),
+    ("USA-033-HANSEN",     "Robert Christian Hansen",      "USA", "", "serial", "stub"),
+    ("USA-034-KRAFT",      "Randy Steven Kraft",           "USA", "", "serial", "stub"),
+    ("USA-035-BONIN",      "William George Bonin",         "USA", "Freeway Killer", "serial", "stub"),
+    ("USA-036-HEIDNIK",    "Gary Michael Heidnik",         "USA", "", "serial", "stub"),
+    ("USA-037-HATCHER",    "Charles Ray Hatcher",          "USA", "", "serial", "stub"),
+    # USA-038-KEYES is a CASE record (died before trial).
+    ("USA-039-FRANKLIN",   "Lonnie David Franklin Jr.",    "USA", "Grim Sleeper", "serial", "stub"),
+    ("USA-040-JESPERSON",  "Keith Hunter Jesperson",       "USA", "Happy Face Killer", "serial", "stub"),
+    ("USA-041-SELLS",      "Tommy Lynn Sells",             "USA", "", "serial", "stub"),
+    ("USA-042-LUCAS",      "Henry Lee Lucas",              "USA", "", "serial", "stub"),
+    ("USA-043-TOOLE",      "Ottis Elwood Toole",           "USA", "", "serial", "stub"),
+    ("USA-044-CORONA",     "Juan Vallejo Corona",          "USA", "", "serial", "stub"),
+    ("USA-045-RAY",        "David Parker Ray",             "USA", "Toy-Box Killer", "serial", "stub"),
+    ("USA-046-RUSSELL",    "George Waterfield Russell Jr.","USA", "", "serial", "stub"),
+    ("USA-047-ROSS",       "Michael Bruce Ross",           "USA", "", "serial", "stub"),
+    ("USA-048-ROLLING",    "Danny Harold Rolling",         "USA", "Gainesville Ripper", "serial", "stub"),
+    ("USA-049-ATKINS",     "Benjamin Tyrone Atkins",       "USA", "", "serial", "stub"),
+    ("USA-050-JFRANKLIN",  "Joseph Paul Franklin",         "USA", "", "serial", "stub"),
+    ("USA-051-ROGERS",     "Richard W. Rogers",            "USA", "Last Call Killer", "serial", "stub"),
+    ("USA-052-FRANCOIS",   "Kendall L. Francois",          "USA", "", "serial", "stub"),
+    ("USA-053-GILYARD",    "Lorenzo Jerome Gilyard",       "USA", "", "serial", "stub"),
+    ("USA-054-KNOWLES",    "Paul John Knowles",            "USA", "", "serial", "stub"),
+    ("USA-055-TRAVIS",     "Maury Troy Travis",            "USA", "", "serial", "stub"),
+    ("USA-056-TURNER",     "Chester Dewayne Turner",       "USA", "", "serial", "stub"),
+    ("USA-057-NASO",       "Joseph Naso",                  "USA", "", "serial", "stub"),
+    ("USA-058-BIRD",       "Jake Bird",                    "USA", "", "serial", "stub"),
+    ("USA-059-DOSS",       "Nannie Doss",                  "USA", "", "poisoner", "stub"),
+    ("USA-060-GUNNESS",    "Belle Gunness",                "USA", "", "serial", "stub"),
+    ("USA-061-ARCHER",     "Amy Archer-Gilligan",          "USA", "", "healthcare", "stub"),
+    ("USA-062-WILDER",     "Christopher Bernard Wilder",   "USA", "", "serial", "stub"),
+    ("USA-063-KUKLINSKI",  "Richard Leonard Kuklinski",    "USA", "", "serial", "stub"),
+    ("USA-064-SOTO",       "Erno Soto",                    "USA", "", "serial", "stub"),
 
     # --- Canada ------------------------------------------------------------
     ("CAN-001-PICKTON",    "Robert William Pickton",       "CAN", "", "serial", "stub"),
     ("CAN-002-OLSON",      "Clifford Robert Olson Jr.",    "CAN", "", "serial", "stub"),
-    ("CAN-003-BERNARDO",   "Bernardo & Homolka",           "CAN", "", "team", "stub"),
-    ("CAN-004-DION",       "Léopold Dion",                 "CAN", "", "serial", "stub"),
-    ("CAN-005-JORDAN",     "Gilbert Paul Jordan",          "CAN", "", "serial", "stub"),
-    ("CAN-006-BODEN",      "Wayne Clifford Boden",         "CAN", "", "serial", "stub"),
-    ("CAN-007-LEGERE",     "Allan Joseph Legere",          "CAN", "", "serial", "stub"),
-    ("CAN-008-FYFE",       "William Patrick Fyfe",         "CAN", "", "serial", "stub"),
-    ("CAN-009-MCGRAY",     "Michael Wayne McGray",         "CAN", "", "serial", "stub"),
-    ("CAN-010-WETTLAUFER", "Elizabeth Tracey Mae Wettlaufer","CAN","", "healthcare", "stub"),
-    ("CAN-011-MCARTHUR",   "Bruce McArthur",               "CAN", "", "serial", "stub"),
+    ("CAN-003-BERNARDO",   "Paul Kenneth Bernardo",        "CAN", "", "serial", "stub"),
+    ("CAN-004-HOMOLKA",    "Karla Leanne Homolka",         "CAN", "", "serial", "stub"),
+    ("CAN-005-DION",       "Léopold Dion",                 "CAN", "", "serial", "stub"),
+    ("CAN-006-JORDAN",     "Gilbert Paul Jordan",          "CAN", "", "serial", "stub"),
+    ("CAN-007-BODEN",      "Wayne Clifford Boden",         "CAN", "", "serial", "stub"),
+    ("CAN-008-LEGERE",     "Allan Joseph Legere",          "CAN", "", "serial", "stub"),
+    ("CAN-009-FYFE",       "William Patrick Fyfe",         "CAN", "", "serial", "stub"),
+    ("CAN-010-MCGRAY",     "Michael Wayne McGray",         "CAN", "", "serial", "stub"),
+    ("CAN-011-WETTLAUFER", "Elizabeth Tracey Mae Wettlaufer","CAN","", "healthcare", "stub"),
+    ("CAN-012-MCARTHUR",   "Bruce McArthur",               "CAN", "", "serial", "stub"),
 
     # --- Mexico ------------------------------------------------------------
     ("MEX-001-BARRAZA",    "Juana Barraza",                "MEX", "La Mataviejitas", "serial", "stub"),
@@ -115,17 +125,19 @@ ROSTER = [
 
     # --- United Kingdom ----------------------------------------------------
     ("GBR-001-SUTCLIFFE",  "Peter William Sutcliffe",      "GBR", "Yorkshire Ripper", "serial", "stub"),
-    ("GBR-002-BRADY",      "Brady & Hindley",              "GBR", "Moors Murderers", "team", "stub"),
-    ("GBR-003-WEST",       "Fred & Rose West",             "GBR", "", "team", "stub"),
-    ("GBR-004-NILSEN",     "Dennis Andrew Nilsen",         "GBR", "", "serial", "stub"),
-    ("GBR-005-SHIPMAN",    "Harold Frederick Shipman",     "GBR", "", "healthcare", "stub"),
-    ("GBR-006-CHRISTIE",   "John Reginald Halliday Christie","GBR","", "serial", "stub"),
-    ("GBR-007-HAIGH",      "John George Haigh",            "GBR", "Acid Bath Murderer", "serial", "stub"),
-    ("GBR-008-BLACK",      "Robert Black",                 "GBR", "", "serial", "stub"),
-    ("GBR-009-TOBIN",      "Peter Britton Tobin",          "GBR", "", "serial", "stub"),
-    ("GBR-010-IRELAND",    "Colin Ireland",                "GBR", "", "serial", "stub"),
-    ("GBR-011-MACKAY",     "Patrick David Mackay",         "GBR", "", "serial", "stub"),
-    ("GBR-012-SCRIPPS",    "John Martin Scripps",          "GBR", "", "serial", "stub"),
+    ("GBR-002-BRADY",      "Ian Brady",                    "GBR", "Moors Murderers", "serial", "stub"),
+    ("GBR-003-HINDLEY",    "Myra Hindley",                 "GBR", "Moors Murderers", "serial", "stub"),
+    # GBR-004-FWEST is a CASE record (died on remand, before trial).
+    ("GBR-005-RWEST",      "Rosemary Pauline West",        "GBR", "", "serial", "stub"),
+    ("GBR-006-NILSEN",     "Dennis Andrew Nilsen",         "GBR", "", "serial", "stub"),
+    ("GBR-007-SHIPMAN",    "Harold Frederick Shipman",     "GBR", "", "healthcare", "stub"),
+    ("GBR-008-CHRISTIE",   "John Reginald Halliday Christie","GBR","", "serial", "stub"),
+    ("GBR-009-HAIGH",      "John George Haigh",            "GBR", "Acid Bath Murderer", "serial", "stub"),
+    ("GBR-010-BLACK",      "Robert Black",                 "GBR", "", "serial", "stub"),
+    ("GBR-011-TOBIN",      "Peter Britton Tobin",          "GBR", "", "serial", "stub"),
+    ("GBR-012-IRELAND",    "Colin Ireland",                "GBR", "", "serial", "stub"),
+    ("GBR-013-MACKAY",     "Patrick David Mackay",         "GBR", "", "serial", "stub"),
+    ("GBR-014-SCRIPPS",    "John Martin Scripps",          "GBR", "", "serial", "stub"),
 
     # --- Belgium -----------------------------------------------------------
     ("BEL-001-DUTROUX",    "Marc Dutroux",                 "BEL", "", "serial", "stub"),
@@ -203,11 +215,12 @@ ROSTER = [
     # --- Oceania -----------------------------------------------------------
     ("AUS-001-MILAT",      "Ivan Robert Marko Milat",      "AUS", "Backpacker Killer", "serial", "stub"),
     ("AUS-002-COOKE",      "Eric Edgar Cooke",             "AUS", "", "serial", "stub"),
-    ("AUS-003-BUNTING",    "John Justin Bunting",          "AUS", "Snowtown", "team", "stub"),
-    ("AUS-004-BIRNIE",     "David & Catherine Birnie",     "AUS", "", "team", "stub"),
-    ("AUS-005-MACDONALD",  "William MacDonald",            "AUS", "", "serial", "stub"),
-    ("AUS-006-DENYER",     "Paul Charles Denyer",          "AUS", "", "serial", "stub"),
-    ("AUS-007-DUPAS",      "Peter Norris Dupas",           "AUS", "", "serial", "stub"),
+    ("AUS-003-BUNTING",    "John Justin Bunting",          "AUS", "Snowtown", "serial", "stub"),
+    ("AUS-004-DBIRNIE",    "David John Birnie",            "AUS", "", "serial", "stub"),
+    ("AUS-005-CBIRNIE",    "Catherine Margaret Birnie",    "AUS", "", "serial", "stub"),
+    ("AUS-006-MACDONALD",  "William MacDonald",            "AUS", "", "serial", "stub"),
+    ("AUS-007-DENYER",     "Paul Charles Denyer",          "AUS", "", "serial", "stub"),
+    ("AUS-008-DUPAS",      "Peter Norris Dupas",           "AUS", "", "serial", "stub"),
 ]
 
 # ---------------------------------------------------------------------------
@@ -271,7 +284,11 @@ QUARANTINE = [
 # ---------------------------------------------------------------------------
 
 CASES = [
-    ("USA-003-HALL", "Larry DeWayne Hall", "USA", "no_homicide_conviction", "in_progress"),
+    ("USA-003-HALL",  "Larry DeWayne Hall",       "USA", "no_homicide_conviction", "in_progress"),
+    ("USA-011-CORLL", "Dean Arnold Corll",        "USA", "died_before_trial", "stub"),
+    ("USA-019-LAKE",  "Leonard Lake",             "USA", "died_before_trial", "stub"),
+    ("USA-038-KEYES", "Israel Keyes",             "USA", "died_before_trial", "stub"),
+    ("GBR-004-FWEST", "Frederick Walter Stephen West", "GBR", "died_before_trial", "stub"),
 ]
 
 # ---------------------------------------------------------------------------
@@ -310,6 +327,13 @@ def main():
     write(INDEX / "unsolved-cases.csv",
           ["id", "case_name", "country_iso3", "period", "note"],
           UNSOLVED)
+
+    allowed = {"serial", "healthcare", "poisoner"}
+    bad = sorted({r[4] for r in ROSTER} - allowed)
+    assert not bad, (
+        f"disallowed classification(s): {bad}. There is no 'team' value: "
+        "co-offenders each get their own record, linked by `co_offenders`. "
+        "See docs/co-offenders.md.")
 
     ids = [r[0] for r in ROSTER]
     assert len(ids) == len(set(ids)), "duplicate ids in roster"

@@ -1,0 +1,298 @@
+{
+  "id": "USA-011-CORLL",
+  "schema_version": "0.1.0",
+  "record_status": "in_progress",
+  "case_type": "died_before_trial",
+  "provenance": {
+    "created": "2026-09-06",
+    "last_reviewed": "2026-09-06",
+    "contributors": [
+      "maintainer"
+    ],
+    "ai_assisted": true
+  },
+  "exclusion_rationale": {
+    "summary": "Corll was shot dead on 8 August 1973 by Elmer Wayne Henley Jr., one of the two accomplices who then led police to the burial sites. He was never arrested, never charged and never tried. The evidentiary basis against him is unusually strong for an unadjudicated case — two co-offenders were convicted of murders committed with him, and the appellate opinions in their cases describe his conduct in detail — but no court has ever tested a case against Corll himself, and this dataset does not convict people posthumously. He is recorded here rather than on the offender roster for that reason alone.",
+    "criteria_failed": [
+      "Criterion 2 — conviction for homicide"
+    ],
+    "not_an_exoneration": true
+  },
+  "identity": {
+    "legal_name": {
+      "value": "Dean Arnold Corll",
+      "confidence": "established",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Brooks v. State, 580 S.W.2d 825 (Tex. Crim. App. 1979)",
+          "url": "https://law.justia.com/cases/texas/court-of-criminal-appeals/1979/56288-3.html"
+        },
+        {
+          "tier": 1,
+          "citation": "Henley v. State, 576 S.W.2d 66 (Tex. Crim. App. 1978)",
+          "url": "https://law.justia.com/cases/texas/court-of-criminal-appeals/1978/53561-53566-3.html"
+        }
+      ],
+      "notes": "The published opinions give the name as Dean Corll. The middle name Arnold comes from press coverage and is not established here."
+    },
+    "aliases": null,
+    "media_epithet": {
+      "value": "The Candy Man",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 4,
+          "citation": "KHOU 11 (Houston). '50 years after victim of Houston ‘Candy Man’ killer Dean Corll was found, there’s a new sketch in efforts to identify him.'",
+          "url": "https://www.khou.com/article/news/investigations/missing-pieces/victim-sketch-candy-man-serial-killer-corll-heights/285-f9691bee-86bd-4fc1-be0b-77bfd24a0545"
+        }
+      ],
+      "notes": "Derived from his family's confectionery business. Recorded as a press label, not as a characterisation of the offences."
+    },
+    "birth_date": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "Commonly given as 24 December 1939. Every retrievable instance traces to wikis or aggregator pages, which are inadmissible here, and no contemporaneous report or vital record was located. Not asserted. [SEARCH NOT EXHAUSTED — this is a research todo, not a finding. Indiana vital records and 1973 Houston newspaper archives have not been checked.]",
+      "search_exhausted": false
+    },
+    "birth_place": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "Commonly given as Fort Wayne, Indiana. Same sourcing problem as the birth date. [SEARCH NOT EXHAUSTED — this is a research todo, not a finding.]",
+      "search_exhausted": false
+    },
+    "death_date": {
+      "value": "1973-08-08",
+      "confidence": "established",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Brooks v. State, 580 S.W.2d 825 (Tex. Crim. App. 1979)",
+          "url": "https://law.justia.com/cases/texas/court-of-criminal-appeals/1979/56288-3.html",
+          "note": "‘On August 8, Elmer Wayne Henley, Jr., had shot and killed Dean Corll in Pasadena.’"
+        },
+        {
+          "tier": 4,
+          "citation": "KHOU 11 (Houston). '50 years after victim of Houston ‘Candy Man’ killer Dean Corll was found, there’s a new sketch in efforts to identify him.'",
+          "url": "https://www.khou.com/article/news/investigations/missing-pieces/victim-sketch-candy-man-serial-killer-corll-heights/285-f9691bee-86bd-4fc1-be0b-77bfd24a0545"
+        }
+      ],
+      "notes": "Shot by Henley at Corll's house in Pasadena, Texas. Henley then telephoned police himself. The death is what ended the series and is also the reason there is no adjudication."
+    },
+    "judicial_status": {
+      "value": "Never arrested, never charged, never tried. Died 8 August 1973 before any proceedings existed. He stands convicted of nothing, and nothing in this record should be read as a judicial finding against him.",
+      "confidence": "established",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Brooks v. State, 580 S.W.2d 825 (Tex. Crim. App. 1979)",
+          "url": "https://law.justia.com/cases/texas/court-of-criminal-appeals/1979/56288-3.html",
+          "note": "records his death on 8 August 1973, before the investigation began"
+        },
+        {
+          "tier": 4,
+          "citation": "ABC13 (Houston). 'Dean Corll: The Houston Mass Murders.'",
+          "url": "https://abc13.com/archive/7108692/",
+          "note": "‘Corll was never arrested or convicted.’"
+        }
+      ],
+      "notes": "This is the field the record exists to state precisely. Corll is routinely listed in offender rankings and victim-count tables. He was never a defendant."
+    }
+  },
+  "established": {
+    "convictions": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "None, and none possible. He died before arrest. This field is null by design, not for want of searching.",
+      "search_exhausted": true
+    },
+    "sentence": null,
+    "judicial_findings": {
+      "value": "Two men were convicted of murders committed with Corll, and the published opinions in their appeals describe his role. Elmer Wayne Henley Jr. was convicted on six counts of murder with malice in the 175th District Court, Bexar County, and sentenced to 99 years on each count, consecutively (affirmed 1978). David Owen Brooks was convicted of murder with malice and sentenced to life (affirmed 1979). The Henley opinion records that the victims were restrained at Corll's house, sexually assaulted and tortured before being shot or strangled, and that the bodies were transported in a wooden box to three burial sites outside Houston.",
+      "confidence": "established",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Henley v. State, 576 S.W.2d 66 (Tex. Crim. App. 1978)",
+          "url": "https://law.justia.com/cases/texas/court-of-criminal-appeals/1978/53561-53566-3.html"
+        },
+        {
+          "tier": 1,
+          "citation": "Brooks v. State, 580 S.W.2d 825 (Tex. Crim. App. 1979)",
+          "url": "https://law.justia.com/cases/texas/court-of-criminal-appeals/1979/56288-3.html"
+        }
+      ],
+      "notes": "These are findings against Henley and Brooks. They are the strongest material in the record about Corll's conduct, and they are still not findings against Corll: he had no counsel, made no defence, and cross-examined nobody. The distinction is the reason this is a case record."
+    },
+    "physical_evidence": {
+      "value": "Twenty-seven bodies were recovered following Henley's disclosures, from three sites: a boat shed in south-west Houston, the Lake Sam Rayburn area, and High Island beach. Eight were found at the boat shed in the first phase of digging.",
+      "confidence": "established",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Henley v. State, 576 S.W.2d 66 (Tex. Crim. App. 1978)",
+          "url": "https://law.justia.com/cases/texas/court-of-criminal-appeals/1978/53561-53566-3.html",
+          "note": "Henley's disclosures ‘ultimately resulted in the recovery of twenty-seven bodies’"
+        },
+        {
+          "tier": 1,
+          "citation": "Brooks v. State, 580 S.W.2d 825 (Tex. Crim. App. 1979)",
+          "url": "https://law.justia.com/cases/texas/court-of-criminal-appeals/1979/56288-3.html",
+          "note": "eight bodies at the boat shed; three burial locations"
+        }
+      ],
+      "notes": "Twenty-seven is the figure in the 1978 appellate opinion. Later Houston reporting gives twenty-eight recovered sets of remains. Both figures are recorded; see not_established.victim_count_claims. The difference is not resolved here."
+    },
+    "cause_of_death_determination": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "Per-victim autopsy findings have not been retrieved. The appellate opinions state that victims were shot or strangled, but that is a summary of the confession evidence rather than a report of medical-examiner determinations, and this dataset does not treat the two as equivalent. [SEARCH NOT EXHAUSTED — Harris County Institute of Forensic Sciences records have not been requested.]",
+      "search_exhausted": false
+    }
+  },
+  "not_established": {
+    "homicide_attribution": {
+      "value": "No homicide is judicially attributed to Corll. The twenty-seven recoveries are attributed to the series in which Henley and Brooks were convicted; the convictions establish their participation, not a court's allocation of any death to Corll personally.",
+      "confidence": "established",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Henley v. State, 576 S.W.2d 66 (Tex. Crim. App. 1978)",
+          "url": "https://law.justia.com/cases/texas/court-of-criminal-appeals/1978/53561-53566-3.html"
+        },
+        {
+          "tier": 1,
+          "citation": "Brooks v. State, 580 S.W.2d 825 (Tex. Crim. App. 1979)",
+          "url": "https://law.justia.com/cases/texas/court-of-criminal-appeals/1979/56288-3.html"
+        }
+      ],
+      "notes": "This is not scepticism about what happened. It is a statement about what kind of thing the record is. Aggregate statistics computed from this dataset must not draw a victim count from this record, which is why it is not on the roster."
+    },
+    "victim_count_claims": {
+      "value": "Three figures circulate. Twenty-seven — the number of bodies recovered, stated in the 1978 appellate opinion. Twenty-eight — the number of sets of remains now counted by Houston media, of which twenty-seven have been identified and one, known as John Doe 1973, has not. Twenty-nine and higher — used in later feature coverage without a stated basis. Brooks's own confession gave 'between 25 and thirty boys'. None of these is recorded as a victim count for Corll.",
+      "confidence": "contested",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Henley v. State, 576 S.W.2d 66 (Tex. Crim. App. 1978)",
+          "url": "https://law.justia.com/cases/texas/court-of-criminal-appeals/1978/53561-53566-3.html",
+          "note": "twenty-seven bodies recovered"
+        },
+        {
+          "tier": 1,
+          "citation": "Brooks v. State, 580 S.W.2d 825 (Tex. Crim. App. 1979)",
+          "url": "https://law.justia.com/cases/texas/court-of-criminal-appeals/1979/56288-3.html",
+          "note": "Brooks's confession: ‘In all I guess there were between 25 and thirty boys killed’"
+        },
+        {
+          "tier": 4,
+          "citation": "KHOU 11 (Houston). '50 years after victim of Houston ‘Candy Man’ killer Dean Corll was found, there’s a new sketch in efforts to identify him.'",
+          "url": "https://www.khou.com/article/news/investigations/missing-pieces/victim-sketch-candy-man-serial-killer-corll-heights/285-f9691bee-86bd-4fc1-be0b-77bfd24a0545",
+          "note": "28 sets of remains; 27 identified; one outstanding"
+        }
+      ],
+      "notes": "The sources disagree, which is why this is marked contested rather than resolved. The 27/28 gap most likely reflects remains attributed after 1978, but no source retrieved states that, so it is not asserted."
+    },
+    "circulating_claims": {
+      "value": [
+        "That Corll was 'convicted' or 'sentenced' — he was neither; he was never charged",
+        "A settled total of victims — the sources give 27, 28 and 29, and the record supports no single number",
+        "Per-victim causes of death as medical findings — the shooting/strangulation description in the opinions summarises confession evidence, not autopsy reports"
+      ],
+      "confidence": "established",
+      "sources": [
+        {
+          "tier": 4,
+          "citation": "ABC13 (Houston). 'Dean Corll: The Houston Mass Murders.'",
+          "url": "https://abc13.com/archive/7108692/",
+          "note": "‘Corll was never arrested or convicted.’"
+        },
+        {
+          "tier": 1,
+          "citation": "Henley v. State, 576 S.W.2d 66 (Tex. Crim. App. 1978)",
+          "url": "https://law.justia.com/cases/texas/court-of-criminal-appeals/1978/53561-53566-3.html"
+        }
+      ]
+    }
+  },
+  "investigation": {
+    "identifying_evidence": {
+      "value": "There was no investigation identifying Corll. Henley shot him, telephoned Pasadena police himself, and in custody disclosed the burial sites. The series was not linked, and no agency had identified a suspect, before that call.",
+      "confidence": "established",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Brooks v. State, 580 S.W.2d 825 (Tex. Crim. App. 1979)",
+          "url": "https://law.justia.com/cases/texas/court-of-criminal-appeals/1979/56288-3.html"
+        },
+        {
+          "tier": 1,
+          "citation": "Henley v. State, 576 S.W.2d 66 (Tex. Crim. App. 1978)",
+          "url": "https://law.justia.com/cases/texas/court-of-criminal-appeals/1978/53561-53566-3.html",
+          "note": "Henley's disclosures led to the recoveries"
+        }
+      ],
+      "notes": "See docs/detection-mechanisms.md. This belongs with Rader, Kemper, Ramirez and Berkowitz in the group of cases not closed by investigative work — and it is the most extreme instance: the series ended because one participant killed the other."
+    },
+    "interrogation_method": null,
+    "other_suspects": null,
+    "method_now_disputed": null
+  },
+  "adjudication": {
+    "trial_history": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "None. He died before arrest. Null by design.",
+      "search_exhausted": true
+    },
+    "appellate_history": null,
+    "disposition": {
+      "value": "Deceased, 8 August 1973.",
+      "confidence": "established",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Brooks v. State, 580 S.W.2d 825 (Tex. Crim. App. 1979)",
+          "url": "https://law.justia.com/cases/texas/court-of-criminal-appeals/1979/56288-3.html"
+        },
+        {
+          "tier": 4,
+          "citation": "ABC13 (Houston). 'Dean Corll: The Houston Mass Murders.'",
+          "url": "https://abc13.com/archive/7108692/"
+        }
+      ]
+    }
+  },
+  "research_value": {
+    "why_recorded": "Corll is the clearest test of the roster/case boundary in the dataset. Unlike Larry Hall, where the question is whether the offences happened at all, here two co-offenders were convicted and the appellate record describes the conduct in detail. The evidentiary basis is strong and the exclusion is still correct, because the criterion is adjudication and no court ever adjudicated him. Recording him this way makes the rule visible: the dataset excludes on procedure, not on doubt. The case is also the dataset's limit case for detection — no agency identified the series, and it ended when one participant shot the other and telephoned police.",
+    "related_records": [
+      "USA-012-HENLEY — convicted on six counts; the person who ended the series",
+      "USA-013-BROOKS — convicted, life; died in custody 2020",
+      "USA-003-HALL — the other pole of the case/roster boundary: no conviction and no corroboration",
+      "docs/detection-mechanisms.md"
+    ]
+  },
+  "data_quality": {
+    "known_gaps": [
+      "No birth record retrieved; date and place of birth are not asserted.",
+      "No medical-examiner findings retrieved for any victim.",
+      "The composition of the 27 versus 28 figures has not been reconciled against an agency source.",
+      "The identity of the outstanding victim, John Doe 1973, is unresolved as of the last review.",
+      "No contemporaneous Houston or Pasadena police records retrieved; the account rests on two appellate opinions and later reporting."
+    ],
+    "contested_points": [
+      "The number of victims. Sources give 27, 28 and 29; the record supports no single figure.",
+      "Whether per-victim causes of death were medically determined or only described in confessions."
+    ],
+    "excluded_material": [
+      "Victim names beyond those necessary to the record, and all graphic detail, under ETHICS.md.",
+      "Detail originating in film and television treatments of the case.",
+      "Any victim count attributed to Corll as an offender total — this record is never counted in offender aggregates."
+    ]
+  }
+}

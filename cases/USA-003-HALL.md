@@ -251,7 +251,7 @@ This case sits at the exact point the dataset exists to examine: a man convicted
 
 Related records:
 
-- USA-037-LUCAS — confessions that closed hundreds of cases and were almost entirely false
+- USA-042-LUCAS — confessions that closed hundreds of cases and were almost entirely false
 - docs/investigative-failures.md — Sture Bergwall, the exoneration case
 
 ---

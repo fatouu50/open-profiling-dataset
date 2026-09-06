@@ -26,7 +26,7 @@ Lucas confessed to hundreds of murders across many states. Task forces closed ca
 
 Subsequent review established that the overwhelming majority were false — he had been elsewhere, sometimes demonstrably. Cases closed on his confessions were reopened; some remain unsolved.
 
-Lucas is on the roster as `USA-037-LUCAS` because he was convicted of homicide. But his `claimed_victim_count` and `confirmed_victim_count` diverge by orders of magnitude, and the case is the standing argument for why those fields exist separately.
+Lucas is on the roster as `USA-042-LUCAS` because he was convicted of homicide. But his `claimed_victim_count` and `confirmed_victim_count` diverge by orders of magnitude, and the case is the standing argument for why those fields exist separately.
 
 ### Larry DeWayne Hall — United States
 

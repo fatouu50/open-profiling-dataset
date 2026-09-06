@@ -1,2 +1,6 @@
 id,name,country_iso3,case_type,record_status
 USA-003-HALL,Larry DeWayne Hall,USA,no_homicide_conviction,in_progress
+USA-011-CORLL,Dean Arnold Corll,USA,died_before_trial,stub
+USA-019-LAKE,Leonard Lake,USA,died_before_trial,stub
+USA-038-KEYES,Israel Keyes,USA,died_before_trial,stub
+GBR-004-FWEST,Frederick Walter Stephen West,GBR,died_before_trial,stub

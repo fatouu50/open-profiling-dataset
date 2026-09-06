@@ -2,7 +2,7 @@
 
 A structured, source-traceable dataset of adjudicated serial homicide cases, built for criminological and computational research.
 
-**Status:** `v0.1.0-alpha` — schema stable, 9 of 156 offender profiles populated, 1 case record. Not yet suitable for analysis.
+**Status:** `v0.1.0-alpha` — schema stable, 9 of 161 offender profiles populated, 2 of 5 case records. Not yet suitable for analysis.
 
 ---
 
@@ -118,15 +118,16 @@ Without that flag the two are indistinguishable, and a dataset that presents an 
 │   └── USA-001-BUNDY.md         Human-readable report — GENERATED, never edited
 ├── cases/                       CASE RECORDS — never counted in aggregates
 │   ├── USA-003-HALL.json
-│   └── USA-003-HALL.md
+│   └── USA-011-CORLL.json
 ├── index/
-│   ├── roster.csv               156 offender subjects
-│   ├── cases.csv                1 case record
+│   ├── roster.csv               161 offender subjects
+│   ├── cases.csv                5 case records
 │   ├── quarantine.csv           32 excluded outright, each with a reason
 │   └── unsolved-cases.csv       5 cases with no identified offender
 ├── docs/
 │   ├── roster-audit.md          The provenance review. Read this first.
 │   ├── master-grid.md           The original analytical grid and how it became the schema
+│   ├── co-offenders.md          Why offenders who acted together get separate records
 │   ├── detection-mechanisms.md  First comparative reading of the records
 │   ├── sourcing-policy.md
 │   ├── inclusion-criteria.md
@@ -149,6 +150,8 @@ Without that flag the two are indistinguishable, and a dataset that presents an 
 Case records are **never counted in offender aggregates**, and the validator refuses any id that appears in both indexes.
 
 The distinction matters because the alternative corrupts the data. Larry Hall is routinely described as having forty to fifty victims; the record contains one conviction, for kidnapping, with no determinable cause of death. On the roster he would distort every statistic the dataset supports. As a case record he is fully documented — including why the figure has no provenance — and counted in nothing.
+
+**Offenders who acted together get separate records.** They were tried separately, convicted of different counts, and frequently sentenced differently because one testified against the other — a single record would have to pick one of those histories and be false about the other person. It would also make victims-per-offender uncomputable, since one count would stand for two people. Records are linked by `co_offenders` and never merged; [`docs/co-offenders.md`](docs/co-offenders.md) sets out the rule and the four subjects it moved into `cases/`.
 
 A dataset containing only successful prosecutions is also selected on the outcome. `cases/` and [`docs/investigative-failures.md`](docs/investigative-failures.md) are the correction.
 

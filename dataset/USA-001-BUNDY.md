@@ -359,7 +359,7 @@ Low. Statements were made in the days before a scheduled execution, in the expli
 
 Sources: [3] *(on Bundy's use of third-person 'hypothetical' framing to avoid direct admission.)*
 
-> This field is mandatory for any subject whose victim attribution rests partly on self-report. Compare USA-037-LUCAS, where uncorroborated confession closed cases across multiple states and was later discredited.
+> This field is mandatory for any subject whose victim attribution rests partly on self-report. Compare USA-042-LUCAS, where uncorroborated confession closed cases across multiple states and was later discredited.
 
 **Trial outcome** — **established**
 
