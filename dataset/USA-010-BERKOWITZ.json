@@ -1,0 +1,549 @@
+{
+  "id": "USA-010-BERKOWITZ",
+  "schema_version": "0.1.0",
+  "record_status": "in_progress",
+  "provenance": {
+    "created": "2026-09-06",
+    "last_reviewed": "2026-09-06",
+    "contributors": [
+      "maintainer"
+    ],
+    "ai_assisted": true
+  },
+  "identity": {
+    "legal_name": {
+      "value": "David Richard Berkowitz",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 3,
+          "citation": "University of Virginia Law Library, Arthur Dengrove Courtroom Illustration Archive. 'The Son of Sam Murder Trial.'",
+          "url": "https://archives.law.virginia.edu/dengrove/writeup/son-sam-murder-trial"
+        },
+        {
+          "tier": 4,
+          "citation": "Washington Post. 'Berkowitz Given Maximum 25-Years-to-Life Sentences.' 13 June 1978.",
+          "url": "https://www.washingtonpost.com/archive/politics/1978/06/13/berkowitz-given-maximum-25-years-to-life-sentences/8f4ef8aa-2a70-4ad2-b767-5a7b01bde6bb/"
+        }
+      ],
+      "notes": "Born Richard David Falco and adopted in infancy; the birth name is widely reported but has not been confirmed against a record here."
+    },
+    "aliases": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "search_exhausted": false,
+      "notes": "The birth name Richard David Falco is reported but unsourced here. [SEARCH NOT EXHAUSTED — a research todo, not a finding.]"
+    },
+    "media_epithet": {
+      "value": "Son of Sam",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 3,
+          "citation": "University of Virginia Law Library, Arthur Dengrove Courtroom Illustration Archive. 'The Son of Sam Murder Trial.'",
+          "url": "https://archives.law.virginia.edu/dengrove/writeup/son-sam-murder-trial"
+        },
+        {
+          "tier": 4,
+          "citation": "Washington Post. 'Berkowitz Given Maximum 25-Years-to-Life Sentences.' 13 June 1978.",
+          "url": "https://www.washingtonpost.com/archive/politics/1978/06/13/berkowitz-given-maximum-25-years-to-life-sentences/8f4ef8aa-2a70-4ad2-b767-5a7b01bde6bb/"
+        }
+      ],
+      "notes": "Self-assigned, as with USA-006-RADER: it appeared in letters he left at a scene and sent to a newspaper columnist, and the press adopted it. Unlike Rader's, this epithet then entered statute law — the New York 'Son of Sam law' was named after it. See adjudication.disposition."
+    },
+    "birth_date": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "search_exhausted": false,
+      "notes": "Commonly given as 1 June 1953, Brooklyn. No record retrieved. [SEARCH NOT EXHAUSTED — a research todo, not a finding.]"
+    },
+    "birth_place": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "search_exhausted": false,
+      "notes": "Commonly given as Brooklyn, New York. No record retrieved. [SEARCH NOT EXHAUSTED — a research todo, not a finding.]"
+    },
+    "death_date": null,
+    "judicial_status": {
+      "value": "Incarcerated. Convicted on guilty plea of six counts of murder; serving consecutive terms of 25 years to life.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 4,
+          "citation": "Washington Post. 'Berkowitz Given Maximum 25-Years-to-Life Sentences.' 13 June 1978.",
+          "url": "https://www.washingtonpost.com/archive/politics/1978/06/13/berkowitz-given-maximum-25-years-to-life-sentences/8f4ef8aa-2a70-4ad2-b767-5a7b01bde6bb/"
+        },
+        {
+          "tier": 3,
+          "citation": "University of Virginia Law Library, Arthur Dengrove Courtroom Illustration Archive. 'The Son of Sam Murder Trial.'",
+          "url": "https://archives.law.virginia.edu/dengrove/writeup/son-sam-murder-trial"
+        }
+      ]
+    }
+  },
+  "conviction_record": {
+    "convictions": {
+      "value": [
+        {
+          "charge": "Six counts of murder",
+          "jurisdiction": "New York (Bronx, Queens and Kings County proceedings)",
+          "date": "1978-05",
+          "disposition": "Guilty plea; sentenced 12 June 1978 to the maximum 25 years to life on each count, imposed consecutively"
+        }
+      ],
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 4,
+          "citation": "Washington Post. 'Berkowitz Given Maximum 25-Years-to-Life Sentences.' 13 June 1978.",
+          "url": "https://www.washingtonpost.com/archive/politics/1978/06/13/berkowitz-given-maximum-25-years-to-life-sentences/8f4ef8aa-2a70-4ad2-b767-5a7b01bde6bb/"
+        },
+        {
+          "tier": 3,
+          "citation": "University of Virginia Law Library, Arthur Dengrove Courtroom Illustration Archive. 'The Son of Sam Murder Trial.'",
+          "url": "https://archives.law.virginia.edu/dengrove/writeup/son-sam-murder-trial"
+        }
+      ],
+      "notes": "Seven further people were wounded and survived. He instructed counsel not to appeal. The plea month is given as May 1978 in secondary accounts and has not been fixed to a date here; the sentencing date is established by contemporaneous reporting."
+    },
+    "confirmed_victim_count": {
+      "value": 6,
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 3,
+          "citation": "University of Virginia Law Library, Arthur Dengrove Courtroom Illustration Archive. 'The Son of Sam Murder Trial.'",
+          "url": "https://archives.law.virginia.edu/dengrove/writeup/son-sam-murder-trial"
+        },
+        {
+          "tier": 4,
+          "citation": "Washington Post. 'Berkowitz Given Maximum 25-Years-to-Life Sentences.' 13 June 1978.",
+          "url": "https://www.washingtonpost.com/archive/politics/1978/06/13/berkowitz-given-maximum-25-years-to-life-sentences/8f4ef8aa-2a70-4ad2-b767-5a7b01bde6bb/"
+        }
+      ],
+      "notes": "Homicide convictions only. The seven surviving wounded are not included in this figure and are not named. This is the lowest confirmed count in the dataset — and the case generated more public fear than several with counts five times higher, which is a fact about media saturation rather than about offending."
+    },
+    "attributed_victim_count": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "search_exhausted": true,
+      "notes": "No agency-published homicide attribution beyond the six convictions has been retrieved."
+    },
+    "claimed_victim_count": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "search_exhausted": true,
+      "notes": "He has claimed responsibility for a large number of arsons in the period, with figures in the high hundreds or over a thousand circulating. Those are self-reported, uncorroborated, and not homicides; they are not recorded as a victim count in any field. His accounts of the offences have also changed materially over time — see adjudication.confession_reliability."
+    },
+    "estimate_provenance": {
+      "value": "The homicide count derives entirely from the conviction record. No higher homicide figure with traceable provenance circulates.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 4,
+          "citation": "Washington Post. 'Berkowitz Given Maximum 25-Years-to-Life Sentences.' 13 June 1978.",
+          "url": "https://www.washingtonpost.com/archive/politics/1978/06/13/berkowitz-given-maximum-25-years-to-life-sentences/8f4ef8aa-2a70-4ad2-b767-5a7b01bde6bb/"
+        }
+      ]
+    }
+  },
+  "offence_period": {
+    "first_known_offence": {
+      "value": "1976-07-29",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 3,
+          "citation": "University of Virginia Law Library, Arthur Dengrove Courtroom Illustration Archive. 'The Son of Sam Murder Trial.'",
+          "url": "https://archives.law.virginia.edu/dengrove/writeup/son-sam-murder-trial"
+        },
+        {
+          "tier": 4,
+          "citation": "Washington Post. 'Berkowitz Given Maximum 25-Years-to-Life Sentences.' 13 June 1978.",
+          "url": "https://www.washingtonpost.com/archive/politics/1978/06/13/berkowitz-given-maximum-25-years-to-life-sentences/8f4ef8aa-2a70-4ad2-b767-5a7b01bde6bb/"
+        }
+      ],
+      "notes": "First shooting, in the Bronx."
+    },
+    "last_known_offence": {
+      "value": "1977-07-31",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 3,
+          "citation": "University of Virginia Law Library, Arthur Dengrove Courtroom Illustration Archive. 'The Son of Sam Murder Trial.'",
+          "url": "https://archives.law.virginia.edu/dengrove/writeup/son-sam-murder-trial"
+        },
+        {
+          "tier": 4,
+          "citation": "Washington Post. 'Berkowitz Given Maximum 25-Years-to-Life Sentences.' 13 June 1978.",
+          "url": "https://www.washingtonpost.com/archive/politics/1978/06/13/berkowitz-given-maximum-25-years-to-life-sentences/8f4ef8aa-2a70-4ad2-b767-5a7b01bde6bb/"
+        }
+      ],
+      "notes": "Final shooting, in Brooklyn — the offence at which the parking ticket was issued that led to his identification. The charged series spans almost exactly twelve months, comparable to USA-008-RAMIREZ and far shorter than the rest of the dataset."
+    },
+    "jurisdictions": {
+      "value": [
+        "Bronx, New York",
+        "Queens, New York",
+        "Brooklyn, New York"
+      ],
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 3,
+          "citation": "University of Virginia Law Library, Arthur Dengrove Courtroom Illustration Archive. 'The Son of Sam Murder Trial.'",
+          "url": "https://archives.law.virginia.edu/dengrove/writeup/son-sam-murder-trial"
+        }
+      ]
+    }
+  },
+  "background": {
+    "family_structure": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "search_exhausted": true,
+      "notes": "He was adopted in infancy. Beyond that bare fact, family circumstances are not entered: the adoptive and birth families are private third parties under ETHICS.md, and the aetiological narrative built around the adoption in secondary literature derives from his own accounts."
+    },
+    "education": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "search_exhausted": false,
+      "notes": "No record retrieved. [SEARCH NOT EXHAUSTED — a research todo, not a finding.]"
+    },
+    "employment_history": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "search_exhausted": false,
+      "notes": "Employment with the postal service is commonly reported; no record retrieved. [SEARCH NOT EXHAUSTED — a research todo, not a finding.]"
+    },
+    "military_service": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "search_exhausted": false,
+      "notes": "Army service including a period in South Korea is commonly reported; no service record retrieved. Analytically relevant because firearms familiarity is asserted from it. [SEARCH NOT EXHAUSTED — a research todo, not a finding.]"
+    },
+    "documented_head_injury": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "search_exhausted": true,
+      "notes": "No medical documentation located."
+    },
+    "macdonald_triad": {
+      "enuresis": {
+        "value": null,
+        "confidence": "unverified",
+        "sources": [],
+        "search_exhausted": true,
+        "notes": "No documentation located. NOTE: the triad is not a predictor of violence — see the schema field description."
+      },
+      "firesetting": {
+        "value": null,
+        "confidence": "unverified",
+        "sources": [],
+        "search_exhausted": true,
+        "notes": "He has claimed extensive arson activity in the offending period. That is self-report from custody, not documentation, and is recorded under conviction_record.claimed_victim_count rather than treated as a triad datum. The distinction matters: importing an offender's later self-description into a construct that purports to identify childhood precursors is exactly how the triad acquired its false reputation."
+      },
+      "animal_cruelty": {
+        "value": null,
+        "confidence": "unverified",
+        "sources": [],
+        "search_exhausted": true,
+        "notes": "No documentation located."
+      }
+    }
+  },
+  "clinical": {
+    "formal_diagnoses": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "search_exhausted": false,
+      "notes": "Psychiatric assessment was substantial and contested: three examining psychiatrists concluded he was not competent to stand trial and a fourth disagreed. The retrieved sources record the disagreement but not the diagnoses. The material exists — this is a todo, not a finding. [SEARCH NOT EXHAUSTED.]"
+    },
+    "competency_findings": {
+      "value": "Contested. Three psychiatrists found him incompetent to stand trial; a fourth concluded he was sane. He was ultimately found fit and entered a guilty plea.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 3,
+          "citation": "University of Virginia Law Library, Arthur Dengrove Courtroom Illustration Archive. 'The Son of Sam Murder Trial.'",
+          "url": "https://archives.law.virginia.edu/dengrove/writeup/son-sam-murder-trial"
+        }
+      ],
+      "notes": "A three-to-one split among examining clinicians, resolved against the majority. This is the most direct evidence in the dataset that a competency finding is a legal determination rather than a clinical consensus — compare USA-005-GACY and USA-007-DAHMER, where insanity defences were rejected by juries after clinicians disagreed."
+    },
+    "psychometric_results": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "search_exhausted": true,
+      "notes": "No instrument, administrator or date retrieved."
+    },
+    "commentary_attributions": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "search_exhausted": true,
+      "notes": "Not catalogued. Diagnostic labels attached to this subject in secondary literature are unusually entangled with his own claims about demonic instruction, which he later retracted."
+    }
+  },
+  "offence_behaviour": {
+    "victim_selection": {
+      "value": "Shootings of people seated in parked cars and on streets at night, in outer-borough residential areas of New York City. The access condition exploited was public exposure in ordinary settings — parked cars and pavements, at night, in neighbourhoods where residents had no reason to expect it.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 3,
+          "citation": "University of Virginia Law Library, Arthur Dengrove Courtroom Illustration Archive. 'The Son of Sam Murder Trial.'",
+          "url": "https://archives.law.virginia.edu/dengrove/writeup/son-sam-murder-trial"
+        }
+      ],
+      "notes": "Recorded as an access condition, not as a characteristic that explains the deaths. Widely repeated claims about a preferred victim appearance derive from the offender's own letters and later statements and are not entered."
+    },
+    "approach_method": {
+      "value": "Approach on foot and firing at close range without prior contact with the victims.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 3,
+          "citation": "University of Virginia Law Library, Arthur Dengrove Courtroom Illustration Archive. 'The Son of Sam Murder Trial.'",
+          "url": "https://archives.law.virginia.edu/dengrove/writeup/son-sam-murder-trial"
+        }
+      ],
+      "notes": "Structurally distinct from every other subject in the dataset. There was no deception, no pretext, no entry to a residence and no restraint — the only case here where the offender and the victims had no interaction at all."
+    },
+    "spatial_pattern": {
+      "value": "Marauder",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 2,
+          "citation": "Canter, David and Paul Larkin. 'The Environmental Range of Serial Rapists.' Journal of Environmental Psychology 13(1), 1993, 63-69."
+        }
+      ],
+      "notes": "Coded marauder: the offences fell within the outer boroughs of a single city, around his area of residence. Maintainer coding applying the Canter & Larkin framework, not a source-attested fact."
+    },
+    "weapon_or_method": {
+      "value": "A .44 calibre revolver, used in all charged offences.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 3,
+          "citation": "University of Virginia Law Library, Arthur Dengrove Courtroom Illustration Archive. 'The Son of Sam Murder Trial.'",
+          "url": "https://archives.law.virginia.edu/dengrove/writeup/son-sam-murder-trial"
+        }
+      ],
+      "notes": "The consistency of the weapon is what linked the offences into a recognised series long before the offender was identified — the inverse of USA-002-RIDGWAY, where linkage was easy and identification hard for other reasons."
+    },
+    "signature_behaviour": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "search_exhausted": true,
+      "notes": "No non-functional conduct at the scenes is established by retrieved sources. The letters left and sent are recorded under post_offence_behaviour, since they were not scene conduct."
+    },
+    "post_offence_behaviour": {
+      "value": "Wrote letters about the offences, one left at a scene and another sent to a newspaper columnist, in which he used the name later adopted by the press.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 3,
+          "citation": "University of Virginia Law Library, Arthur Dengrove Courtroom Illustration Archive. 'The Son of Sam Murder Trial.'",
+          "url": "https://archives.law.virginia.edu/dengrove/writeup/son-sam-murder-trial"
+        }
+      ],
+      "notes": "The second instance in the dataset of an offender communicating about offences during the series, alongside USA-006-RADER. In Rader's case a resumed communication ended the case decades later; here the letters did not lead to identification, and a parking ticket did."
+    },
+    "forensic_countermeasures": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "search_exhausted": true,
+      "notes": "None established. He parked at a scene in a manner that attracted a municipal citation, which is the opposite of countermeasure behaviour."
+    },
+    "motive_classification": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "search_exhausted": true,
+      "notes": "DELIBERATELY NOT CODED. Every available account of motive for this subject comes from the offender himself, and he has given at least two irreconcilable ones: contemporaneous claims of demonic instruction, and a later retraction stating he invented that account. Coding a motive typology onto a subject whose only motive evidence is self-report he has himself repudiated would be assigning a category to nothing. Recording the refusal is more informative than recording a guess. Compare USA-008-RAMIREZ, where the coding was attempted and flagged as a poor fit; here it is declined outright."
+    }
+  },
+  "investigation": {
+    "detection_delay_factors": {
+      "value": "Approximately twelve months elapsed between the first and last charged shootings. The offences were linked into a single series early, through ballistic consistency and the offender's own letters, and the investigation was among the largest in the city's history. He was nonetheless not identified by that investigation. A witness near the final shooting recalled a vehicle receiving a parking ticket; the citation record led to the vehicle, and the vehicle to him.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 3,
+          "citation": "University of Virginia Law Library, Arthur Dengrove Courtroom Illustration Archive. 'The Son of Sam Murder Trial.'",
+          "url": "https://archives.law.virginia.edu/dengrove/writeup/son-sam-murder-trial"
+        },
+        {
+          "tier": 4,
+          "citation": "Washington Post. 'Berkowitz Given Maximum 25-Years-to-Life Sentences.' 13 June 1978.",
+          "url": "https://www.washingtonpost.com/archive/politics/1978/06/13/berkowitz-given-maximum-25-years-to-life-sentences/8f4ef8aa-2a70-4ad2-b767-5a7b01bde6bb/"
+        }
+      ],
+      "notes": "A NINTH MECHANISM: identification through an unrelated municipal record. Not a failure and not a success of investigation in the usual sense — a parking enforcement system, operating for entirely different purposes, produced the datum a homicide investigation could not. This is the closest analogue in the dataset to USA-004-DEANGELO, where a consumer genealogy database served the same function decades later: in both cases the decisive record existed outside the criminal justice system and was created for another reason. That pattern is worth a variable of its own if this dataset grows."
+    },
+    "identifying_evidence": {
+      "value": "A parking citation issued near the final shooting, traced to his vehicle.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 3,
+          "citation": "University of Virginia Law Library, Arthur Dengrove Courtroom Illustration Archive. 'The Son of Sam Murder Trial.'",
+          "url": "https://archives.law.virginia.edu/dengrove/writeup/son-sam-murder-trial"
+        },
+        {
+          "tier": 4,
+          "citation": "Washington Post. 'Berkowitz Given Maximum 25-Years-to-Life Sentences.' 13 June 1978.",
+          "url": "https://www.washingtonpost.com/archive/politics/1978/06/13/berkowitz-given-maximum-25-years-to-life-sentences/8f4ef8aa-2a70-4ad2-b767-5a7b01bde6bb/"
+        }
+      ]
+    },
+    "forensic_methods_used": {
+      "value": "Ballistic comparison linked the offences to a single weapon. Identification itself came from a municipal citation record rather than from forensic work.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 3,
+          "citation": "University of Virginia Law Library, Arthur Dengrove Courtroom Illustration Archive. 'The Son of Sam Murder Trial.'",
+          "url": "https://archives.law.virginia.edu/dengrove/writeup/son-sam-murder-trial"
+        }
+      ]
+    },
+    "method_now_disputed": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "search_exhausted": true,
+      "notes": "No technique relied on in this conviction has been found scientifically unreliable. Firearms and toolmark identification has been criticised for overstated certainty claims, but the retrieved record does not show it being decisive or overstated here — the conviction rested on a guilty plea."
+    },
+    "arrest": {
+      "value": "Arrested 10 August 1977 in Yonkers, New York.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 3,
+          "citation": "University of Virginia Law Library, Arthur Dengrove Courtroom Illustration Archive. 'The Son of Sam Murder Trial.'",
+          "url": "https://archives.law.virginia.edu/dengrove/writeup/son-sam-murder-trial"
+        },
+        {
+          "tier": 4,
+          "citation": "Washington Post. 'Berkowitz Given Maximum 25-Years-to-Life Sentences.' 13 June 1978.",
+          "url": "https://www.washingtonpost.com/archive/politics/1978/06/13/berkowitz-given-maximum-25-years-to-life-sentences/8f4ef8aa-2a70-4ad2-b767-5a7b01bde6bb/"
+        }
+      ]
+    }
+  },
+  "adjudication": {
+    "interrogation_method": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "search_exhausted": true,
+      "notes": "He made admissions at the point of arrest. No interrogation record retrieved and none was load-bearing: the physical evidence and the plea disposed of the case."
+    },
+    "confession_reliability": {
+      "value": "The convictions rest on a guilty plea supported by physical evidence. His account of WHY he offended is a separate matter and is unreliable: he claimed at the time that he acted on instructions conveyed through a neighbour's dog, and later stated that he had invented that account.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 3,
+          "citation": "University of Virginia Law Library, Arthur Dengrove Courtroom Illustration Archive. 'The Son of Sam Murder Trial.'",
+          "url": "https://archives.law.virginia.edu/dengrove/writeup/son-sam-murder-trial"
+        }
+      ],
+      "notes": "The most instructive self-report problem in the dataset, because the false account was not a denial. It was a florid confession that made him more culpable-sounding, not less, and it was believed and reproduced for years before he withdrew it. Unreliable self-report is usually assumed to run toward minimisation; this case shows it runs in every direction, and that a claim's vividness is not evidence of its truth. It is the direct reason motive_classification is null for this subject."
+    },
+    "trial_outcome": {
+      "value": "No trial on the merits. Competency was litigated and resolved against the majority of examining psychiatrists; he then pleaded guilty and instructed counsel not to appeal.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 3,
+          "citation": "University of Virginia Law Library, Arthur Dengrove Courtroom Illustration Archive. 'The Son of Sam Murder Trial.'",
+          "url": "https://archives.law.virginia.edu/dengrove/writeup/son-sam-murder-trial"
+        }
+      ]
+    },
+    "sentence": {
+      "value": "The maximum of 25 years to life on each of six counts, imposed consecutively on 12 June 1978 — reported at the time as a total of 365 years.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 4,
+          "citation": "Washington Post. 'Berkowitz Given Maximum 25-Years-to-Life Sentences.' 13 June 1978.",
+          "url": "https://www.washingtonpost.com/archive/politics/1978/06/13/berkowitz-given-maximum-25-years-to-life-sentences/8f4ef8aa-2a70-4ad2-b767-5a7b01bde6bb/"
+        },
+        {
+          "tier": 3,
+          "citation": "University of Virginia Law Library, Arthur Dengrove Courtroom Illustration Archive. 'The Son of Sam Murder Trial.'",
+          "url": "https://archives.law.virginia.edu/dengrove/writeup/son-sam-murder-trial"
+        }
+      ],
+      "notes": "New York had no operative death penalty for these offences. As with USA-006-RADER, USA-007-DAHMER and USA-009-KEMPER, the sentence reflects what was legally available rather than a negotiated outcome."
+    },
+    "appellate_history": {
+      "value": "None. He directed his lawyers not to appeal.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 3,
+          "citation": "University of Virginia Law Library, Arthur Dengrove Courtroom Illustration Archive. 'The Son of Sam Murder Trial.'",
+          "url": "https://archives.law.virginia.edu/dengrove/writeup/son-sam-murder-trial"
+        }
+      ]
+    },
+    "disposition": {
+      "value": "Incarcerated in the New York state system. The case produced durable legislation: New York enacted a statute, popularly named after his press epithet, to prevent convicted offenders profiting from accounts of their crimes. The Supreme Court of the United States held that statute unconstitutional under the First Amendment in Simon & Schuster, Inc. v. Members of the New York State Crime Victims Board, 502 U.S. 105 (1991).",
+      "confidence": "established",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Simon & Schuster, Inc. v. Members of the New York State Crime Victims Board, 502 U.S. 105 (1991)",
+          "url": "https://www.law.cornell.edu//supremecourt/text/502/105"
+        },
+        {
+          "tier": 3,
+          "citation": "University of Virginia Law Library, Arthur Dengrove Courtroom Illustration Archive. 'The Son of Sam Murder Trial.'",
+          "url": "https://archives.law.virginia.edu/dengrove/writeup/son-sam-murder-trial"
+        }
+      ],
+      "notes": "The only subject in this dataset whose case produced a Supreme Court decision, and it is not about him — it is about whether the state may seize the proceeds of speech about crime. The statute was struck down as content-based discrimination. This matters to the project directly: the commercial market in offender narrative that the law tried to suppress is the same market that produces most of the material this dataset refuses as a source."
+    }
+  },
+  "data_quality": {
+    "known_gaps": [
+      "No court filing retrieved. The record rests on a law-school archive account and contemporaneous wire reporting.",
+      "Birth date, birth place and birth name not asserted.",
+      "The competing psychiatric assessments are recorded as a three-to-one split but the diagnoses themselves have not been retrieved, though the material exists.",
+      "Education, employment and military service unsearched.",
+      "The plea date is given only to the month."
+    ],
+    "contested_points": [
+      "The competency determination itself: three of four examining psychiatrists concluded he was unfit, and the finding went the other way.",
+      "Everything he has said about motive, given that he has advanced and then repudiated a detailed account."
+    ],
+    "excluded_material": [
+      "The demonic-instruction account, except as a datum about the unreliability of his self-report. It is not recorded as motive and no field is coded from it.",
+      "Claimed arson totals in the hundreds or thousands — self-reported, uncorroborated, not homicides.",
+      "Names of the seven surviving wounded victims.",
+      "The adoptive and birth families, who are private third parties.",
+      "Text of the letters, which is widely reproduced and functions as spectacle; their existence and effect are recorded instead."
+    ]
+  }
+}

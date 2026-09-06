@@ -1,0 +1,504 @@
+{
+  "id": "USA-009-KEMPER",
+  "schema_version": "0.1.0",
+  "record_status": "in_progress",
+
+  "provenance": {
+    "created": "2026-09-06",
+    "last_reviewed": "2026-09-06",
+    "contributors": ["maintainer"],
+    "ai_assisted": true
+  },
+
+  "identity": {
+    "legal_name": {
+      "value": "Edmund Emil Kemper III",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 4,
+          "citation": "A&E. 'Case File: Ed Kemper.'",
+          "url": "https://www.aetv.com/articles/ed-kemper"
+        }
+      ],
+      "notes": "SOURCING LIMITATION FOR THIS ENTIRE RECORD: no court filing or appellate opinion has been retrieved. Everything here rests on a single edited reference source. This is the thinnest evidentiary base of any offender profile in the dataset alongside USA-006-RADER, and it should be treated accordingly until the Santa Cruz County trial record is retrieved."
+    },
+    "aliases": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "search_exhausted": true,
+      "notes": "No documented aliases located."
+    },
+    "media_epithet": {
+      "value": "Co-Ed Killer",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 4,
+          "citation": "A&E. 'Case File: Ed Kemper.'",
+          "url": "https://www.aetv.com/articles/ed-kemper"
+        }
+      ],
+      "notes": "Press epithet derived from the university-student status of several victims. Recorded as a media artefact; this dataset does not use it as a descriptor."
+    },
+    "birth_date": {
+      "value": "1948",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 4,
+          "citation": "A&E. 'Case File: Ed Kemper.'",
+          "url": "https://www.aetv.com/articles/ed-kemper"
+        }
+      ],
+      "notes": "Year only. The full date is commonly given as 18 December 1948 but the retrieved source gives only the year. [SEARCH NOT EXHAUSTED — a research todo, not a finding.]",
+      "search_exhausted": false
+    },
+    "birth_place": {
+      "value": "Burbank, California, USA",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 4,
+          "citation": "A&E. 'Case File: Ed Kemper.'",
+          "url": "https://www.aetv.com/articles/ed-kemper"
+        }
+      ]
+    },
+    "death_date": null,
+    "judicial_status": {
+      "value": "Incarcerated. Convicted of eight counts of first-degree murder; serving a life sentence at the California Medical Facility, Vacaville.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 4,
+          "citation": "A&E. 'Case File: Ed Kemper.'",
+          "url": "https://www.aetv.com/articles/ed-kemper"
+        }
+      ],
+      "notes": "The eight counts cover the 1972-73 series and the killing of his mother and her friend. The two 1964 killings, committed when he was fifteen, were dealt with in the juvenile system and are not among them — see investigation.detection_delay_factors."
+    }
+  },
+
+  "conviction_record": {
+    "convictions": {
+      "value": [
+        {
+          "charge": "Eight counts of first-degree murder",
+          "jurisdiction": "Santa Cruz County, California",
+          "date": "1973-11",
+          "disposition": "Guilty on all counts; life imprisonment. He is reported to have asked for the death penalty."
+        }
+      ],
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 4,
+          "citation": "A&E. 'Case File: Ed Kemper.'",
+          "url": "https://www.aetv.com/articles/ed-kemper"
+        }
+      ],
+      "notes": "The exact verdict date has not been retrieved; only the month. An insanity defence was raised and rejected — this is the third such case in the dataset after USA-005-GACY and USA-007-DAHMER, and again the jury rejected it."
+    },
+    "confirmed_victim_count": {
+      "value": 8,
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 4,
+          "citation": "A&E. 'Case File: Ed Kemper.'",
+          "url": "https://www.aetv.com/articles/ed-kemper"
+        }
+      ],
+      "notes": "Homicide convictions only. The two 1964 killings are not included: they were handled in the juvenile system and produced no adult conviction. A dataset field counting convictions cannot count them, which is precisely why the juvenile disposition is recorded separately below rather than folded into a total of ten."
+    },
+    "attributed_victim_count": {
+      "value": 2,
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 4,
+          "citation": "A&E. 'Case File: Ed Kemper.'",
+          "url": "https://www.aetv.com/articles/ed-kemper"
+        }
+      ],
+      "notes": "The two 1964 killings of his grandparents, committed at fifteen. He was not tried as an adult and no adult conviction resulted; he was committed to a state hospital. Recorded as attributed rather than confirmed because the disposition was not a criminal conviction. This is the only entry in the dataset where the attributed figure represents a juvenile disposition rather than an uncharged suspicion."
+    },
+    "claimed_victim_count": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "search_exhausted": true,
+      "notes": "No total beyond the charged and juvenile offences has been claimed by him or retrieved. Unusually for this dataset, a subject known for extensive post-conviction interviewing has produced no inflated figure."
+    },
+    "estimate_provenance": {
+      "value": "The counts derive from the conviction record and from the juvenile disposition. No press-synthesised higher figure circulates for this subject.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 4,
+          "citation": "A&E. 'Case File: Ed Kemper.'",
+          "url": "https://www.aetv.com/articles/ed-kemper"
+        }
+      ]
+    }
+  },
+
+  "offence_period": {
+    "first_known_offence": {
+      "value": "1964",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 4,
+          "citation": "A&E. 'Case File: Ed Kemper.'",
+          "url": "https://www.aetv.com/articles/ed-kemper"
+        }
+      ],
+      "notes": "The killings of his grandparents at fifteen. The charged adult series began eight years later, in May 1972."
+    },
+    "last_known_offence": {
+      "value": "1973-04-20",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 4,
+          "citation": "A&E. 'Case File: Ed Kemper.'",
+          "url": "https://www.aetv.com/articles/ed-kemper"
+        }
+      ],
+      "notes": "The killing of his mother and her friend, immediately after which he drove to Colorado and surrendered."
+    },
+    "jurisdictions": {
+      "value": ["Santa Cruz County, California"],
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 4,
+          "citation": "A&E. 'Case File: Ed Kemper.'",
+          "url": "https://www.aetv.com/articles/ed-kemper"
+        }
+      ],
+      "notes": "The 1964 offences occurred elsewhere in California and were separately disposed of."
+    }
+  },
+
+  "background": {
+    "family_structure": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "search_exhausted": true,
+      "notes": "The relationship with his mother is the single most discussed feature of this case in secondary literature, and almost all of it derives from his own extensive post-conviction interviews. No contemporaneous record has been retrieved and none is entered. That she was among his victims is recorded under offence_period; the causal narrative built around it is not."
+    },
+    "education": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "search_exhausted": false,
+      "notes": "No record retrieved. [SEARCH NOT EXHAUSTED — a research todo, not a finding.]"
+    },
+    "employment_history": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "search_exhausted": false,
+      "notes": "Employment with a state highway department is commonly reported; no record retrieved. [SEARCH NOT EXHAUSTED — a research todo, not a finding.]"
+    },
+    "military_service": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "search_exhausted": true,
+      "notes": "No service record retrieved."
+    },
+    "documented_head_injury": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "search_exhausted": true,
+      "notes": "No medical documentation located."
+    },
+    "macdonald_triad": {
+      "enuresis": {
+        "value": null,
+        "confidence": "unverified",
+        "sources": [],
+        "search_exhausted": true,
+        "notes": "No documentation located. NOTE: the triad is not a predictor of violence — see the schema field description."
+      },
+      "firesetting": {
+        "value": null,
+        "confidence": "unverified",
+        "sources": [],
+        "search_exhausted": true,
+        "notes": "No documentation located."
+      },
+      "animal_cruelty": {
+        "value": null,
+        "confidence": "unverified",
+        "sources": [],
+        "search_exhausted": true,
+        "notes": "Childhood animal cruelty is asserted throughout the secondary literature on this subject and traces to his own accounts. No contemporaneous documentation retrieved."
+      }
+    }
+  },
+
+  "clinical": {
+    "formal_diagnoses": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "search_exhausted": false,
+      "notes": "Substantial psychiatric assessment exists for this subject — he was evaluated at a state hospital between 1964 and 1969, and psychiatric evidence was contested at the 1973 trial. The retrieved source refers to psychological reports noting intelligence and manipulativeness but does not state diagnoses. This field is a todo, not a finding: the material exists and has not been retrieved. [SEARCH NOT EXHAUSTED.]"
+    },
+    "competency_findings": {
+      "value": "An insanity defence was raised at the 1973 trial and rejected; he was found legally sane and responsible.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 4,
+          "citation": "A&E. 'Case File: Ed Kemper.'",
+          "url": "https://www.aetv.com/articles/ed-kemper"
+        }
+      ],
+      "notes": "A finding of legal responsibility is a legal conclusion, not a clinical one, and does not resolve the diagnostic question. Note the sequence: the same subject had been assessed as rehabilitated and released by a state hospital four years earlier."
+    },
+    "psychometric_results": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "search_exhausted": false,
+      "notes": "A high measured IQ is asserted almost universally in secondary accounts, with figures circulating in the 130s. No instrument, administrator or date has been retrieved. Given that he underwent five years of institutional assessment, this is a field where a record plausibly exists — hence a todo, not a finding. [SEARCH NOT EXHAUSTED.]"
+    },
+    "commentary_attributions": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "search_exhausted": true,
+      "notes": "Not catalogued. This subject has been the object of more retrospective diagnostic commentary than almost any other in the dataset, much of it generated by his own participation in interviews."
+    }
+  },
+
+  "offence_behaviour": {
+    "victim_selection": {
+      "value": "The 1972-73 offences were against young women, several of them university students, encountered while hitchhiking. The access condition exploited was a then-routine practice of accepting lifts from strangers.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 4,
+          "citation": "A&E. 'Case File: Ed Kemper.'",
+          "url": "https://www.aetv.com/articles/ed-kemper"
+        }
+      ],
+      "notes": "Recorded as an access condition, not as a characteristic that explains the deaths. The practice itself changed substantially in the period following these and comparable cases — a behavioural consequence of the offending that the dataset should be able to represent but currently cannot."
+    },
+    "approach_method": {
+      "value": "Offering lifts to hitchhikers from a private vehicle.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 4,
+          "citation": "A&E. 'Case File: Ed Kemper.'",
+          "url": "https://www.aetv.com/articles/ed-kemper"
+        }
+      ]
+    },
+    "spatial_pattern": {
+      "value": "Marauder",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 2,
+          "citation": "Canter, David and Paul Larkin. 'The Environmental Range of Serial Rapists.' Journal of Environmental Psychology 13(1), 1993, 63-69."
+        }
+      ],
+      "notes": "Coded marauder: the offences clustered around Santa Cruz County where he lived. Maintainer coding applying the Canter & Larkin framework, not a source-attested fact. Note the tension in applying a static framework to an offender whose approach method was itself mobile."
+    },
+    "weapon_or_method": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "search_exhausted": false,
+      "notes": "Not itemised in the retrieved source, and this dataset does not take method from press characterisation. The trial record would establish it. [SEARCH NOT EXHAUSTED — a research todo, not a finding.]"
+    },
+    "signature_behaviour": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "search_exhausted": true,
+      "notes": "Post-mortem conduct is described extensively in secondary literature and derives almost entirely from his own accounts given in custody. No scene documentation retrieved. The material is in any case constrained by ETHICS.md."
+    },
+    "post_offence_behaviour": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "search_exhausted": true,
+      "notes": "Not established from an admissible source independent of his own accounts."
+    },
+    "forensic_countermeasures": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "search_exhausted": true,
+      "notes": "Not established. He was not identified by investigation and surrendered voluntarily, so no countermeasure behaviour was ever tested against an investigation."
+    },
+    "motive_classification": {
+      "value": "Power/control, per Holmes & Holmes",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 3,
+          "citation": "Holmes, Ronald M. and Stephen T. Holmes. Profiling Violent Crimes: An Investigative Tool. Thousand Oaks CA: Sage Publications."
+        },
+        {
+          "tier": 2,
+          "citation": "Canter, David V., Laurence J. Alison, Emily Alison and Natalia Wentink. 'The Organized/Disorganized Typology of Serial Murder: Myth or Model?' Psychology, Public Policy, and Law 10(3), 2004, 293-320."
+        }
+      ],
+      "notes": "Maintainer coding, not a source-attested fact — and this subject is the one where that caveat carries the most weight in the whole dataset. See investigation.detection_delay_factors for why: the framework being applied here was built partly from interviews with subjects of this kind, which makes coding him against it close to circular. Canter et al. (2004) cited as the standing methodological caution."
+    }
+  },
+
+  "investigation": {
+    "detection_delay_factors": {
+      "value": "He was not identified by investigation. Having killed two people in 1964 at the age of fifteen and been committed to a state hospital, he was released at twenty-one as rehabilitated. He then offended for approximately eleven months in 1972-73 without being identified, and the series ended when he drove to Pueblo, Colorado and telephoned police to confess — reportedly having to persuade them that the call was genuine.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 4,
+          "citation": "A&E. 'Case File: Ed Kemper.'",
+          "url": "https://www.aetv.com/articles/ed-kemper"
+        }
+      ],
+      "notes": "AN EIGHTH MECHANISM, and a variant of the Rader pattern. Bundy: jurisdictional fragmentation. Ridgway: institutional neglect plus forensic limits. DeAngelo: absent technology. Gacy: an unconnected conviction record. Rader: none — he surfaced. Dahmer: present information actively dismissed. Ramirez: none — the public identified him. Kemper: none — he surrendered. The dataset now records THREE cases (Rader, Ramirez, Kemper) that the investigation did not close, out of nine. Any analysis of investigative effectiveness that does not treat these as censored observations will substantially overstate what detection achieved in this period. Note also the upstream failure: a documented double homicide at fifteen ended in a hospital release at twenty-one, and the juvenile disposition did not follow him."
+    },
+    "identifying_evidence": {
+      "value": "None. He identified himself by telephone.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 4,
+          "citation": "A&E. 'Case File: Ed Kemper.'",
+          "url": "https://www.aetv.com/articles/ed-kemper"
+        }
+      ]
+    },
+    "forensic_methods_used": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "search_exhausted": true,
+      "notes": "No forensic identification was required. The confession preceded any identification."
+    },
+    "method_now_disputed": {
+      "value": "No forensic technique is implicated. What this case does implicate is behavioural profiling itself: this subject is widely reported to have been among the offenders interviewed by the FBI Behavioral Science Unit in the studies from which the organized/disorganized typology was derived. Canter et al. (2004) tested that typology against 100 cases and could not recover it from the data.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 2,
+          "citation": "Canter, David V., Laurence J. Alison, Emily Alison and Natalia Wentink. 'The Organized/Disorganized Typology of Serial Murder: Myth or Model?' Psychology, Public Policy, and Law 10(3), 2004, 293-320."
+        }
+      ],
+      "notes": "Recorded here deliberately, because this dataset uses that literature and should be able to see its own foundations. The subject's participation in the BSU interviews is REPORTED, not established — it is the single most valuable thing a contributor could source for this record. If confirmed, it means a subject in this dataset is also a data point in the construction of a framework the dataset applies to him, which is a circularity worth naming rather than hiding. Contrast the other method_now_disputed entries, which concern forensic techniques; this one concerns the analytic apparatus."
+    },
+    "arrest": {
+      "value": "Surrendered by telephone from Pueblo, Colorado, in April 1973.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 4,
+          "citation": "A&E. 'Case File: Ed Kemper.'",
+          "url": "https://www.aetv.com/articles/ed-kemper"
+        }
+      ]
+    }
+  },
+
+  "adjudication": {
+    "interrogation_method": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "search_exhausted": true,
+      "notes": "He confessed voluntarily and at length before any interrogation technique was applied."
+    },
+    "confession_reliability": {
+      "value": "The convictions rest on a voluntary confession given without inducement, corroborated by physical evidence. His extensive later interviews are a separate matter and carry the usual reliability problems of custodial self-presentation.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 4,
+          "citation": "A&E. 'Case File: Ed Kemper.'",
+          "url": "https://www.aetv.com/articles/ed-kemper"
+        }
+      ],
+      "notes": "A significant distinction for this dataset. The 1973 confession was volunteered before he was a suspect — the opposite of USA-003-HALL, where admissions were extracted over seventeen unrecorded hours. But the decades of interviews that followed, which are the source of most published material about him, were given by a man with time, an audience and an interest in being interesting. Several fields in this record are null for that reason."
+    },
+    "trial_outcome": {
+      "value": "Convicted on eight counts of first-degree murder in November 1973; the insanity defence was rejected.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 4,
+          "citation": "A&E. 'Case File: Ed Kemper.'",
+          "url": "https://www.aetv.com/articles/ed-kemper"
+        }
+      ]
+    },
+    "sentence": {
+      "value": "Life imprisonment.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 4,
+          "citation": "A&E. 'Case File: Ed Kemper.'",
+          "url": "https://www.aetv.com/articles/ed-kemper"
+        }
+      ],
+      "notes": "California's death penalty had been invalidated by the state supreme court in 1972, before these convictions. As with USA-006-RADER, a life sentence here reflects what was legally available rather than a negotiated outcome — he is reported to have requested execution."
+    },
+    "appellate_history": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "search_exhausted": false,
+      "notes": "No appellate history retrieved. [SEARCH NOT EXHAUSTED — a research todo, not a finding.]"
+    },
+    "disposition": {
+      "value": "Incarcerated at the California Medical Facility, Vacaville.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 4,
+          "citation": "A&E. 'Case File: Ed Kemper.'",
+          "url": "https://www.aetv.com/articles/ed-kemper"
+        }
+      ],
+      "notes": "Parole has been considered and refused on multiple occasions, and he is reported to have declined to attend some hearings. Specific dates and board decisions have not been retrieved; a contributor should cite California Board of Parole Hearings records."
+    }
+  },
+
+  "data_quality": {
+    "known_gaps": [
+      "No court filing or appellate opinion retrieved. The entire record rests on one edited reference source — the thinnest base in the dataset alongside USA-006-RADER.",
+      "The 1964 juvenile proceedings and the terms of the 1969 release are not documented from any record. This is the most consequential gap: it determines whether the later offences were foreseeable.",
+      "Psychiatric material from five years of institutional assessment and from the 1973 trial has not been retrieved, though it plainly exists.",
+      "The reported FBI Behavioral Science Unit participation is unsourced and is the highest-value item on this record's worklist.",
+      "Parole board decisions not retrieved.",
+      "Weapon and method not itemised."
+    ],
+    "contested_points": [
+      "Whether coding this subject against the Holmes & Holmes and organized/disorganized frameworks is methodologically sound, given that he is reported to be among the offenders from whose interviews those frameworks were built.",
+      "The reliability of the vast body of published material derived from his post-conviction interviews, which is the source of most detail circulating about this case."
+    ],
+    "excluded_material": [
+      "Post-mortem conduct, excluded under ETHICS.md and unsupported by any retrieved scene documentation.",
+      "The maternal-relationship aetiology, which dominates secondary accounts and derives from the subject's own narration.",
+      "The circulating IQ figures, untraceable to an instrument.",
+      "Quotations from his interviews, which are widely reproduced and function as entertainment rather than evidence.",
+      "Language describing him as insightful or articulate about his own offending — a framing this dataset does not adopt for any subject."
+    ]
+  }
+}
