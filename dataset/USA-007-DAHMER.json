@@ -39,28 +39,52 @@
       "notes": "Press labels attached to this case foreground cannibalism. They are not recorded: they describe post-mortem conduct in a form that serves appetite rather than analysis, and this dataset has no field they would legitimately populate."
     },
     "birth_date": {
-      "value": null,
-      "confidence": "unverified",
-      "sources": [],
-      "notes": "Commonly given as 21 May 1960, Milwaukee. No record retrieved."
-    },
-    "birth_place": {
-      "value": null,
-      "confidence": "unverified",
-      "sources": [],
-      "notes": "No record retrieved."
-    },
-    "death_date": {
-      "value": "1994-11",
+      "value": "1960-05",
       "confidence": "reported",
       "sources": [
         {
           "tier": 4,
-          "citation": "Deseret News / Associated Press. 'Dahmer sentenced to 15 consecutive life terms in prison.' 17 February 1992.",
-          "url": "https://www.deseret.com/1992/2/17/18968194/dahmer-sentenced-to-15-consecutive-life-terms-in-prison/"
+          "citation": "Roanoke Times / Associated Press. \"'God told me' to bash Dahmer.\" 16 December 1994.",
+          "url": "https://scholar.lib.vt.edu/VA-news/ROA-Times/issues/1994/rt9412/941216/12160037.htm",
+          "note": "contemporaneous reporting, archived by Virginia Tech University Libraries"
+        },
+        {
+          "tier": 4,
+          "citation": "Biography.com (A&E Television Networks). 'The Disturbing Timeline of Jeffrey Dahmer's Murders, Arrests and Death.'",
+          "url": "https://www.biography.com/crime/a64379331/jeffrey-dahmer-timeline"
         }
       ],
-      "notes": "Killed by another prisoner at a Wisconsin correctional institution in November 1994. The date is commonly given as 28 November 1994; no corrections record has been retrieved and only the month is asserted. The cited source predates the death and is used here for identity continuity only — a contributor should replace it with a contemporaneous 1994 report or a corrections record."
+      "notes": "Month and year only. Biography.com gives the month and state; the contemporaneous Roanoke Times report gives his age as 34 on 28 November 1994, which fixes the year at 1960. The day is commonly given as the 21st and is not asserted — no birth record or other document stating it has been retrieved."
+    },
+    "birth_place": {
+      "value": "Wisconsin, USA",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 4,
+          "citation": "Biography.com (A&E Television Networks). 'The Disturbing Timeline of Jeffrey Dahmer's Murders, Arrests and Death.'",
+          "url": "https://www.biography.com/crime/a64379331/jeffrey-dahmer-timeline"
+        }
+      ],
+      "notes": "Commonly given as Milwaukee. Only the state is asserted from the retrieved source."
+    },
+    "death_date": {
+      "value": "1994-11-28",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 4,
+          "citation": "Roanoke Times / Associated Press. \"'God told me' to bash Dahmer.\" 16 December 1994.",
+          "url": "https://scholar.lib.vt.edu/VA-news/ROA-Times/issues/1994/rt9412/941216/12160037.htm",
+          "note": "contemporaneous reporting, archived by Virginia Tech University Libraries"
+        },
+        {
+          "tier": 4,
+          "citation": "Biography.com (A&E Television Networks). 'The Disturbing Timeline of Jeffrey Dahmer's Murders, Arrests and Death.'",
+          "url": "https://www.biography.com/crime/a64379331/jeffrey-dahmer-timeline"
+        }
+      ],
+      "notes": "Killed at Columbia Correctional Institution, Portage, Wisconsin, by another prisoner, Christopher J. Scarver, who struck him with a steel bar taken from a weight machine. He died en route to hospital. Two independent contemporaneous sources agree, but neither is a corrections record or death certificate, so this stays 'reported'."
     },
     "judicial_status": {
       "value": "Deceased. Convicted of 15 counts of murder in Wisconsin and, separately, of one further murder in Ohio.",
@@ -151,17 +175,16 @@
   },
   "offence_period": {
     "first_known_offence": {
-      "value": "1978",
+      "value": "1978-06",
       "confidence": "reported",
       "sources": [
         {
           "tier": 4,
-          "citation": "UPI Archives. 'Dahmer sentenced to life for Hicks murder.' 1 May 1992.",
-          "url": "https://www.upi.com/Archives/1992/05/01/Dahmer-sentenced-to-life-for-Hicks-murder/7300704692800/",
-          "note": "headline and date only"
+          "citation": "Biography.com (A&E Television Networks). 'The Disturbing Timeline of Jeffrey Dahmer's Murders, Arrests and Death.'",
+          "url": "https://www.biography.com/crime/a64379331/jeffrey-dahmer-timeline"
         }
       ],
-      "notes": "The Ohio offence, followed by a gap of roughly nine years before the Wisconsin series. Compare the desistance periods in USA-004-DEANGELO and USA-006-RADER: here the gap falls at the start rather than the end."
+      "notes": "The Ohio offence for which he was later convicted, followed by a gap of roughly nine years before the Wisconsin series. Compare the desistance periods in USA-004-DEANGELO and USA-006-RADER: here the gap falls at the start rather than the end."
     },
     "last_known_offence": {
       "value": "1991-07",
@@ -349,7 +372,7 @@
   },
   "investigation": {
     "detection_delay_factors": {
-      "value": "On 27 May 1991 Milwaukee police responded to a report of a naked, bleeding, disoriented 14-year-old boy in the street. The boy, Konerak Sinthasomphone, had escaped Dahmer's apartment after being drugged. Dahmer told the officers the boy was his adult partner and merely intoxicated. The officers escorted both back to the apartment and left the child there. He was killed approximately thirty minutes later. Dahmer offended for a further two months.",
+      "value": "Dahmer was convicted of second-degree sexual assault and sentenced in May 1989 to twelve months' jail with work release and five years' probation. He was released two months early and required to register as a sex offender. He was serving that probation throughout the offences committed between mid-1990 and July 1991. On 27 May 1991, during that probation, Milwaukee police responded to a report of a naked, bleeding, disoriented 14-year-old boy in the street. The boy, Konerak Sinthasomphone, had escaped Dahmer's apartment after being drugged. Dahmer told the officers the boy was his adult partner and merely intoxicated. The officers escorted both back to the apartment and left the child there. He was killed approximately thirty minutes later. Dahmer offended for a further two months.",
       "confidence": "established",
       "sources": [
         {
@@ -358,11 +381,16 @@
         },
         {
           "tier": 4,
+          "citation": "Biography.com (A&E Television Networks). 'The Disturbing Timeline of Jeffrey Dahmer's Murders, Arrests and Death.'",
+          "url": "https://www.biography.com/crime/a64379331/jeffrey-dahmer-timeline"
+        },
+        {
+          "tier": 4,
           "citation": "Snopes. Fact check: 'Did Police Return Jeffrey Dahmer's Victim to Him, Whom He Then Murdered?'",
           "url": "https://www.snopes.com/fact-check/police-return-victim-to-jeffrey-dahmer/"
         }
       ],
-      "notes": "A SIXTH DELAY MECHANISM, and the most severe in the dataset. Bundy: jurisdictional fragmentation. Ridgway: institutional neglect plus forensic limits. DeAngelo: absent technology. Gacy: an unconnected conviction record. Rader: no mechanism — he surfaced. Dahmer: information that was complete, contemporaneous, and physically present was actively dismissed. Officers stood inside the apartment. The victim was in front of them. This is not a failure of capability or of records; it is a failure of belief, and the demographic pattern recorded under victim_selection is inseparable from it. Two officers were dismissed in September 1991 and subsequently reinstated with back pay. The family's federal civil rights claim was dismissed; a settlement of $850,000 was reached with the city."
+      "notes": "A SIXTH DELAY MECHANISM, and the most severe in the dataset. Bundy: jurisdictional fragmentation. Ridgway: institutional neglect plus forensic limits. DeAngelo: absent technology. Gacy: an unconnected conviction record. Rader: no mechanism — he surfaced. Dahmer: information that was complete, contemporaneous and physically present was actively dismissed, by officers dealing with a man who was at that moment a registered sex offender on probation for an offence against a child. This is not a failure of capability or of records — the record existed and the victim was in front of them. It is a failure of belief, and the demographic pattern recorded under victim_selection is inseparable from it. Two officers were dismissed in September 1991 and subsequently reinstated with back pay. The family's federal civil rights claim was dismissed; a settlement of $850,000 was reached with the city. Compare USA-005-GACY, where a prior sex-offence conviction also existed but was never connected to the disappearances; here it was connected to nothing because nobody checked."
     },
     "identifying_evidence": {
       "value": "In July 1991 a victim escaped the apartment and brought police to it. Human remains were recovered from the premises.",
@@ -388,14 +416,20 @@
       "notes": "No technique relied on in these convictions has been found scientifically unreliable."
     },
     "arrest": {
-      "value": "Arrested July 1991 in Milwaukee, Wisconsin.",
-      "confidence": "reported",
+      "value": "Arrested 22 July 1991 in Milwaukee, after a victim escaped the apartment and brought police to it.",
+      "confidence": "established",
       "sources": [
         {
           "tier": 1,
           "citation": "Estate of Sinthasomphone v. City of Milwaukee, 838 F. Supp. 1320 (E.D. Wis. 1993)"
+        },
+        {
+          "tier": 4,
+          "citation": "Biography.com (A&E Television Networks). 'The Disturbing Timeline of Jeffrey Dahmer's Murders, Arrests and Death.'",
+          "url": "https://www.biography.com/crime/a64379331/jeffrey-dahmer-timeline"
         }
-      ]
+      ],
+      "notes": "The escaping victim is a living survivor and is not named, per ETHICS.md."
     }
   },
   "adjudication": {
@@ -454,20 +488,31 @@
       "notes": "No appellate history retrieved. He died in custody in 1994."
     },
     "disposition": {
-      "value": null,
-      "confidence": "unverified",
-      "sources": [],
-      "notes": "He is very widely reported to have been killed by another prisoner at a Wisconsin correctional institution on 28 November 1994. Every source located in this pass was either inadmissible (wikis, dramatisation-derived coverage) or returned an access error. The fact is almost certainly true and is nonetheless recorded as unestablished, because 'everyone knows it' is the exact condition under which unsourced claims enter a dataset. A contributor should cite a Wisconsin Department of Corrections record or contemporaneous 1994 reporting. See also identity.death_date, which records the month on a weaker basis and should be upgraded at the same time."
+      "value": "Killed in custody on 28 November 1994 at Columbia Correctional Institution, Portage, Wisconsin, by another prisoner.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 4,
+          "citation": "Roanoke Times / Associated Press. \"'God told me' to bash Dahmer.\" 16 December 1994.",
+          "url": "https://scholar.lib.vt.edu/VA-news/ROA-Times/issues/1994/rt9412/941216/12160037.htm",
+          "note": "contemporaneous reporting, archived by Virginia Tech University Libraries"
+        },
+        {
+          "tier": 4,
+          "citation": "Biography.com (A&E Television Networks). 'The Disturbing Timeline of Jeffrey Dahmer's Murders, Arrests and Death.'",
+          "url": "https://www.biography.com/crime/a64379331/jeffrey-dahmer-timeline"
+        }
+      ],
+      "notes": "The assailant was convicted of the killing. He is a living person serving a sentence and is named here only because he is named in the contemporaneous record of this death; he is not a subject of this dataset and no further detail about him is recorded. Two independent contemporaneous sources agree, but neither is a corrections record or death certificate, so this stays 'reported'."
     }
   },
   "data_quality": {
     "known_gaps": [
       "No court filing retrieved for either conviction. The Wisconsin conviction rests on wire reporting; the Ohio conviction on a wire headline whose body was inaccessible.",
-      "The 1988 conviction for sexual assault of a minor, and the probation he was serving during much of the Wisconsin offending, could not be sourced to any admissible document in this pass. This is the most consequential gap in the record: it bears directly on whether the offences were preventable, and it is precisely the fact a contributor should chase first.",
       "The competing psychiatric evidence at the insanity trial was not itemised in retrieved sources, so formal_diagnoses is null despite the evidence existing.",
-      "Death in custody could not be sourced admissibly and is recorded as a gap.",
       "Birth date and place not asserted.",
-      "Nearly all behavioural fields are null: the retrieved sources establish the institutional failure in detail and the offence conduct barely at all."
+      "Nearly all behavioural fields are null: the retrieved sources establish the institutional failure in detail and the offence conduct barely at all.",
+      "The 1989 sentence and probation are sourced to an edited reference work, not to the Milwaukee County court record. A contributor should retrieve the filing."
     ],
     "contested_points": [
       "Whether the dismissal and subsequent reinstatement with back pay of the officers involved in the May 1991 events was an appropriate outcome — the federal civil rights claim was dismissed and the city settled.",

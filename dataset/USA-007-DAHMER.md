@@ -39,25 +39,29 @@ Sources: [1] [2]
 
 > Press labels attached to this case foreground cannibalism. They are not recorded: they describe post-mortem conduct in a form that serves appetite rather than analysis, and this dataset has no field they would legitimately populate.
 
-**Birth date** — ○ *not established*
+**Birth date** — *reported*
 
-—
+1960-05
 
-> Commonly given as 21 May 1960, Milwaukee. No record retrieved.
+Sources: [3] *(contemporaneous reporting, archived by Virginia Tech University Libraries)* [4]
 
-**Birth place** — ○ *not established*
+> Month and year only. Biography.com gives the month and state; the contemporaneous Roanoke Times report gives his age as 34 on 28 November 1994, which fixes the year at 1960. The day is commonly given as the 21st and is not asserted — no birth record or other document stating it has been retrieved.
 
-—
+**Birth place** — *reported*
 
-> No record retrieved.
+Wisconsin, USA
+
+Sources: [4]
+
+> Commonly given as Milwaukee. Only the state is asserted from the retrieved source.
 
 **Death date** — *reported*
 
-1994-11
+1994-11-28
 
-Sources: [2]
+Sources: [3] *(contemporaneous reporting, archived by Virginia Tech University Libraries)* [4]
 
-> Killed by another prisoner at a Wisconsin correctional institution in November 1994. The date is commonly given as 28 November 1994; no corrections record has been retrieved and only the month is asserted. The cited source predates the death and is used here for identity continuity only — a contributor should replace it with a contemporaneous 1994 report or a corrections record.
+> Killed at Columbia Correctional Institution, Portage, Wisconsin, by another prisoner, Christopher J. Scarver, who struck him with a steel bar taken from a weight machine. He died en route to hospital. Two independent contemporaneous sources agree, but neither is a corrections record or death certificate, so this stays 'reported'.
 
 **Judicial status** — *reported*
 
@@ -76,7 +80,7 @@ Sources: [2]
   - **charge:** 15 counts of murder; **jurisdiction:** Milwaukee County Circuit Court, Wisconsin; **date:** 1992-02-15; **disposition:** Guilty; jury rejected the insanity plea and found him legally sane. 15 consecutive life sentences imposed 17 February 1992.
   - **charge:** One count of murder (Steven Hicks, 1978); **jurisdiction:** Ohio; **date:** 1992-05; **disposition:** Guilty plea; life sentence
 
-Sources: [2] [3] *(headline and date only; the article body could not be retrieved)*
+Sources: [2] [5] *(headline and date only; the article body could not be retrieved)*
 
 > SOURCING LIMITATION: no court filing has been retrieved for either conviction. The Ohio conviction rests on a wire-service headline whose body was inaccessible — the fact is recorded because the headline and date are themselves specific and locatable, and the limitation is stated. A contributor should replace both with the court records. The total across both jurisdictions is 16 homicide convictions.
 
@@ -84,7 +88,7 @@ Sources: [2] [3] *(headline and date only; the article body could not be retriev
 
 16
 
-Sources: [2] [3] *(headline and date only)*
+Sources: [2] [5] *(headline and date only)*
 
 > 15 Wisconsin convictions plus 1 Ohio conviction. Marked 'reported' rather than 'established' because no primary record has been retrieved for either.
 
@@ -116,11 +120,11 @@ Sources: [2]
 
 **First known offence** — *reported*
 
-1978
+1978-06
 
-Sources: [3] *(headline and date only)*
+Sources: [4]
 
-> The Ohio offence, followed by a gap of roughly nine years before the Wisconsin series. Compare the desistance periods in USA-004-DEANGELO and USA-006-RADER: here the gap falls at the start rather than the end.
+> The Ohio offence for which he was later convicted, followed by a gap of roughly nine years before the Wisconsin series. Compare the desistance periods in USA-004-DEANGELO and USA-006-RADER: here the gap falls at the start rather than the end.
 
 **Last known offence** — *reported*
 
@@ -237,7 +241,7 @@ Sources: [2]
 
 Victims were young men and boys, predominantly Black, Asian and Latino, and predominantly gay or bisexual, encountered in and around Milwaukee and brought to his apartment. The operative condition was institutional: this was a population whose disappearances and whose reports to police were not acted on, as the May 1991 events establish directly.
 
-Sources: [1] [4]
+Sources: [1] [6]
 
 > Recorded as an access condition, not as a characteristic that explains the deaths. Omitting the demographic pattern here would erase a documented institutional failure rather than protect anyone: the reason a bleeding, drugged, naked 14-year-old Laotian child was returned to the man who killed him is inseparable from who he was taken to be. That is a finding about policing. Compare USA-002-RIDGWAY, the dataset's other victim-class neglect case.
 
@@ -251,7 +255,7 @@ Sources: [1] [4]
 
 Marauder
 
-Sources: [5]
+Sources: [7]
 
 > Coded marauder, and at the same extreme as USA-005-GACY: the offence location and the residence were the same. Maintainer coding applying the Canter & Larkin framework, not a source-attested fact.
 
@@ -287,7 +291,7 @@ Sources: [5]
 
 Power/control, per Holmes & Holmes
 
-Sources: [6] [7]
+Sources: [8] [9]
 
 > Maintainer coding, not a source-attested fact, and weakly supported here: the behavioural fields it would ordinarily be coded from are all null in this record. A contributor may reasonably decline to code this field until the trial record is retrieved. Canter et al. (2004) cited as the standing caution on typologies of this family.
 
@@ -297,11 +301,11 @@ Sources: [6] [7]
 
 **Detection delay factors** — **established**
 
-On 27 May 1991 Milwaukee police responded to a report of a naked, bleeding, disoriented 14-year-old boy in the street. The boy, Konerak Sinthasomphone, had escaped Dahmer's apartment after being drugged. Dahmer told the officers the boy was his adult partner and merely intoxicated. The officers escorted both back to the apartment and left the child there. He was killed approximately thirty minutes later. Dahmer offended for a further two months.
+Dahmer was convicted of second-degree sexual assault and sentenced in May 1989 to twelve months' jail with work release and five years' probation. He was released two months early and required to register as a sex offender. He was serving that probation throughout the offences committed between mid-1990 and July 1991. On 27 May 1991, during that probation, Milwaukee police responded to a report of a naked, bleeding, disoriented 14-year-old boy in the street. The boy, Konerak Sinthasomphone, had escaped Dahmer's apartment after being drugged. Dahmer told the officers the boy was his adult partner and merely intoxicated. The officers escorted both back to the apartment and left the child there. He was killed approximately thirty minutes later. Dahmer offended for a further two months.
 
-Sources: [1] [4]
+Sources: [1] [4] [6]
 
-> A SIXTH DELAY MECHANISM, and the most severe in the dataset. Bundy: jurisdictional fragmentation. Ridgway: institutional neglect plus forensic limits. DeAngelo: absent technology. Gacy: an unconnected conviction record. Rader: no mechanism — he surfaced. Dahmer: information that was complete, contemporaneous, and physically present was actively dismissed. Officers stood inside the apartment. The victim was in front of them. This is not a failure of capability or of records; it is a failure of belief, and the demographic pattern recorded under victim_selection is inseparable from it. Two officers were dismissed in September 1991 and subsequently reinstated with back pay. The family's federal civil rights claim was dismissed; a settlement of $850,000 was reached with the city.
+> A SIXTH DELAY MECHANISM, and the most severe in the dataset. Bundy: jurisdictional fragmentation. Ridgway: institutional neglect plus forensic limits. DeAngelo: absent technology. Gacy: an unconnected conviction record. Rader: no mechanism — he surfaced. Dahmer: information that was complete, contemporaneous and physically present was actively dismissed, by officers dealing with a man who was at that moment a registered sex offender on probation for an offence against a child. This is not a failure of capability or of records — the record existed and the victim was in front of them. It is a failure of belief, and the demographic pattern recorded under victim_selection is inseparable from it. Two officers were dismissed in September 1991 and subsequently reinstated with back pay. The family's federal civil rights claim was dismissed; a settlement of $850,000 was reached with the city. Compare USA-005-GACY, where a prior sex-offence conviction also existed but was never connected to the disappearances; here it was connected to nothing because nobody checked.
 
 **Identifying evidence** — *reported*
 
@@ -325,11 +329,13 @@ Sources: [1]
 
 > No technique relied on in these convictions has been found scientifically unreliable.
 
-**Arrest** — *reported*
+**Arrest** — **established**
 
-Arrested July 1991 in Milwaukee, Wisconsin.
+Arrested 22 July 1991 in Milwaukee, after a victim escaped the apartment and brought police to it.
 
-Sources: [1]
+Sources: [1] [4]
+
+> The escaping victim is a living survivor and is not named, per ETHICS.md.
 
 ---
 
@@ -361,7 +367,7 @@ Sources: [2]
 
 15 consecutive life sentences imposed 17 February 1992 in Wisconsin, and a further life sentence in Ohio in May 1992.
 
-Sources: [2] [3] *(headline and date only)*
+Sources: [2] [5] *(headline and date only)*
 
 > No death penalty was available in either jurisdiction: Wisconsin has none, and Ohio's statute was not in force in 1978. As with USA-006-RADER, and unlike USA-002-RIDGWAY and USA-004-DEANGELO, the disposition was not purchased by a plea.
 
@@ -371,11 +377,13 @@ Sources: [2] [3] *(headline and date only)*
 
 > No appellate history retrieved. He died in custody in 1994.
 
-**Disposition** — ○ *not established*
+**Disposition** — *reported*
 
-—
+Killed in custody on 28 November 1994 at Columbia Correctional Institution, Portage, Wisconsin, by another prisoner.
 
-> He is very widely reported to have been killed by another prisoner at a Wisconsin correctional institution on 28 November 1994. Every source located in this pass was either inadmissible (wikis, dramatisation-derived coverage) or returned an access error. The fact is almost certainly true and is nonetheless recorded as unestablished, because 'everyone knows it' is the exact condition under which unsourced claims enter a dataset. A contributor should cite a Wisconsin Department of Corrections record or contemporaneous 1994 reporting. See also identity.death_date, which records the month on a weaker basis and should be upgraded at the same time.
+Sources: [3] *(contemporaneous reporting, archived by Virginia Tech University Libraries)* [4]
+
+> The assailant was convicted of the killing. He is a living person serving a sentence and is named here only because he is named in the contemporaneous record of this death; he is not a subject of this dataset and no further detail about him is recorded. Two independent contemporaneous sources agree, but neither is a corrections record or death certificate, so this stays 'reported'.
 
 ---
 
@@ -384,11 +392,10 @@ Sources: [2] [3] *(headline and date only)*
 ### What this record does not establish
 
 - No court filing retrieved for either conviction. The Wisconsin conviction rests on wire reporting; the Ohio conviction on a wire headline whose body was inaccessible.
-- The 1988 conviction for sexual assault of a minor, and the probation he was serving during much of the Wisconsin offending, could not be sourced to any admissible document in this pass. This is the most consequential gap in the record: it bears directly on whether the offences were preventable, and it is precisely the fact a contributor should chase first.
 - The competing psychiatric evidence at the insanity trial was not itemised in retrieved sources, so formal_diagnoses is null despite the evidence existing.
-- Death in custody could not be sourced admissibly and is recorded as a gap.
 - Birth date and place not asserted.
 - Nearly all behavioural fields are null: the retrieved sources establish the institutional failure in detail and the offence conduct barely at all.
+- The 1989 sentence and probation are sourced to an edited reference work, not to the Milwaukee County court record. A contributor should retrieve the filing.
 
 ### Contested points
 
@@ -411,11 +418,13 @@ Tier 1 = primary record · 2 = peer-reviewed · 3 = book-length journalism with 
 
 1. *(tier 1)* Estate of Sinthasomphone v. City of Milwaukee, 838 F. Supp. 1320 (E.D. Wis. 1993)
 2. *(tier 4)* Deseret News / Associated Press. 'Dahmer sentenced to 15 consecutive life terms in prison.' 17 February 1992. — <https://www.deseret.com/1992/2/17/18968194/dahmer-sentenced-to-15-consecutive-life-terms-in-prison/>
-3. *(tier 4)* UPI Archives. 'Dahmer sentenced to life for Hicks murder.' 1 May 1992. — <https://www.upi.com/Archives/1992/05/01/Dahmer-sentenced-to-life-for-Hicks-murder/7300704692800/>
-4. *(tier 4)* Snopes. Fact check: 'Did Police Return Jeffrey Dahmer's Victim to Him, Whom He Then Murdered?' — <https://www.snopes.com/fact-check/police-return-victim-to-jeffrey-dahmer/>
-5. *(tier 2)* Canter, David and Paul Larkin. 'The Environmental Range of Serial Rapists.' Journal of Environmental Psychology 13(1), 1993, 63-69.
-6. *(tier 3)* Holmes, Ronald M. and Stephen T. Holmes. Profiling Violent Crimes: An Investigative Tool. Thousand Oaks CA: Sage Publications.
-7. *(tier 2)* Canter, David V., Laurence J. Alison, Emily Alison and Natalia Wentink. 'The Organized/Disorganized Typology of Serial Murder: Myth or Model?' Psychology, Public Policy, and Law 10(3), 2004, 293-320.
+3. *(tier 4)* Roanoke Times / Associated Press. "'God told me' to bash Dahmer." 16 December 1994. — <https://scholar.lib.vt.edu/VA-news/ROA-Times/issues/1994/rt9412/941216/12160037.htm>
+4. *(tier 4)* Biography.com (A&E Television Networks). 'The Disturbing Timeline of Jeffrey Dahmer's Murders, Arrests and Death.' — <https://www.biography.com/crime/a64379331/jeffrey-dahmer-timeline>
+5. *(tier 4)* UPI Archives. 'Dahmer sentenced to life for Hicks murder.' 1 May 1992. — <https://www.upi.com/Archives/1992/05/01/Dahmer-sentenced-to-life-for-Hicks-murder/7300704692800/>
+6. *(tier 4)* Snopes. Fact check: 'Did Police Return Jeffrey Dahmer's Victim to Him, Whom He Then Murdered?' — <https://www.snopes.com/fact-check/police-return-victim-to-jeffrey-dahmer/>
+7. *(tier 2)* Canter, David and Paul Larkin. 'The Environmental Range of Serial Rapists.' Journal of Environmental Psychology 13(1), 1993, 63-69.
+8. *(tier 3)* Holmes, Ronald M. and Stephen T. Holmes. Profiling Violent Crimes: An Investigative Tool. Thousand Oaks CA: Sage Publications.
+9. *(tier 2)* Canter, David V., Laurence J. Alison, Emily Alison and Natalia Wentink. 'The Organized/Disorganized Typology of Serial Murder: Myth or Model?' Psychology, Public Policy, and Law 10(3), 2004, 293-320.
 
 ---
 
