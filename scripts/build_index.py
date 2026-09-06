@@ -40,8 +40,8 @@ ROSTER = [
     ("USA-008-RAMIREZ",    "Richard Ramirez",              "USA", "Night Stalker", "serial", "in_progress"),
     ("USA-009-KEMPER",     "Edmund Emil Kemper III",       "USA", "Co-Ed Killer", "serial", "in_progress"),
     ("USA-010-BERKOWITZ",  "David Richard Berkowitz",      "USA", "Son of Sam", "serial", "in_progress"),
-    ("USA-012-HENLEY",     "Elmer Wayne Henley Jr.",       "USA", "", "serial", "stub"),
-    ("USA-013-BROOKS",     "David Owen Brooks",            "USA", "", "serial", "stub"),
+    ("USA-012-HENLEY",     "Elmer Wayne Henley Jr.",       "USA", "", "serial", "in_progress"),
+    ("USA-013-BROOKS",     "David Owen Brooks",            "USA", "", "serial", "in_progress"),
     ("USA-014-BITTAKER",   "Lawrence Sigmond Bittaker",    "USA", "", "serial", "stub"),
     ("USA-015-NORRIS",     "Roy Lewis Norris",             "USA", "", "serial", "stub"),
     ("USA-016-BIANCHI",    "Kenneth Alessio Bianchi",      "USA", "Hillside Strangler", "serial", "stub"),
@@ -285,7 +285,7 @@ QUARANTINE = [
 
 CASES = [
     ("USA-003-HALL",  "Larry DeWayne Hall",       "USA", "no_homicide_conviction", "in_progress"),
-    ("USA-011-CORLL", "Dean Arnold Corll",        "USA", "died_before_trial", "stub"),
+    ("USA-011-CORLL", "Dean Arnold Corll",        "USA", "died_before_trial", "in_progress"),
     ("USA-019-LAKE",  "Leonard Lake",             "USA", "died_before_trial", "stub"),
     ("USA-038-KEYES", "Israel Keyes",             "USA", "died_before_trial", "stub"),
     ("GBR-004-FWEST", "Frederick Walter Stephen West", "GBR", "died_before_trial", "stub"),

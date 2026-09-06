@@ -1,8 +1,8 @@
 # Detection Mechanisms
 
-**Status: maintainer interpretation, n = 9.** This document classifies the `investigation.detection_delay_factors` field across the offender profiles. The classification is not in the data — it is an analytical layer over it, and it is stated separately for that reason. Run `python3 scripts/detection_table.py --full` to read the underlying fields and check the reading against them.
+**Status: maintainer interpretation, n = 11.** This document classifies the `investigation.detection_delay_factors` field across the offender profiles. The classification is not in the data — it is an analytical layer over it, and it is stated separately for that reason. Run `python3 scripts/detection_table.py --full` to read the underlying fields and check the reading against them.
 
-Nine records is not a sample. Every subject here is American, all were eventually identified, and the selection came from a popular-notoriety list rather than any sampling frame. Nothing below supports inference to serial homicide generally. What it does support is a claim about **this literature**: that the standard explanation for delayed detection does not fit most of these cases.
+Eleven records is not a sample. Every subject here is American, all were eventually identified, and the selection came from a popular-notoriety list rather than any sampling frame. Nothing below supports inference to serial homicide generally. What it does support is a claim about **this literature**: that the standard explanation for delayed detection does not fit most of these cases.
 
 ---
 
@@ -11,6 +11,7 @@ Nine records is not a sample. Every subject here is American, all were eventuall
 | Record | Series length | What ended it |
 |---|---|---|
 | `USA-009-KEMPER` | ~11 months | He surrendered by telephone |
+| `USA-012-HENLEY` / `USA-013-BROOKS` | ~2 years | Henley shot Corll and telephoned police |
 | `USA-010-BERKOWITZ` | ~12 months | A parking citation issued near the last shooting |
 | `USA-008-RAMIREZ` | ~14 months | His photograph was published; the public detained him |
 | `USA-001-BUNDY` | ~4 years | Traffic stops, survivor identification, cross-state investigation |
@@ -48,9 +49,13 @@ On 27 May 1991 officers stood inside the apartment with a bleeding, drugged four
 
 Not a failure of records or capability — a failure of belief, inseparable from who the victims were taken to be. Documented at tier 1 in *Estate of Sinthasomphone v. City of Milwaukee*, 838 F. Supp. 1320 (E.D. Wis. 1993).
 
-### 6. None — the offender surfaced — `USA-006-RADER`, `USA-009-KEMPER`
+### 6. None — the offender surfaced — `USA-006-RADER`, `USA-009-KEMPER`, `USA-012-HENLEY`, `USA-013-BROOKS`
 
 Rader had not offended for thirteen years, was not a suspect, and no investigative avenue was converging on him when he resumed writing to police. Kemper drove to Colorado and telephoned a confession, reportedly having to persuade the officer it was genuine.
+
+The Houston case is the limit of the category. No agency had linked the disappearances of young men from one Houston neighbourhood across roughly two years, and no suspect had been identified, when Henley shot Dean Corll on 8 August 1973 and telephoned police himself. Twenty-seven bodies were then recovered from three sites on the strength of his disclosures. Brooks was identified the following day through Henley's statements and gave his own account within twenty-four hours.
+
+Corll himself is not a profile in this dataset. He was never charged and is recorded as `USA-011-CORLL` under `schema/case.schema.json`; see `docs/co-offenders.md`. The two convicted participants are counted here.
 
 ### 7. None — the public identified him — `USA-008-RAMIREZ`
 
@@ -66,9 +71,11 @@ One of the largest investigations in the city's history did not identify him. A 
 
 ### Most of these cases were not closed by investigation
 
-Three of nine ended because the offender surrendered or was delivered by the public. A fourth turned on a parking citation. **Five of nine** were closed by investigative work reaching a conclusion.
+Five of eleven ended because the offender surrendered, was delivered by the public, or — in the Houston case — was shot by his own accomplice, who then called the police. A sixth turned on a parking citation. **Five of eleven** were closed by investigative work reaching a conclusion.
 
-Any analysis of detection effectiveness computed from this dataset must treat the other four as censored observations. Counting them as successes measures something other than what investigation achieved. The relevant records say so in their own `detection_delay_factors` notes.
+That is now a minority. With n = 11 it remains an observation about which cases become famous rather than a finding about detection, but the direction is worth stating plainly: in this literature, the cases everyone knows are disproportionately the ones investigation did not solve.
+
+Any analysis of detection effectiveness computed from this dataset must treat the other six as censored observations. Counting them as successes measures something other than what investigation achieved. The relevant records say so in their own `detection_delay_factors` notes.
 
 ### Geographic range does not predict delay
 
@@ -77,7 +84,9 @@ The dataset codes `spatial_pattern` per Canter & Larkin (1993):
 | Pattern | Records | Delay range |
 |---|---|---|
 | Commuter | Bundy, DeAngelo, Ramirez | 14 months – 32 years |
-| Marauder | Ridgway, Gacy, Rader, Dahmer, Kemper, Berkowitz | 11 months – 31 years |
+| Marauder | Ridgway, Gacy, Rader, Dahmer, Kemper, Berkowitz, Henley | 11 months – 31 years |
+
+`USA-013-BROOKS` is not coded. Canter & Larkin model the relationship between an offender's home base and his own offence locations; the record does not attribute victim selection or approach to Brooks, so there is no offender-specific spatial behaviour to code. Applying the series pattern to him would attribute conduct the record does not support. That refusal is itself a small result: a co-offender dataset cannot assume every participant has a spatial signature.
 
 The ranges overlap almost completely. The shortest delay belongs to a commuter; the second shortest to a marauder. The longest belongs to a commuter; the second longest to a marauder.
 

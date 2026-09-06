@@ -1,0 +1,519 @@
+{
+  "id": "USA-013-BROOKS",
+  "schema_version": "0.1.0",
+  "record_status": "in_progress",
+  "provenance": {
+    "created": "2026-09-06",
+    "last_reviewed": "2026-09-06",
+    "contributors": [
+      "maintainer"
+    ],
+    "ai_assisted": true
+  },
+  "identity": {
+    "legal_name": {
+      "value": "David Owen Brooks",
+      "confidence": "established",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Brooks v. State, 580 S.W.2d 825 (Tex. Crim. App. 1979)",
+          "url": "https://law.justia.com/cases/texas/court-of-criminal-appeals/1979/56288-3.html"
+        },
+        {
+          "tier": 1,
+          "citation": "Henley v. State, 576 S.W.2d 66 (Tex. Crim. App. 1978)",
+          "url": "https://law.justia.com/cases/texas/court-of-criminal-appeals/1978/53561-53566-3.html",
+          "note": "names Brooks as a participant"
+        }
+      ]
+    },
+    "aliases": null,
+    "media_epithet": null,
+    "birth_date": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "Not asserted. Two admissible sources give ages that constrain it — he was eighteen when he made his statement in August 1973, and sixty-five when he died in May 2020 — but deriving a date from reported ages is inference, not sourcing. Memorial and aggregator pages giving 1955 are inadmissible. [SEARCH NOT EXHAUSTED — Texas vital records have not been checked.]",
+      "search_exhausted": false
+    },
+    "birth_place": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "Not retrieved from any admissible source. One Beaumont paper covered his death as a local story, which may indicate ties to that area, but a paper's interest is not a birth record. [SEARCH NOT EXHAUSTED.]",
+      "search_exhausted": false
+    },
+    "death_date": {
+      "value": "2020-05-28",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 4,
+          "citation": "KPRC 2 / Click2Houston. 'Former henchman of one of Houston's most notorious serial killers dies of COVID-19.' 11 June 2020.",
+          "url": "https://www.click2houston.com/news/texas/2020/06/11/former-henchman-of-one-of-houstons-most-notorious-serial-killers-dies-of-covid-19/",
+          "note": "attributes the record to the Texas Department of Criminal Justice website"
+        },
+        {
+          "tier": 4,
+          "citation": "Beaumont Enterprise. 'Corll accomplice who had ties to Beaumont dies of COVID-19.' June 2020.",
+          "url": "https://www.beaumontenterprise.com/news/article/Corll-accomplice-who-had-ties-to-Beaumont-dies-of-15334362.php"
+        }
+      ],
+      "notes": "Marked 'reported' rather than 'established' despite two outlets, because both are tier 4 and their wording is close enough that independence cannot be assumed. A TDCJ death record would settle it at tier 1. Died at a prison hospital in Galveston, aged 65, in TDCJ custody; a preliminary autopsy gave COVID-19 as a contributing factor alongside pre-existing conditions."
+    },
+    "judicial_status": {
+      "value": "Convicted of murder with malice for the killing of William Ray Lawrence, aged 15, and sentenced to life imprisonment. Conviction affirmed 16 May 1979. Died in custody 28 May 2020.",
+      "confidence": "established",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Brooks v. State, 580 S.W.2d 825 (Tex. Crim. App. 1979)",
+          "url": "https://law.justia.com/cases/texas/court-of-criminal-appeals/1979/56288-3.html",
+          "note": "‘Punishment was assessed at imprisonment for life.’ ‘The judgment is affirmed.’"
+        },
+        {
+          "tier": 4,
+          "citation": "KPRC 2 / Click2Houston. 'Former henchman of one of Houston's most notorious serial killers dies of COVID-19.' 11 June 2020.",
+          "url": "https://www.click2houston.com/news/texas/2020/06/11/former-henchman-of-one-of-houstons-most-notorious-serial-killers-dies-of-covid-19/"
+        }
+      ],
+      "notes": "The number of convictions is contested. The appellate opinion concerns one count. Both 2020 news reports state he was serving six life sentences. See conviction_record.convictions."
+    }
+  },
+  "co_offenders": [
+    "USA-012-HENLEY",
+    "USA-011-CORLL"
+  ],
+  "conviction_record": {
+    "convictions": {
+      "value": [
+        {
+          "charge": "Murder with malice — William Ray Lawrence, aged 15, on or about 10 July 1973",
+          "jurisdiction": "Texas (county of trial not established from the retrieved opinion)",
+          "date": "not established",
+          "disposition": "Convicted; life imprisonment. Affirmed, Brooks v. State, 580 S.W.2d 825 (Tex. Crim. App. 16 May 1979)."
+        }
+      ],
+      "confidence": "contested",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Brooks v. State, 580 S.W.2d 825 (Tex. Crim. App. 1979)",
+          "url": "https://law.justia.com/cases/texas/court-of-criminal-appeals/1979/56288-3.html",
+          "note": "one count; life"
+        },
+        {
+          "tier": 4,
+          "citation": "KPRC 2 / Click2Houston. 'Former henchman of one of Houston's most notorious serial killers dies of COVID-19.' 11 June 2020.",
+          "url": "https://www.click2houston.com/news/texas/2020/06/11/former-henchman-of-one-of-houstons-most-notorious-serial-killers-dies-of-covid-19/",
+          "note": "‘Brooks was serving six life sentences’"
+        },
+        {
+          "tier": 4,
+          "citation": "Beaumont Enterprise. 'Corll accomplice who had ties to Beaumont dies of COVID-19.' June 2020.",
+          "url": "https://www.beaumontenterprise.com/news/article/Corll-accomplice-who-had-ties-to-Beaumont-dies-of-15334362.php",
+          "note": "‘six life sentences’"
+        }
+      ],
+      "notes": "CONTESTED, and the disagreement is not trivial. The tier-1 appellate opinion concerns a single count of murder with malice and a single life sentence. Two 2020 news reports state he was serving six life sentences, which is also the number of counts on which Henley was convicted — a coincidence that makes conflation the most likely explanation, but 'most likely' is not a finding. Until a TDCJ commitment record or the trial court's judgments are obtained, this record does not assert a number. The tier-1 source is given primacy in confirmed_victim_count for that reason."
+    },
+    "confirmed_victim_count": {
+      "value": 1,
+      "confidence": "contested",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Brooks v. State, 580 S.W.2d 825 (Tex. Crim. App. 1979)",
+          "url": "https://law.justia.com/cases/texas/court-of-criminal-appeals/1979/56288-3.html"
+        },
+        {
+          "tier": 4,
+          "citation": "KPRC 2 / Click2Houston. 'Former henchman of one of Houston's most notorious serial killers dies of COVID-19.' 11 June 2020.",
+          "url": "https://www.click2houston.com/news/texas/2020/06/11/former-henchman-of-one-of-houstons-most-notorious-serial-killers-dies-of-covid-19/"
+        }
+      ],
+      "notes": "One is the count established by the only judgment this record has read. If the six-life-sentences reports are right, this field is wrong by five, and any analyst using it should treat it as provisional. Recorded as contested rather than silently taking the higher or the lower figure. This is the single most important open question on the record. Note also that under docs/co-offenders.md this count is never summed with Henley's six or with the twenty-seven recoveries: they are different judicial findings about one series, not disjoint sets of victims."
+    },
+    "attributed_victim_count": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "No agency has published a figure attributing a number of deaths to Brooks personally with a stated methodology, in any source retrieved. [SEARCH NOT EXHAUSTED.]",
+      "search_exhausted": false
+    },
+    "claimed_victim_count": {
+      "value": "In his August 1973 confession Brooks said: 'In all I guess there were between 25 and thirty boys killed.'",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Brooks v. State, 580 S.W.2d 825 (Tex. Crim. App. 1979)",
+          "url": "https://law.justia.com/cases/texas/court-of-criminal-appeals/1979/56288-3.html"
+        }
+      ],
+      "notes": "Recorded as a datum about what Brooks said, never as a victim count, per the schema. It is an estimate of the SERIES, not of his own conduct, and it was given by an eighteen-year-old the day after the series ended. The recoveries that followed — twenty-seven — fall inside his range, which is corroboration of a kind and is worth noting precisely because it is so rare in this literature. It still is not a count."
+    },
+    "estimate_provenance": {
+      "value": "Series totals of 27, 28 and 29 circulate and are routinely attached to Brooks as though they were findings against him. The 27 is the number of bodies recovered in 1973 per the appellate record; the 28 is the number of sets of remains counted in later Houston reporting; the 29 appears in feature coverage without a stated basis.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Henley v. State, 576 S.W.2d 66 (Tex. Crim. App. 1978)",
+          "url": "https://law.justia.com/cases/texas/court-of-criminal-appeals/1978/53561-53566-3.html",
+          "note": "twenty-seven bodies recovered"
+        },
+        {
+          "tier": 4,
+          "citation": "KHOU 11 (Houston). '50 years after victim of Houston ‘Candy Man’ killer Dean Corll was found, there’s a new sketch in efforts to identify him.'",
+          "url": "https://www.khou.com/article/news/investigations/missing-pieces/victim-sketch-candy-man-serial-killer-corll-heights/285-f9691bee-86bd-4fc1-be0b-77bfd24a0545",
+          "note": "28 sets of remains; 27 identified; one outstanding"
+        }
+      ]
+    }
+  },
+  "offence_period": {
+    "first_known_offence": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "The charged offence is dated on or about 10 July 1973. His statements describe a period running back further, and the six counts against Henley are dated 1972-1973, but no admissible source establishes when Brooks's own participation began. [SEARCH NOT EXHAUSTED — the full text of his confessions is in the appellate record.]",
+      "search_exhausted": false
+    },
+    "last_known_offence": {
+      "value": "1973-07-10",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Brooks v. State, 580 S.W.2d 825 (Tex. Crim. App. 1979)",
+          "url": "https://law.justia.com/cases/texas/court-of-criminal-appeals/1979/56288-3.html",
+          "note": "the charged murder occurred ‘on or about July 10, 1973’"
+        }
+      ],
+      "notes": "This is the date of the charged offence, not necessarily of his last participation. The series ended on 8 August 1973 when Henley shot Corll."
+    },
+    "jurisdictions": {
+      "value": "Harris County, Texas. Burial sites at a boat shed in south-west Houston, the Lake Sam Rayburn area, and High Island beach.",
+      "confidence": "established",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Brooks v. State, 580 S.W.2d 825 (Tex. Crim. App. 1979)",
+          "url": "https://law.justia.com/cases/texas/court-of-criminal-appeals/1979/56288-3.html"
+        },
+        {
+          "tier": 1,
+          "citation": "Henley v. State, 576 S.W.2d 66 (Tex. Crim. App. 1978)",
+          "url": "https://law.justia.com/cases/texas/court-of-criminal-appeals/1978/53561-53566-3.html"
+        }
+      ]
+    }
+  },
+  "background": {
+    "family_structure": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "Not retrieved. [SEARCH NOT EXHAUSTED.]",
+      "search_exhausted": false
+    },
+    "education": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "Not retrieved. [SEARCH NOT EXHAUSTED.]",
+      "search_exhausted": false
+    },
+    "employment_history": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "Not retrieved. The 1979 opinion describes his role in the offences but records no payment arrangement, in contrast to the arrangement it and the 1978 opinion describe for Henley. [SEARCH NOT EXHAUSTED.]",
+      "search_exhausted": false
+    },
+    "military_service": null,
+    "documented_head_injury": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "No medical documentation located.",
+      "search_exhausted": true
+    },
+    "macdonald_triad": {
+      "enuresis": {
+        "value": null,
+        "confidence": "unverified",
+        "sources": [],
+        "notes": "No source. Retained for replication purposes only; not a predictor — Parfitt & Alleyne (2020).",
+        "search_exhausted": true
+      },
+      "firesetting": {
+        "value": null,
+        "confidence": "unverified",
+        "sources": [],
+        "notes": "No source.",
+        "search_exhausted": true
+      },
+      "animal_cruelty": {
+        "value": null,
+        "confidence": "unverified",
+        "sources": [],
+        "notes": "No source.",
+        "search_exhausted": true
+      }
+    }
+  },
+  "clinical": {
+    "formal_diagnoses": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "No diagnosis attributable to a named examining clinician in a citable document was located.",
+      "search_exhausted": true
+    },
+    "competency_findings": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "Not raised in the retrieved opinion. Whether any pre-trial examination occurred is unknown. [SEARCH NOT EXHAUSTED.]",
+      "search_exhausted": false
+    },
+    "psychometric_results": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "No instrument, clinician or date located.",
+      "search_exhausted": true
+    },
+    "commentary_attributions": null
+  },
+  "offence_behaviour": {
+    "victim_selection": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "The retrieved opinion describes Brooks's role as presence and assistance rather than procurement — his own account was that he 'was supposed to help if something went wrong' and that he assisted in burying bodies. It attributes no selection function to him. Recording a selection pattern here would import Henley's role onto Brooks, which is precisely the error separate records exist to prevent. Null by design.",
+      "search_exhausted": true
+    },
+    "signature_behaviour": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "No scene documentation or post-mortem finding establishing recurrent non-necessary conduct attributable to Brooks was located. The torture described in the opinions is attributed to the offences generally, not to him individually, and derives from confession evidence in any case. Null.",
+      "search_exhausted": true
+    },
+    "motive_classification": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "Deliberately null. The only motive material in the record is Brooks's own characterisation of his role, given in custody at eighteen the day after the series ended, in circumstances where minimising his own part was the obvious interest. Coding a motive from that would be coding a defence. Compare USA-010-BERKOWITZ, also left null, where the only motive evidence is an account the offender later repudiated. Holmes & Holmes offers no category for a subordinate participant; see the note on USA-012-HENLEY for what happens when one is forced.",
+      "search_exhausted": true
+    },
+    "approach_method": null,
+    "spatial_pattern": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "Not coded. Canter & Larkin's commuter/marauder distinction models the relationship between an offender's home base and his own offence locations. Brooks did not select or approach victims on the record retrieved, so there is no offender-specific spatial behaviour to code, and applying the series pattern to him would attribute conduct the record does not support. Null by design, not for want of searching.",
+      "search_exhausted": true
+    },
+    "weapon_or_method": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "The opinions describe victims being shot or strangled, but do not establish a method attributable to Brooks individually, and his own statement placed him in an assisting role. Not asserted. [SEARCH NOT EXHAUSTED — the trial record for the Lawrence count would establish what the jury found.]",
+      "search_exhausted": false
+    },
+    "post_offence_behaviour": {
+      "value": "Assisted in burying bodies, according to his confessions.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Brooks v. State, 580 S.W.2d 825 (Tex. Crim. App. 1979)",
+          "url": "https://law.justia.com/cases/texas/court-of-criminal-appeals/1979/56288-3.html"
+        }
+      ],
+      "notes": "Source is his own statement as summarised in the opinion, not independent evidence."
+    },
+    "forensic_countermeasures": {
+      "value": "Burial at three dispersed sites, bodies wrapped in plastic and tied with rope. Recorded at series level; the opinion does not apportion these acts between participants.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Henley v. State, 576 S.W.2d 66 (Tex. Crim. App. 1978)",
+          "url": "https://law.justia.com/cases/texas/court-of-criminal-appeals/1978/53561-53566-3.html"
+        }
+      ]
+    }
+  },
+  "investigation": {
+    "detection_delay_factors": {
+      "value": "None applicable to this subject. No agency had linked the disappearances or identified any suspect before 8 August 1973. Brooks was not found by investigation; he was identified through Henley's statements the day after Corll's death and gave his own account within twenty-four hours.",
+      "confidence": "established",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Brooks v. State, 580 S.W.2d 825 (Tex. Crim. App. 1979)",
+          "url": "https://law.justia.com/cases/texas/court-of-criminal-appeals/1979/56288-3.html",
+          "note": "oral statement on the morning of 9 August 1973; written confessions 10 August 1973"
+        },
+        {
+          "tier": 1,
+          "citation": "Henley v. State, 576 S.W.2d 66 (Tex. Crim. App. 1978)",
+          "url": "https://law.justia.com/cases/texas/court-of-criminal-appeals/1978/53561-53566-3.html"
+        }
+      ],
+      "notes": "Belongs with USA-012-HENLEY in the group of cases in docs/detection-mechanisms.md not closed by investigative work. Treat as a censored observation in any analysis of detection effectiveness."
+    },
+    "identifying_evidence": {
+      "value": "Henley's statements, followed within a day by Brooks's own oral and written confessions.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Brooks v. State, 580 S.W.2d 825 (Tex. Crim. App. 1979)",
+          "url": "https://law.justia.com/cases/texas/court-of-criminal-appeals/1979/56288-3.html"
+        }
+      ],
+      "notes": "What independent evidence, if any, connected Brooks to the Lawrence count beyond his own statements has not been established. That question is central to the conviction and is an open gap."
+    },
+    "forensic_methods_used": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "Not retrieved. Identification of the recovered remains continued for decades, and one victim remained unidentified as of the last review. [SEARCH NOT EXHAUSTED.]",
+      "search_exhausted": false
+    },
+    "method_now_disputed": {
+      "value": null,
+      "confidence": "unverified",
+      "sources": [],
+      "notes": "The conviction rested on confession evidence, not on a forensic comparison technique of the kind later discredited. Null by design. Note that confession evidence has its own reliability literature, addressed under adjudication.confession_reliability rather than here.",
+      "search_exhausted": true
+    },
+    "arrest": {
+      "value": "Taken into custody within a day of Corll's death; gave an oral statement to Detective Jim Tucker on the morning of 9 August 1973 and executed two written confessions on 10 August 1973.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Brooks v. State, 580 S.W.2d 825 (Tex. Crim. App. 1979)",
+          "url": "https://law.justia.com/cases/texas/court-of-criminal-appeals/1979/56288-3.html"
+        }
+      ]
+    }
+  },
+  "adjudication": {
+    "interrogation_method": {
+      "value": "An oral statement to a named detective on 9 August 1973, followed by two written confessions on 10 August 1973. Duration, conditions, whether counsel was present and whether anything was recorded have not been established.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Brooks v. State, 580 S.W.2d 825 (Tex. Crim. App. 1979)",
+          "url": "https://law.justia.com/cases/texas/court-of-criminal-appeals/1979/56288-3.html"
+        }
+      ],
+      "notes": "He was eighteen, questioned the day after the series ended, and produced three statements in two days. The conditions matter and are not on this record. Contemporaneous best practice now requires full electronic recording of custodial interrogation in serious cases; none is described here."
+    },
+    "confession_reliability": {
+      "value": "Partly corroborated at series level, unestablished at count level. Brooks's estimate of 'between 25 and thirty boys' was consistent with the twenty-seven bodies subsequently recovered, and the recoveries followed disclosures by both men. What independently corroborated his statement as to the count he was convicted of has not been established from the retrieved opinion.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Brooks v. State, 580 S.W.2d 825 (Tex. Crim. App. 1979)",
+          "url": "https://law.justia.com/cases/texas/court-of-criminal-appeals/1979/56288-3.html"
+        }
+      ],
+      "notes": "The distinction between series-level and count-level corroboration is the point. That a confession is accurate about the scale of a series does not establish that it is accurate about who did what within it — and apportionment among participants is exactly what a confession given in custody is least reliable about, since each participant has an interest in the allocation. USA-003-HALL is the case where no corroboration existed at all; this is a case where it exists at one level and is unverified at the other."
+    },
+    "trial_outcome": {
+      "value": "Convicted of murder with malice. The year and county of trial are not stated in the retrieved appellate opinion.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Brooks v. State, 580 S.W.2d 825 (Tex. Crim. App. 1979)",
+          "url": "https://law.justia.com/cases/texas/court-of-criminal-appeals/1979/56288-3.html"
+        }
+      ],
+      "notes": "That a record can establish the conviction and the sentence but not the year or the county of the trial is worth stating plainly rather than filling from a wiki."
+    },
+    "sentence": {
+      "value": "Life imprisonment on the count addressed by the 1979 appeal. Whether further life sentences were imposed on other counts is contested — see conviction_record.convictions.",
+      "confidence": "contested",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Brooks v. State, 580 S.W.2d 825 (Tex. Crim. App. 1979)",
+          "url": "https://law.justia.com/cases/texas/court-of-criminal-appeals/1979/56288-3.html",
+          "note": "‘Punishment was assessed at imprisonment for life.’"
+        },
+        {
+          "tier": 4,
+          "citation": "KPRC 2 / Click2Houston. 'Former henchman of one of Houston's most notorious serial killers dies of COVID-19.' 11 June 2020.",
+          "url": "https://www.click2houston.com/news/texas/2020/06/11/former-henchman-of-one-of-houstons-most-notorious-serial-killers-dies-of-covid-19/",
+          "note": "‘six life sentences’"
+        }
+      ],
+      "notes": "The sources disagree on how many life sentences he was serving. The 1979 appellate opinion assesses punishment at life on the single count before it and says nothing about others. Both 2020 news reports state he was serving six. Six is also Henley's number of counts, which makes conflation the likeliest explanation but does not establish it. No figure is asserted here."
+    },
+    "appellate_history": {
+      "value": "Brooks v. State, 580 S.W.2d 825 (Tex. Crim. App., Panel No. 3, 16 May 1979) — affirmed.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 1,
+          "citation": "Brooks v. State, 580 S.W.2d 825 (Tex. Crim. App. 1979)",
+          "url": "https://law.justia.com/cases/texas/court-of-criminal-appeals/1979/56288-3.html",
+          "note": "‘The judgment is affirmed.’"
+        }
+      ],
+      "notes": "Whether any further appellate or post-conviction proceedings followed has not been retrieved. Unlike Henley, Brooks did not obtain a reversal."
+    },
+    "disposition": {
+      "value": "Died in custody on 28 May 2020, aged 65, at a prison hospital in Galveston, Texas, in the custody of the Texas Department of Criminal Justice. A preliminary autopsy gave COVID-19 as a contributing factor alongside pre-existing conditions.",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 4,
+          "citation": "KPRC 2 / Click2Houston. 'Former henchman of one of Houston's most notorious serial killers dies of COVID-19.' 11 June 2020.",
+          "url": "https://www.click2houston.com/news/texas/2020/06/11/former-henchman-of-one-of-houstons-most-notorious-serial-killers-dies-of-covid-19/"
+        },
+        {
+          "tier": 4,
+          "citation": "Beaumont Enterprise. 'Corll accomplice who had ties to Beaumont dies of COVID-19.' June 2020.",
+          "url": "https://www.beaumontenterprise.com/news/article/Corll-accomplice-who-had-ties-to-Beaumont-dies-of-15334362.php"
+        }
+      ],
+      "notes": "Tier 4 only. A TDCJ death record would raise this to tier 1 and would probably also resolve the number of sentences."
+    }
+  },
+  "data_quality": {
+    "known_gaps": [
+      "The number of counts on which he was convicted. One in the appellate record, six in press reports. This is the record's central unresolved question.",
+      "The year and county of his trial are not established.",
+      "No birth record retrieved; date and place of birth are not asserted.",
+      "The conditions of his questioning on 9-10 August 1973 are unknown. He was eighteen and produced three statements in two days.",
+      "What independent evidence, if any, corroborated his statement as to the count he was convicted of.",
+      "Whether any post-conviction proceedings followed the 1979 affirmance.",
+      "Death is sourced only at tier 4."
+    ],
+    "contested_points": [
+      "One life sentence or six. The tier-1 opinion addresses one; two 2020 news reports say six, which is also Henley's number.",
+      "The size of the series: 27 recovered bodies per the 1978 opinion, 28 sets of remains in later Houston reporting."
+    ],
+    "excluded_material": [
+      "Victim names beyond the one named in the conviction, and all graphic detail, under ETHICS.md.",
+      "Series victim totals presented as counts against this subject.",
+      "Any behavioural coding imported from Henley's role. Brooks's record is not Henley's record; several fields here are null for exactly that reason.",
+      "Memorial and obituary aggregator pages giving a birth year.",
+      "Detail originating in film and television treatments of the case."
+    ]
+  }
+}
