@@ -28,6 +28,16 @@ The full audit is in [`docs/roster-audit.md`](docs/roster-audit.md), including t
 
 A dataset is not judged by its best entries. One fabrication makes the other 199 unusable, because a reader has no way to tell which is which without redoing the verification themselves. Hence the schema.
 
+## Where the design came from
+
+The schema is a reworking of a hand-built analytical grid — seven chronological phases and a set of behavioural axes. [`docs/master-grid.md`](docs/master-grid.md) sets out the correspondence in full: what was kept, what was renamed, what was dropped and why. Two elements of the original design were removed from the first draft and later restored on the maintainer's instruction; two others were dropped for reasons the document states.
+
+## What the records show so far
+
+[`docs/detection-mechanisms.md`](docs/detection-mechanisms.md) is the project's first comparative reading: nine cases, and the standard explanation for delayed detection fits almost none of them. Four of the nine were not closed by investigative work at all. Geographic range — the usual narrative explanation for evasion — does not separate the long delays from the short ones.
+
+It is labelled as maintainer interpretation over n = 9, with the conditions it would have to meet to become a finding. `scripts/detection_table.py` prints the underlying fields so the reading can be checked against the data.
+
 ## How it relates to existing work
 
 The [Radford/FGCU Serial Killer Database](https://scholarscommons.fgcu.edu/esploro/outputs/report/RadfordFGCU-Annual-Report-on-Serial-Killer/99383951932606570) is the established academic reference, covering several thousand offenders with annual published reports. It is broader than this project and should be the first stop for anyone needing offender-level statistics.
@@ -116,6 +126,8 @@ Without that flag the two are indistinguishable, and a dataset that presents an 
 │   └── unsolved-cases.csv       5 cases with no identified offender
 ├── docs/
 │   ├── roster-audit.md          The provenance review. Read this first.
+│   ├── master-grid.md           The original analytical grid and how it became the schema
+│   ├── detection-mechanisms.md  First comparative reading of the records
 │   ├── sourcing-policy.md
 │   ├── inclusion-criteria.md
 │   └── investigative-failures.md
@@ -123,6 +135,7 @@ Without that flag the two are indistinguishable, and a dataset that presents an 
     ├── validate.py              Schema + sourcing rules
     ├── render_md.py             Generates dataset/*.md from the JSON
     ├── worklist.py              Lists fields nobody has searched yet
+    ├── detection_table.py       Prints the data behind detection-mechanisms.md
     ├── normalise_sources.py     Canonicalises citation strings
     └── build_index.py           Regenerates index/
 ```
@@ -157,6 +170,7 @@ python3 scripts/normalise_sources.py  # canonicalise citations
 python3 scripts/render_md.py          # regenerate the Markdown reports
 python3 scripts/build_index.py        # regenerate index files
 python3 scripts/worklist.py           # what still needs searching
+python3 scripts/detection_table.py    # data behind the detection analysis
 ```
 
 CI runs all four on every pull request. It fails if a profile breaks the sourcing rules, if citations are not normalised, if a Markdown report is out of date, or if the index is stale.
