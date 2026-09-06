@@ -188,6 +188,12 @@ def check_claim(node, where, problems, path):
             problems.append(Problem(
                 path, where,
                 "'unverified' requires a note stating what was searched and not found."))
+        if "search_exhausted" not in node:
+            problems.append(Problem(
+                path, where,
+                "'unverified' requires search_exhausted: true (the absence is a finding) or "
+                "false (nobody has searched properly yet). Without it, a field nobody looked "
+                "at is indistinguishable from one that was searched and came up empty."))
     else:
         if len(sources) == 0:
             problems.append(Problem(

@@ -13,9 +13,10 @@ Every claim carries a confidence level:
 | **established** | Two or more independent sources, at least one primary or peer-reviewed |
 | *reported* | A single credible source |
 | ⚠︎ **contested** | Credible sources disagree — see the note |
-| ○ *not established* | No admissible source found. The note says what was searched |
+| ○ *not established* | Searched properly; no admissible source exists, or null by design |
+| ◌ *not yet searched* | **A research todo, not a finding.** Nobody has looked yet |
 
-A field showing **—** is not an oversight. It means no source was found, and the note records the attempt. Absence of evidence is recorded rather than filled in.
+A field showing **—** is not an oversight. Read the badge: ○ means the record was searched and the absence is a finding; ◌ means nobody has searched yet and the field is open work. Absence of evidence is recorded rather than filled in, but the two kinds of absence are never conflated.
 
 ---
 
@@ -43,17 +44,17 @@ Sources: [1] [2]
 
 > ANALYTICALLY DISTINCT FROM EVERY OTHER EPITHET IN THIS DATASET. 'Green River Killer' and 'Golden State Killer' were assigned by the press from geography; 'The Killer Clown' from an unrelated hobby. This one was coined by the offender himself, in communications sent to media and police, and then adopted by the press. Recording it is not endorsing it — but the fact that a self-assigned label became the standard designation is a finding about how these cases are narrated, and it is the same appetite for attention that ended the case.
 
-**Birth date** — ○ *not established*
+**Birth date** — ◌ *not yet searched*
 
 —
 
-> Commonly given as 9 March 1945. No record retrieved. The ages stated in the ABA Journal account — 29 in 1974, 59 at arrest in 2005 — are consistent with a 1945 birth year, but that is inference from reported ages, not a record, and is not asserted here.
+> Commonly given as 9 March 1945. No record retrieved. The ages stated in the ABA Journal account — 29 in 1974, 59 at arrest in 2005 — are consistent with a 1945 birth year, but that is inference from reported ages, not a record, and is not asserted here. [SEARCH NOT EXHAUSTED — this is a research todo, not a finding. The absence here reflects how far the initial pass got, not what exists.]
 
-**Birth place** — ○ *not established*
+**Birth place** — ◌ *not yet searched*
 
 —
 
-> Commonly given as Pittsburg, Kansas. No record retrieved.
+> Commonly given as Pittsburg, Kansas. No record retrieved. [SEARCH NOT EXHAUSTED — this is a research todo, not a finding. The absence here reflects how far the initial pass got, not what exists.]
 
 **Judicial status** — *reported*
 
@@ -141,11 +142,11 @@ Sources: [1]
 
 > He was married with adult children at the time of arrest. Beyond that bare fact, family circumstances are out of scope under ETHICS.md — his relatives are not subjects of this dataset and were not part of the adjudicated record.
 
-**Education** — ○ *not established*
+**Education** — ◌ *not yet searched*
 
 —
 
-> No record retrieved.
+> No record retrieved. [SEARCH NOT EXHAUSTED — this is a research todo, not a finding. The absence here reflects how far the initial pass got, not what exists.]
 
 **Employment history** — *reported*
 
@@ -155,11 +156,11 @@ Sources: [1] [2]
 
 > Third record in this dataset where the occupational fact is load-bearing. DeAngelo held a police warrant card; Ridgway had three decades of unbroken shift work; Rader held a municipal enforcement role and an elected church office, both of which conferred standing and legitimate reason to be present in the neighbourhoods where he lived and offended.
 
-**Military service** — ○ *not established*
+**Military service** — ◌ *not yet searched*
 
 —
 
-> Air Force service is commonly reported; no service record retrieved.
+> Air Force service is commonly reported; no service record retrieved. [SEARCH NOT EXHAUSTED — this is a research todo, not a finding. The absence here reflects how far the initial pass got, not what exists.]
 
 **Documented head injury** — ○ *not established*
 
@@ -225,17 +226,17 @@ Sources: [1] [2]
 
 ## Offence behaviour
 
-**Victim selection** — ○ *not established*
+**Victim selection** — ◌ *not yet searched*
 
 —
 
-> The retrieved sources do not set out a targeting pattern, and this dataset does not assemble one from secondary compilations. A contributor should populate this from the charging documents.
+> The retrieved sources do not set out a targeting pattern, and this dataset does not assemble one from secondary compilations. A contributor should populate this from the charging documents. [SEARCH NOT EXHAUSTED — this is a research todo, not a finding. The absence here reflects how far the initial pass got, not what exists.]
 
-**Approach method** — ○ *not established*
+**Approach method** — ◌ *not yet searched*
 
 —
 
-> Not established from retrieved sources. Detailed reconstructions in circulation derive substantially from his own custodial accounts.
+> Not established from retrieved sources. Detailed reconstructions in circulation derive substantially from his own custodial accounts. [SEARCH NOT EXHAUSTED — this is a research todo, not a finding. The absence here reflects how far the initial pass got, not what exists.]
 
 **Spatial pattern** — *reported*
 

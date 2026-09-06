@@ -29,6 +29,7 @@ BADGE = {
     "reported": "*reported*",
     "contested": "⚠︎ **contested**",
     "unverified": "○ *not established*",
+    "unverified_todo": "◌ *not yet searched*",
 }
 
 SECTIONS = [
@@ -133,7 +134,10 @@ def fmt_value(value) -> str:
 def render_claim(key: str, claim: dict, sources_index: list, depth: int = 0) -> list[str]:
     lines = []
     pad = "  " * depth
-    badge = BADGE.get(claim["confidence"], claim["confidence"])
+    conf = claim["confidence"]
+    if conf == "unverified" and claim.get("search_exhausted") is False:
+        conf = "unverified_todo"
+    badge = BADGE.get(conf, claim["confidence"])
     value = fmt_value(claim["value"])
 
     lines.append(f"{pad}**{humanise(key)}** — {badge}")
@@ -256,10 +260,13 @@ def render(doc: dict, is_case: bool = False) -> str:
         "| **established** | Two or more independent sources, at least one primary or peer-reviewed |",
         "| *reported* | A single credible source |",
         "| ⚠︎ **contested** | Credible sources disagree — see the note |",
-        "| ○ *not established* | No admissible source found. The note says what was searched |",
+        "| ○ *not established* | Searched properly; no admissible source exists, or null by design |",
+        "| ◌ *not yet searched* | **A research todo, not a finding.** Nobody has looked yet |",
         "",
-        "A field showing **—** is not an oversight. It means no source was found, and the "
-        "note records the attempt. Absence of evidence is recorded rather than filled in.",
+        "A field showing **—** is not an oversight. Read the badge: ○ means the record was "
+        "searched and the absence is a finding; ◌ means nobody has searched yet and the field "
+        "is open work. Absence of evidence is recorded rather than filled in, but the two kinds "
+        "of absence are never conflated.",
         "",
         "---",
         "",

@@ -52,6 +52,10 @@
         "notes": {
           "type": "string",
           "description": "Required when confidence is 'contested' or 'unverified': state what the disagreement is, or what was searched and not found."
+        },
+        "search_exhausted": {
+          "type": "boolean",
+          "description": "For 'unverified' claims ONLY, and required on them. TRUE means the absence is a FINDING: the record was searched properly and no admissible source exists, or the field is null by design (a discredited construct, a medical record that is never public, a deliberate editorial exclusion). FALSE means the absence is a TODO: nobody has searched properly yet. Without this flag the two are indistinguishable, and a dataset that presents an unsearched field as an established absence is lying by omission. scripts/worklist.py lists every false as contributor work."
         }
       }
     },

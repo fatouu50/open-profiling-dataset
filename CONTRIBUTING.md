@@ -21,9 +21,25 @@ Read [`docs/roster-audit.md`](docs/roster-audit.md) before anything else. It doc
 }
 ```
 
+Every `unverified` claim also carries `search_exhausted`:
+
+```json
+{
+  "value": null,
+  "confidence": "unverified",
+  "sources": [],
+  "search_exhausted": true,
+  "notes": "Searched the Utah trial record and Sullivan (2009); no instrument, administrator or date located for any IQ figure."
+}
+```
+
+`true` means the absence is a **finding** — searched properly, nothing there. `false` means it is a **todo** — nobody has looked yet. Set it honestly. Marking a field you gave up on as `true` is the quietest way to corrupt this dataset: it does not fabricate a value, it fabricates a conclusion about the record, and nobody downstream can tell.
+
+`python3 scripts/worklist.py` prints every `false`. Closing one is a real contribution — and so is flipping one to `true` with a note saying what you searched.
+
 A `null` with an honest note is a **contribution**, not a gap. It tells the next contributor exactly what was already tried. A confident value with no source is worse than nothing, because someone downstream will believe it.
 
-Do not fill a field because it looks empty.
+Do not fill a field because it looks empty. Do not mark a field exhausted because you are tired.
 
 ## Profile or case record?
 

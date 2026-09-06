@@ -2,14 +2,14 @@
   "id": "USA-005-GACY",
   "schema_version": "0.1.0",
   "record_status": "in_progress",
-
   "provenance": {
     "created": "2026-09-05",
     "last_reviewed": "2026-09-05",
-    "contributors": ["maintainer"],
+    "contributors": [
+      "maintainer"
+    ],
     "ai_assisted": true
   },
-
   "identity": {
     "legal_name": {
       "value": "John Wayne Gacy",
@@ -31,7 +31,8 @@
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "No documented aliases located."
+      "notes": "No documented aliases located.",
+      "search_exhausted": true
     },
     "media_epithet": {
       "value": "The Killer Clown",
@@ -46,28 +47,45 @@
       "notes": "Derives from his performing as a costumed entertainer at community events, an activity unconnected to the offences. Recorded as a media artefact. The epithet has arguably done more than any other in this dataset to convert a case into entertainment, and this project does not use it as a descriptor."
     },
     "birth_date": {
-      "value": null,
-      "confidence": "unverified",
-      "sources": [],
-      "notes": "Commonly given as 17 March 1942, Chicago. No record retrieved and the appellate opinions do not state it. Not asserted."
-    },
-    "birth_place": {
-      "value": null,
-      "confidence": "unverified",
-      "sources": [],
-      "notes": "Commonly given as Chicago, Illinois. No record retrieved."
-    },
-    "death_date": {
-      "value": "1994-05",
+      "value": "1942-03-17",
       "confidence": "reported",
       "sources": [
         {
           "tier": 4,
-          "citation": "A&E. 'What Was John Wayne Gacy's Murder Trial Like?'",
-          "url": "https://www.aetv.com/articles/gacys-trial"
+          "citation": "Encyclopaedia Britannica. 'John Wayne Gacy: Biography, Murders, Execution, Paintings, & Facts.'",
+          "url": "https://www.britannica.com/biography/John-Wayne-Gacy"
         }
       ],
-      "notes": "Executed by lethal injection in Illinois. The retrieved source gives only the month; the date is commonly given as 10 May 1994 but has not been confirmed against a corrections record, so only the month is recorded here."
+      "notes": "Corroborated indirectly: the contemporaneous execution report gives his age as 52 on 10 May 1994, consistent with a March 1942 birth."
+    },
+    "birth_place": {
+      "value": "Chicago, Illinois, USA",
+      "confidence": "reported",
+      "sources": [
+        {
+          "tier": 4,
+          "citation": "Encyclopaedia Britannica. 'John Wayne Gacy: Biography, Murders, Execution, Paintings, & Facts.'",
+          "url": "https://www.britannica.com/biography/John-Wayne-Gacy"
+        }
+      ]
+    },
+    "death_date": {
+      "value": "1994-05-10",
+      "confidence": "established",
+      "sources": [
+        {
+          "tier": 4,
+          "citation": "Deseret News / Associated Press. 'Serial killer executed by injection in Illinois.' 10 May 1994.",
+          "url": "https://www.deseret.com/1994/5/10/19108035/serial-killer-executed-by-injection-in-illinois/",
+          "note": "contemporaneous report of the execution"
+        },
+        {
+          "tier": 4,
+          "citation": "Encyclopaedia Britannica. 'John Wayne Gacy: Biography, Murders, Execution, Paintings, & Facts.'",
+          "url": "https://www.britannica.com/biography/John-Wayne-Gacy"
+        }
+      ],
+      "notes": "Executed by lethal injection at Stateville Correctional Center, Illinois; pronounced dead at 12:58 a.m. The contemporaneous report records that the procedure was delayed by a clogged tube."
     },
     "judicial_status": {
       "value": "Executed 1994. Convicted of 33 counts of murder, one count of deviate sexual assault, and one count of indecent liberties with a child.",
@@ -86,7 +104,6 @@
       ]
     }
   },
-
   "conviction_record": {
     "convictions": {
       "value": [
@@ -139,13 +156,15 @@
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "No agency has published an attribution beyond the 33 convictions. Speculation about further victims circulates but has no published methodology and is not recorded."
+      "notes": "No agency has published an attribution beyond the 33 convictions. Speculation about further victims circulates but has no published methodology and is not recorded.",
+      "search_exhausted": true
     },
     "claimed_victim_count": {
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "Gacy's statements about the offences shifted over time, including claims of non-responsibility maintained to his execution. No stable self-reported total has been retrieved, and his account is in any case among the least reliable classes of evidence."
+      "notes": "Gacy's statements about the offences shifted over time, including claims of non-responsibility maintained to his execution. No stable self-reported total has been retrieved, and his account is in any case among the least reliable classes of evidence.",
+      "search_exhausted": true
     },
     "estimate_provenance": {
       "value": "The count in this record derives entirely from the conviction record. No higher figure with traceable provenance exists.",
@@ -159,13 +178,13 @@
       ]
     }
   },
-
   "offence_period": {
     "first_known_offence": {
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "The charged offences are commonly dated from 1972, but the appellate opinion retrieved does not set out a first offence date. A contributor should work from the charging documents rather than secondary chronologies."
+      "notes": "The charged offences are commonly dated from 1972, but the appellate opinion retrieved does not set out a first offence date. A contributor should work from the charging documents rather than secondary chronologies. [SEARCH NOT EXHAUSTED — this is a research todo, not a finding. The absence here reflects how far the initial pass got, not what exists.]",
+      "search_exhausted": false
     },
     "last_known_offence": {
       "value": "1978-12",
@@ -180,7 +199,9 @@
       "notes": "The disappearance that triggered the investigation leading to the search of his property occurred in December 1978."
     },
     "jurisdictions": {
-      "value": ["Cook County, Illinois"],
+      "value": [
+        "Cook County, Illinois"
+      ],
       "confidence": "established",
       "sources": [
         {
@@ -197,19 +218,20 @@
       "notes": "A single county. The narrowest geographic range in the dataset so far — and the deposition sites were inside and immediately around his own house."
     }
   },
-
   "background": {
     "family_structure": {
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "Accounts of a violent father are ubiquitous in secondary literature and were advanced in mitigation. No contemporaneous record retrieved. Not entered."
+      "notes": "Accounts of a violent father are ubiquitous in secondary literature and were advanced in mitigation. No contemporaneous record retrieved. Not entered.",
+      "search_exhausted": true
     },
     "education": {
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "No record retrieved."
+      "notes": "No record retrieved. [SEARCH NOT EXHAUSTED — this is a research todo, not a finding. The absence here reflects how far the initial pass got, not what exists.]",
+      "search_exhausted": false
     },
     "employment_history": {
       "value": "Operated a construction contracting business. Active in local community and political organisations.",
@@ -227,36 +249,40 @@
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "No service record retrieved."
+      "notes": "No service record retrieved. [SEARCH NOT EXHAUSTED — this is a research todo, not a finding. The absence here reflects how far the initial pass got, not what exists.]",
+      "search_exhausted": false
     },
     "documented_head_injury": {
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "No medical documentation located."
+      "notes": "No medical documentation located.",
+      "search_exhausted": true
     },
     "macdonald_triad": {
       "enuresis": {
         "value": null,
         "confidence": "unverified",
         "sources": [],
-        "notes": "No documentation located. NOTE: the triad is not a predictor of violence — see the schema field description."
+        "notes": "No documentation located. NOTE: the triad is not a predictor of violence — see the schema field description.",
+        "search_exhausted": true
       },
       "firesetting": {
         "value": null,
         "confidence": "unverified",
         "sources": [],
-        "notes": "No documentation located."
+        "notes": "No documentation located.",
+        "search_exhausted": true
       },
       "animal_cruelty": {
         "value": null,
         "confidence": "unverified",
         "sources": [],
-        "notes": "No documentation located."
+        "notes": "No documentation located.",
+        "search_exhausted": true
       }
     }
   },
-
   "clinical": {
     "formal_diagnoses": {
       "value": "Contested at trial. Defence experts diagnosed paranoid schizophrenia, borderline personality disorder and pseudo-neurotic paranoid schizophrenia, and testified he lacked capacity to conform his conduct to law. Prosecution experts diagnosed antisocial and narcissistic personality disorders and testified he was legally sane.",
@@ -291,16 +317,17 @@
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "Extensive psychiatric examination occurred, but no instrument, administrator and date for any psychometric result has been retrieved from the opinions. A contributor with access to the trial transcript should populate this."
+      "notes": "Extensive psychiatric examination occurred, but no instrument, administrator and date for any psychometric result has been retrieved from the opinions. A contributor with access to the trial transcript should populate this.",
+      "search_exhausted": true
     },
     "commentary_attributions": {
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "Not catalogued for this record. Note that unlike other subjects, the widely circulated diagnostic labels here derive from actual examining clinicians and belong in formal_diagnoses, not in this field."
+      "notes": "Not catalogued for this record. Note that unlike other subjects, the widely circulated diagnostic labels here derive from actual examining clinicians and belong in formal_diagnoses, not in this field.",
+      "search_exhausted": true
     }
   },
-
   "offence_behaviour": {
     "victim_selection": {
       "value": "Offences were against adolescent boys and young men. The access conditions exploited were employment in his contracting business and the mobility of young men whose absence was slow to be reported or investigated.",
@@ -318,7 +345,8 @@
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "Detailed approach accounts in secondary literature derive substantially from Gacy's own shifting statements. Not entered without corroboration from the trial record."
+      "notes": "Detailed approach accounts in secondary literature derive substantially from Gacy's own shifting statements. Not entered without corroboration from the trial record. [SEARCH NOT EXHAUSTED — this is a research todo, not a finding. The absence here reflects how far the initial pass got, not what exists.]",
+      "search_exhausted": false
     },
     "spatial_pattern": {
       "value": "Marauder",
@@ -347,7 +375,8 @@
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "Not established from the retrieved sources. The trial record may support an entry here; the appellate opinion does not itemise scene conduct beyond cause of death."
+      "notes": "Not established from the retrieved sources. The trial record may support an entry here; the appellate opinion does not itemise scene conduct beyond cause of death.",
+      "search_exhausted": true
     },
     "post_offence_behaviour": {
       "value": "Concealment of remains within the crawl space beneath his residence, beneath the driveway and garage, and by disposal in the Des Plaines River.",
@@ -365,7 +394,8 @@
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "Concealment on his own property is recorded above as post-offence behaviour. Whether it reflected a countermeasure strategy or simply available space is not established, and the distinction matters: retaining 29 sets of remains beneath one's own house is not, on its face, evasive conduct."
+      "notes": "Concealment on his own property is recorded above as post-offence behaviour. Whether it reflected a countermeasure strategy or simply available space is not established, and the distinction matters: retaining 29 sets of remains beneath one's own house is not, on its face, evasive conduct.",
+      "search_exhausted": true
     },
     "motive_classification": {
       "value": "Hedonistic (lust), per Holmes & Holmes",
@@ -383,7 +413,6 @@
       "notes": "Maintainer coding, not a source-attested fact. Coded from the sexual offences tried alongside the homicides. Canter et al. (2004) cited as the standing methodological caution on typologies of this family. Contributors coding differently should record the disagreement rather than overwrite."
     }
   },
-
   "investigation": {
     "detection_delay_factors": {
       "value": "Gacy was a convicted sex offender throughout the offending period. He was convicted of sodomy in Iowa in 1968 and sentenced to ten years, and was arrested in Illinois in 1972 for aggravated battery and a sex-related offence. The remains were beneath a house he owned in a single county. The failure was neither technological nor jurisdictional: a paroled sex offender with a subsequent arrest remained unconnected to a series of local disappearances until a December 1978 investigation reached his property.",
@@ -434,7 +463,8 @@
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "No technique relied on in this conviction has been found scientifically unreliable. The evidentiary basis was the recovery of remains from property he controlled."
+      "notes": "No technique relied on in this conviction has been found scientifically unreliable. The evidentiary basis was the recovery of remains from property he controlled.",
+      "search_exhausted": true
     },
     "arrest": {
       "value": "Arrested in Cook County, Illinois, in December 1978 following an investigation into a disappearance that led to the search of his residence.",
@@ -448,13 +478,13 @@
       ]
     }
   },
-
   "adjudication": {
     "interrogation_method": {
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "No interrogation record retrieved. The case rested on the physical recovery of remains, not on admissions."
+      "notes": "No interrogation record retrieved. The case rested on the physical recovery of remains, not on admissions.",
+      "search_exhausted": true
     },
     "confession_reliability": {
       "value": "Not load-bearing. The prosecution case rested on 34 sets of recovered remains, not on admissions. Gacy's own accounts shifted over time and included assertions of non-responsibility maintained to his execution.",
@@ -519,23 +549,26 @@
       ]
     },
     "disposition": {
-      "value": "Executed by lethal injection in Illinois in May 1994, after more than a dozen years under sentence of death.",
-      "confidence": "reported",
+      "value": "Executed by lethal injection at Stateville Correctional Center, Illinois, on 10 May 1994, pronounced dead at 12:58 a.m.",
+      "confidence": "established",
       "sources": [
         {
           "tier": 4,
-          "citation": "A&E. 'What Was John Wayne Gacy's Murder Trial Like?'",
-          "url": "https://www.aetv.com/articles/gacys-trial"
+          "citation": "Deseret News / Associated Press. 'Serial killer executed by injection in Illinois.' 10 May 1994.",
+          "url": "https://www.deseret.com/1994/5/10/19108035/serial-killer-executed-by-injection-in-illinois/",
+          "note": "contemporaneous report of the execution"
+        },
+        {
+          "tier": 4,
+          "citation": "Encyclopaedia Britannica. 'John Wayne Gacy: Biography, Murders, Execution, Paintings, & Facts.'",
+          "url": "https://www.britannica.com/biography/John-Wayne-Gacy"
         }
       ],
-      "notes": "A corrections record should be cited to fix the exact date."
+      "notes": "Roughly fourteen years of appellate and post-conviction proceedings separated sentence from execution."
     }
   },
-
   "data_quality": {
     "known_gaps": [
-      "Birth date and place not asserted — no record retrieved.",
-      "Exact execution date not confirmed against a corrections record; only the month is recorded.",
       "First charged offence date not established from the appellate opinion.",
       "No psychometric result retrieved despite extensive psychiatric examination at trial.",
       "Signature behaviour and approach method not established; the trial transcript has not been retrieved.",

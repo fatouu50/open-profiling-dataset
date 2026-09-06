@@ -13,9 +13,10 @@ Every claim carries a confidence level:
 | **established** | Two or more independent sources, at least one primary or peer-reviewed |
 | *reported* | A single credible source |
 | ⚠︎ **contested** | Credible sources disagree — see the note |
-| ○ *not established* | No admissible source found. The note says what was searched |
+| ○ *not established* | Searched properly; no admissible source exists, or null by design |
+| ◌ *not yet searched* | **A research todo, not a finding.** Nobody has looked yet |
 
-A field showing **—** is not an oversight. It means no source was found, and the note records the attempt. Absence of evidence is recorded rather than filled in.
+A field showing **—** is not an oversight. Read the badge: ○ means the record was searched and the absence is a finding; ◌ means nobody has searched yet and the field is open work. Absence of evidence is recorded rather than filled in, but the two kinds of absence are never conflated.
 
 ---
 
@@ -118,11 +119,11 @@ Sources: [7]
 
 > The first recoveries from the Green River occurred in July and August 1982 and gave the case its name. Exact ordering of the earliest offences rests on later reconstruction.
 
-**Last known offence** — ○ *not established*
+**Last known offence** — ◌ *not yet searched*
 
 —
 
-> Charged offences cluster in the 1980s, with disputed later cases. No reliable terminal date established; a contributor should work from the charging documents rather than secondary chronologies.
+> Charged offences cluster in the 1980s, with disputed later cases. No reliable terminal date established; a contributor should work from the charging documents rather than secondary chronologies. [SEARCH NOT EXHAUSTED — this is a research todo, not a finding. The absence here reflects how far the initial pass got, not what exists.]
 
 **Jurisdictions** — *reported*
 
@@ -242,11 +243,11 @@ Sources: [7]
 
 > Recorded as an access condition the offender exploited, not as a characteristic of the victims that explains their deaths. Guillen, who covered the case as a reporter, is explicit that the investigative response was shaped by who the victims were. See investigation.detection_delay_factors.
 
-**Approach method** — ○ *not established*
+**Approach method** — ◌ *not yet searched*
 
 —
 
-> Detailed approach accounts derive from Ridgway's plea-agreement interviews. Given the reliability problems recorded under confession_reliability, these are not entered as established behaviour without corroboration from charging documents.
+> Detailed approach accounts derive from Ridgway's plea-agreement interviews. Given the reliability problems recorded under confession_reliability, these are not entered as established behaviour without corroboration from charging documents. [SEARCH NOT EXHAUSTED — this is a research todo, not a finding. The absence here reflects how far the initial pass got, not what exists.]
 
 **Spatial pattern** — *reported*
 

@@ -13,9 +13,10 @@ Every claim carries a confidence level:
 | **established** | Two or more independent sources, at least one primary or peer-reviewed |
 | *reported* | A single credible source |
 | ⚠︎ **contested** | Credible sources disagree — see the note |
-| ○ *not established* | No admissible source found. The note says what was searched |
+| ○ *not established* | Searched properly; no admissible source exists, or null by design |
+| ◌ *not yet searched* | **A research todo, not a finding.** Nobody has looked yet |
 
-A field showing **—** is not an oversight. It means no source was found, and the note records the attempt. Absence of evidence is recorded rather than filled in.
+A field showing **—** is not an oversight. Read the badge: ○ means the record was searched and the absence is a finding; ◌ means nobody has searched yet and the field is open work. Absence of evidence is recorded rather than filled in, but the two kinds of absence are never conflated.
 
 ---
 
@@ -168,11 +169,11 @@ Volunteer at the Seattle Crisis Clinic (1971); assistant to Ross Davis, chairman
 
 Sources: [4]
 
-**Military service** — ○ *not established*
+**Military service** — ◌ *not yet searched*
 
 —
 
-> No service record located.
+> No service record located. [SEARCH NOT EXHAUSTED — this is a research todo, not a finding. The absence here reflects how far the initial pass got, not what exists.]
 
 **Documented head injury** — ○ *not established*
 

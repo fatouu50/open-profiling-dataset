@@ -13,9 +13,10 @@ Every claim carries a confidence level:
 | **established** | Two or more independent sources, at least one primary or peer-reviewed |
 | *reported* | A single credible source |
 | ⚠︎ **contested** | Credible sources disagree — see the note |
-| ○ *not established* | No admissible source found. The note says what was searched |
+| ○ *not established* | Searched properly; no admissible source exists, or null by design |
+| ◌ *not yet searched* | **A research todo, not a finding.** Nobody has looked yet |
 
-A field showing **—** is not an oversight. It means no source was found, and the note records the attempt. Absence of evidence is recorded rather than filled in.
+A field showing **—** is not an oversight. Read the badge: ○ means the record was searched and the absence is a finding; ◌ means nobody has searched yet and the field is open work. Absence of evidence is recorded rather than filled in, but the two kinds of absence are never conflated.
 
 ---
 
@@ -44,17 +45,17 @@ Sources: [2]
 
 > Analytically significant rather than merely decorative: the multiple epithets record that investigators treated these as separate offenders for decades. The series were linked to one another before they were linked to a name.
 
-**Birth date** — ○ *not established*
+**Birth date** — ◌ *not yet searched*
 
 —
 
-> Commonly given as 8 November 1945. No record retrieved and the prosecutorial releases do not state it. Not asserted.
+> Commonly given as 8 November 1945. No record retrieved and the prosecutorial releases do not state it. Not asserted. [SEARCH NOT EXHAUSTED — this is a research todo, not a finding. The absence here reflects how far the initial pass got, not what exists.]
 
-**Birth place** — ○ *not established*
+**Birth place** — ◌ *not yet searched*
 
 —
 
-> Commonly given as Bath, New York. No record retrieved.
+> Commonly given as Bath, New York. No record retrieved. [SEARCH NOT EXHAUSTED — this is a research todo, not a finding. The absence here reflects how far the initial pass got, not what exists.]
 
 **Judicial status** — **established**
 
@@ -157,11 +158,11 @@ Sources: [2] [3]
 
 > No contemporaneous record retrieved. Childhood accounts circulating in secondary literature are not entered.
 
-**Education** — ○ *not established*
+**Education** — ◌ *not yet searched*
 
 —
 
-> A criminal justice qualification is commonly reported; no record retrieved.
+> A criminal justice qualification is commonly reported; no record retrieved. [SEARCH NOT EXHAUSTED — this is a research todo, not a finding. The absence here reflects how far the initial pass got, not what exists.]
 
 **Employment history** — **established**
 
@@ -171,11 +172,11 @@ Sources: [1] [3]
 
 > The single most consequential fact in this record. He joined Exeter PD in 1975 — the same year and the same county as the Snelling homicide — and was a serving officer through the early years of the offending. Compare USA-002-RIDGWAY, where the occupational fact that mattered was three decades of stable shift work. Here it is warrant card access to the institution investigating him.
 
-**Military service** — ○ *not established*
+**Military service** — ◌ *not yet searched*
 
 —
 
-> Naval service is commonly reported; no service record retrieved.
+> Naval service is commonly reported; no service record retrieved. [SEARCH NOT EXHAUSTED — this is a research todo, not a finding. The absence here reflects how far the initial pass got, not what exists.]
 
 **Documented head injury** — ○ *not established*
 

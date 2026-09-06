@@ -35,7 +35,11 @@
         "value": { "type": ["string", "number", "boolean", "array", "object", "null"] },
         "confidence": { "enum": ["established", "reported", "contested", "unverified"] },
         "sources": { "type": "array", "items": { "$ref": "#/$defs/source" } },
-        "notes": { "type": "string" }
+        "notes": { "type": "string" },
+        "search_exhausted": {
+          "type": "boolean",
+          "description": "For 'unverified' claims only, and required on them. TRUE = the absence is a finding (searched properly, or null by design). FALSE = the absence is a todo. See schema/profile.schema.json for the full rationale."
+        }
       }
     },
 

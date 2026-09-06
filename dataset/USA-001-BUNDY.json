@@ -45,7 +45,8 @@
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "No single stable press epithet. Field left null rather than importing a retrospective label."
+      "notes": "No single stable press epithet. Field left null rather than importing a retrospective label.",
+      "search_exhausted": true
     },
     "birth_date": {
       "value": "1946-11-24",
@@ -165,7 +166,8 @@
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "No single agency-published attribution figure has been located with a documented methodology. Investigations ran across Washington, Utah, Colorado, Idaho, Oregon and Florida with no consolidated official total. Contributors: cite a specific agency document or leave null."
+      "notes": "No single agency-published attribution figure has been located with a documented methodology. Investigations ran across Washington, Utah, Colorado, Idaho, Oregon and Florida with no consolidated official total. Contributors: cite a specific agency document or leave null.",
+      "search_exhausted": true
     },
     "claimed_victim_count": {
       "value": 30,
@@ -271,32 +273,37 @@
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "No service record located."
+      "notes": "No service record located. [SEARCH NOT EXHAUSTED — this is a research todo, not a finding. The absence here reflects how far the initial pass got, not what exists.]",
+      "search_exhausted": false
     },
     "documented_head_injury": {
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "No medical documentation of head injury located. The inherited draft asserted an absence of frontal-cortex injury as though it were a finding; absence of a record is not a finding."
+      "notes": "No medical documentation of head injury located. The inherited draft asserted an absence of frontal-cortex injury as though it were a finding; absence of a record is not a finding.",
+      "search_exhausted": true
     },
     "macdonald_triad": {
       "enuresis": {
         "value": null,
         "confidence": "unverified",
         "sources": [],
-        "notes": "No documentation located. NOTE: this construct is not a predictor of violence — see the field description in schema/profile.schema.json and Parfitt & Alleyne (2020)."
+        "notes": "No documentation located. NOTE: this construct is not a predictor of violence — see the field description in schema/profile.schema.json and Parfitt & Alleyne (2020).",
+        "search_exhausted": true
       },
       "firesetting": {
         "value": null,
         "confidence": "unverified",
         "sources": [],
-        "notes": "No documentation located."
+        "notes": "No documentation located.",
+        "search_exhausted": true
       },
       "animal_cruelty": {
         "value": null,
         "confidence": "unverified",
         "sources": [],
-        "notes": "No documentation located. Anecdotes circulating in secondary literature (including the frequently repeated story of knives placed around a sleeping relative) derive from a single family recollection given decades after the fact and are not corroborated."
+        "notes": "No documentation located. Anecdotes circulating in secondary literature (including the frequently repeated story of knives placed around a sleeping relative) derive from a single family recollection given decades after the fact and are not corroborated.",
+        "search_exhausted": true
       }
     }
   },
@@ -305,7 +312,8 @@
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "No court-ordered comprehensive psychiatric evaluation producing a settled diagnosis has been located in the trial record. Dorothy Otnow Lewis examined Bundy shortly before execution and reported bipolar features; that assessment is contested and was not a trial finding. The diagnostic labels routinely attached to Bundy in popular accounts — 'antisocial personality disorder', 'fetishistic sexual sadism', 'malignant narcissism' — are commentary, not findings, and are recorded below accordingly."
+      "notes": "No court-ordered comprehensive psychiatric evaluation producing a settled diagnosis has been located in the trial record. Dorothy Otnow Lewis examined Bundy shortly before execution and reported bipolar features; that assessment is contested and was not a trial finding. The diagnostic labels routinely attached to Bundy in popular accounts — 'antisocial personality disorder', 'fetishistic sexual sadism', 'malignant narcissism' — are commentary, not findings, and are recorded below accordingly.",
+      "search_exhausted": true
     },
     "competency_findings": {
       "value": "Found competent to stand trial and to waive counsel in the Florida proceedings; competency was raised and litigated on appeal.",
@@ -322,7 +330,8 @@
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "The IQ figure of 124 asserted in the inherited draft could not be traced to an instrument, an administering clinician or a date. Figures between 124 and 136 circulate in secondary literature without attribution. Under this schema a bare IQ number is inadmissible: cite the instrument, the administrator and the date, or leave null."
+      "notes": "The IQ figure of 124 asserted in the inherited draft could not be traced to an instrument, an administering clinician or a date. Figures between 124 and 136 circulate in secondary literature without attribution. Under this schema a bare IQ number is inadmissible: cite the instrument, the administrator and the date, or leave null.",
+      "search_exhausted": true
     },
     "commentary_attributions": {
       "value": [
@@ -396,13 +405,15 @@
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "Recurrent post-offence conduct is described extensively in the secondary literature, but every account traces to statements Bundy gave in the days before execution while seeking a stay. No scene documentation or post-mortem finding establishing a recurring non-functional element across offences has been retrieved. Under this field's rule that is 'unverified', not 'reported'. Compare offence_behaviour.post_offence_behaviour, which is null for the same reason."
+      "notes": "Recurrent post-offence conduct is described extensively in the secondary literature, but every account traces to statements Bundy gave in the days before execution while seeking a stay. No scene documentation or post-mortem finding establishing a recurring non-functional element across offences has been retrieved. Under this field's rule that is 'unverified', not 'reported'. Compare offence_behaviour.post_offence_behaviour, which is null for the same reason.",
+      "search_exhausted": true
     },
     "post_offence_behaviour": {
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "Accounts of return visits to deposition sites derive from Bundy's own pre-execution statements, given while seeking a stay. Not independently corroborated. Left null rather than recorded from self-report; graphic detail is in any case excluded under ETHICS.md."
+      "notes": "Accounts of return visits to deposition sites derive from Bundy's own pre-execution statements, given while seeking a stay. Not independently corroborated. Left null rather than recorded from self-report; graphic detail is in any case excluded under ETHICS.md.",
+      "search_exhausted": true
     },
     "forensic_countermeasures": {
       "value": "Transport of victims away from the point of encounter; deposition in remote terrain.",

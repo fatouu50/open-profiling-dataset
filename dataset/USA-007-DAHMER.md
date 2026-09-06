@@ -13,9 +13,10 @@ Every claim carries a confidence level:
 | **established** | Two or more independent sources, at least one primary or peer-reviewed |
 | *reported* | A single credible source |
 | ⚠︎ **contested** | Credible sources disagree — see the note |
-| ○ *not established* | No admissible source found. The note says what was searched |
+| ○ *not established* | Searched properly; no admissible source exists, or null by design |
+| ◌ *not yet searched* | **A research todo, not a finding.** Nobody has looked yet |
 
-A field showing **—** is not an oversight. It means no source was found, and the note records the attempt. Absence of evidence is recorded rather than filled in.
+A field showing **—** is not an oversight. Read the badge: ○ means the record was searched and the absence is a finding; ◌ means nobody has searched yet and the field is open work. Absence of evidence is recorded rather than filled in, but the two kinds of absence are never conflated.
 
 ---
 
@@ -153,23 +154,23 @@ Sources: [2]
 
 > No contemporaneous record retrieved. Childhood aetiologies circulate extensively; none is entered.
 
-**Education** — ○ *not established*
+**Education** — ◌ *not yet searched*
 
 —
 
-> No record retrieved.
+> No record retrieved. [SEARCH NOT EXHAUSTED — this is a research todo, not a finding. The absence here reflects how far the initial pass got, not what exists.]
 
-**Employment history** — ○ *not established*
-
-—
-
-> Employment at a Milwaukee chocolate factory is commonly reported; no record retrieved. Note the contrast with DeAngelo, Ridgway and Rader, where the occupational fact was load-bearing. Here it appears not to have been: the access condition was residential, not occupational.
-
-**Military service** — ○ *not established*
+**Employment history** — ◌ *not yet searched*
 
 —
 
-> Army service is commonly reported; no service record retrieved.
+> Employment at a Milwaukee chocolate factory is commonly reported; no record retrieved. Note the contrast with DeAngelo, Ridgway and Rader, where the occupational fact was load-bearing. Here it appears not to have been: the access condition was residential, not occupational. [SEARCH NOT EXHAUSTED — this is a research todo, not a finding. The absence here reflects how far the initial pass got, not what exists.]
+
+**Military service** — ◌ *not yet searched*
+
+—
+
+> Army service is commonly reported; no service record retrieved. [SEARCH NOT EXHAUSTED — this is a research todo, not a finding. The absence here reflects how far the initial pass got, not what exists.]
 
 **Documented head injury** — ○ *not established*
 
@@ -245,11 +246,11 @@ Sources: [1] [6]
 
 > Recorded as an access condition, not as a characteristic that explains the deaths. Omitting the demographic pattern here would erase a documented institutional failure rather than protect anyone: the reason a bleeding, drugged, naked 14-year-old Laotian child was returned to the man who killed him is inseparable from who he was taken to be. That is a finding about policing. Compare USA-002-RIDGWAY, the dataset's other victim-class neglect case.
 
-**Approach method** — ○ *not established*
+**Approach method** — ◌ *not yet searched*
 
 —
 
-> Not established from retrieved sources. Detailed accounts derive from his own post-arrest statements.
+> Not established from retrieved sources. Detailed accounts derive from his own post-arrest statements. [SEARCH NOT EXHAUSTED — this is a research todo, not a finding. The absence here reflects how far the initial pass got, not what exists.]
 
 **Spatial pattern** — *reported*
 
@@ -259,11 +260,11 @@ Sources: [7]
 
 > Coded marauder, and at the same extreme as USA-005-GACY: the offence location and the residence were the same. Maintainer coding applying the Canter & Larkin framework, not a source-attested fact.
 
-**Weapon or method** — ○ *not established*
+**Weapon or method** — ◌ *not yet searched*
 
 —
 
-> Not established from retrieved sources. The retrieved reporting characterises the offences in terms this dataset does not reproduce; a contributor should populate this from post-mortem findings in the trial record, not from press description.
+> Not established from retrieved sources. The retrieved reporting characterises the offences in terms this dataset does not reproduce; a contributor should populate this from post-mortem findings in the trial record, not from press description. [SEARCH NOT EXHAUSTED — this is a research todo, not a finding. The absence here reflects how far the initial pass got, not what exists.]
 
 > Conduct not logistically necessary to the offence that recurred across offences. Restricted to what the evidentiary record establishes. The offender's stated reasons and any inferred psychological need are **excluded** — they are unfalsifiable. A null here means the only sources were post-arrest self-report.
 
@@ -315,11 +316,11 @@ Sources: [1]
 
 > As with USA-006-RADER, the case was not closed by investigative work. It was closed by a victim who got out and was, this time, believed.
 
-**Forensic methods used** — ○ *not established*
+**Forensic methods used** — ◌ *not yet searched*
 
 —
 
-> Not established from retrieved sources. The evidentiary basis was the physical recovery of remains from his residence.
+> Not established from retrieved sources. The evidentiary basis was the physical recovery of remains from his residence. [SEARCH NOT EXHAUSTED — this is a research todo, not a finding. The absence here reflects how far the initial pass got, not what exists.]
 
 > A technique relied on at trial that has since been found scientifically unreliable.
 

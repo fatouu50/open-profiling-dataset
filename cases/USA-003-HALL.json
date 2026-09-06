@@ -41,19 +41,22 @@
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "No contemporaneous press epithet located. Labels attached to him in recent coverage derive from a 2022 television dramatisation and are inadmissible here."
+      "notes": "No contemporaneous press epithet located. Labels attached to him in recent coverage derive from a 2022 television dramatisation and are inadmissible here.",
+      "search_exhausted": true
     },
     "birth_date": {
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "Commonly given as 11 December 1962. No record retrieved; not asserted."
+      "notes": "Commonly given as 11 December 1962. No record retrieved; not asserted. [SEARCH NOT EXHAUSTED — this is a research todo, not a finding. The absence here reflects how far the initial pass got, not what exists.]",
+      "search_exhausted": false
     },
     "birth_place": {
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "Commonly given as Wabash, Indiana. No record retrieved."
+      "notes": "Commonly given as Wabash, Indiana. No record retrieved. [SEARCH NOT EXHAUSTED — this is a research todo, not a finding. The absence here reflects how far the initial pass got, not what exists.]",
+      "search_exhausted": false
     },
     "death_date": null,
     "judicial_status": {

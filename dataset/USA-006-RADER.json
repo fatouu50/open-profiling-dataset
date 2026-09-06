@@ -32,7 +32,8 @@
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "He used the signature 'Rex' in at least one communication with investigators, but no documented alias in the ordinary sense has been located."
+      "notes": "He used the signature 'Rex' in at least one communication with investigators, but no documented alias in the ordinary sense has been located.",
+      "search_exhausted": true
     },
     "media_epithet": {
       "value": "BTK",
@@ -55,13 +56,15 @@
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "Commonly given as 9 March 1945. No record retrieved. The ages stated in the ABA Journal account — 29 in 1974, 59 at arrest in 2005 — are consistent with a 1945 birth year, but that is inference from reported ages, not a record, and is not asserted here."
+      "notes": "Commonly given as 9 March 1945. No record retrieved. The ages stated in the ABA Journal account — 29 in 1974, 59 at arrest in 2005 — are consistent with a 1945 birth year, but that is inference from reported ages, not a record, and is not asserted here. [SEARCH NOT EXHAUSTED — this is a research todo, not a finding. The absence here reflects how far the initial pass got, not what exists.]",
+      "search_exhausted": false
     },
     "birth_place": {
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "Commonly given as Pittsburg, Kansas. No record retrieved."
+      "notes": "Commonly given as Pittsburg, Kansas. No record retrieved. [SEARCH NOT EXHAUSTED — this is a research todo, not a finding. The absence here reflects how far the initial pass got, not what exists.]",
+      "search_exhausted": false
     },
     "death_date": null,
     "judicial_status": {
@@ -127,13 +130,15 @@
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "No agency-published attribution beyond the ten convictions has been retrieved. Speculation about further victims circulates, driven partly by the offender's own later statements from custody, and is not recorded."
+      "notes": "No agency-published attribution beyond the ten convictions has been retrieved. Speculation about further victims circulates, driven partly by the offender's own later statements from custody, and is not recorded.",
+      "search_exhausted": true
     },
     "claimed_victim_count": {
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "Rader has continued to communicate from custody and to be interviewed. Any total attributed to those statements has the reliability problems set out in adjudication.confession_reliability and is not recorded as a count."
+      "notes": "Rader has continued to communicate from custody and to be interviewed. Any total attributed to those statements has the reliability problems set out in adjudication.confession_reliability and is not recorded as a count.",
+      "search_exhausted": true
     },
     "estimate_provenance": {
       "value": "The count in this record derives from the conviction. No higher figure with published agency methodology has been located.",
@@ -201,13 +206,15 @@
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "He was married with adult children at the time of arrest. Beyond that bare fact, family circumstances are out of scope under ETHICS.md — his relatives are not subjects of this dataset and were not part of the adjudicated record."
+      "notes": "He was married with adult children at the time of arrest. Beyond that bare fact, family circumstances are out of scope under ETHICS.md — his relatives are not subjects of this dataset and were not part of the adjudicated record.",
+      "search_exhausted": true
     },
     "education": {
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "No record retrieved."
+      "notes": "No record retrieved. [SEARCH NOT EXHAUSTED — this is a research todo, not a finding. The absence here reflects how far the initial pass got, not what exists.]",
+      "search_exhausted": false
     },
     "employment_history": {
       "value": "Code compliance officer for Park City, Kansas. Previously employed by a home security company. President of the congregation at Christ Lutheran Church.",
@@ -230,32 +237,37 @@
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "Air Force service is commonly reported; no service record retrieved."
+      "notes": "Air Force service is commonly reported; no service record retrieved. [SEARCH NOT EXHAUSTED — this is a research todo, not a finding. The absence here reflects how far the initial pass got, not what exists.]",
+      "search_exhausted": false
     },
     "documented_head_injury": {
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "No medical documentation located."
+      "notes": "No medical documentation located.",
+      "search_exhausted": true
     },
     "macdonald_triad": {
       "enuresis": {
         "value": null,
         "confidence": "unverified",
         "sources": [],
-        "notes": "No documentation located. NOTE: the triad is not a predictor of violence — see the schema field description."
+        "notes": "No documentation located. NOTE: the triad is not a predictor of violence — see the schema field description.",
+        "search_exhausted": true
       },
       "firesetting": {
         "value": null,
         "confidence": "unverified",
         "sources": [],
-        "notes": "No documentation located."
+        "notes": "No documentation located.",
+        "search_exhausted": true
       },
       "animal_cruelty": {
         "value": null,
         "confidence": "unverified",
         "sources": [],
-        "notes": "No documentation located. Accounts of childhood animal cruelty derive from his own later statements in custody and are not corroborated."
+        "notes": "No documentation located. Accounts of childhood animal cruelty derive from his own later statements in custody and are not corroborated.",
+        "search_exhausted": true
       }
     }
   },
@@ -264,25 +276,29 @@
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "He pleaded guilty; no psychiatric evidence was adjudicated and no court-adopted diagnosis exists. Contrast USA-005-GACY, the only record in the dataset where competing clinical evidence was tested at trial."
+      "notes": "He pleaded guilty; no psychiatric evidence was adjudicated and no court-adopted diagnosis exists. Contrast USA-005-GACY, the only record in the dataset where competing clinical evidence was tested at trial.",
+      "search_exhausted": true
     },
     "competency_findings": {
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "No finding retrieved. Competency was not a contested issue in the reported proceedings; he entered a detailed plea in open court."
+      "notes": "No finding retrieved. Competency was not a contested issue in the reported proceedings; he entered a detailed plea in open court.",
+      "search_exhausted": true
     },
     "psychometric_results": {
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "No assessment located."
+      "notes": "No assessment located.",
+      "search_exhausted": true
     },
     "commentary_attributions": {
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "Not catalogued. This subject has been the object of extensive post-conviction interviewing and commentary; a contributor cataloguing it should be careful to record it as discourse about him, not as findings about him."
+      "notes": "Not catalogued. This subject has been the object of extensive post-conviction interviewing and commentary; a contributor cataloguing it should be careful to record it as discourse about him, not as findings about him.",
+      "search_exhausted": true
     }
   },
   "offence_behaviour": {
@@ -290,13 +306,15 @@
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "The retrieved sources do not set out a targeting pattern, and this dataset does not assemble one from secondary compilations. A contributor should populate this from the charging documents."
+      "notes": "The retrieved sources do not set out a targeting pattern, and this dataset does not assemble one from secondary compilations. A contributor should populate this from the charging documents. [SEARCH NOT EXHAUSTED — this is a research todo, not a finding. The absence here reflects how far the initial pass got, not what exists.]",
+      "search_exhausted": false
     },
     "approach_method": {
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "Not established from retrieved sources. Detailed reconstructions in circulation derive substantially from his own custodial accounts."
+      "notes": "Not established from retrieved sources. Detailed reconstructions in circulation derive substantially from his own custodial accounts. [SEARCH NOT EXHAUSTED — this is a research todo, not a finding. The absence here reflects how far the initial pass got, not what exists.]",
+      "search_exhausted": false
     },
     "spatial_pattern": {
       "value": "Marauder",
@@ -325,7 +343,8 @@
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "No scene documentation or post-mortem finding establishing recurring non-functional conduct has been retrieved. The communications sent to police and media are recorded under post_offence_behaviour instead, since they occurred away from the scene and are not signature in the sense this field uses."
+      "notes": "No scene documentation or post-mortem finding establishing recurring non-functional conduct has been retrieved. The communications sent to police and media are recorded under post_offence_behaviour instead, since they occurred away from the scene and are not signature in the sense this field uses.",
+      "search_exhausted": true
     },
     "post_offence_behaviour": {
       "value": "Sustained written communication with police and news media about the offences, initiated during the offending period, resumed in 2004 after roughly a quarter of a century of silence.",
@@ -433,7 +452,8 @@
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "No technique relied on here has been found scientifically unreliable. Null by design; the governance concerns are recorded under forensic_methods_used, because a contested method is not a discredited one."
+      "notes": "No technique relied on here has been found scientifically unreliable. Null by design; the governance concerns are recorded under forensic_methods_used, because a contested method is not a discredited one.",
+      "search_exhausted": true
     },
     "arrest": {
       "value": "Arrested February 2005 in Park City, Kansas.",
@@ -514,7 +534,8 @@
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "No appellate history retrieved. He pleaded guilty."
+      "notes": "No appellate history retrieved. He pleaded guilty.",
+      "search_exhausted": true
     },
     "disposition": {
       "value": "Incarcerated in the Kansas correctional system.",

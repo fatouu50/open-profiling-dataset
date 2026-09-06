@@ -25,9 +25,10 @@ Every claim carries a confidence level:
 | **established** | Two or more independent sources, at least one primary or peer-reviewed |
 | *reported* | A single credible source |
 | ⚠︎ **contested** | Credible sources disagree — see the note |
-| ○ *not established* | No admissible source found. The note says what was searched |
+| ○ *not established* | Searched properly; no admissible source exists, or null by design |
+| ◌ *not yet searched* | **A research todo, not a finding.** Nobody has looked yet |
 
-A field showing **—** is not an oversight. It means no source was found, and the note records the attempt. Absence of evidence is recorded rather than filled in.
+A field showing **—** is not an oversight. Read the badge: ○ means the record was searched and the absence is a finding; ◌ means nobody has searched yet and the field is open work. Absence of evidence is recorded rather than filled in, but the two kinds of absence are never conflated.
 
 ---
 
@@ -45,17 +46,17 @@ Sources: [1] [2]
 
 > No contemporaneous press epithet located. Labels attached to him in recent coverage derive from a 2022 television dramatisation and are inadmissible here.
 
-**Birth date** — ○ *not established*
+**Birth date** — ◌ *not yet searched*
 
 —
 
-> Commonly given as 11 December 1962. No record retrieved; not asserted.
+> Commonly given as 11 December 1962. No record retrieved; not asserted. [SEARCH NOT EXHAUSTED — this is a research todo, not a finding. The absence here reflects how far the initial pass got, not what exists.]
 
-**Birth place** — ○ *not established*
+**Birth place** — ◌ *not yet searched*
 
 —
 
-> Commonly given as Wabash, Indiana. No record retrieved.
+> Commonly given as Wabash, Indiana. No record retrieved. [SEARCH NOT EXHAUSTED — this is a research todo, not a finding. The absence here reflects how far the initial pass got, not what exists.]
 
 **Judicial status** — **established**
 

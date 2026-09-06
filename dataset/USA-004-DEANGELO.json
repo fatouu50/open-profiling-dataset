@@ -2,14 +2,14 @@
   "id": "USA-004-DEANGELO",
   "schema_version": "0.1.0",
   "record_status": "in_progress",
-
   "provenance": {
     "created": "2026-09-05",
     "last_reviewed": "2026-09-05",
-    "contributors": ["maintainer"],
+    "contributors": [
+      "maintainer"
+    ],
     "ai_assisted": true
   },
-
   "identity": {
     "legal_name": {
       "value": "Joseph James DeAngelo Jr.",
@@ -31,10 +31,16 @@
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "No documented aliases located. He offended under his own identity while holding public employment under it."
+      "notes": "No documented aliases located. He offended under his own identity while holding public employment under it.",
+      "search_exhausted": true
     },
     "media_epithet": {
-      "value": ["Golden State Killer", "East Area Rapist", "Original Night Stalker", "Visalia Ransacker"],
+      "value": [
+        "Golden State Killer",
+        "East Area Rapist",
+        "Original Night Stalker",
+        "Visalia Ransacker"
+      ],
       "confidence": "reported",
       "sources": [
         {
@@ -49,13 +55,15 @@
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "Commonly given as 8 November 1945. No record retrieved and the prosecutorial releases do not state it. Not asserted."
+      "notes": "Commonly given as 8 November 1945. No record retrieved and the prosecutorial releases do not state it. Not asserted. [SEARCH NOT EXHAUSTED — this is a research todo, not a finding. The absence here reflects how far the initial pass got, not what exists.]",
+      "search_exhausted": false
     },
     "birth_place": {
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "Commonly given as Bath, New York. No record retrieved."
+      "notes": "Commonly given as Bath, New York. No record retrieved. [SEARCH NOT EXHAUSTED — this is a research todo, not a finding. The absence here reflects how far the initial pass got, not what exists.]",
+      "search_exhausted": false
     },
     "death_date": null,
     "judicial_status": {
@@ -75,7 +83,6 @@
       ]
     }
   },
-
   "conviction_record": {
     "convictions": {
       "value": [
@@ -145,7 +152,8 @@
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "No separate offender-claimed total distinct from the admissions recorded in the plea. Unlike USA-002-RIDGWAY, where self-report and agency attribution diverge, here the admissions were made in court and adopted by the prosecuting agencies, so they belong in attributed_victim_count."
+      "notes": "No separate offender-claimed total distinct from the admissions recorded in the plea. Unlike USA-002-RIDGWAY, where self-report and agency attribution diverge, here the admissions were made in court and adopted by the prosecuting agencies, so they belong in attributed_victim_count.",
+      "search_exhausted": true
     },
     "estimate_provenance": {
       "value": "The counts in this record derive entirely from the joint prosecution's own published accounting. No higher figure from press synthesis is recorded.",
@@ -164,7 +172,6 @@
       ]
     }
   },
-
   "offence_period": {
     "first_known_offence": {
       "value": "1975-09-11",
@@ -202,8 +209,17 @@
     },
     "jurisdictions": {
       "value": [
-        "Contra Costa", "Orange", "Sacramento", "Santa Barbara", "Tulare", "Ventura",
-        "Alameda", "San Joaquin", "Santa Clara", "Stanislaus", "Yolo"
+        "Contra Costa",
+        "Orange",
+        "Sacramento",
+        "Santa Barbara",
+        "Tulare",
+        "Ventura",
+        "Alameda",
+        "San Joaquin",
+        "Santa Clara",
+        "Stanislaus",
+        "Yolo"
       ],
       "confidence": "established",
       "sources": [
@@ -221,19 +237,20 @@
       "notes": "Eleven California counties. Six jointly prosecuted; offences also occurred in the other five."
     }
   },
-
   "background": {
     "family_structure": {
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "No contemporaneous record retrieved. Childhood accounts circulating in secondary literature are not entered."
+      "notes": "No contemporaneous record retrieved. Childhood accounts circulating in secondary literature are not entered.",
+      "search_exhausted": true
     },
     "education": {
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "A criminal justice qualification is commonly reported; no record retrieved."
+      "notes": "A criminal justice qualification is commonly reported; no record retrieved. [SEARCH NOT EXHAUSTED — this is a research todo, not a finding. The absence here reflects how far the initial pass got, not what exists.]",
+      "search_exhausted": false
     },
     "employment_history": {
       "value": "Police officer. Joined the Exeter Police Department in 1975. Dismissed from the Auburn Police Department in 1979. Later employed as a mechanic.",
@@ -256,63 +273,70 @@
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "Naval service is commonly reported; no service record retrieved."
+      "notes": "Naval service is commonly reported; no service record retrieved. [SEARCH NOT EXHAUSTED — this is a research todo, not a finding. The absence here reflects how far the initial pass got, not what exists.]",
+      "search_exhausted": false
     },
     "documented_head_injury": {
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "No medical documentation located."
+      "notes": "No medical documentation located.",
+      "search_exhausted": true
     },
     "macdonald_triad": {
       "enuresis": {
         "value": null,
         "confidence": "unverified",
         "sources": [],
-        "notes": "No documentation located. NOTE: the triad is not a predictor of violence — see the schema field description."
+        "notes": "No documentation located. NOTE: the triad is not a predictor of violence — see the schema field description.",
+        "search_exhausted": true
       },
       "firesetting": {
         "value": null,
         "confidence": "unverified",
         "sources": [],
-        "notes": "No documentation located."
+        "notes": "No documentation located.",
+        "search_exhausted": true
       },
       "animal_cruelty": {
         "value": null,
         "confidence": "unverified",
         "sources": [],
-        "notes": "No documentation located."
+        "notes": "No documentation located.",
+        "search_exhausted": true
       }
     }
   },
-
   "clinical": {
     "formal_diagnoses": {
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "He pleaded guilty; no psychiatric evidence was adjudicated and no court-adopted diagnosis exists."
+      "notes": "He pleaded guilty; no psychiatric evidence was adjudicated and no court-adopted diagnosis exists.",
+      "search_exhausted": true
     },
     "competency_findings": {
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "Competency was raised in reporting around his courtroom presentation but no finding has been retrieved."
+      "notes": "Competency was raised in reporting around his courtroom presentation but no finding has been retrieved.",
+      "search_exhausted": true
     },
     "psychometric_results": {
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "No assessment located. Unlike Bundy and Ridgway, no IQ figure circulates widely for this subject — which is itself worth noting: the absence of a number means no narrative has been built on one."
+      "notes": "No assessment located. Unlike Bundy and Ridgway, no IQ figure circulates widely for this subject — which is itself worth noting: the absence of a number means no narrative has been built on one.",
+      "search_exhausted": true
     },
     "commentary_attributions": {
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "Diagnostic labels applied in secondary commentary have not been catalogued for this record."
+      "notes": "Diagnostic labels applied in secondary commentary have not been catalogued for this record.",
+      "search_exhausted": true
     }
   },
-
   "offence_behaviour": {
     "victim_selection": {
       "value": "Offences occurred in private residences in suburban residential areas. The access condition exploited was domestic: entry to occupied homes at night, in neighbourhoods where residents did not expect it.",
@@ -365,19 +389,22 @@
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "Recurring non-functional conduct is described extensively in secondary literature and in survivor accounts. It has not been entered here because the prosecutorial releases do not itemise it and no scene documentation has been retrieved. A contributor with access to the charging documents or case files should populate this from them — it is one of the few subjects in the dataset where a properly sourced signature entry is likely achievable."
+      "notes": "Recurring non-functional conduct is described extensively in secondary literature and in survivor accounts. It has not been entered here because the prosecutorial releases do not itemise it and no scene documentation has been retrieved. A contributor with access to the charging documents or case files should populate this from them — it is one of the few subjects in the dataset where a properly sourced signature entry is likely achievable.",
+      "search_exhausted": true
     },
     "post_offence_behaviour": {
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "Not established from retrieved sources."
+      "notes": "Not established from retrieved sources.",
+      "search_exhausted": true
     },
     "forensic_countermeasures": {
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "Not established from retrieved sources. Note that biological evidence was recovered and retained — it is what ultimately identified him — so whatever countermeasures were used did not extend to that."
+      "notes": "Not established from retrieved sources. Note that biological evidence was recovered and retained — it is what ultimately identified him — so whatever countermeasures were used did not extend to that.",
+      "search_exhausted": true
     },
     "motive_classification": {
       "value": "Power/control, per Holmes & Holmes",
@@ -395,7 +422,6 @@
       "notes": "Maintainer coding, not a source-attested fact. The framework is cited as the instrument applied, Canter et al. (2004) as the standing methodological caution on typologies of this family. Coded from the sustained restraint and control of multiple occupants recorded in the kidnapping convictions. Contributors coding this case differently should record the disagreement rather than overwrite."
     }
   },
-
   "investigation": {
     "detection_delay_factors": {
       "value": "Thirty-two years elapsed between the final charged homicide and identification. The delay is not explained by linkage blindness: the offence series were linked to one another well before they were linked to a person, and the multiple press epithets record the successive stages of that linkage. The binding constraint was that no method existed to convert retained biological evidence into an identification when the offender was not himself in a criminal DNA database.",
@@ -448,7 +474,8 @@
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "No technique relied on in this conviction has been found scientifically unreliable. The field is null by design and the reasoning is recorded in forensic_methods_used — a contested method is not the same thing as a discredited one."
+      "notes": "No technique relied on in this conviction has been found scientifically unreliable. The field is null by design and the reasoning is recorded in forensic_methods_used — a contested method is not the same thing as a discredited one.",
+      "search_exhausted": true
     },
     "arrest": {
       "value": "Arrested April 2018 in Sacramento County, California.",
@@ -466,13 +493,13 @@
       ]
     }
   },
-
   "adjudication": {
     "interrogation_method": {
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "No interrogation record retrieved. The disposition rested on physical evidence and a negotiated plea, not on admissions obtained under questioning."
+      "notes": "No interrogation record retrieved. The disposition rested on physical evidence and a negotiated plea, not on admissions obtained under questioning.",
+      "search_exhausted": true
     },
     "confession_reliability": {
       "value": "High relative to the rest of this dataset. Admissions were made in open court under a negotiated plea, itemised by six prosecuting agencies, and rest on a case built from retained biological evidence rather than on the admissions themselves.",
@@ -523,7 +550,8 @@
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "Guilty plea under a negotiated agreement; no appellate history retrieved."
+      "notes": "Guilty plea under a negotiated agreement; no appellate history retrieved.",
+      "search_exhausted": true
     },
     "disposition": {
       "value": "Incarcerated in the California correctional system.",
@@ -538,7 +566,6 @@
       "notes": "Facility should be cited from a current Department of Corrections record if it matters analytically."
     }
   },
-
   "data_quality": {
     "known_gaps": [
       "No court docket numbers recorded; the plea and judgment are cited through official prosecutorial releases rather than the filings themselves.",

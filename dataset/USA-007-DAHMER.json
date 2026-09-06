@@ -30,13 +30,15 @@
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "No documented aliases. He did give a false name for a victim to police in May 1991 — see investigation.detection_delay_factors."
+      "notes": "No documented aliases. He did give a false name for a victim to police in May 1991 — see investigation.detection_delay_factors.",
+      "search_exhausted": true
     },
     "media_epithet": {
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "Press labels attached to this case foreground cannibalism. They are not recorded: they describe post-mortem conduct in a form that serves appetite rather than analysis, and this dataset has no field they would legitimately populate."
+      "notes": "Press labels attached to this case foreground cannibalism. They are not recorded: they describe post-mortem conduct in a form that serves appetite rather than analysis, and this dataset has no field they would legitimately populate.",
+      "search_exhausted": true
     },
     "birth_date": {
       "value": "1960-05",
@@ -152,13 +154,15 @@
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "No agency-published attribution beyond the convictions has been retrieved."
+      "notes": "No agency-published attribution beyond the convictions has been retrieved.",
+      "search_exhausted": true
     },
     "claimed_victim_count": {
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "No self-reported total distinct from the charged offences has been retrieved."
+      "notes": "No self-reported total distinct from the charged offences has been retrieved.",
+      "search_exhausted": true
     },
     "estimate_provenance": {
       "value": "The count derives entirely from the two conviction records. No higher figure with traceable provenance exists for this subject.",
@@ -217,50 +221,58 @@
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "No contemporaneous record retrieved. Childhood aetiologies circulate extensively; none is entered."
+      "notes": "No contemporaneous record retrieved. Childhood aetiologies circulate extensively; none is entered.",
+      "search_exhausted": true
     },
     "education": {
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "No record retrieved."
+      "notes": "No record retrieved. [SEARCH NOT EXHAUSTED — this is a research todo, not a finding. The absence here reflects how far the initial pass got, not what exists.]",
+      "search_exhausted": false
     },
     "employment_history": {
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "Employment at a Milwaukee chocolate factory is commonly reported; no record retrieved. Note the contrast with DeAngelo, Ridgway and Rader, where the occupational fact was load-bearing. Here it appears not to have been: the access condition was residential, not occupational."
+      "notes": "Employment at a Milwaukee chocolate factory is commonly reported; no record retrieved. Note the contrast with DeAngelo, Ridgway and Rader, where the occupational fact was load-bearing. Here it appears not to have been: the access condition was residential, not occupational. [SEARCH NOT EXHAUSTED — this is a research todo, not a finding. The absence here reflects how far the initial pass got, not what exists.]",
+      "search_exhausted": false
     },
     "military_service": {
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "Army service is commonly reported; no service record retrieved."
+      "notes": "Army service is commonly reported; no service record retrieved. [SEARCH NOT EXHAUSTED — this is a research todo, not a finding. The absence here reflects how far the initial pass got, not what exists.]",
+      "search_exhausted": false
     },
     "documented_head_injury": {
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "No medical documentation located."
+      "notes": "No medical documentation located.",
+      "search_exhausted": true
     },
     "macdonald_triad": {
       "enuresis": {
         "value": null,
         "confidence": "unverified",
         "sources": [],
-        "notes": "No documentation located. NOTE: the triad is not a predictor of violence — see the schema field description."
+        "notes": "No documentation located. NOTE: the triad is not a predictor of violence — see the schema field description.",
+        "search_exhausted": true
       },
       "firesetting": {
         "value": null,
         "confidence": "unverified",
         "sources": [],
-        "notes": "No documentation located."
+        "notes": "No documentation located.",
+        "search_exhausted": true
       },
       "animal_cruelty": {
         "value": null,
         "confidence": "unverified",
         "sources": [],
-        "notes": "Accounts of childhood interest in animal remains are ubiquitous in secondary literature and were advanced at the insanity trial. No contemporaneous documentation has been retrieved and none is entered."
+        "notes": "Accounts of childhood interest in animal remains are ubiquitous in secondary literature and were advanced at the insanity trial. No contemporaneous documentation has been retrieved and none is entered.",
+        "search_exhausted": true
       }
     }
   },
@@ -269,7 +281,8 @@
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "Psychiatric evidence was presented and tested at the insanity phase, but the retrieved sources do not itemise the competing diagnoses. This field is therefore null despite being populatable in principle — the second such case after USA-005-GACY, where the equivalent evidence WAS itemised in the appellate opinion. A contributor retrieving the Milwaukee County trial record should populate this; it is one of only two subjects in the dataset where adversarially tested clinical evidence exists."
+      "notes": "Psychiatric evidence was presented and tested at the insanity phase, but the retrieved sources do not itemise the competing diagnoses. This field is therefore null despite being populatable in principle — the second such case after USA-005-GACY, where the equivalent evidence WAS itemised in the appellate opinion. A contributor retrieving the Milwaukee County trial record should populate this; it is one of only two subjects in the dataset where adversarially tested clinical evidence exists.",
+      "search_exhausted": true
     },
     "competency_findings": {
       "value": "The insanity plea was rejected. The jury found him legally sane at the time of the offences.",
@@ -287,13 +300,15 @@
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "No instrument, administrator or date retrieved."
+      "notes": "No instrument, administrator or date retrieved.",
+      "search_exhausted": true
     },
     "commentary_attributions": {
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "Not catalogued. This subject carries an unusually heavy load of retrospective diagnostic commentary, much of it generated by dramatisations rather than clinicians."
+      "notes": "Not catalogued. This subject carries an unusually heavy load of retrospective diagnostic commentary, much of it generated by dramatisations rather than clinicians.",
+      "search_exhausted": true
     }
   },
   "offence_behaviour": {
@@ -317,7 +332,8 @@
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "Not established from retrieved sources. Detailed accounts derive from his own post-arrest statements."
+      "notes": "Not established from retrieved sources. Detailed accounts derive from his own post-arrest statements. [SEARCH NOT EXHAUSTED — this is a research todo, not a finding. The absence here reflects how far the initial pass got, not what exists.]",
+      "search_exhausted": false
     },
     "spatial_pattern": {
       "value": "Marauder",
@@ -334,25 +350,29 @@
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "Not established from retrieved sources. The retrieved reporting characterises the offences in terms this dataset does not reproduce; a contributor should populate this from post-mortem findings in the trial record, not from press description."
+      "notes": "Not established from retrieved sources. The retrieved reporting characterises the offences in terms this dataset does not reproduce; a contributor should populate this from post-mortem findings in the trial record, not from press description. [SEARCH NOT EXHAUSTED — this is a research todo, not a finding. The absence here reflects how far the initial pass got, not what exists.]",
+      "search_exhausted": false
     },
     "signature_behaviour": {
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "No scene documentation retrieved. Note that this is the subject for whom popular accounts assert the most elaborate post-mortem conduct in the entire dataset, and the field is null. Detail of that kind is also constrained by ETHICS.md independently of sourcing: it serves appetite rather than analysis."
+      "notes": "No scene documentation retrieved. Note that this is the subject for whom popular accounts assert the most elaborate post-mortem conduct in the entire dataset, and the field is null. Detail of that kind is also constrained by ETHICS.md independently of sourcing: it serves appetite rather than analysis.",
+      "search_exhausted": true
     },
     "post_offence_behaviour": {
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "Not entered. See the note on signature_behaviour: this is a case where the ethical constraint and the sourcing constraint point the same way."
+      "notes": "Not entered. See the note on signature_behaviour: this is a case where the ethical constraint and the sourcing constraint point the same way.",
+      "search_exhausted": true
     },
     "forensic_countermeasures": {
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "Not established. He retained remains in his residence, which is not on its face evasive conduct — the same observation as USA-005-GACY."
+      "notes": "Not established. He retained remains in his residence, which is not on its face evasive conduct — the same observation as USA-005-GACY.",
+      "search_exhausted": true
     },
     "motive_classification": {
       "value": "Power/control, per Holmes & Holmes",
@@ -407,13 +427,15 @@
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "Not established from retrieved sources. The evidentiary basis was the physical recovery of remains from his residence."
+      "notes": "Not established from retrieved sources. The evidentiary basis was the physical recovery of remains from his residence. [SEARCH NOT EXHAUSTED — this is a research todo, not a finding. The absence here reflects how far the initial pass got, not what exists.]",
+      "search_exhausted": false
     },
     "method_now_disputed": {
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "No technique relied on in these convictions has been found scientifically unreliable."
+      "notes": "No technique relied on in these convictions has been found scientifically unreliable.",
+      "search_exhausted": true
     },
     "arrest": {
       "value": "Arrested 22 July 1991 in Milwaukee, after a victim escaped the apartment and brought police to it.",
@@ -437,7 +459,8 @@
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "No interrogation record retrieved."
+      "notes": "No interrogation record retrieved.",
+      "search_exhausted": true
     },
     "confession_reliability": {
       "value": "Not load-bearing for the convictions, which rested on remains recovered from his residence. He admitted the offences and contested only his mental state.",
@@ -485,7 +508,8 @@
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "No appellate history retrieved. He died in custody in 1994."
+      "notes": "No appellate history retrieved. He died in custody in 1994.",
+      "search_exhausted": true
     },
     "disposition": {
       "value": "Killed in custody on 28 November 1994 at Columbia Correctional Institution, Portage, Wisconsin, by another prisoner.",

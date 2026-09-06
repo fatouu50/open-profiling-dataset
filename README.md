@@ -63,7 +63,14 @@ Every claim is an object:
 | `established` | Two or more independent sources, at least one tier 1 or 2 |
 | `reported` | One credible source |
 | `contested` | Sources disagree; `notes` must state the disagreement |
-| `unverified` | No admissible source. `value` **must** be `null` and `notes` must say what was searched |
+| `unverified` | No admissible source. `value` **must** be `null`, `notes` must say what was searched, and `search_exhausted` must be set |
+
+**Two kinds of empty.** An `unverified` field carries `search_exhausted`:
+
+- `true` — the absence is a **finding**. Someone searched properly and no admissible source exists, or the field is null by design (a discredited construct, a medical record that is never public, a deliberate editorial exclusion).
+- `false` — the absence is a **todo**. Nobody has searched properly yet.
+
+Without that flag the two are indistinguishable, and a dataset that presents an unsearched field as an established absence is lying by omission: it does not fabricate a value, it fabricates a conclusion about the record. `scripts/worklist.py` prints every `false` as open work. The generated reports mark them ◌ rather than ○.
 
 **Source tiers**
 
@@ -115,6 +122,7 @@ Every claim is an object:
 └── scripts/
     ├── validate.py              Schema + sourcing rules
     ├── render_md.py             Generates dataset/*.md from the JSON
+    ├── worklist.py              Lists fields nobody has searched yet
     ├── normalise_sources.py     Canonicalises citation strings
     └── build_index.py           Regenerates index/
 ```
@@ -148,6 +156,7 @@ python3 scripts/validate.py           # both schemas + sourcing rules
 python3 scripts/normalise_sources.py  # canonicalise citations
 python3 scripts/render_md.py          # regenerate the Markdown reports
 python3 scripts/build_index.py        # regenerate index files
+python3 scripts/worklist.py           # what still needs searching
 ```
 
 CI runs all four on every pull request. It fails if a profile breaks the sourcing rules, if citations are not normalised, if a Markdown report is out of date, or if the index is stale.

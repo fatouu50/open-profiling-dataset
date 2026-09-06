@@ -31,7 +31,8 @@
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "No documented aliases located. He offended under his own identity throughout."
+      "notes": "No documented aliases located. He offended under his own identity throughout.",
+      "search_exhausted": true
     },
     "media_epithet": {
       "value": "Green River Killer",
@@ -143,13 +144,15 @@
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "The Green River Task Force worked a larger set of open cases than the 49 charged, but no agency-published attribution figure with a stated methodology has been retrieved. A contributor should cite a specific King County Sheriff's Office or task force document, or leave this null."
+      "notes": "The Green River Task Force worked a larger set of open cases than the 49 charged, but no agency-published attribution figure with a stated methodology has been retrieved. A contributor should cite a specific King County Sheriff's Office or task force document, or leave this null.",
+      "search_exhausted": true
     },
     "claimed_victim_count": {
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "Ridgway gave varying figures during the interviews conducted under the plea agreement, and higher numbers (71, 80 and above) circulate in secondary accounts. No single authoritative transcript citation has been retrieved, and his self-report is in any case unreliable — see adjudication.confession_reliability. Left null rather than importing a number from press synthesis."
+      "notes": "Ridgway gave varying figures during the interviews conducted under the plea agreement, and higher numbers (71, 80 and above) circulate in secondary accounts. No single authoritative transcript citation has been retrieved, and his self-report is in any case unreliable — see adjudication.confession_reliability. Left null rather than importing a number from press synthesis.",
+      "search_exhausted": true
     },
     "estimate_provenance": {
       "value": "Figures above 49 originate in Ridgway's own statements during plea-agreement interviews and in press synthesis of task force caseload, not in a published agency accounting.",
@@ -178,7 +181,8 @@
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "Charged offences cluster in the 1980s, with disputed later cases. No reliable terminal date established; a contributor should work from the charging documents rather than secondary chronologies."
+      "notes": "Charged offences cluster in the 1980s, with disputed later cases. No reliable terminal date established; a contributor should work from the charging documents rather than secondary chronologies. [SEARCH NOT EXHAUSTED — this is a research todo, not a finding. The absence here reflects how far the initial pass got, not what exists.]",
+      "search_exhausted": false
     },
     "jurisdictions": {
       "value": [
@@ -200,7 +204,8 @@
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "Accounts of a dominating mother and a humiliating childhood are ubiquitous in secondary literature but trace to Ridgway's own post-arrest statements and to defence mitigation material. No contemporaneous record retrieved. This is the field where retrospective offender self-report is least reliable and most eagerly repeated."
+      "notes": "Accounts of a dominating mother and a humiliating childhood are ubiquitous in secondary literature but trace to Ridgway's own post-arrest statements and to defence mitigation material. No contemporaneous record retrieved. This is the field where retrospective offender self-report is least reliable and most eagerly repeated.",
+      "search_exhausted": true
     },
     "education": {
       "value": "Completed secondary education in the Seattle area; repeated years owing to documented learning difficulties.",
@@ -244,26 +249,30 @@
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "No medical documentation located."
+      "notes": "No medical documentation located.",
+      "search_exhausted": true
     },
     "macdonald_triad": {
       "enuresis": {
         "value": null,
         "confidence": "unverified",
         "sources": [],
-        "notes": "Widely asserted in secondary literature and treated there as formative. It traces to post-arrest self-report and defence mitigation, not to a medical or contemporaneous record. Left null. NOTE: the triad is not a predictor of violence — see the field description in the schema."
+        "notes": "Widely asserted in secondary literature and treated there as formative. It traces to post-arrest self-report and defence mitigation, not to a medical or contemporaneous record. Left null. NOTE: the triad is not a predictor of violence — see the field description in the schema.",
+        "search_exhausted": true
       },
       "firesetting": {
         "value": null,
         "confidence": "unverified",
         "sources": [],
-        "notes": "No documentation located."
+        "notes": "No documentation located.",
+        "search_exhausted": true
       },
       "animal_cruelty": {
         "value": null,
         "confidence": "unverified",
         "sources": [],
-        "notes": "No documentation located. The frequently repeated account of a stabbing committed in adolescence is a separate matter from animal cruelty and is not recorded here without a citable source."
+        "notes": "No documentation located. The frequently repeated account of a stabbing committed in adolescence is a separate matter from animal cruelty and is not recorded here without a citable source.",
+        "search_exhausted": true
       }
     }
   },
@@ -272,19 +281,22 @@
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "Ridgway pleaded guilty; there was no trial at which competing psychiatric evidence was tested, and no court-adopted diagnosis has been retrieved. Defence experts produced mitigation assessments that were never adjudicated. Labels applied in secondary literature appear under commentary_attributions."
+      "notes": "Ridgway pleaded guilty; there was no trial at which competing psychiatric evidence was tested, and no court-adopted diagnosis has been retrieved. Defence experts produced mitigation assessments that were never adjudicated. Labels applied in secondary literature appear under commentary_attributions.",
+      "search_exhausted": true
     },
     "competency_findings": {
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "Competency was not a contested issue in the reported proceedings; no finding retrieved."
+      "notes": "Competency was not a contested issue in the reported proceedings; no finding retrieved.",
+      "search_exhausted": true
     },
     "psychometric_results": {
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "An IQ of 82 is asserted almost universally in secondary accounts. No instrument, administering clinician or date has been located for it. Under this schema a bare IQ number is inadmissible. This figure is load-bearing in popular narratives — it underwrites the 'low-intelligence killer who nonetheless evaded capture' framing — which is precisely why it should not be recorded without provenance."
+      "notes": "An IQ of 82 is asserted almost universally in secondary accounts. No instrument, administering clinician or date has been located for it. Under this schema a bare IQ number is inadmissible. This figure is load-bearing in popular narratives — it underwrites the 'low-intelligence killer who nonetheless evaded capture' framing — which is precisely why it should not be recorded without provenance.",
+      "search_exhausted": true
     },
     "commentary_attributions": {
       "value": [
@@ -317,7 +329,8 @@
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "Detailed approach accounts derive from Ridgway's plea-agreement interviews. Given the reliability problems recorded under confession_reliability, these are not entered as established behaviour without corroboration from charging documents."
+      "notes": "Detailed approach accounts derive from Ridgway's plea-agreement interviews. Given the reliability problems recorded under confession_reliability, these are not entered as established behaviour without corroboration from charging documents. [SEARCH NOT EXHAUSTED — this is a research todo, not a finding. The absence here reflects how far the initial pass got, not what exists.]",
+      "search_exhausted": false
     },
     "spatial_pattern": {
       "value": "Marauder",
@@ -344,13 +357,15 @@
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "Accounts of recurring non-functional conduct derive from the interviews conducted under the 2003 plea agreement. Those interviews were given under an agreement that spared his life, and the corroboration requirement applied to charged offences, not to descriptive detail. No independently documented recurring element has been retrieved. Left null."
+      "notes": "Accounts of recurring non-functional conduct derive from the interviews conducted under the 2003 plea agreement. Those interviews were given under an agreement that spared his life, and the corroboration requirement applied to charged offences, not to descriptive detail. No independently documented recurring element has been retrieved. Left null.",
+      "search_exhausted": true
     },
     "post_offence_behaviour": {
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "Accounts of returning to deposition sites derive from Ridgway's own statements. Not independently corroborated. Graphic detail is in any case excluded under ETHICS.md."
+      "notes": "Accounts of returning to deposition sites derive from Ridgway's own statements. Not independently corroborated. Graphic detail is in any case excluded under ETHICS.md.",
+      "search_exhausted": true
     },
     "forensic_countermeasures": {
       "value": "Use of multiple dispersed deposition sites; introduction of unrelated material at scenes.",
@@ -516,7 +531,8 @@
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "Guilty pleas under a negotiated agreement; no appellate history retrieved."
+      "notes": "Guilty pleas under a negotiated agreement; no appellate history retrieved.",
+      "search_exhausted": true
     },
     "disposition": {
       "value": "Incarcerated in the Washington State correctional system.",
