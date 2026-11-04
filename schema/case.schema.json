@@ -60,13 +60,14 @@
     "case_type": {
       "enum": [
         "no_homicide_conviction",
+        "died_before_trial",
         "contested_confession",
         "exonerated",
         "unidentified_offender",
         "discredited_forensics",
         "sub_judice"
       ],
-      "description": "Why this is a case record rather than an offender profile. 'exonerated' subjects are never described as offenders in any field."
+      "description": "Why this is a case record rather than an offender profile. 'exonerated' subjects are never described as offenders in any field. 'died_before_trial' covers subjects who died \u2014 by suicide, by another's hand, or naturally \u2014 before any adjudication: the evidentiary basis may be overwhelming, but no court ever tested it, and this dataset does not convict people posthumously. Do not conflate it with 'no_homicide_conviction', where a living subject was tried and convicted of something lesser."
     },
 
     "exclusion_rationale": {

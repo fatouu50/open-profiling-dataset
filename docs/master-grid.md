@@ -76,7 +76,11 @@ Height, weight, blood type, and distinguishing features are not fields. In pract
 
 `signature_behaviour` records conduct that was not logistically necessary and that recurred — **as established by scene documentation, post-mortem findings or charging material only**. The offender's stated reasons and any inferred psychological need are excluded, because they cannot be falsified.
 
-The consequence is visible in the data: this field is `null` for every subject currently in the dataset. That is not the field failing. It is the field reporting that the most famous "signatures" in the profiling literature rest on what the offenders said afterwards.
+The consequence was visible in the data: the field was `null` for every subject for the first fourteen records. That was not the field failing. It was the field reporting that the most famous "signatures" in the profiling literature rest on what the offenders said afterwards.
+
+`USA-014-BITTAKER` is the first subject to carry a value, and how it got there is the point. The conduct recorded — recording the offences — is established by an audio tape seized from his van, by photographs admitted at trial, and by third-party witnesses who were shown them. It is recorded because physical objects and charging material establish it, not because anyone described a psychological need. His co-offender `USA-015-NORRIS` remains `null`: the evidence attaches the conduct to one man, and a signature belongs to the person the evidence attaches it to, not to the series.
+
+Fourteen records produced one non-null value. That ratio is the finding.
 
 ### Axis 1 was rebuilt as an explicit interpretation
 
