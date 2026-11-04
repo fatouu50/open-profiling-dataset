@@ -276,11 +276,11 @@ Sources: [2]
 
 > Conduct not logistically necessary to the offence that recurred across offences. Restricted to what the evidentiary record establishes. The offender's stated reasons and any inferred psychological need are **excluded** — they are unfalsifiable. A null here means the only sources were post-arrest self-report.
 
-**Signature behaviour** — ○ *not established*
+**Signature behaviour** — ◌ *not yet searched*
 
 —
 
-> Recurring non-functional conduct is described extensively in secondary literature and in survivor accounts. It has not been entered here because the prosecutorial releases do not itemise it and no scene documentation has been retrieved. A contributor with access to the charging documents or case files should populate this from them — it is one of the few subjects in the dataset where a properly sourced signature entry is likely achievable.
+> NOT a finding — a research todo, and the most promising one in the dataset. Recurring non-functional conduct is described extensively in secondary literature and in survivor accounts. It is not entered because the prosecutorial releases do not itemise it and no scene documentation has been retrieved. A contributor with access to the charging documents or case files should populate it from them: of all subjects here this is the one where a properly sourced signature entry is most likely achievable. The field was flagged search_exhausted: true while its own note described outstanding work, which was a contradiction. [SEARCH NOT EXHAUSTED — charging documents and case files.]
 
 **Post offence behaviour** — ○ *not established*
 
@@ -438,7 +438,7 @@ Tier 1 = primary record · 2 = peer-reviewed · 3 = book-length journalism with 
 ## Provenance
 
 - Created: 2026-09-05
-- Last reviewed: 2026-09-05
+- Last reviewed: 2026-11-04
 - Contributors: maintainer
 - AI-assisted drafting: **yes**  
   Every claim was nonetheless verified against a human-readable source. AI output is never itself a source.

@@ -55,6 +55,23 @@ DRAMATISATION_TITLES = [
     "conversations with a killer",
 ]
 
+# Phrases that describe work still to be done. A claim flagged
+# search_exhausted: true asserts that the search is FINISHED, so a note
+# containing one of these is contradicting its own flag.
+UNFINISHED_PHRASES = [
+    "not been retrieved",
+    "not retrieved",
+    "has not been obtained",
+    "not been obtained",
+    "may support an entry",
+    "should populate",
+    "should be checked",
+    "should be confirmed",
+    "has not been checked",
+    "not been read",
+    "search not exhausted",
+]
+
 VALID_CONFIDENCE = {"established", "reported", "contested", "unverified"}
 
 
@@ -194,6 +211,23 @@ def check_claim(node, where, problems, path):
                 "'unverified' requires search_exhausted: true (the absence is a finding) or "
                 "false (nobody has searched properly yet). Without it, a field nobody looked "
                 "at is indistinguishable from one that was searched and came up empty."))
+        elif node.get("search_exhausted") is True:
+            # A field claiming the search is finished must not describe outstanding work.
+            # Three records carried 'search_exhausted: true' on notes that said in terms
+            # that the trial record had not been obtained. That is a todo wearing the
+            # badge of a finding, and it is the one failure mode the flag exists to
+            # prevent, so it is checked rather than left to the reviewer's attention.
+            blob = str(notes).lower()
+            hits = [p for p in UNFINISHED_PHRASES if p in blob]
+            if hits:
+                problems.append(Problem(
+                    path, where,
+                    "search_exhausted is true, but the note describes outstanding work "
+                    f"({', '.join(repr(h) for h in hits)}). An exhausted search is a FINDING: "
+                    "the note must say what was searched and why nothing admissible exists, "
+                    "not what someone should still go and get. If work remains, set "
+                    "search_exhausted: false so scripts/worklist.py lists it.",
+                    severity="warn"))
     else:
         if len(sources) == 0:
             problems.append(Problem(

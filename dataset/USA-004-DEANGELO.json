@@ -4,7 +4,7 @@
   "record_status": "in_progress",
   "provenance": {
     "created": "2026-09-05",
-    "last_reviewed": "2026-09-05",
+    "last_reviewed": "2026-11-04",
     "contributors": [
       "maintainer"
     ],
@@ -389,8 +389,8 @@
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "Recurring non-functional conduct is described extensively in secondary literature and in survivor accounts. It has not been entered here because the prosecutorial releases do not itemise it and no scene documentation has been retrieved. A contributor with access to the charging documents or case files should populate this from them — it is one of the few subjects in the dataset where a properly sourced signature entry is likely achievable.",
-      "search_exhausted": true
+      "notes": "NOT a finding — a research todo, and the most promising one in the dataset. Recurring non-functional conduct is described extensively in secondary literature and in survivor accounts. It is not entered because the prosecutorial releases do not itemise it and no scene documentation has been retrieved. A contributor with access to the charging documents or case files should populate it from them: of all subjects here this is the one where a properly sourced signature entry is most likely achievable. The field was flagged search_exhausted: true while its own note described outstanding work, which was a contradiction. [SEARCH NOT EXHAUSTED — charging documents and case files.]",
+      "search_exhausted": false
     },
     "post_offence_behaviour": {
       "value": null,
