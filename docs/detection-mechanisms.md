@@ -1,8 +1,8 @@
 # Detection Mechanisms
 
-**Status: maintainer interpretation, n = 11.** This document classifies the `investigation.detection_delay_factors` field across the offender profiles. The classification is not in the data — it is an analytical layer over it, and it is stated separately for that reason. Run `python3 scripts/detection_table.py --full` to read the underlying fields and check the reading against them.
+**Status: maintainer interpretation, 11 cases / 13 records.** This document classifies the `investigation.detection_delay_factors` field across the offender profiles. The classification is not in the data — it is an analytical layer over it, and it is stated separately for that reason. Run `python3 scripts/detection_table.py --full` to read the underlying fields and check the reading against them.
 
-Eleven records is not a sample. Every subject here is American, all were eventually identified, and the selection came from a popular-notoriety list rather than any sampling frame. Nothing below supports inference to serial homicide generally. What it does support is a claim about **this literature**: that the standard explanation for delayed detection does not fit most of these cases.
+Eleven cases is not a sample. Every subject here is American, all were eventually identified, and the selection came from a popular-notoriety list rather than any sampling frame. Nothing below supports inference to serial homicide generally. What it does support is a claim about **this literature**: that the standard explanation for delayed detection does not fit most of these cases.
 
 ---
 
@@ -11,6 +11,7 @@ Eleven records is not a sample. Every subject here is American, all were eventua
 | Record | Series length | What ended it |
 |---|---|---|
 | `USA-009-KEMPER` | ~11 months | He surrendered by telephone |
+| `USA-014-BITTAKER` / `USA-015-NORRIS` | ~4-5 months | A victim survived, and identified him |
 | `USA-012-HENLEY` / `USA-013-BROOKS` | ~2 years | Henley shot Corll and telephoned police |
 | `USA-010-BERKOWITZ` | ~12 months | A parking citation issued near the last shooting |
 | `USA-008-RAMIREZ` | ~14 months | His photograph was published; the public detained him |
@@ -61,7 +62,15 @@ Corll himself is not a profile in this dataset. He was never charged and is reco
 
 Fingerprints identified him and his photograph was released; members of the public recognised him the next day and physically detained him. The shortest series in the dataset, ended outside the investigation.
 
-### 8. An unrelated municipal record — `USA-010-BERKOWITZ`
+### 8. A victim who survived and was believed — `USA-014-BITTAKER`, `USA-015-NORRIS`
+
+Four to five months, five dead, ended because a woman who survived a kidnapping and rape picked him out of a photographic lineup. Her account supported the warrant; everything else — the tape recovered from the van, the photographs, the two sets of remains the co-offender later led police to — followed from it.
+
+Set this beside mechanism 5. In Milwaukee a victim escaped and was handed back. In Los Angeles a victim survived and was believed, and the series ended in months rather than years. The difference is not investigative capability. It is whose account gets credited.
+
+Both men had prior felony convictions and had met in state prison. As in `USA-005-GACY`, the state already held the record and no one brought it alongside the disappearances — here it cost months, there it cost years.
+
+### 9. An unrelated municipal record — `USA-010-BERKOWITZ`
 
 One of the largest investigations in the city's history did not identify him. A parking enforcement system, operating for entirely unrelated purposes, produced the datum that did.
 
@@ -69,13 +78,19 @@ One of the largest investigations in the city's history did not identify him. A 
 
 ## Two observations
 
-### Most of these cases were not closed by investigation
+### Count cases, not records
 
-Five of eleven ended because the offender surrendered, was delivered by the public, or — in the Houston case — was shot by his own accomplice, who then called the police. A sixth turned on a parking citation. **Five of eleven** were closed by investigative work reaching a conclusion.
+Two of these cases carry two records each — Henley and Brooks, Bittaker and Norris — because co-offenders are never merged (`docs/co-offenders.md`). Thirteen records are therefore eleven observations, and any count that treats records as observations double-weights those two cases.
 
-That is now a minority. With n = 11 it remains an observation about which cases become famous rather than a finding about detection, but the direction is worth stating plainly: in this literature, the cases everyone knows are disproportionately the ones investigation did not solve.
+This is not pedantry. Counting records rather than cases is what the numbers below would have said before the correction, and it would have moved the headline by a whole category.
 
-Any analysis of detection effectiveness computed from this dataset must treat the other six as censored observations. Counting them as successes measures something other than what investigation achieved. The relevant records say so in their own `detection_delay_factors` notes.
+### Roughly half of these cases were not closed by investigation
+
+Of the eleven cases: **six** were closed by investigative work reaching a conclusion — Bundy, Gacy, Dahmer, Ridgway, DeAngelo, Bittaker/Norris. **Five** were not. Kemper surrendered by telephone. Rader resumed contact after thirteen silent years. Ramirez was detained by members of the public. Berkowitz was found through a parking citation. In Houston, one participant shot the other and called the police himself.
+
+That is close to an even split, and the split moved when this document went from nine cases to eleven. At this n the honest statement is not a rate but a caution: a large fraction of the best-known cases in this literature were not solved, and a dataset of them cannot be used to measure how well investigation works.
+
+Any analysis of detection effectiveness computed from this dataset must treat those five as censored observations. Counting them as successes measures something other than what investigation achieved. The relevant records say so in their own `detection_delay_factors` notes.
 
 ### Geographic range does not predict delay
 
@@ -86,7 +101,9 @@ The dataset codes `spatial_pattern` per Canter & Larkin (1993):
 | Commuter | Bundy, DeAngelo, Ramirez | 14 months – 32 years |
 | Marauder | Ridgway, Gacy, Rader, Dahmer, Kemper, Berkowitz, Henley | 11 months – 31 years |
 
-`USA-013-BROOKS` is not coded. Canter & Larkin model the relationship between an offender's home base and his own offence locations; the record does not attribute victim selection or approach to Brooks, so there is no offender-specific spatial behaviour to code. Applying the series pattern to him would attribute conduct the record does not support. That refusal is itself a small result: a co-offender dataset cannot assume every participant has a spatial signature.
+Three subjects are not coded. `USA-013-BROOKS`, because the record attributes no victim selection or approach to him, so there is no offender-specific spatial behaviour to code — applying the series pattern to him would attribute conduct the record does not support. `USA-014-BITTAKER` and `USA-015-NORRIS`, because the coding requires an established home base and neither has one on the record: at arrest Bittaker was staying in a motel, which is not a base in the sense the model uses.
+
+That second refusal is the more interesting one. Canter & Larkin's distinction presupposes a fixed point to measure from. An offender without a stable residence is not a commuter and not a marauder; he is outside the model's domain. A dataset that codes him anyway is manufacturing a variable.
 
 The ranges overlap almost completely. The shortest delay belongs to a commuter; the second shortest to a marauder. The longest belongs to a commuter; the second longest to a marauder.
 

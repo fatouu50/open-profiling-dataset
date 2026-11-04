@@ -206,11 +206,11 @@ Sources: [2]
 
 > Formal assessments only. Labels applied by commentators who never examined the subject appear under *commentary attributions* and are claims about the discourse, not about the person.
 
-**Formal diagnoses** — ○ *not established*
+**Formal diagnoses** — ◌ *not yet searched*
 
 —
 
-> Psychiatric evidence was presented and tested at the insanity phase, but the retrieved sources do not itemise the competing diagnoses. This field is therefore null despite being populatable in principle — the second such case after USA-005-GACY, where the equivalent evidence WAS itemised in the appellate opinion. A contributor retrieving the Milwaukee County trial record should populate this; it is one of only two subjects in the dataset where adversarially tested clinical evidence exists.
+> Psychiatric evidence was presented and tested at the insanity phase, but the retrieved sources do not itemise the competing diagnoses. This field is therefore null despite being populatable in principle — the second such case after USA-005-GACY, where the equivalent evidence WAS itemised in the appellate opinion. A contributor retrieving the Milwaukee County trial record should populate this; it is one of only two subjects in the dataset where adversarially tested clinical evidence exists. [SEARCH NOT EXHAUSTED — this is a research todo, not a finding. The field was previously flagged as an exhausted search while its own note described work still to be done.]
 
 **Competency findings** — *reported*
 
@@ -268,11 +268,11 @@ Sources: [7]
 
 > Conduct not logistically necessary to the offence that recurred across offences. Restricted to what the evidentiary record establishes. The offender's stated reasons and any inferred psychological need are **excluded** — they are unfalsifiable. A null here means the only sources were post-arrest self-report.
 
-**Signature behaviour** — ○ *not established*
+**Signature behaviour** — ◌ *not yet searched*
 
 —
 
-> No scene documentation retrieved. Note that this is the subject for whom popular accounts assert the most elaborate post-mortem conduct in the entire dataset, and the field is null. Detail of that kind is also constrained by ETHICS.md independently of sourcing: it serves appetite rather than analysis.
+> NOT a finding — a research todo. The photographic material recovered from the apartment in July 1991 is physical evidence seized at arrest and was before the court, which is the same evidentiary category as the recordings recorded under signature_behaviour on USA-014-BITTAKER. Nobody has retrieved the Milwaukee trial record, so this field's null reflects how far the research got, not what the record holds. ETHICS.md constrains the CONTENT of such material and is not a reason to leave the CONDUCT unrecorded: the Bittaker entry records that he recorded the offences while excluding what the recordings show, and the same separation applies here. This field was marked search_exhausted: true on the strength of the ethical constraint alone, which was wrong. [SEARCH NOT EXHAUSTED — the trial record and the evidence inventory would settle it.]
 
 **Post offence behaviour** — ○ *not established*
 
@@ -432,7 +432,7 @@ Tier 1 = primary record · 2 = peer-reviewed · 3 = book-length journalism with 
 ## Provenance
 
 - Created: 2026-09-05
-- Last reviewed: 2026-09-05
+- Last reviewed: 2026-11-04
 - Contributors: maintainer
 - AI-assisted drafting: **yes**  
   Every claim was nonetheless verified against a human-readable source. AI output is never itself a source.

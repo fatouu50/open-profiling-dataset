@@ -122,6 +122,12 @@
       }
     },
 
+    "co_offenders": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Record ids of people convicted alongside this subject for the same series. Co-offenders each get their OWN record: they were tried separately, convicted of different counts, and frequently received radically different dispositions \u2014 one testifying against the other. A single record per pair would erase that and would make victims-per-offender uncomputable, since the same victims would be counted once against two people. Use this field to link; never merge. A co-offender who was never convicted gets a case record under schema/case.schema.json instead, and is still linked from here. See docs/co-offenders.md."
+    },
+
     "conviction_record": {
       "type": "object",
       "description": "The evidentiary spine of the record. Populate this before any behavioural analysis.",

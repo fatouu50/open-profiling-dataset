@@ -221,11 +221,11 @@ Sources: [1] [2]
 
 > A finding of legal responsibility is a legal conclusion, not a clinical one. It does not resolve the diagnostic dispute recorded above and must not be read as adopting the prosecution experts' diagnoses.
 
-**Psychometric results** — ○ *not established*
+**Psychometric results** — ◌ *not yet searched*
 
 —
 
-> Extensive psychiatric examination occurred, but no instrument, administrator and date for any psychometric result has been retrieved from the opinions. A contributor with access to the trial transcript should populate this.
+> Extensive psychiatric examination occurred, but no instrument, administrator and date for any psychometric result has been retrieved from the opinions. A contributor with access to the trial transcript should populate this. [SEARCH NOT EXHAUSTED — this is a research todo, not a finding. The field was previously flagged as an exhausted search while its own note described work still to be done.]
 
 > Diagnostic labels applied in secondary literature by people who never examined the subject. Not diagnostic data.
 
@@ -271,11 +271,11 @@ Sources: [1]
 
 > Conduct not logistically necessary to the offence that recurred across offences. Restricted to what the evidentiary record establishes. The offender's stated reasons and any inferred psychological need are **excluded** — they are unfalsifiable. A null here means the only sources were post-arrest self-report.
 
-**Signature behaviour** — ○ *not established*
+**Signature behaviour** — ◌ *not yet searched*
 
 —
 
-> Not established from the retrieved sources. The trial record may support an entry here; the appellate opinion does not itemise scene conduct beyond cause of death.
+> NOT a finding — a research todo. The note previously said in terms that 'the trial record may support an entry here', which is a statement that the search is incomplete, and the field was nonetheless flagged search_exhausted: true. The appellate opinion does not itemise scene conduct beyond cause of death. [SEARCH NOT EXHAUSTED — the trial record has not been obtained.]
 
 **Post offence behaviour** — *reported*
 
@@ -433,7 +433,7 @@ Tier 1 = primary record · 2 = peer-reviewed · 3 = book-length journalism with 
 ## Provenance
 
 - Created: 2026-09-05
-- Last reviewed: 2026-09-05
+- Last reviewed: 2026-11-04
 - Contributors: maintainer
 - AI-assisted drafting: **yes**  
   Every claim was nonetheless verified against a human-readable source. AI output is never itself a source.

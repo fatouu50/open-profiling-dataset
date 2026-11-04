@@ -4,7 +4,7 @@
   "record_status": "in_progress",
   "provenance": {
     "created": "2026-09-05",
-    "last_reviewed": "2026-09-05",
+    "last_reviewed": "2026-11-04",
     "contributors": [
       "maintainer"
     ],
@@ -317,8 +317,8 @@
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "Extensive psychiatric examination occurred, but no instrument, administrator and date for any psychometric result has been retrieved from the opinions. A contributor with access to the trial transcript should populate this.",
-      "search_exhausted": true
+      "notes": "Extensive psychiatric examination occurred, but no instrument, administrator and date for any psychometric result has been retrieved from the opinions. A contributor with access to the trial transcript should populate this. [SEARCH NOT EXHAUSTED — this is a research todo, not a finding. The field was previously flagged as an exhausted search while its own note described work still to be done.]",
+      "search_exhausted": false
     },
     "commentary_attributions": {
       "value": null,
@@ -375,8 +375,8 @@
       "value": null,
       "confidence": "unverified",
       "sources": [],
-      "notes": "Not established from the retrieved sources. The trial record may support an entry here; the appellate opinion does not itemise scene conduct beyond cause of death.",
-      "search_exhausted": true
+      "notes": "NOT a finding — a research todo. The note previously said in terms that 'the trial record may support an entry here', which is a statement that the search is incomplete, and the field was nonetheless flagged search_exhausted: true. The appellate opinion does not itemise scene conduct beyond cause of death. [SEARCH NOT EXHAUSTED — the trial record has not been obtained.]",
+      "search_exhausted": false
     },
     "post_offence_behaviour": {
       "value": "Concealment of remains within the crawl space beneath his residence, beneath the driveway and garage, and by disposal in the Des Plaines River.",
