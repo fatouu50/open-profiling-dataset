@@ -44,8 +44,8 @@ ROSTER = [
     ("USA-013-BROOKS",     "David Owen Brooks",            "USA", "", "serial", "in_progress"),
     ("USA-014-BITTAKER",   "Lawrence Sigmond Bittaker",    "USA", "", "serial", "in_progress"),
     ("USA-015-NORRIS",     "Roy Lewis Norris",             "USA", "", "serial", "in_progress"),
-    ("USA-016-BIANCHI",    "Kenneth Alessio Bianchi",      "USA", "Hillside Strangler", "serial", "stub"),
-    ("USA-017-BUONO",      "Angelo Buono Jr.",             "USA", "Hillside Strangler", "serial", "stub"),
+    ("USA-016-BIANCHI",    "Kenneth Alessio Bianchi",      "USA", "Hillside Strangler", "serial", "in_progress"),
+    ("USA-017-BUONO",      "Angelo Buono Jr.",             "USA", "Hillside Strangler", "serial", "in_progress"),
     ("USA-018-NG",         "Charles Chitat Ng",            "USA", "", "serial", "stub"),
     # USA-019-LAKE is a CASE record (died before trial).
     ("USA-020-DESALVO",    "Albert Henry DeSalvo",         "USA", "Boston Strangler", "serial", "stub"),
