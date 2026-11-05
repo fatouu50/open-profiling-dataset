@@ -13,8 +13,9 @@ abstract: >-
   response to that finding. Code is MIT licensed; data is CC BY-SA 4.0.
 type: dataset
 authors:
-  - family-names: "Mahamoud Soubere"
+  - family-names: "Soubere Mahamoud"
     given-names: Fatouma
+    orcid: "https://orcid.org/0009-0003-0118-6193"
 repository-code: "https://github.com/fatouu50/open-profiling-dataset"
 license:
   - CC-BY-SA-4.0
