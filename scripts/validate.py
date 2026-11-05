@@ -332,12 +332,37 @@ def check_document(doc, path, roster, cases, quarantine, problems):
     js = ident.get("judicial_status")
     if isinstance(js, dict):
         status = str(js.get("value") or "").lower()
-    if any(w in status for w in ("charged", "awaiting trial", "not convicted", "acquitted", "exonerated")):
-        if doc.get("offence_behaviour"):
+    #
+    # The test was a bare substring search that included the word "charged".
+    # It fired on USA-017-BUONO, whose status reads "convicted ... of nine
+    # young women and girls, out of ten charged" — a convicted man described
+    # using the ordinary vocabulary of a verdict. Rewording the record to get
+    # past the check would have left the defect in place, so the check is
+    # rewritten instead. It is now STRICTER, not looser: previously a status
+    # that asserted no conviction at all passed, so long as it avoided five
+    # magic words. Now a profile must AFFIRMATIVELY state a conviction, and
+    # any explicit statement of non-conviction blocks it regardless.
+    if doc.get("offence_behaviour"):
+        asserts_conviction = any(
+            w in status for w in
+            ("convicted", "found guilty", "pleaded guilty", "pled guilty",
+             "guilty plea", "conviction"))
+        denies_conviction = any(
+            w in status for w in
+            ("not convicted", "never convicted", "no homicide conviction",
+             "no conviction", "charges pending", "charge pending",
+             "awaiting trial", "trial pending", "acquitted", "exonerated",
+             "presumption of innocence", "never charged", "never tried"))
+        if denies_conviction or not asserts_conviction:
+            why = ("states a non-conviction" if denies_conviction
+                   else "does not state a conviction")
             problems.append(Problem(
                 path, "offence_behaviour",
-                f"judicial_status is {status!r}. No behavioural profile may be "
-                "published for a subject who has not been convicted."))
+                f"judicial_status {why}: {status!r}. No behavioural profile "
+                "may be published for a subject who has not been convicted. "
+                "A subject awaiting trial may exist as a roster stub with "
+                "judicial_status and nothing more; one who was never "
+                "adjudicated belongs in cases/ under case.schema.json."))
 
     walk(doc, "", problems, path)
 
