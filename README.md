@@ -108,6 +108,7 @@ Without that flag the two are indistinguishable, and a dataset that presents an 
 
 ```
 ├── README.md
+├── CITATION.cff                 Citation metadata (GitHub + Zenodo)
 ├── CONTRIBUTING.md              Contribution protocol
 ├── ETHICS.md                    Victim dignity, living persons, scope limits
 ├── schema/
@@ -201,15 +202,26 @@ Contributions are welcome once the first ten profiles are complete and the codin
 
 ## Licence
 
-Code: MIT. Data: CC BY 4.0. See [`LICENSE`](LICENSE).
+Code: MIT. Data: **CC BY-SA 4.0** — reuse freely, including commercially, but any *adapted database* must stay under the same licence. Analysis and publication built on this data are not adaptations and carry no such obligation. See [`LICENSE`](LICENSE).
 
 ## Citation
 
-```bibtex
-@misc{openprofilingdataset,
-  title  = {Open Profiling Dataset},
-  year   = {2026},
-  note   = {Version 0.1.0-alpha},
-  url    = {https://github.com/fatouu50/open-profiling-dataset}
-}
-```
+A DOI is minted for each release through Zenodo. Cite the **concept DOI**, which
+always resolves to the most recent version, unless you need to pin the exact
+snapshot you analysed — in which case cite that version's own DOI.
+
+Machine-readable citation metadata is in [`CITATION.cff`](CITATION.cff); GitHub
+renders it as a *Cite this repository* button.
+
+<!-- DOI PENDING: add the Zenodo badge and the BibTeX block with the concept
+     DOI here after the first release is archived. -->
+
+## Reproducibility
+
+Each release is an immutable snapshot. Because the dataset is incomplete and
+under active correction, an analysis is only reproducible if it names the
+version it used: `scripts/worklist.py` shrinks and fields change confidence
+level between releases, and figures computed from `v0.2.0-alpha` will not
+match `v0.3.0`.
+
+Report the version and the DOI, not just the repository URL.

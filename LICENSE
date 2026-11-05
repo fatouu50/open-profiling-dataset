@@ -26,15 +26,43 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-## Data — CC BY 4.0
+## Data — CC BY-SA 4.0
 
-Applies to everything in `dataset/`, `index/` and `docs/`.
+Applies to everything in `dataset/`, `cases/`, `index/` and `docs/`.
 
-Creative Commons Attribution 4.0 International.
-Full text: https://creativecommons.org/licenses/by/4.0/legalcode
+Creative Commons Attribution-ShareAlike 4.0 International.
+Full text: https://creativecommons.org/licenses/by-sa/4.0/legalcode
 
 You may share and adapt this material for any purpose, including commercially,
-provided you give appropriate credit and indicate if changes were made.
+provided you give appropriate credit, indicate if changes were made, and
+distribute any adapted database under this same licence.
+
+CC BY-SA 4.0 covers the sui generis database right as well as copyright, which
+matters in jurisdictions that recognise it.
+
+### What ShareAlike does and does not require
+
+It bites on **adapted databases**. If you correct, extend, merge or restructure
+this data and publish the result as a dataset, that dataset must carry CC BY-SA
+4.0 too.
+
+It does **not** bite on analysis. Fitting a model to this data, computing
+statistics from it, or publishing a paper about it does not create an adapted
+database. Cite the source and publish wherever you like, under whatever terms
+your journal uses.
+
+### Why ShareAlike rather than plain Attribution
+
+Plain CC BY would allow this data to be absorbed into a closed or paid product.
+The project exists because open, source-traceable criminological data is scarce;
+a licence permitting its re-enclosure would work against the reason for building
+it. The cost is accepted knowingly: ShareAlike cannot be combined with data
+under incompatible licences, which will occasionally prevent a merge that
+plain CC BY would have allowed.
+
+The licence changed from CC BY 4.0 to CC BY-SA 4.0 in November 2026, while the
+repository had a single contributor. Anything obtained under the earlier licence
+remains available on its original terms; CC BY grants are not revocable.
 
 ## Use restrictions
 
