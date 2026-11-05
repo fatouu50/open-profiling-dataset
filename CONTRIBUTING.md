@@ -152,6 +152,29 @@ A PR that adds a well-sourced `null` where a previous contributor put an unsourc
 - Language treating offenders as skilled, brilliant, or elite
 - Bulk additions of many profiles at once — these cannot be meaningfully reviewed
 
+## Licensing of contributions
+
+By opening a pull request you agree that your contribution is licensed to the
+project on the same terms as the rest of it: **MIT** for anything in `scripts/`
+or `schema/`, **CC BY-SA 4.0** for anything in `dataset/`, `cases/`, `index/`
+or `docs/`. Inbound terms are the same as outbound terms. There is no copyright
+assignment — you keep the copyright in what you wrote.
+
+This matters more here than in most repositories. A dataset whose licensing is
+unclear cannot be relied on by anyone downstream, and a project arguing that
+every claim should be traceable cannot be vague about the terms under which its
+own claims are published.
+
+If you are contributing material you did not create — a transcription, an
+extract, a table from someone else's work — say so in the pull request and give
+its source and terms. Quotation from a court record or a published paper for
+the purpose of citation is normal and expected; wholesale reproduction of
+someone else's dataset is not, whatever its licence, because it would make the
+provenance of this one unverifiable.
+
+The data licence changed from CC BY 4.0 to CC BY-SA 4.0 in November 2026. The
+reasoning is in `LICENSE`.
+
 ## Reporting an error
 
 Open an issue with the file, the field, and the reason. Errors of the kind documented in the roster audit are expected to surface for some time. **Finding one is a contribution.** There is no embarrassment in a correction and no credit in defending a claim you cannot source.

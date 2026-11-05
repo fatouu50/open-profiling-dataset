@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+title: "Open Profiling Dataset"
+abstract: >-
+  A structured, source-traceable dataset of adjudicated serial homicide cases,
+  built for criminological and computational research. Every substantive claim
+  carries its own citation and its own confidence level; a field either has an
+  admissible source or a null value and a note recording what was searched.
+  A validator enforces the rule, and the human-readable reports are compiled
+  from the structured data rather than written alongside it. The project began
+  as an audit of a 200-subject list assembled with a language model, of which
+  roughly 20 per cent proved defective, and the sourcing discipline is the
+  response to that finding. Code is MIT licensed; data is CC BY-SA 4.0.
+type: dataset
+authors:
+  - family-names: "Mahamoud Soubere"
+    given-names: Fatouma
+repository-code: "https://github.com/fatouu50/open-profiling-dataset"
+license:
+  - CC-BY-SA-4.0
+  - MIT
+keywords:
+  - criminology
+  - computational criminology
+  - serial homicide
+  - forensic science
+  - open data
+  - data provenance
+  - JSON Schema
+  - reproducible research
+version: 0.2.0-alpha
+date-released: "2026-11-05"
