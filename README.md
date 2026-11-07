@@ -1,8 +1,10 @@
 # Open Profiling Dataset
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24028990.svg)](https://doi.org/10.5281/zenodo.24028990)
+
 A structured, source-traceable dataset of adjudicated serial homicide cases, built for criminological and computational research.
 
-**Status:** `v0.1.0-alpha` — schema stable, 15 of 161 offender profiles populated, 2 of 5 case records. Not yet suitable for analysis.
+**Status:** `v0.2.1-alpha` — schema stable, 15 of 161 offender profiles populated, 2 of 5 case records. Not yet suitable for analysis.
 
 ---
 
@@ -213,8 +215,19 @@ snapshot you analysed — in which case cite that version's own DOI.
 Machine-readable citation metadata is in [`CITATION.cff`](CITATION.cff); GitHub
 renders it as a *Cite this repository* button.
 
-<!-- DOI PENDING: add the Zenodo badge and the BibTeX block with the concept
-     DOI here after the first release is archived. -->
+Concept DOI (all versions): [10.5281/zenodo.24028990](https://doi.org/10.5281/zenodo.24028990).
+This version (v0.2.1-alpha): [10.5281/zenodo.24028991](https://doi.org/10.5281/zenodo.24028991).
+
+```bibtex
+@dataset{soubere_mahamoud_open_profiling_dataset,
+  author    = {Soubere Mahamoud, Fatouma},
+  title     = {Open Profiling Dataset},
+  year      = {2026},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.24028990},
+  url       = {https://doi.org/10.5281/zenodo.24028990}
+}
+```
 
 ## Reproducibility
 
